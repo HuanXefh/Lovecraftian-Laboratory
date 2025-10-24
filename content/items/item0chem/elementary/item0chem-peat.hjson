@@ -1,0 +1,36 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: item0chem-coal
+    objectives: []
+  }
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  explosiveness: 0.0
+  flammability: 0.75
+  radioactivity: 0.0
+  charge: 0.0
+
+
+/*
+  ========================================
+  Section: Material
+  ========================================
+*/
+
+
+  lowPriority: false
+  buildable: false
+  cost: 1.0

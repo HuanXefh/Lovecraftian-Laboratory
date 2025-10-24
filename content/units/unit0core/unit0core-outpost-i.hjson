@@ -1,0 +1,263 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: mech
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  alwaysUnlocked: true
+  research: {
+    parent: eff0core-ash
+    objectives: []
+  }
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  health: 220.0
+  armor: 6.0
+  hitSize: 8.0
+  speed: 1.1
+  rotateSpeed: 6.4
+  accel: 0.5
+  drag: 0.5
+  itemCapacity: 300
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 1
+  envDisabled: 22
+  fogRadius: 6
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  itemOffsetY: 3.0
+  parts: [
+
+
+    {
+      type: HoverPart
+      layerOffset: -0.001
+      under: true
+      mirror: false
+      radius: 6.0
+      x: 0.0
+      y: -3.0
+      rotation: 0.0
+      phase: 60.0
+      circles: 2
+      sides: 6
+      color: 8ca9e8
+      stroke: 1.5
+      minStroke: 0.12
+    }
+
+
+    {
+      type: HoverPart
+      layerOffset: -0.001
+      under: true
+      mirror: false
+      radius: 5.0
+      x: 0.0
+      y: -3.0
+      rotation: 0.0
+      phase: 90.0
+      circles: 2
+      sides: 6
+      color: d1efff
+      stroke: 1.5
+      minStroke: 0.12
+    }
+
+
+  ]
+
+
+/*
+  ========================================
+  Section: Visual (Mech)
+  ========================================
+*/
+
+
+  groundLayer: 61.0
+  flyingLayer: 96.0
+  shadowElevation: 0.02
+  shadowElevationScl: 1.0
+  stepShake: 0.0
+  rippleScale: 0.6
+  mechLandShake: 1.0
+  mechSideSway: 0.3
+  mechFrontSway: 0.4
+  mechStride: -1.0
+  mechStepParticles: false
+
+
+/*
+  ========================================
+  Section: Visual (Engine)
+  ========================================
+*/
+
+
+  engineColor: 8ca9e8
+  engineColorInner: ffffff
+  engineOffset: 0.0
+  engineSize: 2.5
+  engines: [
+
+
+    {
+      x: 4.5
+      y: -3.5
+      radius: 2.5
+      rotation: 315.0
+    }
+
+
+    {
+      x: -4.5
+      y: -3.5
+      radius: 2.5
+      rotation: 225.0
+    }
+
+
+  ]
+
+
+/*
+  ========================================
+  Section: Visual (Trail)
+  ========================================
+*/
+
+
+  trailLength: 15
+  trailColor: 8ca9e8
+  trailScl: 1.0
+  waveTrailX: 4.0
+  waveTrailY: -3.0
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  isEnemy: false
+  canAttack: false
+  flying: false
+  lowAltitude: true
+  canDrown: true
+  drownTimeMultiplier: 1.0
+  omniMovement: true
+  strafePenalty: 0.5
+
+
+/*
+  ========================================
+  Section: Specific (Boost)
+  ========================================
+*/
+
+
+  canBoost: true
+  riseSpeed: 0.012
+  fallSpeed: 0.1
+  boostMultiplier: 3.1
+
+
+/*
+  ========================================
+  Section: Specific (Build)
+  ========================================
+*/
+
+
+  buildRange: 160.0
+  buildSpeed: 1.0
+  buildBeamOffset: 4.0
+  rotateToBuilding: true
+
+
+/*
+  ========================================
+  Section: Specific (Control)
+  ========================================
+*/
+
+
+  useUnitCap: true
+  coreUnitDock: true
+  playerControllable: true
+  logicControllable: false
+  defaultController: BuilderAI
+
+
+/*
+  ========================================
+  Section: Specific (Mine)
+  ========================================
+*/
+
+
+  mineRange: 160.0
+  mineTier: 7
+  mineSpeed: 27.0
+  mineHardnessScaling: true
+  mineFloor: true
+  mineWalls: true
+  mineItems: [
+    item0ore-native-copper
+    item0ore-malachite
+    item0ore-galena
+    item0ore-sphalerite
+    item0ore-cassiterite
+  ]
+
+
+/*
+  ========================================
+  Section: Attack
+  ========================================
+*/
+
+
+  range: 160.0
+  aimDst: 160.0
+  singleTarget: false
+  targetAir: false
+  targetGround: true
+  faceTarget: true
+  circleTarget: false

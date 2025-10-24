@@ -1,0 +1,33 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: ParticleWeather
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  opacityMultiplier: 1.0
+  drawParticles: true
+  useWindVector: true
+  randomParticleRotation: false
+  particleRegion: lovec-efr-shadow
+  color: ffffff
+  minAlpha: 0.01
+  maxAlpha: 0.14
+  density: 16000.0
+  baseSpeed: 15.0
+  sinSclMin: 60.0
+  sinSclMax: 120.0
+  sinMagMin: 40.0
+  sinMagMax: 160.0
+  sizeMin: 360.0
+  sizeMax: 720.0

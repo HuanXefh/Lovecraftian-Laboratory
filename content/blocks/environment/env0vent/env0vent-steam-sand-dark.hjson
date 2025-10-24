@@ -1,0 +1,44 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: SteamVent
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  status: wet
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  variants: 0
+  parent: env0flr-sand-dark
+
+
+/*
+  ========================================
+  Section: Resource
+  ========================================
+*/
+
+
+  attributes: {
+    lovec-attr0env-heat: 0.8
+    lovec-attr0rock-clastic: 0.5
+    lovec-attr0rock-clastic-sedimentary: 0.5
+    lovec-attr0vent-steam: 1.0
+  }

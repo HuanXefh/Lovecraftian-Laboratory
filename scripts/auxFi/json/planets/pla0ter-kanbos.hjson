@@ -1,0 +1,109 @@
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  icon: planet
+  iconColor: 505049
+
+
+/*
+  ========================================
+  Section: Universe
+  ========================================
+*/
+
+
+  solarSystem: loveclab-pla0sun-veibrus
+  parent: loveclab-pla0ter-anthimyst
+  drawOrbit: true
+  orbitRadius: 4.8
+  rotateTime: 1100.0
+  tidalLock: true
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  visible: true
+  radius: 0.42
+  hasAtmosphere: false
+  atmosphereColor: ffffff
+  atmosphereRadIn: 0.0
+  atmosphereRadOut: 1.0
+  bloom: false
+  mesh: {
+    type: MultiMesh
+    meshes: [
+
+
+      {
+        # Part: Rock (Black)
+        type: NoiseMesh
+        parent: loveclab-pla0ter-kanbos
+        divisions: 6
+        seed: 5522
+        radius: 0.391
+        color1: 353531
+        color2: 242423
+        octaves: 4.8
+        persistence: 1.8
+        scale: 0.7
+        mag: 1.0
+      }
+
+
+      {
+        # Part: Rock (Black)
+        type: NoiseMesh
+        parent: loveclab-pla0ter-kanbos
+        divisions: 7
+        seed: 2200
+        radius: 0.395
+        color1: 4d4d4d
+        color2: 383838
+        octaves: 6.1
+        persistence: 0.7
+        scale: 0.7
+        mag: 0.8
+      }
+
+
+      {
+        # Part: Parasite
+        type: NoiseMesh
+        parent: loveclab-pla0ter-kanbos
+        divisions: 7
+        seed: 118
+        radius: 0.345
+        color1: b35656
+        color2: 764c4c
+        octaves: 4.8
+        persistence: 1.6
+        scale: 1.2
+        mag: 2.0
+      }
+
+
+    ]
+  }
+  generator: {}
+
+
+/*
+  ========================================
+  Section: Gameplay
+  ========================================
+*/
+
+
+  accessible: false
+  defaultEnv: 67
+  defaultAttributes: {}
+  updateLighting: true

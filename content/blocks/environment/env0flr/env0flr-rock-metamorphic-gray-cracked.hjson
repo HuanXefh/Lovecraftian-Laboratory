@@ -1,0 +1,32 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: Floor
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  variants: 5
+
+
+/*
+  ========================================
+  Section: Resource
+  ========================================
+*/
+
+
+  itemDrop: item0ore-rock-metamorphic
+  playerUnmineable: true
+  attributes: {
+    lovec-attr0rock-metamorphic: 1.0
+  }

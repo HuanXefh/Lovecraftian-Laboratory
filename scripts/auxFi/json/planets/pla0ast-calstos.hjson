@@ -1,0 +1,45 @@
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  icon: commandRally
+  iconColor: ffffff
+
+
+/*
+  ========================================
+  Section: Universe
+  ========================================
+*/
+
+
+  solarSystem: loveclab-pla0sun-veibrus
+  parent: loveclab-pla0sun-veibrus
+  orbitRadius: 44.5
+  rotateTime: 6880.0
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  radius: 0.4
+  generator: {}
+
+
+/*
+  ========================================
+  Section: Gameplay
+  ========================================
+*/
+
+
+  accessible: false
+  defaultEnv: 1
+  defaultAttributes: {}

@@ -1,0 +1,22 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: Weather
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  sound: se-pla-anthimyst-normal
+  soundVol: 0.8
+  soundVolMin: 0.3
+  soundVolOscMag: 0.5
+  soundVolOscScl: 20.0

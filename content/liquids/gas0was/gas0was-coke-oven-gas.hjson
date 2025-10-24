@@ -1,0 +1,24 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: item0chem-coal
+    objectives: []
+  }
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  flammability: 1.0
+  explosiveness: 1.0
+  heatCapacity: 0.5
+  gas: true

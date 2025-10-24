@@ -1,0 +1,14 @@
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  damage: 0.5
+  damageMultiplier: 0.85
+  healthMultiplier: 0.85
+  speedMultiplier: 1.0
+  reloadMultiplier: 1.0
+  buildSpeedMultiplier: 1.0
+  dragMultiplier: 1.0

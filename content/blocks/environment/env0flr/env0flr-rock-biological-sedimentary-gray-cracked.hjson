@@ -1,0 +1,32 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: Floor
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  variants: 5
+
+
+/*
+  ========================================
+  Section: Resource
+  ========================================
+*/
+
+
+  itemDrop: item0ore-rock-biological-sedimentary
+  playerUnmineable: true
+  attributes: {
+    lovec-attr0rock-biological-sedimentary: 1.0
+  }

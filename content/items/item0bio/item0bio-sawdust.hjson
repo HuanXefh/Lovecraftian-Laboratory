@@ -1,0 +1,36 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: item0bio-timber
+    objectives: []
+  }
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  explosiveness: 0.75
+  flammability: 1.0
+  radioactivity: 0.0
+  charge: 0.0
+
+
+/*
+  ========================================
+  Section: Material
+  ========================================
+*/
+
+
+  lowPriority: false
+  buildable: false
+  cost: 1.0

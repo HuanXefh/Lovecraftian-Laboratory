@@ -1,0 +1,68 @@
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  icon: commandRally
+  iconColor: ffffff
+
+
+/*
+  ========================================
+  Section: Universe
+  ========================================
+*/
+
+
+  solarSystem: loveclab-pla0sun-veibrus
+  parent: sun
+  orbitRadius: 1820.0
+  rotateTime: 3660.0
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  radius: 6.2
+  atmosphereColor: febd90
+  atmosphereRadIn: 0.0
+  atmosphereRadOut: 1.0
+  lightColor: 808080
+  mesh: {
+    type: SunMesh
+    planet: loveclab-pla0sun-veibrus
+    divisions: 5
+    colorScale: 1.4
+    colors: [
+      febd90
+      feb380
+      fea467
+    ]
+    octaves: 3.0
+    persistence: 6.0
+    scl: 1.25
+    pow: 1.25
+    mag: 1.25
+  }
+  generator: {}
+
+
+/*
+  ========================================
+  Section: Gameplay
+  ========================================
+*/
+
+
+  accessible: false
+  defaultEnv: 16
+  defaultAttributes: {
+    lovec-attr0env-heat: 200.0
+  }
+  updateLighting: false
