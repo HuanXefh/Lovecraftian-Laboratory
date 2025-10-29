@@ -6,7 +6,7 @@
 
 
   if(require("lovec/run/RUN_version").checkVersion("loveclab", [
-    "lovec", 100.25102401,
+    "lovec", 100.25102901,
   ])) return;
 
 
