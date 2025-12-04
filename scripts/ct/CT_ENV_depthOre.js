@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/env/ENV_depthOre");
+  const TEMPLATE = require("lovec/temp/env/ENV_depthOre");
 
 
 /*
@@ -24,19 +24,25 @@
   /* copper */
 
 
-  const env0ore0dpore_nativeCopper = extend(OverlayFloor, "env0ore0dpore-native-copper", TEMPLATE._std());
+  const env0ore0dpore_nativeCopper = extendBase(
+    TEMPLATE, "env0ore0dpore-native-copper",
+  );
   exports.env0ore0dpore_nativeCopper = env0ore0dpore_nativeCopper;
 
 
   /* lead */
 
 
-  const env0ore0dpore_galena = extend(OverlayFloor, "env0ore0dpore-galena", TEMPLATE._std());
+  const env0ore0dpore_galena = extendBase(
+    TEMPLATE, "env0ore0dpore-galena",
+  );
   exports.env0ore0dpore_galena = env0ore0dpore_galena;
 
 
   /* zinc */
 
 
-  const env0ore0dpore_sphalerite = extend(OverlayFloor, "env0ore0dpore-sphalerite", TEMPLATE._std());
+  const env0ore0dpore_sphalerite = extendBase(
+    TEMPLATE, "env0ore0dpore-sphalerite",
+  );
   exports.env0ore0dpore_sphalerite = env0ore0dpore_sphalerite;

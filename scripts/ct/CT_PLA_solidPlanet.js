@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/pla/PLA_solidPlanet");
+  const TEMPLATE = require("lovec/temp/pla/PLA_solidPlanet");
 
 
 /*
@@ -21,11 +21,16 @@
   /* <---------- pla0ter ----------> */
 
 
-  const pla0ter_anthimyst = extend(Planet, "pla0ter-anthimyst", null, 1.0, 3, TEMPLATE._std());
-  TEMPLATE.init(pla0ter_anthimyst);
+  const pla0ter_anthimyst = extendPlanet(
+    TEMPLATE, "pla0ter-anthimyst", 3,
+  );
   exports.pla0ter_anthimyst = pla0ter_anthimyst;
 
 
-  const pla0ter_kanbos = extend(Planet, "pla0ter-kanbos", null, 1.0, 2, TEMPLATE._std());
-  TEMPLATE.init(pla0ter_kanbos);
+  const pla0ter_kanbos = extendPlanet(
+    TEMPLATE, "pla0ter-kanbos", 2,
+    TEMPLATE.build({
+      tidalLock: true,
+    }),
+  );
   exports.pla0ter_kanbos = pla0ter_kanbos;

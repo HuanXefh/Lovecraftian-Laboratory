@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/sta/STA_fadeStatus");
+  const TEMPLATE = require("lovec/temp/sta/STA_fadeStatus");
 
 
 /*
@@ -21,5 +21,7 @@
   /* <---------- sta ----------> */
 
 
-  const sta_stunned = extend(StatusEffect, "sta-stunned", TEMPLATE._std("lovec-reg0sta-sta-stunned"));
+  const sta_stunned = extendBase(
+    TEMPLATE, "sta-stunned",
+  );
   exports.sta_stunned = sta_stunned;

@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/env/ENV_tree");
+  const TEMPLATE = require("lovec/temp/env/ENV_tree");
 
 
 /*
@@ -18,34 +18,70 @@
 */
 
 
-  /* <---------- env0tree (cliff) ----------> */
+  /* <---------- env0tree ----------> */
 
 
-  const env0tree_nester = extend(TreeBlock, "env0tree-nester", TEMPLATE._std(77.42, false));
+  /* cliff */
+
+
+  const env0tree_nester = extendBase(
+    TEMPLATE, "env0tree-nester",
+    TEMPLATE.build({
+      layTree: 77.42,
+    }),
+  );
   exports.env0tree_nester = env0tree_nester;
 
 
-  const env0tree_elderGemTree = extend(TreeBlock, "env0tree-elder-gem-tree", TEMPLATE._std(78.41, true));
+  const env0tree_elderGemTree = extendBase(
+    TEMPLATE, "env0tree-elder-gem-tree",
+    TEMPLATE.build({
+      layTree: 78.41,
+      hidable: true,
+    }),
+  );
   exports.env0tree_elderGemTree = env0tree_elderGemTree;
 
 
-  /* <---------- env0tree (dirt) ----------> */
+  /* dirt */
 
 
-  const env0tree_brownSnake = extend(TreeBlock, "env0tree-brown-snake", TEMPLATE._std(76.51, false));
+  const env0tree_brownSnake = extendBase(
+    TEMPLATE, "env0tree-brown-snake",
+    TEMPLATE.build({
+      layTree: 76.51,
+    }),
+  );
   exports.env0tree_brownSnake = env0tree_brownSnake;
 
 
-  const env0tree_umbrellaTree = extend(TreeBlock, "env0tree-umbrella-tree", TEMPLATE._std(78.64, true));
+  const env0tree_umbrellaTree = extendBase(
+    TEMPLATE, "env0tree-umbrella-tree",
+    TEMPLATE.build({
+      layTree: 78.64,
+      hidable: true,
+    }),
+  );
   exports.env0tree_umbrellaTree = env0tree_umbrellaTree;
 
 
-  const env0tree_bleederTree = extend(TreeBlock, "env0tree-bleeder-tree", TEMPLATE._std(78.52, true));
+  const env0tree_bleederTree = extendBase(
+    TEMPLATE, "env0tree-bleeder-tree",
+    TEMPLATE.build({
+      layTree: 78.52,
+      hidable: true,
+    }),
+  );
   exports.env0tree_bleederTree = env0tree_bleederTree;
 
 
-  /* <---------- env0tree (sand) ----------> */
+  /* sand */
 
 
-  const env0tree_duneShield = extend(TreeBlock, "env0tree-dune-shield", TEMPLATE._std(76.44, false));
+  const env0tree_duneShield = extendBase(
+    TEMPLATE, "env0tree-dune-shield",
+    TEMPLATE.build({
+      layTree: 76.44,
+    }),
+  );
   exports.env0tree_duneShield = env0tree_duneShield;

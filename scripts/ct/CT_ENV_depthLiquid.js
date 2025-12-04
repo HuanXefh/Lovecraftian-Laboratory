@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/env/ENV_depthLiquid");
+  const TEMPLATE = require("lovec/temp/env/ENV_depthLiquid");
 
 
 /*
@@ -21,9 +21,13 @@
   /* <---------- env0ore ----------> */
 
 
-  const env0ore0dpliq_water = extend(OverlayFloor, "env0ore0dpliq-water", TEMPLATE._std());
+  const env0ore0dpliq_water = extendBase(
+    TEMPLATE, "env0ore0dpliq-water",
+  );
   exports.env0ore0dpliq_water = env0ore0dpliq_water;
 
 
-  const env0ore0dpliq_brine = extend(OverlayFloor, "env0ore0dpliq-brine", TEMPLATE._std());
+  const env0ore0dpliq_brine = extendBase(
+    TEMPLATE, "env0ore0dpliq-brine",
+  );
   exports.env0ore0dpliq_brine = env0ore0dpliq_brine;

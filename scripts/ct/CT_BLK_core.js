@@ -9,14 +9,14 @@
    * NOTE:
    *
    * Cores here are roots of planet tech trees.
-   * For upgraded cores, move to ProjReind.
+   * For upgraded cores, see ProjReind.
    * ---------------------------------------- */
 
 
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_core");
+  const TEMPLATE = require("lovec/temp/blk/BLK_core");
 
 
 /*
@@ -29,6 +29,10 @@
   /* <---------- eff0core ----------> */
 
 
-  const eff0Core_ash = extend(CoreBlock, "eff0core-ash", TEMPLATE._std());
-  eff0Core_ash.buildType = () => extend(CoreBlock.CoreBuild, eff0Core_ash, TEMPLATE._std_b());
+  const eff0Core_ash = extendBlock(
+    TEMPLATE, "eff0core-ash",
+    TEMPLATE[0].build({
+      powProd: 600.0 / 60.0,
+    }),
+  );
   exports.eff0Core_ash = eff0Core_ash;

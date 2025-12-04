@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/env/ENV_bush");
+  const TEMPLATE = require("lovec/temp/env/ENV_bush");
 
 
 /*
@@ -18,8 +18,16 @@
 */
 
 
-  /* <---------- env0tree0bush (rock) ----------> */
+  /* <---------- env0tree0bush ----------> */
 
 
-  const env0tree0bush_rockyFurn = extend(TreeBlock, "env0tree0bush-rocky-furn", TEMPLATE._std(76.68, false));
+  /* rock */
+
+
+  const env0tree0bush_rockyFurn = extendBase(
+    TEMPLATE, "env0tree0bush-rocky-furn",
+    TEMPLATE.build({
+      treeLay: 76.68,
+    }),
+  );
   exports.env0tree0bush_rockyFurn = env0tree0bush_rockyFurn;

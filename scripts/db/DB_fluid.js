@@ -1,10 +1,13 @@
 const db = {
 
 
-  "param": {
+  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
 
 
-    "dens": [
+  param: {
+
+
+    dens: [
 
       /* <---------- liq0bio ----------> */
 
@@ -13,10 +16,10 @@ const db = {
     ],
 
 
-    "boil": [],
+    boil: [],
 
 
-    "fHeat": [
+    fHeat: [
 
       /* <---------- gas0misc ----------> */
 
@@ -25,7 +28,7 @@ const db = {
     ],
 
 
-    "visc": [
+    visc: [
 
       /* <---------- liq0bio ----------> */
 
@@ -34,7 +37,7 @@ const db = {
     ],
 
 
-    "corrosion": [
+    corrosion: [
 
       /* <---------- liq0ore ----------> */
 
@@ -43,7 +46,7 @@ const db = {
     ],
 
 
-    "pol": [
+    pol: [
 
       /* <---------- liq0was ----------> */
 
@@ -59,13 +62,16 @@ const db = {
   },
 
 
-  "group": {
+  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
 
 
-    "elementary": {
+  group: {
 
 
-      "brine": [
+    elementary: {
+
+
+      brine: [
 
         /* <---------- liq0ore ----------> */
 
@@ -75,89 +81,89 @@ const db = {
       ],
 
 
-      "acidAq": [],
+      acidAq: [],
 
 
-      "baseAq": [],
+      baseAq: [],
 
 
-      "acidGas": [],
+      acidGas: [],
 
 
-      "baseGas": [],
+      baseGas: [],
 
 
-      "acidSub": [],
+      acidSub: [],
 
 
-      "baseSub": [],
+      baseSub: [],
 
 
-      "alc": [],
+      alc: [],
 
 
-      "acidAlc": [],
+      acidAlc: [],
 
 
-      "baseAlc": [],
+      baseAlc: [],
 
 
-      "oil": [
+      oil: [
 
         "loveclab-liq0bio-latex",
 
       ],
 
 
-      "acidOil": [],
+      acidOil: [],
 
 
-      "baseOil": [],
+      baseOil: [],
 
 
-      "slurry": [],
+      slurry: [],
 
 
-      "acidSlurry": [],
+      acidSlurry: [],
 
 
-      "baseSlurry": [],
+      baseSlurry: [],
 
 
-      "melt": [],
+      melt: [],
 
 
-      "sMelt": [],
-
-
-    },
-
-
-    "fTag": {
-
-
-      "chloric": [],
-
-
-      "fluoric": [],
-
-
-      "oxidative": [],
-
-
-      "reductive": [],
-
-
-      "dehydrative": [],
-
-
-      "unstable": [],
+      sMelt: [],
 
 
     },
 
 
-    "aqueous": [
+    fTag: {
+
+
+      chloric: [],
+
+
+      fluoric: [],
+
+
+      oxidative: [],
+
+
+      reductive: [],
+
+
+      dehydrative: [],
+
+
+      unstable: [],
+
+
+    },
+
+
+    aqueous: [
 
       /* <---------- liq0bio ----------> */
 
@@ -174,7 +180,7 @@ const db = {
     ],
 
 
-    "air": [
+    air: [
 
       "loveclab-gas0misc-air",
 
@@ -184,6 +190,9 @@ const db = {
 
 
   },
+
+
+  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
 
 
 };

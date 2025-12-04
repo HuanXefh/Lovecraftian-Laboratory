@@ -5,8 +5,8 @@
 */
 
 
-  if(require("lovec/run/RUN_version").checkVersion("loveclab", [
-    "lovec", 100.25102901,
+  if(!checkVersion("loveclab", [
+    "lovec", "100.25120401",
   ])) return;
 
 
@@ -40,20 +40,11 @@
   const CT_RS_baseFluid = require("loveclab/ct/CT_RS_baseFluid");
   const CT_RS_wasteFluid = require("loveclab/ct/CT_RS_wasteFluid");
   const CT_RS_intermediateFluid = require("loveclab/ct/CT_RS_intermediateFluid");
-
-
   const CT_RS_abstractFluid = require("loveclab/ct/CT_RS_abstractFluid");
 
 
-  const CT_ENV_dirtFloor = require("loveclab/ct/CT_ENV_dirtFloor");
-  const CT_ENV_grassFloor = require("loveclab/ct/CT_ENV_grassFloor");
-  const CT_ENV_sandFloor = require("loveclab/ct/CT_ENV_sandFloor");
-  const CT_ENV_rockFloor = require("loveclab/ct/CT_ENV_rockFloor");
-  const CT_ENV_gravelFloor = require("loveclab/ct/CT_ENV_gravelFloor");
-  const CT_ENV_riverFloor = require("loveclab/ct/CT_ENV_riverFloor");
-  const CT_ENV_seaFloor = require("loveclab/ct/CT_ENV_seaFloor");
-  const CT_ENV_puddleFloor = require("loveclab/ct/CT_ENV_puddleFloor");
-  const CT_ENV_lavaFloor = require("loveclab/ct/CT_ENV_lavaFloor");
+  const CT_ENV_materialFloor = require("loveclab/ct/CT_ENV_materialFloor");
+  const CT_ENV_liquidMaterialFloor = require("loveclab/ct/CT_ENV_liquidMaterialFloor");
   const CT_ENV_vent = require("loveclab/ct/CT_ENV_vent");
   const CT_ENV_wall = require("loveclab/ct/CT_ENV_wall");
   const CT_ENV_heap = require("loveclab/ct/CT_ENV_heap");
@@ -98,18 +89,22 @@
 */
 
 
+
+
   MDL_util.localizeModMeta("loveclab");
+
+
 
 
   MDL_event._c_onLoad(() => {
 
 
     // Set up shown contents on Lovec planets, no need for blocks and units
-    Vars.content.items().each(itm => MDL_content._mod(itm) === "loveclab" && !MDL_cond._isIntmd(itm), itm => {
+    Vars.content.items().each(itm => MDL_content._mod(itm) === "loveclab" && !MDL_cond._isIntermediate(itm), itm => {
       itm.shownPlanets.addAll(VARGEN.lovecPlas);
       itm.databaseTabs.addAll(VARGEN.lovecPlas);
     });
-    Vars.content.liquids().each(liq => MDL_content._mod(liq) === "loveclab" && !MDL_cond._isIntmd(liq), liq => {
+    Vars.content.liquids().each(liq => MDL_content._mod(liq) === "loveclab" && !MDL_cond._isIntermediate(liq), liq => {
       liq.shownPlanets.addAll(VARGEN.lovecPlas);
       liq.databaseTabs.addAll(VARGEN.lovecPlas);
     });

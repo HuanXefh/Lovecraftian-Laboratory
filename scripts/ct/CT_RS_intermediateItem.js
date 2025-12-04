@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/rs/RS_intermediateItem");
+  const TEMPLATE = require("lovec/temp/rs/RS_intermediateItem");
 
 
 /*
@@ -21,5 +21,7 @@
   /* <---------- item0int ----------> */
 
 
-  const item0int_rawRubber = extend(Item, "item0int-raw-rubber", TEMPLATE._std(null, true, null));
+  const item0int_rawRubber = extendBase(
+    TEMPLATE, "item0int-raw-rubber",
+  );
   exports.item0int_rawRubber = item0int_rawRubber;

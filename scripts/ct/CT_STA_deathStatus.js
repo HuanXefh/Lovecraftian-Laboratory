@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/sta/STA_deathStatus");
+  const TEMPLATE = require("lovec/temp/sta/STA_deathStatus");
   const VAR = require("lovec/glb/GLB_var");
 
 
@@ -28,7 +28,10 @@
   /* <---------- sta0death ----------> */
 
 
-  const sta0death_explosionMark = extend(StatusEffect, "sta0death-explosion-mark", TEMPLATE._std(function(unit) {
-    FRAG_attack.apply_explosion_global(unit.x, unit.y, unit.maxHealth * 0.5, unit.hitSize * 1.5, Mathf.lerp(1.0, 2.0, unit.hitSize / 10.0), false);
-  }));
+  const sta0death_explosionMark = extendBase(
+    TEMPLATE, "sta0death-explosion-mark",
+    TEMPLATE.build({
+      killedScrTup: [unit => FRAG_attack._a_explosion_global(unit.x, unit.y, unit.maxHealth * 0.5, unit.hitSize * 1.5, Mathf.lerp(1.0, 2.0, unit.hitSize / 10.0), false)],
+    }),
+  );
   exports.sta0death_explosionMark = sta0death_explosionMark;

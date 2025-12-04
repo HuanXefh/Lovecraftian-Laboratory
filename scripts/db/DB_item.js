@@ -1,13 +1,16 @@
 const db = {
 
 
-  "param": {
+  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
 
 
-    "fuel": {
+  param: {
 
 
-      "item": [
+    fuel: {
+
+
+      item: [
 
         /* <---------- item0bio ----------> */
 
@@ -35,7 +38,7 @@ const db = {
       ],
 
 
-      "fluid": [
+      fluid: [
 
         /* <---------- gas0was ----------> */
 
@@ -47,7 +50,7 @@ const db = {
     },
 
 
-    "hardness": [
+    hardness: [
 
       /* carbon */
 
@@ -127,7 +130,7 @@ const db = {
     ],
 
 
-    "sintTemp": [
+    sintTemp: [
 
       /* <---------- item0ore ----------> */
 
@@ -179,13 +182,16 @@ const db = {
   },
 
 
-  "map": {
+  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
 
 
-    "attr": {
+  map: {
 
 
-      "dpliq": [
+    attr: {
+
+
+      dpliq: [
 
         "lovec-attr0dpliq-water", "loveclab-liq0ore-water",
         "lovec-attr0dpliq-brine", "loveclab-liq0ore-brine",
@@ -194,7 +200,7 @@ const db = {
       ],
 
 
-      "rock": [
+      rock: [
 
         "lovec-attr0rock-clastic", "loveclab-item0ore-rock-clastic",
         "lovec-attr0rock-evaporite", "loveclab-item0ore-rock,evaporite",
@@ -208,14 +214,14 @@ const db = {
       ],
 
 
-      "tree": [
+      tree: [
 
         "lovec-attr0tree-latex", "loveclab-liq0bio-latex",
 
       ],
 
 
-      "vent": [
+      vent: [
 
         "lovec-attr0vent-ammonia", "loveclab-gas0int0crdg-ammonia",
         "lovec-attr0vent-sour-gas", "loveclab-gas0ore-sour-gas",
@@ -230,10 +236,10 @@ const db = {
     },
 
 
-    "recipe": {
+    recipe: {
 
 
-      "alloying": [
+      alloying: [
 
         "loveclab-item0chem-brass", 1050.0, [
           ["loveclab-item0chem-copper", 1.0, 1.0, "loveclab-item0ore-native-copper", 1.5, 1.0], -1.0, -1.0,
@@ -259,7 +265,7 @@ const db = {
       ],
 
 
-      "brickBaking": [
+      brickBaking: [
 
         "loveclab-item0ore-clay", ["loveclab-item0buil-brick-clay", 400.0],
         "loveclab-item0int0blend-brick-magnesia", ["loveclab-item0buil-brick-magnesia", 800.0],
@@ -267,7 +273,7 @@ const db = {
       ],
 
 
-      "casting": [
+      casting: [
 
         "loveclab-item0cons-mangalloy-rod", [[
           "loveclab-item0chem-mangalloy", 0.2, 1.0,
@@ -276,7 +282,7 @@ const db = {
       ],
 
 
-      "forging": [
+      forging: [
 
         "loveclab-item0cons-mangalloy-ball", [[
           "loveclab-item0cons-mangalloy-rod", 1.0, 1.0,
@@ -285,7 +291,7 @@ const db = {
       ],
 
 
-      "mixing": [
+      mixing: [
 
         "loveclab-item0int0blend-brick-magnesia", [
           "loveclab-item0chem-magnesia-sand", 1.0, 0.5,
@@ -306,7 +312,7 @@ const db = {
       ],
 
 
-      "ballMillMixing": [
+      ballMillMixing: [
 
         "loveclab-item0int0blend-brick-high-alumina", [
           "loveclab-item0int0conc-bauxite", 1.0, 0.5,
@@ -336,10 +342,10 @@ const db = {
       ],
 
 
-      "purificationI": [],
+      purificationI: [],
 
 
-      "purificationMagnetic": [
+      purificationMagnetic: [
 
         "loveclab-item0int0dust-asbestos", [
           "loveclab-item0int0dust0p1-asbestos", 1.0, 1.0,
@@ -409,7 +415,7 @@ const db = {
       ],
 
 
-      "roasting": [
+      roasting: [
 
         "loveclab-item0int0blend-cement", ["loveclab-item0int0clinker-cement", 1500.0],
         "loveclab-item0int0blend-refractory-cement", ["loveclab-item0int0clinker-refractory-cement", 2000.0],
@@ -426,10 +432,29 @@ const db = {
   },
 
 
-  "group": {
+  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
 
 
-    "sand": [
+  group: {
+
+
+    fuel: {
+
+
+      biotic: [
+
+        "loveclab-item0bio-log",
+        "loveclab-item0bio-timber",
+        "loveclab-item0bio-sawdust",
+        "loveclab-item0bio-hypha-rod",
+
+      ],
+
+
+    },
+
+
+    sand: [
 
       "loveclab-item0ore-sand",
       "loveclab-item0ore-sand-river",
@@ -438,7 +463,7 @@ const db = {
     ],
 
 
-    "aggregate": [
+    aggregate: [
 
       "loveclab-item0ore-pumice", 0.5,
       "loveclab-item0ore-rock-clastic", 1.0,
@@ -454,6 +479,9 @@ const db = {
 
 
   },
+
+
+  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
 
 
 };

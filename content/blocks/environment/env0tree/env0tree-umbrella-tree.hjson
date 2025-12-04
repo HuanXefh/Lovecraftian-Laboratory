@@ -16,6 +16,7 @@
 
 
   attributes: {
+    lovec-attr0blk-tree: 0.2
     lovec-attr0blk-hard-tree: 1.0
     lovec-attr0tree-latex: 0.5
   }

@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/rs/RS_intermediateFluid");
+  const TEMPLATE = require("lovec/temp/rs/RS_intermediateFluid");
 
 
 /*
@@ -21,5 +21,11 @@
   /* <---------- gas0int ----------> */
 
 
-  const gas0int_airClean = extend(Liquid, "gas0int-air-clean", TEMPLATE._std("loveclab-gas0misc-air", false, "rs-clean"));
+  const gas0int_airClean = extendBase(
+    TEMPLATE, "gas0int-air-clean",
+    TEMPLATE.build({
+      intmdParent: "loveclab-gas0misc-air",
+      tempTags: ["rs-intmd", "rs-clean"],
+    }),
+  );
   exports.gas0int_airClean = gas0int_airClean;

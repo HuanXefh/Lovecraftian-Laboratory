@@ -1,10 +1,13 @@
-db = {
+const db = {
 
 
-  "map": {
+  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
 
 
-    "faction": [
+  map: {
+
+
+    faction: [
 
 
       "loveclab-eff0core-ash", "outpost-military",
@@ -14,6 +17,9 @@ db = {
 
 
   },
+
+
+  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
 
 
 };
