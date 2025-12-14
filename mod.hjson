@@ -5,7 +5,7 @@ subtitle: "V101"
 
 author: MaboroshiX
 repo: Lovecraftian-Laboratory
-minGameVersion: 152
+minGameVersion: 154
 dependencies: [
   lovec
 ]
@@ -17,4 +17,4 @@ description:
 The base mod for Lovecraftian series that adds essential resource, environmental blocks and planets.
 '''
 
-version: 100.25120401
+version: 100.25121401

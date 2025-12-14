@@ -105,6 +105,18 @@
   exports.item0buil_brickMagnesia = item0buil_brickMagnesia;
 
 
+  /* <---------- item0cons ----------> */
+
+
+  /* ball */
+
+
+  const item0cons_mangalloyBall = extendBase(
+    TEMPLATE, "item0cons-mangalloy-ball",
+  );
+  exports.item0cons_mangalloyBall = item0cons_mangalloyBall;
+
+
   /* <---------- item0chem (elementary) ----------> */
 
 

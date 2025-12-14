@@ -6,7 +6,7 @@
 
 
   if(!checkVersion("loveclab", [
-    "lovec", "100.25120401",
+    "lovec", "100.25121401",
   ])) return;
 
 
@@ -62,6 +62,7 @@
   const CT_BLK_core = require("loveclab/ct/CT_BLK_core");
 
 
+  const CT_UNIT_lootUnit = require("loveclab/ct/CT_UNIT_lootUnit");
   const CT_UNIT_mech = require("loveclab/ct/CT_UNIT_mech");
 
 
