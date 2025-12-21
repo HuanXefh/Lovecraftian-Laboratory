@@ -210,7 +210,6 @@
   allowLaunchLoadout: true
   prebuildBase: false
   allowWaves: true
-  allowWaveSimulation: false
   clearSectorOnLose: true
   enemyBuildSpeedMultiplier: 1.0
   enemyCoreSpawnReplace: false

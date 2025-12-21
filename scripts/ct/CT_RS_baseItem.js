@@ -105,6 +105,18 @@
   exports.item0buil_brickMagnesia = item0buil_brickMagnesia;
 
 
+  const item0buil_brickHighAlumina = extendBase(
+    TEMPLATE, "item0buil-brick-high-alumina",
+  );
+  exports.item0buil_brickHighAlumina = item0buil_brickHighAlumina;
+
+
+  const item0buil_brickMullite = extendBase(
+    TEMPLATE, "item0buil-brick-mullite",
+  );
+  exports.item0buil_brickMullite = item0buil_brickMullite;
+
+
   /* <---------- item0cons ----------> */
 
 
@@ -277,6 +289,15 @@
     TEMPLATE, "item0chem-magnesia-sand",
   );
   exports.item0chem_magnesiaSand = item0chem_magnesiaSand;
+
+
+  /* silicon */
+
+
+  const item0chem_silicaSand = extendBase(
+    TEMPLATE, "item0chem-silica-sand",
+  );
+  exports.item0chem_silicaSand = item0chem_silicaSand;
 
 
   /* <---------- item0chem (organic) ----------> */

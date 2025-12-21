@@ -306,6 +306,9 @@ const db = {
         "projreind-pow0tor-brass-cogwheel", {
           isPayTg: true,
           timeScl: 0.5,
+          lockedBy: [
+            "projreind-pow0tor-brass-cogwheel",
+          ],
           tempReq: 900.0,
           bi: [
             "loveclab-item0chem-brass", 5.0, 1.0,
@@ -315,6 +318,9 @@ const db = {
         "projreind-pow0tor-large-brass-cogwheel", {
           isPayTg: true,
           timeScl: 2.0,
+          lockedBy: [
+            "projreind-pow0tor-large-brass-cogwheel",
+          ],
           tempReq: 1200.0,
           bi: [
             "loveclab-item0chem-brass", 40.0, 1.0,

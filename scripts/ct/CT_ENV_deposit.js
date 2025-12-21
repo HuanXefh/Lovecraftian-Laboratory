@@ -97,3 +97,12 @@
     TEMPLATE, "env0depo-pumice",
   );
   exports.env0depo_pumice = env0depo_pumice;
+
+
+  /* misc */
+
+
+  const env0depo_scrapSteel = extendBase(
+    TEMPLATE, "env0depo-scrap-steel",
+  );
+  exports.env0depo_scrapSteel = env0depo_scrapSteel;
