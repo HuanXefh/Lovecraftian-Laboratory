@@ -31,3 +31,9 @@
     TEMPLATE, "env0ore0dpliq-brine",
   );
   exports.env0ore0dpliq_brine = env0ore0dpliq_brine;
+
+
+  const env0ore0dpliq_crudeOil = extendBase(
+    TEMPLATE, "env0ore0dpliq-crude-oil",
+  );
+  exports.env0ore0dpliq_crudeOil = env0ore0dpliq_crudeOil;

@@ -6,7 +6,7 @@
 
 
   if(!checkVersion("loveclab", [
-    "lovec", "100.25122101",
+    "lovec", "100.26010301",
   ])) return;
 
 
@@ -62,6 +62,9 @@
   const CT_BLK_core = require("loveclab/ct/CT_BLK_core");
 
 
+  const CT_MAP_dialFlowTrigger = require("loveclab/ct/CT_MAP_dialFlowTrigger");
+
+
   const CT_UNIT_lootUnit = require("loveclab/ct/CT_UNIT_lootUnit");
   const CT_UNIT_mech = require("loveclab/ct/CT_UNIT_mech");
 
@@ -100,12 +103,12 @@
   MDL_event._c_onLoad(() => {
 
 
-    // Set up shown contents on Lovec planets, no need for blocks and units
-    Vars.content.items().each(itm => MDL_content._mod(itm) === "loveclab" && !MDL_cond._isIntermediate(itm), itm => {
+    // Set up shown contents on Lovec planets, no need for blocks and unit types I guess
+    Vars.content.items().each(itm => MDL_content._mod(itm) === "loveclab", itm => {
       itm.shownPlanets.addAll(VARGEN.lovecPlas);
       itm.databaseTabs.addAll(VARGEN.lovecPlas);
     });
-    Vars.content.liquids().each(liq => MDL_content._mod(liq) === "loveclab" && !MDL_cond._isIntermediate(liq), liq => {
+    Vars.content.liquids().each(liq => MDL_content._mod(liq) === "loveclab", liq => {
       liq.shownPlanets.addAll(VARGEN.lovecPlas);
       liq.databaseTabs.addAll(VARGEN.lovecPlas);
     });

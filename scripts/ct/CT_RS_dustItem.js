@@ -180,6 +180,15 @@
   /* zinc */
 
 
+  const item0int0dust_smithsonite = extendBase(
+    TEMPLATE, "item0int0dust-smithsonite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-smithsonite",
+    }),
+  );
+  exports.item0int0dust_smithsonite = item0int0dust_smithsonite;
+
+
   const item0int0dust_sphalerite = extendBase(
     TEMPLATE, "item0int0dust-sphalerite",
     TEMPLATE.build({

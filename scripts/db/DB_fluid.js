@@ -34,6 +34,10 @@ const db = {
 
       "loveclab-liq0bio-latex", 4.66,
 
+      /* <---------- liq0ore ----------> */
+
+      "loveclab-liq0ore-crude-oil", 9.0,
+
     ],
 
 
@@ -47,6 +51,10 @@ const db = {
 
 
     pol: [
+
+      /* <---------- liq0ore ----------> */
+
+      "loveclab-liq0ore-crude-oil", 2.0,
 
       /* <---------- liq0was ----------> */
 
@@ -110,7 +118,13 @@ const db = {
 
       oil: [
 
+        /* <---------- liq0bio ----------> */
+
         "loveclab-liq0bio-latex",
+
+        /* <---------- liq0ore ----------> */
+
+        "loveclab-liq0ore-crude-oil",
 
       ],
 
@@ -182,7 +196,11 @@ const db = {
 
     air: [
 
+      /* <---------- gas0misc ----------> */
+
       "loveclab-gas0misc-air",
+
+      /* <---------- gas0int ----------> */
 
       "loveclab-gas0int-air-clean",
 

@@ -186,6 +186,12 @@
   /* zinc */
 
 
+  const item0ore_smithsonite = extendBase(
+    TEMPLATE, "item0ore-smithsonite",
+  );
+  exports.item0ore_smithsonite = item0ore_smithsonite;
+
+
   const item0ore_sphalerite = extendBase(
     TEMPLATE, "item0ore-sphalerite",
   );

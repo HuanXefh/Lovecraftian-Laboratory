@@ -164,6 +164,7 @@ const db = {
 
       /* zinc */
 
+      "loveclab-item0ore-smithsonite", 650.0,
       "loveclab-item0ore-sphalerite", 370.0,
 
       /* <---------- item0chem ----------> */
@@ -452,14 +453,14 @@ const db = {
       purificationMagnetic: [
 
         "loveclab-item0int0dust-asbestos", {
-          bi: [
+          bo: [
             "loveclab-item0int0dust0p1-asbestos", 1.0, 1.0,
             "loveclab-item0was-dust", 0.25, 0.5,
           ],
         },
 
         "loveclab-item0int0dust-sand", {
-          bi: [
+          bo: [
             "loveclab-item0int0dust0p1-sand", 1.0, 1.0,
             "loveclab-item0was-gangue", 0.25, 0.5,
           ],
@@ -468,7 +469,7 @@ const db = {
         /* aluminum */
 
         "loveclab-item0int0dust-bauxite", {
-          bi: [
+          bo: [
             "loveclab-item0int0dust0p1-bauxite", 1.0, 1.0,
             "loveclab-item0was-gangue", 0.25, 0.5,
           ],
@@ -477,7 +478,7 @@ const db = {
         /* carbon */
 
         "loveclab-item0int0dust-raw-coal", {
-          bi: [
+          bo: [
             "loveclab-item0chem-coal", 1.0, 1.0,
             "loveclab-item0was-gangue", 0.25, 0.5,
           ],
@@ -486,7 +487,7 @@ const db = {
         /* copper */
 
         "loveclab-item0int0dust-chalcopyrite", {
-          bi: [
+          bo: [
             "loveclab-item0int0dust0p1-chalcopyrite", 1.0, 1.0,
             "loveclab-item0was-gangue", 0.25, 0.5,
             "loveclab-item0ore-pyrite", 0.25, 0.25,
@@ -494,7 +495,7 @@ const db = {
         },
 
         "loveclab-item0int0dust-malachite", {
-          bi: [
+          bo: [
             "loveclab-item0int0dust0p1-malachite", 1.0, 1.0,
             "loveclab-item0was-gangue", 0.25, 0.5,
             "loveclab-item0ore-limonite", 0.5, 0.5,
@@ -504,7 +505,7 @@ const db = {
         /* iron */
 
         "loveclab-item0int0dust-limonite", {
-          bi: [
+          bo: [
             "loveclab-item0int0dust0p1-limonite", 1.0, 1.0,
             "loveclab-item0was-gangue", 0.25, 0.5,
             "loveclab-item0ore-hematite", 0.5, 0.5,
@@ -512,7 +513,7 @@ const db = {
         },
 
         "loveclab-item0int0dust-hematite", {
-          bi: [
+          bo: [
             "loveclab-item0int0dust0p1-hematite", 1.0, 1.0,
             "loveclab-item0was-gangue", 0.25, 0.5,
             "loveclab-item0ore-magnetite", 0.5, 0.5,
@@ -520,7 +521,7 @@ const db = {
         },
 
         "loveclab-item0int0dust-magnetite", {
-          bi: [
+          bo: [
             "loveclab-item0int0dust0p1-magnetite", 1.0, 1.0,
             "loveclab-item0was-gangue", 0.25, 0.5,
             "loveclab-item0ore-raw-coal", 0.25, 0.25,
@@ -530,7 +531,7 @@ const db = {
         /* sulfur */
 
         "loveclab-item0int0chunks-crude-sulfur", {
-          bi: [
+          bo: [
             "loveclab-item0chem-sulfur", 1.0, 1.0,
             "loveclab-item0was-gangue", 0.25, 0.5,
           ],

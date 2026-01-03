@@ -117,6 +117,18 @@
   exports.item0buil_brickMullite = item0buil_brickMullite;
 
 
+  const item0buil_brickSilica = extendBase(
+    TEMPLATE, "item0buil-brick-silica",
+  );
+  exports.item0buil_brickSilica = item0buil_brickSilica;
+
+
+  const item0buil_brickCarbon = extendBase(
+    TEMPLATE, "item0buil-brick-carbon",
+  );
+  exports.item0buil_brickCarbon = item0buil_brickCarbon;
+
+
   /* <---------- item0cons ----------> */
 
 
@@ -261,6 +273,18 @@
   exports.item0chem_galvanizedSteel = item0chem_galvanizedSteel;
 
 
+  const item0chem_hardFerrite = extendBase(
+    TEMPLATE, "item0chem-hard-ferrite",
+  );
+  exports.item0chem_hardFerrite = item0chem_hardFerrite;
+
+
+  const item0chem_softFerrite = extendBase(
+    TEMPLATE, "item0chem-soft-ferrite",
+  );
+  exports.item0chem_softFerrite = item0chem_softFerrite;
+
+
   /* lead */
 
 
@@ -298,6 +322,12 @@
     TEMPLATE, "item0chem-silica-sand",
   );
   exports.item0chem_silicaSand = item0chem_silicaSand;
+
+
+  const item0chem_quartzSand = extendBase(
+    TEMPLATE, "item0chem-quartz-sand",
+  );
+  exports.item0chem_quartzSand = item0chem_quartzSand;
 
 
   /* <---------- item0chem (organic) ----------> */

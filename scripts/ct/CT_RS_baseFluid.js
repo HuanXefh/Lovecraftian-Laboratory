@@ -48,6 +48,12 @@
   exports.liq0ore_brine = liq0ore_brine;
 
 
+  const liq0ore_crudeOil = extendBase(
+    TEMPLATE, "liq0ore-crude-oil",
+  );
+  exports.liq0ore_crudeOil = liq0ore_crudeOil;
+
+
   /* <---------- gas0misc ----------> */
 
 

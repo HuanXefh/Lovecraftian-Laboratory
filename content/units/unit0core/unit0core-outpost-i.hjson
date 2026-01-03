@@ -59,6 +59,7 @@
 
 
   itemOffsetY: 3.0
+  lightRadius: 120.0
   parts: [
 
 
