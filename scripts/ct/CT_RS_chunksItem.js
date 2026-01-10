@@ -30,7 +30,6 @@
       intmdParent: "loveclab-item0ore-barite",
     }),
   );
-  exports.item0int0chunks_barite = item0int0chunks_barite;
 
 
   /* carbon */
@@ -42,7 +41,6 @@
       intmdParent: "loveclab-item0ore-crude-graphite",
     }),
   );
-  exports.item0int0chunks_crudeGraphite = item0int0chunks_crudeGraphite;
 
 
   /* silicon */
@@ -54,7 +52,6 @@
       intmdParent: "loveclab-item0ore-silica-stone",
     }),
   );
-  exports.item0int0chunks_silicaStone = item0int0chunks_silicaStone;
 
 
   /* sulfur */
@@ -66,7 +63,6 @@
       intmdParent: "loveclab-item0ore-crude-sulfur",
     }),
   );
-  exports.item0int0chunks_crudeSulfur = item0int0chunks_crudeSulfur;
 
 
   /* rock */
@@ -78,7 +74,6 @@
       intmdParent: "loveclab-item0ore-dolomite",
     }),
   );
-  exports.item0int0chunks_dolomite = item0int0chunks_dolomite;
 
 
   const item0int0chunks_gypsum = extendBase(
@@ -87,7 +82,6 @@
       intmdParent: "loveclab-item0ore-gypsum",
     }),
   );
-  exports.item0int0chunks_gypsum = item0int0chunks_gypsum;
 
 
   const item0int0chunks_limestone = extendBase(
@@ -96,4 +90,3 @@
       intmdParent: "loveclab-item0ore-limestone",
     }),
   );
-  exports.item0int0chunks_limestone = item0int0chunks_limestone;

@@ -26,7 +26,6 @@
       layTree: 76.44,
     }),
   );
-  exports.env0tree0fungi_giantAerthShiitake = env0tree0fungi_giantAerthShiitake;
 
 
   const env0tree0fungi_dottedRedCap = extendBase(
@@ -36,7 +35,6 @@
       hidable: true,
     }),
   );
-  exports.env0tree0fungi_dottedRedCap = env0tree0fungi_dottedRedCap;
 
 
   const env0tree0fungi_wormshroom = extendBase(
@@ -46,7 +44,6 @@
       hidable: true,
     }),
   );
-  exports.env0tree0fungi_wormshroom = env0tree0fungi_wormshroom;
 
 
   /* <---------- env0tree0fungi (rock) ----------> */
@@ -59,7 +56,6 @@
       hidable: true,
     }),
   );
-  exports.env0tree0fungi_blueSpark = env0tree0fungi_blueSpark;
 
 
   const env0tree0fungi_ghostEye = extendBase(
@@ -69,4 +65,3 @@
       hidable: true,
     }),
   );
-  exports.env0tree0fungi_ghostEye = env0tree0fungi_ghostEye;

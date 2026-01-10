@@ -24,4 +24,3 @@
   const wea0deco_heavyRain = extendBase(
     TEMPLATE, "wea0deco-heavy-rain",
   );
-  exports.wea0deco_heavyRain = wea0deco_heavyRain;

@@ -24,4 +24,3 @@
   const sta_stunned = extendBase(
     TEMPLATE, "sta-stunned",
   );
-  exports.sta_stunned = sta_stunned;

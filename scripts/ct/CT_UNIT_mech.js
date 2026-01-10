@@ -44,4 +44,3 @@
       rad: 80.0,
     }),
   ]);
-  exports.unit0core_outpostI = unit0core_outpostI;

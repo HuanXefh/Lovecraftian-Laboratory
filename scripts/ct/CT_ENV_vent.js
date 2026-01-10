@@ -31,7 +31,6 @@
       ventRs: "loveclab-gas0misc-steam",
     }),
   );
-  exports.env0vent_steamSand = env0vent_steamSand;
 
 
   const env0vent_steamSandDark = extendBase(
@@ -41,7 +40,6 @@
       ventRs: "loveclab-gas0misc-steam",
     }),
   );
-  exports.env0vent_steamSandDark = env0vent_steamSandDark;
 
 
   /* rock */
@@ -54,7 +52,6 @@
       ventRs: "loveclab-gas0misc-steam",
     }),
   );
-  exports.env0vent_steamRockLavaRed = env0vent_steamRockLavaRed;
 
 
   const env0vent_steamRockMetamorphicGray = extendBase(
@@ -64,7 +61,6 @@
       ventRs: "loveclab-gas0misc-steam",
     }),
   );
-  exports.env0vent_steamRockMetamorphicGray = env0vent_steamRockMetamorphicGray;
 
 
   const env0vent_steamRockPlutonicGray = extendBase(
@@ -74,7 +70,6 @@
       ventRs: "loveclab-gas0misc-steam",
     }),
   );
-  exports.env0vent_steamRockPlutonicGray = env0vent_steamRockPlutonicGray;
 
 
   const env0vent_steamRockBiologicalSedimentaryGray = extendBase(
@@ -84,7 +79,6 @@
       ventRs: "loveclab-gas0misc-steam",
     }),
   );
-  exports.env0vent_steamRockBiologicalSedimentaryGray = env0vent_steamRockBiologicalSedimentaryGray;
 
 
   /* <---------- env0vent (fire) ----------> */
@@ -97,7 +91,6 @@
       ventRs: "fire",
     }),
   );
-  exports.env0vent_fireRockLavaRed = env0vent_fireRockLavaRed;
 
 
   const env0vent_fireRockMetamorphicGray = extendBase(
@@ -107,7 +100,6 @@
       ventRs: "fire",
     }),
   );
-  exports.env0vent_fireRockMetamorphicGray = env0vent_fireRockMetamorphicGray;
 
 
   const env0vent_fireRockPlutonicGray = extendBase(
@@ -117,7 +109,6 @@
       ventRs: "fire",
     }),
   );
-  exports.env0vent_fireRockPlutonicGray = env0vent_fireRockPlutonicGray;
 
 
   const env0vent_fireRockBiologicalSedimentaryGray = extendBase(
@@ -127,4 +118,3 @@
       ventRs: "fire",
     }),
   );
-  exports.env0vent_fireRockBiologicalSedimentaryGray = env0vent_fireRockBiologicalSedimentaryGray;

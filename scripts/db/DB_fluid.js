@@ -50,23 +50,6 @@ const db = {
     ],
 
 
-    pol: [
-
-      /* <---------- liq0ore ----------> */
-
-      "loveclab-liq0ore-crude-oil", 2.0,
-
-      /* <---------- liq0was ----------> */
-
-      "loveclab-liq0was-waste-water", 5.0,
-
-      /* <---------- gas0was ----------> */
-
-      "loveclab-gas0was-coke-oven-gas", 2.0,
-
-    ],
-
-
   },
 
 

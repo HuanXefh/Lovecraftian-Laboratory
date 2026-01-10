@@ -30,7 +30,6 @@
       layGrass: 57.62,
     }),
   );
-  exports.env0grass_aerthCommonWeed = env0grass_aerthCommonWeed;
 
 
   const env0grass_aerthCattail = extendBase(
@@ -39,4 +38,3 @@
       layGrass: 57.86,
     }),
   );
-  exports.env0grass_aerthCattail = env0grass_aerthCattail;

@@ -24,4 +24,3 @@
   const unit0misc_loot = extendUnit(
     TEMPLATE, "unit0misc-loot",
   );
-  exports.unit0misc_loot = unit0misc_loot;

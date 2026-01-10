@@ -27,7 +27,6 @@
       intmdParent: "loveclab-item0ore-sand",
     }),
   );
-  exports.item0int0dust_sand = item0int0dust_sand;
 
 
   /* aluminum */
@@ -39,7 +38,6 @@
       intmdParent: "loveclab-item0ore-bauxite",
     }),
   );
-  exports.item0int0dust_bauxite = item0int0dust_bauxite;
 
 
   /* carbon */
@@ -51,7 +49,6 @@
       intmdParent: "loveclab-item0ore-raw-coal",
     }),
   );
-  exports.item0int0dust_rawCoal = item0int0dust_rawCoal;
 
 
   /* copper */
@@ -63,7 +60,6 @@
       intmdParent: "loveclab-item0ore-azurite",
     }),
   );
-  exports.item0int0dust_azurite = item0int0dust_azurite;
 
 
   const item0int0dust_chalcopyrite = extendBase(
@@ -72,7 +68,6 @@
       intmdParent: "loveclab-item0ore-chalcopyrite",
     }),
   );
-  exports.item0int0dust_chalcopyrite = item0int0dust_chalcopyrite;
 
 
   const item0int0dust_malachite = extendBase(
@@ -81,7 +76,6 @@
       intmdParent: "loveclab-item0ore-malachite",
     }),
   );
-  exports.item0int0dust_malachite = item0int0dust_malachite;
 
 
   const item0int0dust_nativeCopper = extendBase(
@@ -90,7 +84,6 @@
       intmdParent: "loveclab-item0ore-native-copper",
     }),
   );
-  exports.item0int0dust_nativeCopper = item0int0dust_nativeCopper;
 
 
   /* iron */
@@ -102,7 +95,6 @@
       intmdParent: "loveclab-item0ore-hematite",
     }),
   );
-  exports.item0int0dust_hematite = item0int0dust_hematite;
 
 
   const item0int0dust_limonite = extendBase(
@@ -111,7 +103,6 @@
       intmdParent: "loveclab-item0ore-limonite",
     }),
   );
-  exports.item0int0dust_limonite = item0int0dust_limonite;
 
 
   const item0int0dust_magnetite = extendBase(
@@ -120,7 +111,6 @@
       intmdParent: "loveclab-item0ore-magnetite",
     }),
   );
-  exports.item0int0dust_magnetite = item0int0dust_magnetite;
 
 
   const item0int0dust_pyrite = extendBase(
@@ -129,7 +119,6 @@
       intmdParent: "loveclab-item0ore-pyrite",
     }),
   );
-  exports.item0int0dust_pyrite = item0int0dust_pyrite;
 
 
   /* lead */
@@ -141,7 +130,6 @@
       intmdParent: "loveclab-item0ore-galena",
     }),
   );
-  exports.item0int0dust_galena = item0int0dust_galena;
 
 
   /* manganese */
@@ -153,7 +141,6 @@
       intmdParent: "loveclab-item0ore-psilomelane",
     }),
   );
-  exports.item0int0dust_psilomelane = item0int0dust_psilomelane;
 
 
   const item0int0dust_pyrolusite = extendBase(
@@ -162,7 +149,6 @@
       intmdParent: "loveclab-item0ore-pyrolusite",
     }),
   );
-  exports.item0int0dust_pyrolusite = item0int0dust_pyrolusite;
 
 
   /* tin */
@@ -174,7 +160,6 @@
       intmdParent: "loveclab-item0ore-cassiterite",
     }),
   );
-  exports.item0int0dust_cassiterite = item0int0dust_cassiterite;
 
 
   /* zinc */
@@ -186,7 +171,6 @@
       intmdParent: "loveclab-item0ore-smithsonite",
     }),
   );
-  exports.item0int0dust_smithsonite = item0int0dust_smithsonite;
 
 
   const item0int0dust_sphalerite = extendBase(
@@ -195,7 +179,6 @@
       intmdParent: "loveclab-item0ore-sphalerite",
     }),
   );
-  exports.item0int0dust_sphalerite = item0int0dust_sphalerite;
 
 
   /* rock */
@@ -207,7 +190,6 @@
       intmdParent: "loveclab-item0ore-rock-clastic",
     }),
   );
-  exports.item0int0dust_rockClastic = item0int0dust_rockClastic;
 
 
   const item0int0dust_rockEvaporite = extendBase(
@@ -216,7 +198,6 @@
       intmdParent: "loveclab-item0ore-rock-evaporite",
     }),
   );
-  exports.item0int0dust_rockEvaporite = item0int0dust_rockEvaporite;
 
 
   const item0int0dust_rockHypabyssal = extendBase(
@@ -225,7 +206,6 @@
       intmdParent: "loveclab-item0ore-rock-hypabyssal",
     }),
   );
-  exports.item0int0dust_rockHypabyssal = item0int0dust_rockHypabyssal;
 
 
   const item0int0dust_rockLava = extendBase(
@@ -234,7 +214,6 @@
       intmdParent: "loveclab-item0ore-rock-lava",
     }),
   );
-  exports.item0int0dust_rockLava = item0int0dust_rockLava;
 
 
   const item0int0dust_rockMetamorphic = extendBase(
@@ -243,7 +222,6 @@
       intmdParent: "loveclab-item0ore-rock-metamorphic",
     }),
   );
-  exports.item0int0dust_rockMetamorphic = item0int0dust_rockMetamorphic;
 
 
   const item0int0dust_rockPlutonic = extendBase(
@@ -252,7 +230,6 @@
       intmdParent: "loveclab-item0ore-rock-plutonic",
     }),
   );
-  exports.item0int0dust_rockPlutonic = item0int0dust_rockPlutonic;
 
 
   const item0int0dust_rockBiologicalSedimentary = extendBase(
@@ -261,7 +238,6 @@
       intmdParent: "loveclab-item0ore-rock-biological-sedimentary",
     }),
   );
-  exports.item0int0dust_rockBiologicalSedimentary = item0int0dust_rockBiologicalSedimentary;
 
 
   const item0int0dust_rockClasticSedimentary = extendBase(
@@ -270,4 +246,3 @@
       intmdParent: "loveclab-item0ore-rock-clastic-sedimentary",
     }),
   );
-  exports.item0int0dust_rockClasticSedimentary = item0int0dust_rockClasticSedimentary;

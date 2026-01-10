@@ -24,16 +24,13 @@
   const env0ore0dpliq_water = extendBase(
     TEMPLATE, "env0ore0dpliq-water",
   );
-  exports.env0ore0dpliq_water = env0ore0dpliq_water;
 
 
   const env0ore0dpliq_brine = extendBase(
     TEMPLATE, "env0ore0dpliq-brine",
   );
-  exports.env0ore0dpliq_brine = env0ore0dpliq_brine;
 
 
   const env0ore0dpliq_crudeOil = extendBase(
     TEMPLATE, "env0ore0dpliq-crude-oil",
   );
-  exports.env0ore0dpliq_crudeOil = env0ore0dpliq_crudeOil;

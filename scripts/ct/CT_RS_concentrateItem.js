@@ -30,7 +30,6 @@
       intmdParent: "loveclab-item0ore-bauxite",
     }),
   );
-  exports.item0int0conc_bauxite = item0int0conc_bauxite;
 
 
   /* copper */
@@ -41,7 +40,6 @@
     TEMPLATE.build({
     intmdParent: "loveclab-item0ore-chalcopyrite",
   }));
-  exports.item0int0conc_chalcopyrite = item0int0conc_chalcopyrite;
 
 
   const item0int0conc_malachite = extendBase(
@@ -50,7 +48,6 @@
       intmdParent: "loveclab-item0ore-malachite",
     }),
   );
-  exports.item0int0conc_malachite = item0int0conc_malachite;
 
 
   const item0int0conc_nativeCopper = extendBase(
@@ -59,7 +56,6 @@
       intmdParent: "loveclab-item0ore-native-copper",
     }),
   );
-  exports.item0int0conc_nativeCopper = item0int0conc_nativeCopper;
 
 
   /* iron */
@@ -71,7 +67,6 @@
       intmdParent: "loveclab-item0ore-hematite",
     }),
   );
-  exports.item0int0conc_hematite = item0int0conc_hematite;
 
 
   const item0int0conc_limonite = extendBase(
@@ -80,7 +75,6 @@
       intmdParent: "loveclab-item0ore-limonite",
     }),
   );
-  exports.item0int0conc_limonite = item0int0conc_limonite;
 
 
   const item0int0conc_magnetite = extendBase(
@@ -89,4 +83,3 @@
       intmdParent: "loveclab-item0ore-magnetite",
     }),
   );
-  exports.item0int0conc_magnetite = item0int0conc_magnetite;

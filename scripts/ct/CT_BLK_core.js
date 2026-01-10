@@ -35,4 +35,3 @@
       powProd: 600.0 / 60.0,
     }),
   );
-  exports.eff0Core_ash = eff0Core_ash;

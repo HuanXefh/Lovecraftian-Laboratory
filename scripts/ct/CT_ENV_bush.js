@@ -30,4 +30,3 @@
       treeLay: 76.68,
     }),
   );
-  exports.env0tree0bush_rockyFurn = env0tree0bush_rockyFurn;

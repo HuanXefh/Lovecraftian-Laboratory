@@ -30,7 +30,6 @@
       flrParent: "loveclab-env0flr-dirt",
     }),
   );
-  exports.env0wall_dirt = env0wall_dirt;
 
 
   /* rock */
@@ -42,7 +41,6 @@
       flrParent: "loveclab-env0flr-rock-lava-red",
     }),
   );
-  exports.env0wall_rockLavaRed = env0wall_rockLavaRed;
 
 
   const env0wall_rockMetamorphicGray = extendBase(
@@ -51,7 +49,6 @@
       flrParent: "loveclab-env0flr-rock-metamorphic-gray",
     }),
   );
-  exports.env0wall_rockMetamorphicGray = env0wall_rockMetamorphicGray;
 
 
   const env0wall_rockPlutonicGray = extendBase(
@@ -60,7 +57,6 @@
       flrParent: "loveclab-env0flr-rock-plutonic-gray",
     }),
   );
-  exports.env0wall_rockPlutonicGray = env0wall_rockPlutonicGray;
 
 
   const env0wall_rockBiologicalSedimentaryGray = extendBase(
@@ -69,7 +65,6 @@
       flrParent: "loveclab-env0flr-rock-biological-sedimentary-gray",
     }),
   );
-  exports.env0wall_rockBiologicalSedimentaryGray = env0wall_rockBiologicalSedimentaryGray;
 
 
   /* sand */
@@ -81,7 +76,6 @@
       flrParent: "loveclab-env0flr-sand",
     }),
   );
-  exports.env0wall_sand = env0wall_sand;
 
 
   const env0wall_sandDark = extendBase(
@@ -90,10 +84,3 @@
       flrParent: "loveclab-env0flr-sand-dark",
     }),
   );
-  exports.env0wall_sandDark = env0wall_sandDark;
-
-
-
-
-  // To be used in planet generator
-  global.lovecUtil.db.wall = module.exports;

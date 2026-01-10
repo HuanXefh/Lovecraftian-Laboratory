@@ -24,4 +24,3 @@
   const wea0amb_anthimystNormal = extendBase(
     TEMPLATE, "wea0amb-anthimyst-normal",
   );
-  exports.wea0amb_anthimystNormal = wea0amb_anthimystNormal;

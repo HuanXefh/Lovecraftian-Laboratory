@@ -27,7 +27,6 @@
       intmdParent: "loveclab-item0buil-brick-magnesia",
     }),
   );
-  exports.item0int0blend_brickMagnesia = item0int0blend_brickMagnesia;
 
 
   const item0int0blend_cement = extendBase(
@@ -36,7 +35,6 @@
       intmdParent: "loveclab-item0buil-cement",
     }),
   );
-  exports.item0int0blend_cement = item0int0blend_cement;
 
 
   const item0int0blend_refractoryCement = extendBase(
@@ -45,4 +43,3 @@
       intmdParent: "loveclab-item0buil-refractory-cement",
     }),
   );
-  exports.item0int0blend_refractoryCement = item0int0blend_refractoryCement;

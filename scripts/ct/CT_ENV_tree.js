@@ -30,7 +30,6 @@
       layTree: 77.42,
     }),
   );
-  exports.env0tree_nester = env0tree_nester;
 
 
   const env0tree_elderGemTree = extendBase(
@@ -40,7 +39,6 @@
       hidable: true,
     }),
   );
-  exports.env0tree_elderGemTree = env0tree_elderGemTree;
 
 
   /* dirt */
@@ -52,7 +50,6 @@
       layTree: 76.51,
     }),
   );
-  exports.env0tree_brownSnake = env0tree_brownSnake;
 
 
   const env0tree_umbrellaTree = extendBase(
@@ -62,7 +59,6 @@
       hidable: true,
     }),
   );
-  exports.env0tree_umbrellaTree = env0tree_umbrellaTree;
 
 
   const env0tree_bleederTree = extendBase(
@@ -72,7 +68,6 @@
       hidable: true,
     }),
   );
-  exports.env0tree_bleederTree = env0tree_bleederTree;
 
 
   /* sand */
@@ -84,4 +79,3 @@
       layTree: 76.44,
     }),
   );
-  exports.env0tree_duneShield = env0tree_duneShield;

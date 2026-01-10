@@ -34,4 +34,3 @@
       killedScrTup: [unit => FRAG_attack._a_explosion_global(unit.x, unit.y, unit.maxHealth * 0.5, unit.hitSize * 1.5, Mathf.lerp(1.0, 2.0, unit.hitSize / 10.0), false)],
     }),
   );
-  exports.sta0death_explosionMark = sta0death_explosionMark;

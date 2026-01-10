@@ -30,7 +30,6 @@
       flrParent: "loveclab-env0flr-dirt",
     }),
   );
-  exports.env0heap_dirt = env0heap_dirt;
 
 
   /* grass */
@@ -45,7 +44,6 @@
       flrParent: "loveclab-env0flr-sand",
     }),
   );
-  exports.env0heap_sand = env0heap_sand;
 
 
   const env0heap_sandDark = extendBase(
@@ -54,7 +52,6 @@
       flrParent: "loveclab-env0flr-sand-dark",
     }),
   );
-  exports.env0heap_sandDark = env0heap_sandDark;
 
 
   /* rock */
@@ -66,7 +63,6 @@
       flrParent: "loveclab-env0flr-rock-lava-red",
     }),
   );
-  exports.env0heap_rockLavaRed = env0heap_rockLavaRed;
 
 
   const env0heap_rockMetamorphicGray = extendBase(
@@ -75,7 +71,6 @@
       flrParent: "loveclab-env0flr-rock-metamorphic-gray",
     }),
   );
-  exports.env0heap_rockMetamorphicGray = env0heap_rockMetamorphicGray;
 
 
   const env0heap_rockPlutonicGray = extendBase(
@@ -84,7 +79,6 @@
       flrParent: "loveclab-env0flr-rock-plutonic-gray",
     }),
   );
-  exports.env0heap_rockPlutonicGray = env0heap_rockPlutonicGray;
 
 
   const env0heap_rockBiologicalSedimentaryGray = extendBase(
@@ -93,4 +87,3 @@
       flrParent: "loveclab-env0flr-rock-biological-sedimentary-gray",
     }),
   );
-  exports.env0heap_rockBiologicalSedimentaryGray = env0heap_rockBiologicalSedimentaryGray;

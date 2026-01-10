@@ -28,4 +28,3 @@
       tempTags: ["rs-intmd", "rs-clean"],
     }),
   );
-  exports.gas0int_airClean = gas0int_airClean;

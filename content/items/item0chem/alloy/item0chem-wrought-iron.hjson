@@ -6,7 +6,7 @@
 
 
   research: {
-    parent: item0chem-pig-iron
+    parent: item0chem-cast-iron
     objectives: []
   }
 

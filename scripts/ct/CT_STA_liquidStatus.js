@@ -39,7 +39,6 @@
       effP: 0.08,
     }),
   );
-  exports.sta0liq_seaWaterCorrosion = sta0liq_seaWaterCorrosion;
 
 
   const sta0liq_brineCorrosion = extendBase(
@@ -56,7 +55,6 @@
       effP: 0.08,
     }),
   );
-  exports.sta0liq_brineCorrosion = sta0liq_brineCorrosion;
 
 
   const sta0liq_wasteCorrosion = extendBase(
@@ -73,7 +71,6 @@
       effP: 0.08,
     }),
   );
-  exports.sta0liq_wasteCorrosion = sta0liq_wasteCorrosion;
 
 
   const sta0liq_acidicI = extendBase(
@@ -90,7 +87,6 @@
       effP: 0.01,
     }),
   );
-  exports.sta0liq_acidicI = sta0liq_acidicI;
 
 
   const sta0liq_acidicII = extendBase(
@@ -107,7 +103,6 @@
       effP: 0.03,
     }),
   );
-  exports.sta0liq_acidicII = sta0liq_acidicII;
 
 
   const sta0liq_acidicIII = extendBase(
@@ -124,7 +119,6 @@
       effP: 0.06,
     }),
   );
-  exports.sta0liq_acidicIII = sta0liq_acidicIII;
 
 
   const sta0liq_acidicIV = extendBase(
@@ -141,7 +135,6 @@
       effP: 0.08,
     }),
   );
-  exports.sta0liq_acidicIV = sta0liq_acidicIV;
 
 
   const sta0liq_basicI = extendBase(
@@ -158,7 +151,6 @@
       effP: 0.01,
     }),
   );
-  exports.sta0liq_basicI = sta0liq_basicI;
 
 
   const sta0liq_basicII = extendBase(
@@ -175,7 +167,6 @@
       effP: 0.03,
     }),
   );
-  exports.sta0liq_basicII = sta0liq_basicII;
 
 
   const sta0liq_basicIII = extendBase(
@@ -192,7 +183,6 @@
       effP: 0.06,
     }),
   );
-  exports.sta0liq_basicIII = sta0liq_basicIII;
 
 
   const sta0liq_basicIV = extendBase(
@@ -209,4 +199,3 @@
       effP: 0.08,
     }),
   );
-  exports.sta0liq_basicIV = sta0liq_basicIV;

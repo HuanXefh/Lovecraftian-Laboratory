@@ -30,7 +30,6 @@
       matGrp: "dirt",
     }),
   );
-  exports.env0flr_clay = env0flr_clay;
 
 
   const env0flr_dirt = extendBase(
@@ -40,7 +39,6 @@
       randRegs: ["rock"],
     }),
   );
-  exports.env0flr_dirt = env0flr_dirt;
 
 
   const env0flr_mud = extendBase(
@@ -50,7 +48,6 @@
       randRegs: ["rock"],
     }),
   );
-  exports.env0flr_mud = env0flr_mud;
 
 
   /* grass */
@@ -62,7 +59,6 @@
       matGrp: "grass",
     }),
   );
-  exports.env0flr_grass = env0flr_grass;
 
 
   /* gravel */
@@ -74,7 +70,6 @@
       matGrp: "gravel",
     }),
   );
-  exports.env0flr_rockLavaRedCracked = env0flr_rockLavaRedCracked;
 
 
   const env0flr_rockMetamorphicGrayCracked = extendBase(
@@ -83,7 +78,6 @@
       matGrp: "gravel",
     }),
   );
-  exports.env0flr_rockMetamorphicGrayCracked = env0flr_rockMetamorphicGrayCracked;
 
 
   const env0flr_rockPlutonicGrayCracked = extendBase(
@@ -92,7 +86,6 @@
       matGrp: "gravel",
     }),
   );
-  exports.env0flr_rockPlutonicGrayCracked = env0flr_rockPlutonicGrayCracked;
 
 
   const env0flr_rockBiologicalSedimentaryGrayCracked = extendBase(
@@ -101,7 +94,6 @@
       matGrp: "gravel",
     }),
   );
-  exports.env0flr_rockBiologicalSedimentaryGrayCracked = env0flr_rockBiologicalSedimentaryGrayCracked;
 
 
   const env0flr_placer = extendBase(
@@ -110,7 +102,6 @@
       matGrp: "gravel",
     }),
   );
-  exports.env0flr_placer = env0flr_placer;
 
 
   const env0flr_placerDark = extendBase(
@@ -119,7 +110,6 @@
       matGrp: "gravel",
     }),
   );
-  exports.env0flr_placerDark = env0flr_placerDark;
 
 
   /* rock */
@@ -132,7 +122,6 @@
       randRegs: ["rock"],
     }),
   );
-  exports.env0flr_rockLavaRed = env0flr_rockLavaRed;
 
 
   const env0flr_rockMetamorphicGray = extendBase(
@@ -142,7 +131,6 @@
       randRegs: ["rock"],
     }),
   );
-  exports.env0flr_rockMetamorphicGray = env0flr_rockMetamorphicGray;
 
 
   const env0flr_rockPlutonicGray = extendBase(
@@ -152,7 +140,6 @@
       randRegs: ["rock"],
     }),
   );
-  exports.env0flr_rockPlutonicGray = env0flr_rockPlutonicGray;
 
 
   const env0flr_rockBiologicalSedimentaryGray = extendBase(
@@ -162,7 +149,6 @@
       randRegs: ["rock"],
     }),
   );
-  exports.env0flr_rockBiologicalSedimentaryGray = env0flr_rockBiologicalSedimentaryGray;
 
 
   /* sand */
@@ -176,7 +162,6 @@
       randRegOffs: [20, 0],
     }),
   );
-  exports.env0flr_sand = env0flr_sand;
 
 
   const env0flr_sandDark = extendBase(
@@ -187,4 +172,3 @@
       randRegOffs: [20, 0],
     }),
   );
-  exports.env0flr_sandDark = env0flr_sandDark;

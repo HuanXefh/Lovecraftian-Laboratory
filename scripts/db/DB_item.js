@@ -50,6 +50,44 @@ const db = {
     },
 
 
+    pol: {
+
+
+      item: [
+
+        /* <---------- item0chem (elementary) ----------> */
+
+        /* carbon */
+
+        "loveclab-item0chem-coal", 0.5,
+
+        /* misc */
+
+        "loveclab-item0chem-sulfur", 2.0,
+
+      ],
+
+
+      fluid: [
+
+        /* <---------- liq0ore ----------> */
+
+        "loveclab-liq0ore-crude-oil", 2.0,
+
+        /* <---------- liq0was ----------> */
+
+        "loveclab-liq0was-waste-water", 5.0,
+
+        /* <---------- gas0was ----------> */
+
+        "loveclab-gas0was-coke-oven-gas", 2.0,
+
+      ],
+
+
+    },
+
+
     hardness: [
 
       /* carbon */
@@ -245,10 +283,7 @@ const db = {
         "loveclab-item0chem-brass", {
           tempReq: 1050.0,
           bi: [
-            [
-              "loveclab-item0chem-copper", 1.0, 1.0,
-              "loveclab-item0ore-native-copper", 1.5, 1.0,
-            ], -1.0, -1.0,
+            "GROUP: copper", 1.0, 1.0,
             "loveclab-item0chem-zinc", 0.5, 1.0,
           ],
         },
@@ -256,10 +291,7 @@ const db = {
         "loveclab-item0chem-tin-bronze", {
           tempReq: 1050.0,
           bi: [
-            [
-              "loveclab-item0chem-copper", 1.0, 1.0,
-              "loveclab-item0ore-native-copper", 1.5, 1.0,
-            ], -1.0, -1.0,
+            "GROUP: copper", 1.0, 1.0,
             "loveclab-item0chem-tin", 0.5, 1.0,
           ],
         },
@@ -267,10 +299,7 @@ const db = {
         "loveclab-item0chem-leaded-tin-bronze", {
           tempReq: 1050.0,
           bi: [
-            [
-              "loveclab-item0chem-copper", 1.0, 1.0,
-              "loveclab-item0ore-native-copper", 1.5, 1.0,
-            ], -1.0, -1.0,
+            "GROUP: copper", 1.0, 1.0,
             "loveclab-item0chem-tin", 0.33333333, 1.0,
             "loveclab-item0chem-lead", 0.5, 1.0,
           ],
@@ -303,6 +332,13 @@ const db = {
 
 
       casting: [
+
+        "loveclab-item0chem-cast-iron", {
+          tempReq: 1600.0,
+          bi: [
+            "loveclab-item0chem-pig-iron", 1.0, 0.5,
+          ],
+        },
 
         "projreind-pow0tor-brass-cogwheel", {
           isPayTg: true,
@@ -385,9 +421,7 @@ const db = {
             "loveclab-item0int0chunks-limestone", 1.0, 0.5,
             "loveclab-item0ore-clay", 1.0, 0.5,
             [
-              "loveclab-item0ore-sand", 4.5, 0.5,
-              "loveclab-item0ore-sand-river", 1.0, 0.5,
-              "loveclab-item0buil-fine-aggregate", 1.0, 0.5,
+              "GROUP: sand", 1.0, 0.5,
               "loveclab-item0was-slag", 2.0, 0.5,
             ], -1.0, -1.0,
           ],
@@ -613,6 +647,34 @@ const db = {
 
       "loveclab-item0was-gangue", 1.0,
       "loveclab-item0was-slag", 2.0,
+
+    ],
+
+
+    rcGroup: [
+
+      "copper", ["loveclab-item0chem-copper", {}],
+      "copper", ["loveclab-item0ore-native-copper", {amtScl: 1.5}],
+
+      "pig iron", ["loveclab-item0chem-pig-iron", {}],
+      "pig iron", ["loveclab-item0ore-meteoric-iron", {amtScl: 1.5}],
+
+      "reductive carbon", ["loveclab-item0chem-coke", {pScl: 0.5}],
+      "reductive carbon", ["loveclab-item0bio-charcoal", {amtScl: 1.5}],
+      "reductive carbon", ["loveclab-item0chem-anthracite", {}],
+
+      "sand", ["loveclab-item0ore-sand-river", {}],
+      "sand", ["loveclab-item0buil-fine-aggregate", {}],
+      "sand", ["loveclab-item0ore-sand", {amtScl: 4.5}],
+
+      /* ore material */
+
+      "ferrous material", ["loveclab-item0chem-pig-iron", {pScl: 0.75}],
+      "ferrous material", ["loveclab-item0ore-hematite", {}],
+      "ferrous material", ["loveclab-item0ore-magnetite", {}],
+
+      "manganiferous material", ["loveclab-item0ore-psilomelane", {}],
+      "manganiferous material", ["loveclab-item0ore-pyrolusite", {}],
 
     ],
 

@@ -27,7 +27,6 @@
       intmdParent: "loveclab-item0ore-sand",
     }),
   );
-  exports.item0int0dust0p1_sand = item0int0dust0p1_sand;
 
 
   /* aluminum */
@@ -39,7 +38,6 @@
       intmdParent: "loveclab-item0ore-bauxite",
     }),
   );
-  exports.item0int0dust0p1_bauxite = item0int0dust0p1_bauxite;
 
 
   /* carbon */
@@ -51,7 +49,6 @@
       intmdParent: "loveclab-item0ore-raw-coal",
     }),
   );
-  exports.item0int0dust0p1_rawCoal = item0int0dust0p1_rawCoal;
 
 
   /* copper */
@@ -63,7 +60,6 @@
       intmdParent: "loveclab-item0ore-chalcopyrite",
     }),
   );
-  exports.item0int0dust0p1_chalcopyrite = item0int0dust0p1_chalcopyrite;
 
 
   const item0int0dust0p1_malachite = extendBase(
@@ -72,7 +68,6 @@
       intmdParent: "loveclab-item0ore-malachite",
     }),
   );
-  exports.item0int0dust0p1_malachite = item0int0dust0p1_malachite;
 
 
   const item0int0dust0p1_nativeCopper = extendBase(
@@ -81,7 +76,6 @@
       intmdParent: "loveclab-item0ore-native-copper",
     }),
   );
-  exports.item0int0dust0p1_nativeCopper = item0int0dust0p1_nativeCopper;
 
 
   /* iron */
@@ -93,7 +87,6 @@
       intmdParent: "loveclab-item0ore-hematite",
     }),
   );
-  exports.item0int0dust0p1_hematite = item0int0dust0p1_hematite;
 
 
   const item0int0dust0p1_limonite = extendBase(
@@ -102,7 +95,6 @@
       intmdParent: "loveclab-item0ore-limonite",
     }),
   );
-  exports.item0int0dust0p1_limonite = item0int0dust0p1_limonite;
 
 
   const item0int0dust0p1_magnetite = extendBase(
@@ -111,4 +103,3 @@
       intmdParent: "loveclab-item0ore-magnetite",
     }),
   );
-  exports.item0int0dust0p1_magnetite = item0int0dust0p1_magnetite;

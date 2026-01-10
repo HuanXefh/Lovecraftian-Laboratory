@@ -24,4 +24,3 @@
   const item0int_rawRubber = extendBase(
     TEMPLATE, "item0int-raw-rubber",
   );
-  exports.item0int_rawRubber = item0int_rawRubber;

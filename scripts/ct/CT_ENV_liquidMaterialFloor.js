@@ -33,7 +33,6 @@
       matGrp: "lava",
     }),
   );
-  exports.env0liq_lava = env0liq_lava;
 
 
   /* puddle */
@@ -45,7 +44,6 @@
       matGrp: "puddle",
     }),
   );
-  exports.env0liq_brine = env0liq_brine;
 
 
   const env0liq_brineShallow = extendBase(
@@ -54,7 +52,6 @@
       matGrp: "puddle",
     }),
   );
-  exports.env0liq_brineShallow = env0liq_brineShallow;
 
 
   const env0liq_volcanicSpring = extendBase(
@@ -70,7 +67,6 @@
       updateEffP: 0.0008,
     }),
   );
-  exports.env0liq_volcanicSpring = env0liq_volcanicSpring;
 
 
   const env0liq_volcanicSpringShallow = extendBase(
@@ -86,7 +82,6 @@
       updateEffP: 0.0008,
     }),
   );
-  exports.env0liq_volcanicSpringShallow = env0liq_volcanicSpringShallow;
 
 
   /* river */
@@ -98,7 +93,6 @@
       matGrp: "river",
     }),
   );
-  exports.env0liq_water = env0liq_water;
 
 
   const env0liq_waterShallow = extendBase(
@@ -107,7 +101,6 @@
       matGrp: "river",
     }),
   );
-  exports.env0liq_waterShallow = env0liq_waterShallow;
 
 
   const env0liq_swampWater = extendBase(
@@ -116,7 +109,6 @@
       matGrp: "river",
     }),
   );
-  exports.env0liq_swampWater = env0liq_swampWater;
 
 
   const env0liq_swampWaterShallow = extendBase(
@@ -125,7 +117,6 @@
       matGrp: "river",
     }),
   );
-  exports.env0liq_swampWaterShallow = env0liq_swampWaterShallow;
 
 
   /* sea */
@@ -137,7 +128,6 @@
       matGrp: "sea",
     }),
   );
-  exports.env0liq_seaWater = env0liq_seaWater;
 
 
   const env0liq_seaWaterShallow = extendBase(
@@ -146,4 +136,3 @@
       matGrp: "sea",
     }),
   );
-  exports.env0liq_seaWaterShallow = env0liq_seaWaterShallow;

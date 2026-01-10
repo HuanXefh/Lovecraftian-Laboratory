@@ -24,7 +24,6 @@
   const pla0ter_anthimyst = extendPlanet(
     TEMPLATE, "pla0ter-anthimyst", 3,
   );
-  exports.pla0ter_anthimyst = pla0ter_anthimyst;
 
 
   const pla0ter_kanbos = extendPlanet(
@@ -33,4 +32,3 @@
       tidalLock: true,
     }),
   );
-  exports.pla0ter_kanbos = pla0ter_kanbos;

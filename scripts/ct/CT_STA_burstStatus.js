@@ -36,4 +36,3 @@
       effP: 0.01,
     }),
   );
-  exports.sta0bur_overheated = sta0bur_overheated;

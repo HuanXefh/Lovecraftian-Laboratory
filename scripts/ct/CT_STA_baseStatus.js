@@ -32,7 +32,6 @@
       effP: 0.08,
     }),
   );
-  exports.sta_damaged = sta_damaged;
 
 
   const sta_severelyDamaged = extendBase(
@@ -42,25 +41,21 @@
       effP: 0.3,
     }),
   );
-  exports.sta_severelyDamaged = sta_severelyDamaged;
 
 
   const sta_slightlyInjured = extendBase(
     TEMPLATE, "sta-slightly-injured",
   );
-  exports.sta_slightlyInjured = sta_slightlyInjured;
 
 
   const sta_injured = extendBase(
     TEMPLATE, "sta-injured",
   );
-  exports.sta_injured = sta_injured;
 
 
   const sta_heavilyInjured = extendBase(
     TEMPLATE, "sta-heavily-injured",
   );
-  exports.sta_heavilyInjured = sta_heavilyInjured;
 
 
   const sta_haste = extendBase(
@@ -77,10 +72,8 @@
       effP: 0.1,
     }),
   );
-  exports.sta_haste = sta_haste;
 
 
   const sta_hiddenWell = extendBase(
     TEMPLATE, "sta-hidden-well",
   );
-  exports.sta_hiddenWell = sta_hiddenWell;

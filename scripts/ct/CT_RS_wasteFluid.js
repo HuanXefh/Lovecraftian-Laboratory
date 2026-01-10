@@ -27,7 +27,6 @@
       useParentReg: false,
     }),
   );
-  exports.liq0was_wasteWater = liq0was_wasteWater;
 
 
   /* <---------- gas0was ----------> */
@@ -39,4 +38,3 @@
       useParentReg: false,
     }),
   );
-  exports.gas0was_cokeOvenGas = gas0was_cokeOvenGas;
