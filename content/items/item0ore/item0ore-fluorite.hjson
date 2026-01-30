@@ -1,0 +1,23 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: item0ore-crude-graphite
+    objectives: []
+  }
+
+
+/*
+  ========================================
+  Section: Material
+  ========================================
+*/
+
+
+  lowPriority: false
+  buildable: false
+  cost: 1.0

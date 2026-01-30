@@ -17,7 +17,7 @@
 
   opacityMultiplier: 0.4
   liquid: liq0ore-water
-  color: 7898ba
+  color: "7898ba"
   density: 560.0
   padding: 12.0
   sizeMin: 16.0

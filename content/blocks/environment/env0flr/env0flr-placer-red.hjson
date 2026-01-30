@@ -1,0 +1,33 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: Floor
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  variants: 5
+
+
+/*
+  ========================================
+  Section: Resource
+  ========================================
+*/
+
+
+  itemDrop: item0ore-sand
+  playerUnmineable: true
+  attributes: {
+    lovec-attr0flr-placer: 1.0
+    lovec-attr0rock-clastic: 0.5
+  }

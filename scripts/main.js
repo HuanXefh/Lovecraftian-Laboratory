@@ -6,7 +6,7 @@
 
 
   if(!checkVersion("loveclab", [
-    "lovec", "100.26011001",
+    "lovec", "100.26013001",
   ])) return;
 
 
@@ -40,6 +40,7 @@
   const CT_RS_baseFluid = require("loveclab/ct/CT_RS_baseFluid");
   const CT_RS_wasteFluid = require("loveclab/ct/CT_RS_wasteFluid");
   const CT_RS_intermediateFluid = require("loveclab/ct/CT_RS_intermediateFluid");
+  const CT_RS_solutionLiquid = require("loveclab/ct/CT_RS_solutionLiquid");
   const CT_RS_abstractFluid = require("loveclab/ct/CT_RS_abstractFluid");
 
 

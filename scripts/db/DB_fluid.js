@@ -4,58 +4,6 @@ const db = {
   /* <------------------------------ CHUNK SPLITTER ------------------------------ */
 
 
-  param: {
-
-
-    dens: [
-
-      /* <---------- liq0bio ----------> */
-
-      "loveclab-liq0bio-latex", 1.26,
-
-    ],
-
-
-    boil: [],
-
-
-    fHeat: [
-
-      /* <---------- gas0misc ----------> */
-
-      "loveclab-gas0misc-steam", 100.0,
-
-    ],
-
-
-    visc: [
-
-      /* <---------- liq0bio ----------> */
-
-      "loveclab-liq0bio-latex", 4.66,
-
-      /* <---------- liq0ore ----------> */
-
-      "loveclab-liq0ore-crude-oil", 9.0,
-
-    ],
-
-
-    corrosion: [
-
-      /* <---------- liq0ore ----------> */
-
-      "loveclab-liq0ore-sea-water", 0.7,
-
-    ],
-
-
-  },
-
-
-  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
-
-
   group: {
 
 
@@ -75,7 +23,15 @@ const db = {
       acidAq: [],
 
 
-      baseAq: [],
+      baseAq: [
+
+        /* <---------- liq0int0sol ----------> */
+
+        /* calcium */
+
+        "loveclab-liq0int0sol-slaked-lime",
+
+      ],
 
 
       acidGas: [],

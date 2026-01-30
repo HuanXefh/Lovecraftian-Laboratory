@@ -42,6 +42,15 @@
   );
 
 
+  const env0vent_steamSandRed = extendBase(
+    TEMPLATE, "env0vent-steam-sand-red",
+    TEMPLATE.build({
+      ventSize: 2,
+      ventRs: "loveclab-gas0misc-steam",
+    }),
+  );
+
+
   /* rock */
 
 

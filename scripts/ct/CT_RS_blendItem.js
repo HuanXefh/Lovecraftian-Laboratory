@@ -29,6 +29,30 @@
   );
 
 
+  const item0int0blend_brickHighAlumina = extendBase(
+    TEMPLATE, "item0int0blend-brick-high-alumina",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0buil-brick-high-alumina",
+    }),
+  );
+
+
+  const item0int0blend_brickMullite = extendBase(
+    TEMPLATE, "item0int0blend-brick-mullite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0buil-brick-mullite",
+    }),
+  );
+
+
+  const item0int0blend_brickSilica = extendBase(
+    TEMPLATE, "item0int0blend-brick-silica",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0buil-brick-silica",
+    }),
+  );
+
+
   const item0int0blend_cement = extendBase(
     TEMPLATE, "item0int0blend-cement",
     TEMPLATE.build({

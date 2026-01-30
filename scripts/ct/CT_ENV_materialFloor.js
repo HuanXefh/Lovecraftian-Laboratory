@@ -112,6 +112,14 @@
   );
 
 
+  const env0flr_placerRed = extendBase(
+    TEMPLATE, "env0flr-placer-red",
+    TEMPLATE.build({
+      matGrp: "gravel",
+    }),
+  );
+
+
   /* rock */
 
 
@@ -170,5 +178,16 @@
       matGrp: "sand",
       randRegs: ["rock-sand-dark"],
       randRegOffs: [20, 0],
+    }),
+  );
+
+
+  const env0flr_sandRed = extendBase(
+    TEMPLATE, "env0flr-sand-red",
+    TEMPLATE.build({
+      matGrp: "sand",
+      randRegs: ["rock-sand-red"],
+      randRegOffs: [20, 0],
+      dropHardness: 1,
     }),
   );

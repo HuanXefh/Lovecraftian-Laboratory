@@ -51,6 +51,17 @@
   );
 
 
+  /* chromium */
+
+
+  const item0int0dust0p1_chromite = extendBase(
+    TEMPLATE, "item0int0dust0p1-chromite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-chromite",
+    }),
+  );
+
+
   /* copper */
 
 
@@ -74,6 +85,17 @@
     TEMPLATE, "item0int0dust0p1-native-copper",
     TEMPLATE.build({
       intmdParent: "loveclab-item0ore-native-copper",
+    }),
+  );
+
+
+  /* fluorite */
+
+
+  const item0int0dust0p1_fluorite = extendBase(
+    TEMPLATE, "item0int0dust0p1-fluorite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-fluorite",
     }),
   );
 

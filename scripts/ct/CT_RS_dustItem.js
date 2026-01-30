@@ -51,6 +51,17 @@
   );
 
 
+  /* chromium */
+
+
+  const item0int0dust_chromite = extendBase(
+    TEMPLATE, "item0int0dust-chromite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-chromite",
+    }),
+  );
+
+
   /* copper */
 
 
@@ -82,6 +93,17 @@
     TEMPLATE, "item0int0dust-native-copper",
     TEMPLATE.build({
       intmdParent: "loveclab-item0ore-native-copper",
+    }),
+  );
+
+
+  /* fluorite */
+
+
+  const item0int0dust_fluorite = extendBase(
+    TEMPLATE, "item0int0dust-fluorite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-fluorite",
     }),
   );
 
@@ -124,6 +146,14 @@
   /* lead */
 
 
+  const item0int0dust_anglesite = extendBase(
+    TEMPLATE, "item0int0dust-anglesite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-anglesite",
+    }),
+  );
+
+
   const item0int0dust_galena = extendBase(
     TEMPLATE, "item0int0dust-galena",
     TEMPLATE.build({
@@ -147,6 +177,17 @@
     TEMPLATE, "item0int0dust-pyrolusite",
     TEMPLATE.build({
       intmdParent: "loveclab-item0ore-pyrolusite",
+    }),
+  );
+
+
+  /* mercury */
+
+
+  const item0int0dust_cinnabar = extendBase(
+    TEMPLATE, "item0int0dust-cinnabar",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-cinnabar",
     }),
   );
 

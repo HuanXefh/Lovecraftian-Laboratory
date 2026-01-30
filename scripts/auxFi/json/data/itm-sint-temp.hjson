@@ -1,0 +1,58 @@
+/* <---------- item0ore ----------> */
+
+/* copper */
+
+loveclab-item0ore-azurite: 160.0
+loveclab-item0ore-chalcopyrite: 750.0
+loveclab-item0ore-native-copper: 950.0
+loveclab-item0ore-malachite: 160.0
+
+/* fluorine */
+
+loveclab-item0ore-fluorite: 1400.0
+
+/* iron */
+
+loveclab-item0ore-hematite: 1450.0
+loveclab-item0ore-limonite: 1100.0
+loveclab-item0ore-magnetite: 1520.0
+loveclab-item0ore-meteoric-iron: 1500.0
+loveclab-item0ore-pyrite: 1050.0
+
+/* lead */
+
+loveclab-item0ore-anglesite: 1150.0
+loveclab-item0ore-galena: 1050.0
+
+/* manganese */
+
+loveclab-item0ore-psilomelane: 1600.0
+loveclab-item0ore-pyrolusite: 500.0
+
+/* mercury */
+
+loveclab-item0ore-cinnabar: -1.0
+
+/* phosphorus */
+
+loveclab-item0ore-fluorapatite: 1350.0
+
+/* tin */
+
+loveclab-item0ore-cassiterite: 1550.0
+
+/* zinc */
+
+loveclab-item0ore-smithsonite: 650.0
+loveclab-item0ore-sphalerite: 370.0
+
+/* <---------- item0chem ----------> */
+
+/* elementary */
+
+loveclab-item0chem-copper: 1050.0
+loveclab-item0chem-graphite: 2500.0
+loveclab-item0chem-lead: 320.0
+loveclab-item0chem-nickel: 1450.0
+loveclab-item0chem-tin: 230.0
+loveclab-item0chem-zinc: 420.0

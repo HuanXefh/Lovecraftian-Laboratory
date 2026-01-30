@@ -6,7 +6,7 @@
 
 
   icon: planet
-  iconColor: 505049
+  iconColor: "505049"
 
 
 /*
@@ -34,7 +34,7 @@
   visible: true
   radius: 0.42
   hasAtmosphere: false
-  atmosphereColor: ffffff
+  atmosphereColor: "ffffff"
   atmosphereRadIn: 0.0
   atmosphereRadOut: 1.0
   bloom: false
@@ -50,8 +50,8 @@
         divisions: 6
         seed: 5522
         radius: 0.391
-        color1: 353531
-        color2: 242423
+        color1: "353531"
+        color2: "242423"
         octaves: 4.8
         persistence: 1.8
         scale: 0.7
@@ -66,8 +66,8 @@
         divisions: 7
         seed: 2200
         radius: 0.395
-        color1: 4d4d4d
-        color2: 383838
+        color1: "4d4d4d"
+        color2: "383838"
         octaves: 6.1
         persistence: 0.7
         scale: 0.7
@@ -82,8 +82,8 @@
         divisions: 7
         seed: 118
         radius: 0.345
-        color1: b35656
-        color2: 764c4c
+        color1: "b35656"
+        color2: "764c4c"
         octaves: 4.8
         persistence: 1.6
         scale: 1.2

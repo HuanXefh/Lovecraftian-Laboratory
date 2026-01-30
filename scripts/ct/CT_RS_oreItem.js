@@ -21,6 +21,22 @@
   /* <---------- item0ore ----------> */
 
 
+  /* aluminum */
+
+
+  const item0ore_bauxite = extendBase(
+    TEMPLATE, "item0ore-bauxite",
+  );
+
+
+  /* barium */
+
+
+  const item0ore_barite = extendBase(
+    TEMPLATE, "item0ore-barite",
+  );
+
+
   /* carbon */
 
 
@@ -49,19 +65,11 @@
   );
 
 
-  /* aluminum */
+  /* chromium */
 
 
-  const item0ore_bauxite = extendBase(
-    TEMPLATE, "item0ore-bauxite",
-  );
-
-
-  /* barium */
-
-
-  const item0ore_barite = extendBase(
-    TEMPLATE, "item0ore-barite",
+  const item0ore_chromite = extendBase(
+    TEMPLATE, "item0ore-chromite",
   );
 
 
@@ -85,6 +93,14 @@
 
   const item0ore_nativeCopper = extendBase(
     TEMPLATE, "item0ore-native-copper",
+  );
+
+
+  /* fluorine */
+
+
+  const item0ore_fluorite = extendBase(
+    TEMPLATE, "item0ore-fluorite",
   );
 
 
@@ -119,6 +135,11 @@
   /* lead */
 
 
+  const item0ore_anglesite = extendBase(
+    TEMPLATE, "item0ore-anglesite",
+  );
+
+
   const item0ore_galena = extendBase(
     TEMPLATE, "item0ore-galena",
   );
@@ -134,6 +155,14 @@
 
   const item0ore_pyrolusite = extendBase(
     TEMPLATE, "item0ore-pyrolusite",
+  );
+
+
+  /* mercury */
+
+
+  const item0ore_cinnabar = extendBase(
+    TEMPLATE, "item0ore-cinnabar",
   );
 
 

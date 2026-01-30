@@ -84,3 +84,11 @@
       flrParent: "loveclab-env0flr-sand-dark",
     }),
   );
+
+
+  const env0wall_sandRed = extendBase(
+    TEMPLATE, "env0wall-sand-red",
+    TEMPLATE.build({
+      flrParent: "loveclab-env0flr-sand-red",
+    }),
+  );

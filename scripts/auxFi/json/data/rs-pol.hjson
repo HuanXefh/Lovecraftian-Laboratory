@@ -1,0 +1,21 @@
+/* <---------- item0chem (elementary) ----------> */
+
+/* carbon */
+
+loveclab-item0chem-coal: 0.5
+
+/* misc */
+
+loveclab-item0chem-sulfur: 2.0
+
+/* <---------- liq0ore ----------> */
+
+loveclab-liq0ore-crude-oil: 2.0
+
+/* <---------- liq0was ----------> */
+
+loveclab-liq0was-waste-water: 5.0
+
+/* <---------- gas0was ----------> */
+
+loveclab-gas0was-coke-oven-gas: 2.0

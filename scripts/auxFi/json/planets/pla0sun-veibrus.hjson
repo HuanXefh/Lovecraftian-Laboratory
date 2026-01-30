@@ -6,7 +6,7 @@
 
 
   icon: commandRally
-  iconColor: ffffff
+  iconColor: "ffffff"
 
 
 /*
@@ -30,19 +30,19 @@
 
 
   radius: 6.2
-  atmosphereColor: febd90
+  atmosphereColor: "febd90"
   atmosphereRadIn: 0.0
   atmosphereRadOut: 1.0
-  lightColor: 808080
+  lightColor: "808080"
   mesh: {
     type: SunMesh
     planet: loveclab-pla0sun-veibrus
     divisions: 5
     colorScale: 1.4
     colors: [
-      febd90
-      feb380
-      fea467
+      "febd90"
+      "feb380"
+      "fea467"
     ]
     octaves: 3.0
     persistence: 6.0

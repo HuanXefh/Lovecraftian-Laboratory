@@ -115,6 +115,14 @@
   /* <---------- item0cons ----------> */
 
 
+  /* fuel */
+
+
+  const item0cons_briquette = extendBase(
+    TEMPLATE, "item0cons-briquette",
+  );
+
+
   /* ball */
 
 
@@ -267,6 +275,11 @@
 
   const item0chem_lime = extendBase(
     TEMPLATE, "item0chem-lime",
+  );
+
+
+  const item0chem_slakedLime = extendBase(
+    TEMPLATE, "item0chem-slaked-lime",
   );
 
 

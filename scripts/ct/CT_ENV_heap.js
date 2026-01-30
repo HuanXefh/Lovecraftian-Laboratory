@@ -54,6 +54,14 @@
   );
 
 
+  const env0heap_sandRed = extendBase(
+    TEMPLATE, "env0heap-sand-red",
+    TEMPLATE.build({
+      flrParent: "loveclab-env0flr-sand-red",
+    }),
+  );
+
+
   /* rock */
 
 

@@ -6,7 +6,7 @@
 
 
   icon: commandRally
-  iconColor: ffffff
+  iconColor: "ffffff"
 
 
 /*

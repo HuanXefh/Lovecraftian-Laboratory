@@ -6,7 +6,7 @@
 
 
   icon: planet
-  iconColor: 6b8462
+  iconColor: "6b8462"
   alwaysUnlocked: true
 
 
@@ -34,7 +34,7 @@
   visible: true
   radius: 1.242
   hasAtmosphere: true
-  atmosphereColor: 2e3945
+  atmosphereColor: "2e3945"
   atmosphereRadIn: 0.12
   atmosphereRadOut: 0.22
   mesh: {
@@ -49,8 +49,8 @@
         divisions: 7
         seed: 55425
         radius: 1.371
-        color1: 7898ba
-        color2: 7898ba
+        color1: "7898ba"
+        color2: "7898ba"
         octaves: 1.0
         persistence: 1.0
         scale: 1.0
@@ -65,8 +65,8 @@
         divisions: 6
         seed: 14775
         radius: 0.942
-        color1: 797e86
-        color2: 797e86
+        color1: "797e86"
+        color2: "797e86"
         octaves: 2.5
         persistence: 1.0
         scale: 1.2
@@ -81,8 +81,8 @@
         divisions: 7
         seed: 25112
         radius: 1.185
-        color1: ded0ba
-        color2: ded0ba
+        color1: "ded0ba"
+        color2: "ded0ba"
         octaves: 6.8
         persistence: 0.6
         scale: 0.7
@@ -97,8 +97,8 @@
         divisions: 6
         seed: 64552
         radius: 1.167
-        color1: b35656
-        color2: b35656
+        color1: "b35656"
+        color2: "b35656"
         octaves: 3.0
         persistence: 0.8
         scale: 1.2
@@ -113,8 +113,8 @@
         divisions: 7
         seed: 12775
         radius: 1.22
-        color1: 9cb295
-        color2: 9cb295
+        color1: "9cb295"
+        color2: "9cb295"
         octaves: 5.2
         persistence: 0.8
         scale: 0.7
@@ -135,7 +135,7 @@
         speed: 0.36
         radius: 0.17
         divisions: 5
-        color: ffffff90
+        color: "ffffff90"
         octaves: 1.2
         persistence: 1.2
         scl: 0.2
@@ -149,7 +149,7 @@
         speed: 0.44
         radius: 0.165
         divisions: 5
-        color: ffffff70
+        color: "ffffff70"
         octaves: 1.2
         persistence: 1.2
         scl: 0.2
@@ -163,7 +163,7 @@
         speed: 0.52
         radius: 0.16
         divisions: 5
-        color: ffffff50
+        color: "ffffff50"
         octaves: 1.1
         persistence: 1.6
         scl: 0.2
@@ -177,7 +177,7 @@
         speed: 0.6
         radius: 0.155
         divisions: 5
-        color: ffffff30
+        color: "ffffff30"
         octaves: 1.1
         persistence: 1.6
         scl: 0.2

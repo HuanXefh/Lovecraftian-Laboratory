@@ -1,0 +1,9 @@
+/* <---------- gas0misc ----------> */
+
+loveclab-gas0misc-steam: 100.0
+
+/* <---------- gas0int ----------> */
+
+loveclab-gas0int-steam-hp: 160.0
+loveclab-gas0int-steam-mp: 140.0
+loveclab-gas0int-steam-lp: 120.0

@@ -20,7 +20,7 @@
   useWindVector: true
   randomParticleRotation: false
   particleRegion: lovec-efr-shadow-white
-  color: ffffff
+  color: "ffffff"
   minAlpha: 0.01
   maxAlpha: 0.1
   density: 22000.0

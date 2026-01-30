@@ -31,6 +31,11 @@
   );
 
 
+  const item0was_dregs = extendBase(
+    TEMPLATE, "item0was-dregs",
+  );
+
+
   const item0was_gangue = extendBase(
     TEMPLATE, "item0was-gangue",
   );

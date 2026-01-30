@@ -18,10 +18,7 @@
 */
 
 
-  explosiveness: 0.0
-  flammability: 0.0
-  radioactivity: 0.0
-  charge: 0.0
+  flammability: 0.5
 
 
 /*

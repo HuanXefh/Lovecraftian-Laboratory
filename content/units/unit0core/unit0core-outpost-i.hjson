@@ -75,7 +75,7 @@
       phase: 60.0
       circles: 2
       sides: 6
-      color: 8ca9e8
+      color: "8ca9e8"
       stroke: 1.5
       minStroke: 0.12
     }
@@ -93,7 +93,7 @@
       phase: 90.0
       circles: 2
       sides: 6
-      color: d1efff
+      color: "d1efff"
       stroke: 1.5
       minStroke: 0.12
     }
@@ -129,7 +129,7 @@
 */
 
 
-  engineColor: 8ca9e8
+  engineColor: "8ca9e8"
   engineColorInner: ffffff
   engineOffset: 0.0
   engineSize: 2.5
@@ -163,7 +163,7 @@
 
 
   trailLength: 15
-  trailColor: 8ca9e8
+  trailColor: "8ca9e8"
   trailScl: 1.0
   waveTrailX: 4.0
   waveTrailY: -3.0

@@ -1,0 +1,91 @@
+/* aluminum */
+
+loveclab-item0ore-bauxite: 2
+
+/* barium */
+
+loveclab-item0ore-barite: 3
+
+/* carbon */
+
+loveclab-item0chem-peat: 1
+loveclab-item0chem-lignite: 1
+loveclab-item0ore-raw-coal: 2
+loveclab-item0chem-anthracite: 2
+loveclab-item0ore-crude-graphite: 2
+
+/* chromium */
+
+loveclab-item0ore-chromite: 6
+
+/* copper */
+
+loveclab-item0ore-azurite: 4
+loveclab-item0ore-chalcopyrite: 4
+loveclab-item0ore-native-copper: 3
+loveclab-item0ore-malachite: 4
+
+/* fluorine */
+
+loveclab-item0ore-fluorite: 4
+
+/* iron */
+
+loveclab-item0ore-hematite: 6
+loveclab-item0ore-limonite: 4
+loveclab-item0ore-magnetite: 6
+loveclab-item0ore-meteoric-iron: 6
+loveclab-item0ore-pyrite: 6
+
+/* lead */
+
+loveclab-item0ore-anglesite: 3
+loveclab-item0ore-galena: 3
+
+/* manganese */
+
+loveclab-item0ore-psilomelane: 5
+loveclab-item0ore-pyrolusite: 1
+
+/* mercury */
+
+loveclab-item0ore-cinnabar: 2
+
+/* phosphorus */
+
+loveclab-item0ore-fluorapatite: 5
+
+/* silicon */
+
+loveclab-item0ore-silica-stone: 4
+
+/* sulfur */
+
+loveclab-item0ore-crude-sulfur: 2
+
+/* tin */
+
+loveclab-item0ore-cassiterite: 6
+
+/* zinc */
+
+loveclab-item0ore-sphalerite: 4
+
+/* misc */
+
+loveclab-item0ore-clay: 1
+
+/* rock */
+
+loveclab-item0ore-dolomite: 4
+loveclab-item0ore-gypsum: 2
+loveclab-item0ore-limestone: 2
+loveclab-item0ore-pumice: 2
+loveclab-item0ore-rock-clastic: 2
+loveclab-item0ore-rock-evaporite: 2
+loveclab-item0ore-rock-hypabyssal: 6
+loveclab-item0ore-rock-lava: 6
+loveclab-item0ore-rock-metamorphic: 4
+loveclab-item0ore-rock-plutonic: 6
+loveclab-item0ore-rock-biological-sedimentary: 4
+loveclab-item0ore-rock-clastic-sedimentary: 1
