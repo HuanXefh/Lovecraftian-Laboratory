@@ -43,6 +43,17 @@
   );
 
 
+  /* phosphorus */
+
+
+  const item0int0chunks_fluorapatite = extendBase(
+    TEMPLATE, "item0int0chunks-fluorapatite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-fluorapatite",
+    }),
+  );
+
+
   /* silicon */
 
 

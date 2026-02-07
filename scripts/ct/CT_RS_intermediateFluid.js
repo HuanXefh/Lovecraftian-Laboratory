@@ -18,6 +18,36 @@
 */
 
 
+  /* <---------- liq0int ----------> */
+
+
+  const liq0int_desaltedCrudeOil = extendBase(
+    TEMPLATE, "liq0int-desalted-crude-oil",
+    TEMPLATE.build({
+      intmdParent: "loveclab-liq0ore-crude-oil",
+      useParentReg: false,
+    }),
+  );
+
+
+  const liq0int_evaporatedCrudeOil = extendBase(
+    TEMPLATE, "liq0int-evaporated-crude-oil",
+    TEMPLATE.build({
+      intmdParent: "loveclab-liq0ore-crude-oil",
+      tempTags: ["rs-intmd", "rs-dry"],
+    }),
+  );
+
+
+  const liq0int_desaltedEvaporatedCrudeOil = extendBase(
+    TEMPLATE, "liq0int-desalted-evaporated-crude-oil",
+    TEMPLATE.build({
+      intmdParent: "loveclab-liq0int-desalted-crude-oil",
+      tempTags: ["rs-intmd", "rs-dry"],
+    }),
+  );
+
+
   /* <---------- gas0int ----------> */
 
 

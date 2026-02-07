@@ -65,6 +65,12 @@ const db = {
 
         "loveclab-liq0ore-crude-oil",
 
+        /* <---------- liq0int ----------> */
+
+        "loveclab-liq0int-desalted-crude-oil",
+        "loveclab-liq0int-evaporated-crude-oil",
+        "loveclab-liq0int-desalted-evaporated-crude-oil",
+
       ],
 
 

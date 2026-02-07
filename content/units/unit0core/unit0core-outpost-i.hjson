@@ -195,7 +195,7 @@
 
   canBoost: true
   riseSpeed: 0.012
-  fallSpeed: 0.1
+  descentSpeed: 0.036
   boostMultiplier: 3.1
 
 

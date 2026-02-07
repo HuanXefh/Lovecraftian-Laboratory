@@ -49,6 +49,14 @@
   /* <---------- env0tree0fungi (rock) ----------> */
 
 
+  const env0tree0fungi_clusteredNebula = extendBase(
+    TEMPLATE, "env0tree0fungi-clustered-nebula",
+    TEMPLATE.build({
+      layTree: 76.32,
+    }),
+  );
+
+
   const env0tree0fungi_blueSpark = extendBase(
     TEMPLATE, "env0tree0fungi-blue-spark",
     TEMPLATE.build({

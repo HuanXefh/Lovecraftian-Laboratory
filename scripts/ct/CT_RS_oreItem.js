@@ -166,6 +166,14 @@
   );
 
 
+  /* phosphorus */
+
+
+  const item0ore_fluorapatite = extendBase(
+    TEMPLATE, "item0ore-fluorapatite",
+  );
+
+
   /* silicon */
 
 

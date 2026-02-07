@@ -1,3 +1,8 @@
+/* <---------- liq0int ----------> */
+
+loveclab-liq0int-evaporated-crude-oil: 100.0
+loveclab-liq0int-desalted-evaporated-crude-oil: 100.0
+
 /* <---------- gas0misc ----------> */
 
 loveclab-gas0misc-steam: 100.0
