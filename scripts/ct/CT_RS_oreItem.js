@@ -237,6 +237,11 @@
   /* rock */
 
 
+  const item0ore_asbestos = extendBase(
+    TEMPLATE, "item0ore-asbestos",
+  );
+
+
   const item0ore_dolomite = extendBase(
     TEMPLATE, "item0ore-dolomite",
   );
@@ -254,6 +259,11 @@
 
   const item0ore_pumice = extendBase(
     TEMPLATE, "item0ore-pumice",
+  );
+
+
+  const item0ore_talcum = extendBase(
+    TEMPLATE, "item0ore-talcum",
   );
 
 

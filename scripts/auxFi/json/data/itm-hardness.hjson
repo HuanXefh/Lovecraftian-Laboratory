@@ -77,10 +77,12 @@ loveclab-item0ore-clay: 1
 
 /* rock */
 
+loveclab-item0ore-asbestos: 1
 loveclab-item0ore-dolomite: 4
 loveclab-item0ore-gypsum: 2
 loveclab-item0ore-limestone: 2
 loveclab-item0ore-pumice: 2
+loveclab-item0ore-talcum: 1
 loveclab-item0ore-rock-clastic: 2
 loveclab-item0ore-rock-evaporite: 2
 loveclab-item0ore-rock-hypabyssal: 6

@@ -225,6 +225,14 @@
   /* rock */
 
 
+  const item0int0dust_asbestos = extendBase(
+    TEMPLATE, "item0int0dust-asbestos",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-asbestos",
+    }),
+  );
+
+
   const item0int0dust_rockClastic = extendBase(
     TEMPLATE, "item0int0dust-rock-clastic",
     TEMPLATE.build({

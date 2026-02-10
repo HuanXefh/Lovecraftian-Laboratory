@@ -50,6 +50,17 @@
   );
 
 
+  /* iron */
+
+
+  const env0depo_limonite = extendBase(
+    TEMPLATE, "env0depo-limonite",
+    TEMPLATE.build({
+      dropHardness: 6,
+    }),
+  );
+
+
   /* silicon */
 
 

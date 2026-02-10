@@ -101,3 +101,11 @@
       intmdParent: "loveclab-item0ore-limestone",
     }),
   );
+
+
+  const item0int0chunks_talcum = extendBase(
+    TEMPLATE, "item0int0chunks-talcum",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-talcum",
+    }),
+  );

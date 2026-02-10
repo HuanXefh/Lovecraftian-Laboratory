@@ -125,3 +125,14 @@
       intmdParent: "loveclab-item0ore-magnetite",
     }),
   );
+
+
+  /* rock */
+
+
+  const item0int0dust0p1_asbestos = extendBase(
+    TEMPLATE, "item0int0dust0p1-asbestos",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-asbestos",
+    }),
+  );
