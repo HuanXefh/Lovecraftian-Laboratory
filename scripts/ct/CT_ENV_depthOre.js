@@ -18,7 +18,7 @@
 */
 
 
-  /* <---------- env0ore ----------> */
+  /* <---------- env0ore (level 0) ----------> */
 
 
   /* copper */
@@ -42,4 +42,18 @@
 
   const env0ore0dpore_sphalerite = extendBase(
     TEMPLATE, "env0ore0dpore-sphalerite",
+  );
+
+
+  /* <---------- env0ore (level 1) ----------> */
+
+
+  /* carbon */
+
+
+  const env0ore0dpore0lvl1_rawCoal = extendBase(
+    TEMPLATE, "env0ore0dpore0lvl1-raw-coal",
+    TEMPLATE.build({
+      depthLvl: 1,
+    }),
   );

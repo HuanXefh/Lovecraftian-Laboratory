@@ -79,3 +79,14 @@
       layTree: 76.44,
     }),
   );
+
+
+  /* sea */
+
+
+  const env0tree_shellTree = extendBase(
+    TEMPLATE, "env0tree-shell-tree",
+    TEMPLATE.build({
+      layTree: 76.48,
+    }),
+  );

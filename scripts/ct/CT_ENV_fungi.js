@@ -66,6 +66,14 @@
   );
 
 
+  const env0tree0fungi_greenSpark = extendBase(
+    TEMPLATE, "env0tree0fungi-green-spark",
+    TEMPLATE.build({
+      layTree: 76.58,
+    }),
+  );
+
+
   const env0tree0fungi_ghostEye = extendBase(
     TEMPLATE, "env0tree0fungi-ghost-eye",
     TEMPLATE.build({

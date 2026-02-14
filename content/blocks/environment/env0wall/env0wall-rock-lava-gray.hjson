@@ -5,16 +5,14 @@
 */
 
 
-  # type: TreeBlock
+  # type: StaticWall
 
 
 /*
   ========================================
-  Section: Resource
+  Section: Visual
   ========================================
 */
 
 
-  attributes: {
-    lovec-attr0blk-fungi: 0.5
-  }
+  variants: 2

@@ -5,7 +5,17 @@
 */
 
 
-  # type: TreeBlock
+  # type: OverlayFloor
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  variants: 2
 
 
 /*
@@ -15,6 +25,4 @@
 */
 
 
-  attributes: {
-    lovec-attr0blk-fungi: 0.5
-  }
+  itemDrop: item0ore-raw-coal

@@ -5,7 +5,17 @@
 */
 
 
-  # type: TreeBlock
+  # type: Floor
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  variants: 5
 
 
 /*
@@ -15,6 +25,8 @@
 */
 
 
+  itemDrop: item0ore-rock-lava
+  playerUnmineable: true
   attributes: {
-    lovec-attr0blk-fungi: 0.5
+    lovec-attr0rock-lava: 1.0
   }

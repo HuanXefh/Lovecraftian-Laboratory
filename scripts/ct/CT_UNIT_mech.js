@@ -23,6 +23,10 @@
 
   const unit0core_outpostI = extendUnit(
     TEMPLATE, "unit0core-outpost-i",
+    TEMPLATE.build({
+      baseShieldA: 0.3,
+      shieldRadScl: 1.1,
+    })
   );
   setAbility(unit0core_outpostI, abis => [
     abis,

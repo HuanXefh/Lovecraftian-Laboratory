@@ -54,6 +54,15 @@
   /* rock */
 
 
+  const env0vent_steamRockLavaGray = extendBase(
+    TEMPLATE, "env0vent-steam-rock-lava-gray",
+    TEMPLATE.build({
+      ventSize: 3,
+      ventRs: "loveclab-gas0misc-steam",
+    }),
+  );
+
+
   const env0vent_steamRockLavaRed = extendBase(
     TEMPLATE, "env0vent-steam-rock-lava-red",
     TEMPLATE.build({
@@ -91,6 +100,15 @@
 
 
   /* <---------- env0vent (fire) ----------> */
+
+
+  const env0vent_fireRockLavaGray = extendBase(
+    TEMPLATE, "env0vent-fire-rock-lava-gray",
+    TEMPLATE.build({
+      ventSize: 3,
+      ventRs: "fire",
+    }),
+  );
 
 
   const env0vent_fireRockLavaRed = extendBase(

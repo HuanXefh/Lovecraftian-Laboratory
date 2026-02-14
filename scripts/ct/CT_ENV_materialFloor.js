@@ -64,6 +64,14 @@
   /* gravel */
 
 
+  const env0flr_rockLavaGrayCracked = extendBase(
+    TEMPLATE, "env0flr-rock-lava-gray-cracked",
+    TEMPLATE.build({
+      matGrp: "gravel",
+    }),
+  );
+
+
   const env0flr_rockLavaRedCracked = extendBase(
     TEMPLATE, "env0flr-rock-lava-red-cracked",
     TEMPLATE.build({
@@ -121,6 +129,15 @@
 
 
   /* rock */
+
+
+  const env0flr_rockLavaGray = extendBase(
+    TEMPLATE, "env0flr-rock-lava-gray",
+    TEMPLATE.build({
+      matGrp: "rock",
+      randRegs: ["rock"],
+    }),
+  );
 
 
   const env0flr_rockLavaRed = extendBase(

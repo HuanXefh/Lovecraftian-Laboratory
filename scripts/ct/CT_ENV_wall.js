@@ -35,6 +35,14 @@
   /* rock */
 
 
+  const env0wall_rockLavaGray = extendBase(
+    TEMPLATE, "env0wall-rock-lava-gray",
+    TEMPLATE.build({
+      flrParent: "loveclab-env0flr-rock-lava-gray",
+    }),
+  );
+
+
   const env0wall_rockLavaRed = extendBase(
     TEMPLATE, "env0wall-rock-lava-red",
     TEMPLATE.build({
