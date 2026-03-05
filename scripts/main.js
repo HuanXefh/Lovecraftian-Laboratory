@@ -6,20 +6,11 @@
 
 
   if(!checkVersion("loveclab", [
-    "lovec", "100.26021401",
+    "lovec", "100.0026030501",
   ])) return;
 
 
   /* <---------- import ----------> */
-
-
-  const VARGEN = require("lovec/glb/GLB_varGen");
-
-
-  const MDL_cond = require("lovec/mdl/MDL_cond");
-  const MDL_content = require("lovec/mdl/MDL_content");
-  const MDL_event = require("lovec/mdl/MDL_event");
-  const MDL_util = require("lovec/mdl/MDL_util");
 
 
   /* <---------- load ----------> */
@@ -49,6 +40,7 @@
   require("loveclab/ct/CT_ENV_vent");
   require("loveclab/ct/CT_ENV_wall");
   require("loveclab/ct/CT_ENV_heap");
+  require("loveclab/ct/CT_ENV_grassHeap");
   require("loveclab/ct/CT_ENV_deposit");
   require("loveclab/ct/CT_ENV_ore");
   require("loveclab/ct/CT_ENV_wallOre");

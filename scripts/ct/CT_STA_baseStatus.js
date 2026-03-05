@@ -9,10 +9,6 @@
 
 
   const TEMPLATE = require("lovec/temp/sta/STA_baseStatus");
-  const EFF = require("lovec/glb/GLB_eff");
-
-
-  const TP_effect = require("lovec/tp/TP_effect");
 
 
 /*

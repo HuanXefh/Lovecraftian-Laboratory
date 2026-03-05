@@ -9,13 +9,6 @@
 
 
   const TEMPLATE = require("lovec/temp/sta/STA_deathStatus");
-  const VAR = require("lovec/glb/GLB_var");
-
-
-  const FRAG_attack = require("lovec/frag/FRAG_attack");
-
-
-  const MDL_cond = require("lovec/mdl/MDL_cond");
 
 
 /*

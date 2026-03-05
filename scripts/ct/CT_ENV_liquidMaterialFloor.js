@@ -11,9 +11,6 @@
   const TEMPLATE = require("lovec/temp/env/ENV_liquidMaterialFloor");
 
 
-  const TP_effect = require("lovec/tp/TP_effect");
-
-
 /*
   ========================================
   Section: Application

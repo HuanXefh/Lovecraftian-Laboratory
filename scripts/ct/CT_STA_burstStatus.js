@@ -9,7 +9,6 @@
 
 
   const TEMPLATE = require("lovec/temp/sta/STA_burstStatus");
-  const EFF = require("lovec/glb/GLB_eff");
 
 
 /*

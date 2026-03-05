@@ -5,12 +5,10 @@
 */
 
 
-  /* ----------------------------------------
-   * NOTE:
-   *
+  /**
    * Cores here are roots of planet tech trees.
    * For upgraded cores, see ProjReind.
-   * ---------------------------------------- */
+   */
 
 
   /* <---------- import ----------> */

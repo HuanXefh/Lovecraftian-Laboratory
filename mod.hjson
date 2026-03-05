@@ -1,11 +1,11 @@
 name: loveclab
 displayName: Lovecraftian Laboratory
-subtitle: "v101"
+subtitle: "v102"
 
 
 author: MaboroshiX
 repo: Lovecraftian-Laboratory
-minGameVersion: 155
+minGameVersion: 156
 dependencies: [
   lovec
 ]
@@ -17,4 +17,4 @@ description:
 The base mod for Lovecraftian series that adds essential resource, environmental blocks and planets.
 '''
 
-version: 101
+version: 101.0026030501
