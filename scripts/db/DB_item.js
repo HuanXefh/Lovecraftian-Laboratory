@@ -308,7 +308,7 @@ const db = {
         "loveclab-item0int0blend-brick-silica", {
           bi: [
             [
-              "loveclab-item0int0chunks-silica-stone", 3.0, 0.5,
+              "loveclab-item0int0chunks-silica-stone", 2.0, 0.5,
               "GROUP: silica", 1.0, 0.5,
             ], -1.0, -1.0,
             "loveclab-item0int0chunks-limestone", 0.5, 0.5,
