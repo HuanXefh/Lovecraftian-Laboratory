@@ -24,6 +24,7 @@
   const env0tree0fungi_giantAerthShiitake = extendBase(
     TEMPLATE, "env0tree0fungi-giant-aerth-shiitake", TEMPLATE.build({
       layTree: 76.44,
+      radTree: 13.5,
     }),
   );
 
@@ -32,6 +33,7 @@
     TEMPLATE, "env0tree0fungi-dotted-red-cap",
     TEMPLATE.build({
       layTree: 77.12,
+      radTree: 15.0,
       hidable: true,
     }),
   );
@@ -41,6 +43,7 @@
     TEMPLATE, "env0tree0fungi-wormshroom",
     TEMPLATE.build({
       layTree: 77.64,
+      radTree: 22.5,
       hidable: true,
     }),
   );
@@ -53,6 +56,7 @@
     TEMPLATE, "env0tree0fungi-clustered-nebula",
     TEMPLATE.build({
       layTree: 76.32,
+      radTree: 14.0,
     }),
   );
 
@@ -61,6 +65,7 @@
     TEMPLATE, "env0tree0fungi-blue-spark",
     TEMPLATE.build({
       layTree: 77.26,
+      radTree: 21.5,
       hidable: true,
     }),
   );
@@ -70,6 +75,7 @@
     TEMPLATE, "env0tree0fungi-green-spark",
     TEMPLATE.build({
       layTree: 76.58,
+      radTree: 9.0,
     }),
   );
 
@@ -78,6 +84,7 @@
     TEMPLATE, "env0tree0fungi-ghost-eye",
     TEMPLATE.build({
       layTree: 77.62,
+      radTree: 27.5,
       hidable: true,
     }),
   );

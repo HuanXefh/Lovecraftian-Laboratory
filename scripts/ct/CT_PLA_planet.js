@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/temp/pla/PLA_solidPlanet");
+  const TEMPLATE = require("lovec/temp/pla/PLA_planet");
 
 
 /*

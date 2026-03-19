@@ -28,5 +28,6 @@
     TEMPLATE, "env0tree0bush-rocky-furn",
     TEMPLATE.build({
       treeLay: 76.68,
+      radTree: 14.0,
     }),
   );

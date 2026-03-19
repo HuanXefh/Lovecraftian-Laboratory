@@ -47,6 +47,7 @@
     TEMPLATE, "env0liq-brine-shallow",
     TEMPLATE.build({
       matGrp: "puddle",
+      shallow: true,
     }),
   );
 
@@ -77,6 +78,7 @@
         scl: 5.0,
       }),
       updateEffP: 0.0008,
+      shallow: true,
     }),
   );
 
@@ -96,6 +98,7 @@
     TEMPLATE, "env0liq-water-shallow",
     TEMPLATE.build({
       matGrp: "river",
+      shallow: true,
     }),
   );
 
@@ -112,6 +115,7 @@
     TEMPLATE, "env0liq-swamp-water-shallow",
     TEMPLATE.build({
       matGrp: "river",
+      shallow: true,
     }),
   );
 
@@ -131,5 +135,6 @@
     TEMPLATE, "env0liq-sea-water-shallow",
     TEMPLATE.build({
       matGrp: "sea",
+      shallow: true,
     }),
   );

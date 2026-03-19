@@ -6,7 +6,7 @@
 
 
   if(!checkVersion("loveclab", [
-    "lovec", "100.0026030701",
+    "lovec", "100.0026031901",
   ])) return;
 
 
@@ -75,7 +75,7 @@
 
 
   require("loveclab/ct/CT_PLA_sun");
-  require("loveclab/ct/CT_PLA_solidPlanet");
+  require("loveclab/ct/CT_PLA_planet");
   require("loveclab/ct/CT_PLA_asteroid");
 
 
