@@ -87,6 +87,11 @@
   );
 
 
+  const aux0aux_pollutionDetection = extendBase(
+    TEMPLATE, "aux0aux-pollution-detection",
+  );
+
+
   const aux0aux_vibrationScreen = extendBase(
     TEMPLATE, "aux0aux-vibration-screen",
   );
