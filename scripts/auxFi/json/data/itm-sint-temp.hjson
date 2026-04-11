@@ -1,5 +1,13 @@
 /* <---------- item0ore ----------> */
 
+/* aluminum */
+
+loveclab-item0ore-bauxite: 1800.0
+
+/* arsenic */
+
+loveclab-item0ore-arsenopyrite: -1.0
+
 /* copper */
 
 loveclab-item0ore-azurite: 160.0
@@ -18,11 +26,17 @@ loveclab-item0ore-limonite: 1100.0
 loveclab-item0ore-magnetite: 1520.0
 loveclab-item0ore-meteoric-iron: 1500.0
 loveclab-item0ore-pyrite: 1050.0
+loveclab-item0ore-pyrrhotite: 1150.0
 
 /* lead */
 
 loveclab-item0ore-anglesite: 1150.0
 loveclab-item0ore-galena: 1050.0
+
+/* lithium */
+
+loveclab-item0ore-lepidolite: -1.0
+loveclab-item0ore-spodumene: 1400.0
 
 /* manganese */
 
@@ -33,18 +47,40 @@ loveclab-item0ore-pyrolusite: 500.0
 
 loveclab-item0ore-cinnabar: -1.0
 
+/* nickel */
+
+loveclab-item0ore-pentlandite: 600.0
+
 /* phosphorus */
 
 loveclab-item0ore-fluorapatite: 1350.0
+
+/* platinum */
+
+loveclab-item0ore-sperrylite: 900.0
 
 /* tin */
 
 loveclab-item0ore-cassiterite: 1550.0
 
+/* titanium */
+
+loveclab-item0ore-ilmenite: 1000.0
+loveclab-item0ore-rutile: 1800.0
+
+/* tungsten */
+
+loveclab-item0ore-scheelite: -1.0
+loveclab-item0ore-wolframite: -1.0
+
 /* zinc */
 
 loveclab-item0ore-smithsonite: 650.0
 loveclab-item0ore-sphalerite: 370.0
+
+/* zirconium */
+
+loveclab-item0ore-ziron: 2500.0
 
 /* <---------- item0chem ----------> */
 
@@ -55,4 +91,5 @@ loveclab-item0chem-graphite: 2500.0
 loveclab-item0chem-lead: 320.0
 loveclab-item0chem-nickel: 1450.0
 loveclab-item0chem-tin: 230.0
+loveclab-item0chem-tungsten: 3400.0
 loveclab-item0chem-zinc: 420.0

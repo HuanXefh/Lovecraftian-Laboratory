@@ -127,6 +127,112 @@
   );
 
 
+  const item0int0dust0p1_pyrite = extendBase(
+    TEMPLATE, "item0int0dust0p1-pyrite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-pyrite",
+    }),
+  );
+
+
+  const item0int0dust0p1_pyrrhotite = extendBase(
+    TEMPLATE, "item0int0dust0p1-pyrrhotite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-pyrrhotite",
+    }),
+  );
+
+
+  /* manganese */
+
+
+  const item0int0dust0p1_psilomelane = extendBase(
+    TEMPLATE, "item0int0dust0p1-psilomelane",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-psilomelane",
+    }),
+  );
+
+
+  const item0int0dust0p1_pyrolusite = extendBase(
+    TEMPLATE, "item0int0dust0p1-pyrolusite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-pyrolusite",
+    }),
+  );
+
+
+  /* nickel */
+
+
+  const item0int0dust0p1_pentlandite = extendBase(
+    TEMPLATE, "item0int0dust0p1-pentlandite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-pentlandite",
+    }),
+  );
+
+
+  /* tin */
+
+
+  const item0int0dust0p1_cassiterite = extendBase(
+    TEMPLATE, "item0int0dust0p1-cassiterite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-cassiterite",
+    }),
+  );
+
+
+  /* titanium */
+
+
+  const item0int0dust0p1_ilmenite = extendBase(
+    TEMPLATE, "item0int0dust0p1-ilmenite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-ilmenite",
+    }),
+  );
+
+
+  const item0int0dust0p1_rutile = extendBase(
+    TEMPLATE, "item0int0dust0p1-rutile",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-rutile",
+    }),
+  );
+
+
+  /* tungsten */
+
+
+  const item0int0dust0p1_scheelite = extendBase(
+    TEMPLATE, "item0int0dust0p1-scheelite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-scheelite",
+    }),
+  );
+
+
+  const item0int0dust0p1_wolframite = extendBase(
+    TEMPLATE, "item0int0dust0p1-wolframite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-wolframite",
+    }),
+  );
+
+
+  /* zinc */
+
+
+  const item0int0dust0p1_sphalerite = extendBase(
+    TEMPLATE, "item0int0dust0p1-sphalerite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-sphalerite",
+    }),
+  );
+
+
   /* rock */
 
 

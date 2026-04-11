@@ -6,7 +6,7 @@
 
 
   research: {
-    parent: item0ore-talcum
+    parent: item0ore-talc
     objectives: []
   }
 

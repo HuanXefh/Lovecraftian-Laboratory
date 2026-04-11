@@ -29,11 +29,27 @@
   );
 
 
+  /* arsenic */
+
+
+  const item0ore_arsenopyrite = extendBase(
+    TEMPLATE, "item0ore-arsenopyrite",
+  );
+
+
   /* barium */
 
 
   const item0ore_barite = extendBase(
     TEMPLATE, "item0ore-barite",
+  );
+
+
+  /* boron */
+
+
+  const item0ore_crudeBorax = extendBase(
+    TEMPLATE, "item0ore-crude-borax",
   );
 
 
@@ -132,6 +148,11 @@
   );
 
 
+  const item0ore_pyrrhotite = extendBase(
+    TEMPLATE, "item0ore-pyrrhotite",
+  );
+
+
   /* lead */
 
 
@@ -142,6 +163,19 @@
 
   const item0ore_galena = extendBase(
     TEMPLATE, "item0ore-galena",
+  );
+
+
+  /* lithium */
+
+
+  const item0ore_lepidolite = extendBase(
+    TEMPLATE, "item0ore-lepidolite",
+  );
+
+
+  const item0ore_spodumene = extendBase(
+    TEMPLATE, "item0ore-spodumene",
   );
 
 
@@ -166,11 +200,35 @@
   );
 
 
+  /* nickel */
+
+
+  const item0ore_pentlandite = extendBase(
+    TEMPLATE, "item0ore-pentlandite",
+  );
+
+
+  /* nitrogen */
+
+
+  const item0ore_niter = extendBase(
+    TEMPLATE, "item0ore-niter",
+  );
+
+
   /* phosphorus */
 
 
   const item0ore_fluorapatite = extendBase(
     TEMPLATE, "item0ore-fluorapatite",
+  );
+
+
+  /* platinum */
+
+
+  const item0ore_sperrylite = extendBase(
+    TEMPLATE, "item0ore-sperrylite",
   );
 
 
@@ -198,6 +256,32 @@
   );
 
 
+  /* titanium */
+
+
+  const item0ore_ilmenite = extendBase(
+    TEMPLATE, "item0ore-ilmenite",
+  );
+
+
+  const item0ore_rutile = extendBase(
+    TEMPLATE, "item0ore-rutile",
+  );
+
+
+  /* tungsten */
+
+
+  const item0ore_scheelite = extendBase(
+    TEMPLATE, "item0ore-scheelite",
+  );
+
+
+  const item0ore_wolframite = extendBase(
+    TEMPLATE, "item0ore-wolframite",
+  );
+
+
   /* zinc */
 
 
@@ -208,6 +292,14 @@
 
   const item0ore_sphalerite = extendBase(
     TEMPLATE, "item0ore-sphalerite",
+  );
+
+
+  /* zirconium */
+
+
+  const item0ore_zircon = extendBase(
+    TEMPLATE, "item0ore-zircon",
   );
 
 
@@ -262,8 +354,18 @@
   );
 
 
-  const item0ore_talcum = extendBase(
-    TEMPLATE, "item0ore-talcum",
+  const item0ore_salt = extendBase(
+    TEMPLATE, "item0ore-salt",
+  );
+
+
+  const item0ore_talc = extendBase(
+    TEMPLATE, "item0ore-talc",
+  );
+
+
+  const item0ore_trona = extendBase(
+    TEMPLATE, "item0ore-trona",
   );
 
 

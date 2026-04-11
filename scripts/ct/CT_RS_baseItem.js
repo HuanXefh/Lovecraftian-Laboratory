@@ -267,6 +267,19 @@
   );
 
 
+  /* <---------- item0chem (misc) ----------> */
+
+
+  const item0chem_asbestosWool = extendBase(
+    TEMPLATE, "item0chem-asbestos-wool",
+  );
+
+
+  const item0chem_talcumPowder = extendBase(
+    TEMPLATE, "item0chem-talcum-powder",
+  );
+
+
   /* <---------- item0chem (inorganic) ----------> */
 
 

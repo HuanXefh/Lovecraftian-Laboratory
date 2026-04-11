@@ -19,5 +19,5 @@
 
 
   lowPriority: false
-  buildable: false
+  buildable: true
   cost: 1.0

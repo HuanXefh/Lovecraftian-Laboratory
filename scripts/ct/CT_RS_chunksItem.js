@@ -76,6 +76,17 @@
   );
 
 
+  /* zirconium */
+
+
+  const item0int0chunks_zircon = extendBase(
+    TEMPLATE, "item0int0chunks-zircon",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-zircon",
+    }),
+  );
+
+
   /* rock */
 
 
@@ -103,9 +114,9 @@
   );
 
 
-  const item0int0chunks_talcum = extendBase(
-    TEMPLATE, "item0int0chunks-talcum",
+  const item0int0chunks_talc = extendBase(
+    TEMPLATE, "item0int0chunks-talc",
     TEMPLATE.build({
-      intmdParent: "loveclab-item0ore-talcum",
+      intmdParent: "loveclab-item0ore-talc",
     }),
   );

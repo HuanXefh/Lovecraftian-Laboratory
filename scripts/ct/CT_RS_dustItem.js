@@ -143,6 +143,14 @@
   );
 
 
+  const item0int0dust_pyrrhotite = extendBase(
+    TEMPLATE, "item0int0dust-pyrrhotite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-pyrrhotite",
+    }),
+  );
+
+
   /* lead */
 
 
@@ -192,6 +200,17 @@
   );
 
 
+  /* nickel */
+
+
+  const item0int0dust_pentlandite = extendBase(
+    TEMPLATE, "item0int0dust-pentlandite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-pentlandite",
+    }),
+  );
+
+
   /* tin */
 
 
@@ -199,6 +218,44 @@
     TEMPLATE, "item0int0dust-cassiterite",
     TEMPLATE.build({
       intmdParent: "loveclab-item0ore-cassiterite",
+    }),
+  );
+
+
+  /* titanium */
+
+
+  const item0int0dust_ilmenite = extendBase(
+    TEMPLATE, "item0int0dust-ilmenite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-ilmenite",
+    }),
+  );
+
+
+  const item0int0dust_rutile = extendBase(
+    TEMPLATE, "item0int0dust-rutile",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-rutile",
+    }),
+  );
+
+
+  /* tungsten */
+
+
+  const item0int0dust_scheelite = extendBase(
+    TEMPLATE, "item0int0dust-scheelite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-scheelite",
+    }),
+  );
+
+
+  const item0int0dust_wolframite = extendBase(
+    TEMPLATE, "item0int0dust-wolframite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-wolframite",
     }),
   );
 
@@ -222,6 +279,17 @@
   );
 
 
+  /* zirconium */
+
+
+  const item0int0dust_zircon = extendBase(
+    TEMPLATE, "item0int0dust-zircon",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-zircon",
+    }),
+  );
+
+
   /* rock */
 
 
@@ -229,6 +297,14 @@
     TEMPLATE, "item0int0dust-asbestos",
     TEMPLATE.build({
       intmdParent: "loveclab-item0ore-asbestos",
+    }),
+  );
+
+
+  const item0int0dust_talc = extendBase(
+    TEMPLATE, "item0int0dust-talc",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-talc",
     }),
   );
 

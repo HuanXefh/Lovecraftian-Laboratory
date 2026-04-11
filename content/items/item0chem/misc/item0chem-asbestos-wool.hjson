@@ -1,0 +1,23 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: item0chem-talcum-powder
+    objectives: []
+  }
+
+
+/*
+  ========================================
+  Section: Material
+  ========================================
+*/
+
+
+  lowPriority: false
+  buildable: true
+  cost: 1.0

@@ -100,6 +100,11 @@
   );
 
 
+  const env0depo_talc = extendBase(
+    TEMPLATE, "env0depo-talc",
+  );
+
+
   /* misc */
 
 
