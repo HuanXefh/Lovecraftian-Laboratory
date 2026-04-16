@@ -301,6 +301,14 @@
   );
 
 
+  const item0int0dust_salt = extendBase(
+    TEMPLATE, "item0int0dust-salt",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-salt",
+    }),
+  );
+
+
   const item0int0dust_talc = extendBase(
     TEMPLATE, "item0int0dust-talc",
     TEMPLATE.build({

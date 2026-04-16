@@ -114,6 +114,14 @@
   );
 
 
+  const item0int0chunks_salt = extendBase(
+    TEMPLATE, "item0int0chunks-salt",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-salt",
+    }),
+  );
+
+
   const item0int0chunks_talc = extendBase(
     TEMPLATE, "item0int0chunks-talc",
     TEMPLATE.build({

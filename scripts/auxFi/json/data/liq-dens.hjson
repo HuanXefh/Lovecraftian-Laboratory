@@ -1,3 +1,11 @@
 /* <---------- liq0bio ----------> */
 
 loveclab-liq0bio-latex: 1.26
+
+/* <---------- liq0ore ----------> */
+
+loveclab-liq0ore-crude-oil: 0.88
+
+/* <---------- liq0chem (misc) ----------> */
+
+loveclab-liq0chem-coal-tar: 1.2

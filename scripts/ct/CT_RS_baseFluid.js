@@ -49,6 +49,14 @@
   );
 
 
+  /* <---------- liq0chem (misc) ----------> */
+
+
+  const liq0chem_coalTar = extendBase(
+    TEMPLATE, "liq0chem-coal-tar",
+  );
+
+
   /* <---------- gas0misc ----------> */
 
 

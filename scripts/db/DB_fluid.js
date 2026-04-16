@@ -65,6 +65,10 @@ const db = {
 
         "loveclab-liq0ore-crude-oil",
 
+        /* <---------- liq0chem (misc) ----------> */
+
+        "loveclab-liq0chem-coal-tar",
+
         /* <---------- liq0int ----------> */
 
         "loveclab-liq0int-desalted-crude-oil",

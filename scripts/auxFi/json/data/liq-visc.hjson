@@ -5,3 +5,7 @@ loveclab-liq0bio-latex: 4.66
 /* <---------- liq0ore ----------> */
 
 loveclab-liq0ore-crude-oil: 9.0
+
+/* <---------- liq0chem (misc) ----------> */
+
+loveclab-liq0chem-coal-tar: 7.0
