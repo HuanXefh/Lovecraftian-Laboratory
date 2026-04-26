@@ -41,6 +41,11 @@
   );
 
 
+  const item0bio_biomassPowder = extendBase(
+    TEMPLATE, "item0bio-biomass-powder",
+  );
+
+
   const item0bio_hyphaRod = extendBase(
     TEMPLATE, "item0bio-hypha-rod",
   );
@@ -268,6 +273,11 @@
 
 
   /* <---------- item0chem (misc) ----------> */
+
+
+  const item0chem_activatedCarbon = extendBase(
+    TEMPLATE, "item0chem-activated-carbon",
+  );
 
 
   const item0chem_asbestosWool = extendBase(

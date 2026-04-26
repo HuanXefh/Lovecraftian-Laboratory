@@ -20,15 +20,3 @@
 
   explosiveness: 0.75
   flammability: 1.0
-
-
-/*
-  ========================================
-  Section: Material
-  ========================================
-*/
-
-
-  lowPriority: false
-  buildable: false
-  cost: 1.0

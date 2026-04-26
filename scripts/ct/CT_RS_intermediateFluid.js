@@ -60,6 +60,24 @@
   );
 
 
+  const gas0int_airDry = extendBase(
+    TEMPLATE, "gas0int-air-dry",
+    TEMPLATE.build({
+      intmdParent: "loveclab-gas0misc-air",
+      tempTags: ["rs-intmd", "rs-dry"],
+    }),
+  );
+
+
+  const gas0int_airSuperClean = extendBase(
+    TEMPLATE, "gas0int-air-super-clean",
+    TEMPLATE.build({
+      intmdParent: "loveclab-gas0misc-air",
+      tempTags: ["rs-intmd", "rs-pure"],
+    }),
+  );
+
+
   const gas0int_steamHp = extendBase(
     TEMPLATE, "gas0int-steam-hp",
     TEMPLATE.build({

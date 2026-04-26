@@ -6,15 +6,3 @@
 
 
   flammability: 0.35
-
-
-/*
-  ========================================
-  Section: Material
-  ========================================
-*/
-
-
-  lowPriority: false
-  buildable: false
-  cost: 1.0

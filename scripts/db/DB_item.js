@@ -17,6 +17,7 @@ const db = {
         "loveclab-item0bio-log", [6.0, 3.25],
         "loveclab-item0bio-timber", [16.0, 5.0],
         "loveclab-item0bio-sawdust", [4.0, 8.0],
+        "loveclab-item0bio-biomass-powder", [4.0, 8.0],
         "loveclab-item0bio-charcoal", [10.0, 10.0],
         "loveclab-item0bio-hypha-rod", [5.0, 7.5],
 
@@ -182,6 +183,27 @@ const db = {
       ],
 
 
+      carbonization: [
+
+        "loveclab-item0bio-log", {
+          tempReq: 300.0,
+          tempAllowed: 750.0,
+          bo: [
+            "loveclab-item0bio-charcoal", 0.5, 0.5,
+          ],
+        },
+
+        "loveclab-item0bio-hypha-rod", {
+          tempReq: 500.0,
+          tempAllowed: 900.0,
+          bo: [
+            "loveclab-item0bio-charcoal", 0.5, 0.5,
+          ],
+        },
+
+      ],
+
+
       casting: [
 
         "loveclab-item0chem-cast-iron", {
@@ -276,15 +298,7 @@ const db = {
       ],
 
 
-      condensation: [
-
-        "loveclab-gas0misc-steam", {
-          co: [
-            "loveclab-liq0ore-water", 0.75,
-          ],
-        },
-
-      ],
+      condensation: [],
 
 
       mixing: [
@@ -979,6 +993,7 @@ const db = {
         "loveclab-item0bio-log",
         "loveclab-item0bio-timber",
         "loveclab-item0bio-sawdust",
+        "loveclab-item0bio-biomass-powder",
         "loveclab-item0bio-hypha-rod",
 
       ],
@@ -1011,6 +1026,16 @@ const db = {
     ],
 
 
+    biomass: [
+
+      "spore-pod", 0.75,
+
+      "loveclab-item0bio-log", 1.0,
+      "loveclab-item0bio-hypha-rod", 1.0,
+
+    ],
+
+
     acidic: [],
 
 
@@ -1025,6 +1050,8 @@ const db = {
 
 
     rcGroup: [
+
+      /* <---------- item ----------> */
 
       /* chemical */
 
@@ -1048,6 +1075,9 @@ const db = {
       "apatite (chunks)", ["loveclab-item0int0chunks-fluorapatite", {}],
       "apatite (chunks)", ["loveclab-item0int0chunks-hydroxyapatite", {}],
 
+      "salt", ["loveclan-item0ore-salt", {}],
+      "salt", ["loveclan-item0ore-sea-salt", {}],
+
       "sand", ["loveclab-item0ore-sand-river", {}],
       "sand", ["loveclab-item0buil-fine-aggregate", {}],
       "sand", ["loveclab-item0ore-sand", {amtScl: 4.5}],
@@ -1063,6 +1093,17 @@ const db = {
 
       "sulfurous", ["loveclab-item0chem-sulfur", {pScl: 0.25}],
       "sulfurous", ["loveclab-item0ore-crude-sulfur", {}],
+
+      /* <---------- liquid ----------> */
+
+      /* <---------- gas ----------> */
+
+      /* misc */
+
+      "steam", ["loveclab-gas0misc-steam", {}],
+      "steam", ["loveclab-gas0int-steam-lp", {}],
+      "steam", ["loveclab-gas0int-steam-mp", {}],
+      "steam", ["loveclab-gas0int-steam-hp", {}],
 
     ],
 

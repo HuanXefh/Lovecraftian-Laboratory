@@ -359,6 +359,11 @@
   );
 
 
+  const item0ore_seaSalt = extendBase(
+    TEMPLATE, "item0ore-sea-salt",
+  );
+
+
   const item0ore_talc = extendBase(
     TEMPLATE, "item0ore-talc",
   );

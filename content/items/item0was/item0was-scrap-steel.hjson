@@ -9,15 +9,3 @@
     parent: item0was-slag
     objectives: []
   }
-
-
-/*
-  ========================================
-  Section: Material
-  ========================================
-*/
-
-
-  lowPriority: false
-  buildable: false
-  cost: 1.0

@@ -152,6 +152,8 @@ const db = {
       /* <---------- gas0int ----------> */
 
       "loveclab-gas0int-air-clean",
+      "loveclab-gas0int-air-dry",
+      "loveclab-gas0int-air-super-clean",
 
     ],
 

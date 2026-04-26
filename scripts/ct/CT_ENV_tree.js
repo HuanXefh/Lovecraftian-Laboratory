@@ -55,11 +55,11 @@
   );
 
 
-  const env0tree_umbrellaTree = extendBase(
-    TEMPLATE, "env0tree-umbrella-tree",
+  const env0tree_greenCloud = extendBase(
+    TEMPLATE, "env0tree-green-cloud",
     TEMPLATE.build({
-      layTree: 78.64,
-      radTree: 30.0,
+      layTree: 78.24,
+      radTree: 19.5,
       hidable: true,
     }),
   );
@@ -70,6 +70,29 @@
     TEMPLATE.build({
       layTree: 78.52,
       radTree: 28.0,
+      hidable: true,
+    }),
+  );
+
+
+  const env0tree_umbrellaTree = extendBase(
+    TEMPLATE, "env0tree-umbrella-tree",
+    TEMPLATE.build({
+      layTree: 78.64,
+      radTree: 30.0,
+      hidable: true,
+    }),
+  );
+
+
+  /* dirt (swamp) */
+
+
+  const env0tree_saladTree = extendBase(
+    TEMPLATE, "env0tree-salad-tree",
+    TEMPLATE.build({
+      layTree: 78.68,
+      radTree: 41.5,
       hidable: true,
     }),
   );

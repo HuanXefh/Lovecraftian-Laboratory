@@ -21,6 +21,15 @@
   /* <---------- item0int ----------> */
 
 
+  const item0int_activatedCarbonInactivated = extendBase(
+    TEMPLATE, "item0int-activated-carbon-inactivated",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0chem-activated-carbon",
+      tempTags: ["rs-intmd", "rs-inact"],
+    })
+  );
+
+
   const item0int_sawdustDried = extendBase(
     TEMPLATE, "item0int-sawdust-dried",
     TEMPLATE.build({

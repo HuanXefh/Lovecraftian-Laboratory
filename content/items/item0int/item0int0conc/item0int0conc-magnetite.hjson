@@ -5,6 +5,4 @@
 */
 
 
-  lowPriority: false
   buildable: true
-  cost: 1.0

@@ -9,7 +9,7 @@
     parent: item0ore-rock-metamorphic
     objectives: []
   }
-  
+
 
 /*
   ========================================
@@ -19,5 +19,3 @@
 
 
   lowPriority: true
-  buildable: false
-  cost: 1.0

@@ -6,7 +6,7 @@
 
 
   if(!checkVersion("loveclab", [
-    "lovec", "101.1.26042401",
+    "lovec", "101.1.26042601",
   ])) return;
 
 
@@ -20,6 +20,7 @@
   require("loveclab/ct/CT_RS_oreItem");
   require("loveclab/ct/CT_RS_wasteItem");
   require("loveclab/ct/CT_RS_intermediateItem");
+  require("loveclab/ct/CT_RS_crudeItem");
   require("loveclab/ct/CT_RS_chunksItem");
   require("loveclab/ct/CT_RS_dustItem");
   require("loveclab/ct/CT_RS_p1DustItem");

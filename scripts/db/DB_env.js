@@ -63,6 +63,9 @@ const db = {
         "camp-atm001-sector-beta", noiseArgs["anthimyst"]["cloud"],
         "projreind-camp-atm001-sector-beta", noiseArgs["anthimyst"]["cloud"],
 
+        "camp-atm001a-pahfer-lake", noiseArgs["anthimyst"]["cloud"],
+        "projreind-camp-atm001a-pahfer-lake", noiseArgs["anthimyst"]["cloud"],
+
         "camp-atm002-lantern-cave", noiseArgs["anthimyst"]["fog"],
         "projreind-camp-atm002-lantern-cave", noiseArgs["anthimyst"]["fog"],
 
@@ -73,6 +76,9 @@ const db = {
 
         "camp-atm001-sector-beta", weas["anthimyst"]["rain"],
         "projreind-camp-atm001-sector-beta", weas["anthimyst"]["rain"],
+
+        "camp-atm001a-pahfer-lake", weas["anthimyst"]["rain"],
+        "camp-atm001a-pahfer-lake", weas["anthimyst"]["rain"],
 
         "camp-atm002-lantern-cave", weas["anthimyst"]["base"],
         "projreind-camp-atm002-lantern-cave", weas["anthimyst"]["base"],
