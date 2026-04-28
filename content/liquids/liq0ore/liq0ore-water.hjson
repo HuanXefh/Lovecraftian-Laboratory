@@ -20,4 +20,5 @@
 
 
   heatCapacity: 0.4
+  coolant: true
   effect: wet

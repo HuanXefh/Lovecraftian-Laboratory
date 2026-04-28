@@ -9,3 +9,10 @@ loveclab-liq0ore-crude-oil: 0.88
 /* <---------- liq0chem (misc) ----------> */
 
 loveclab-liq0chem-coal-tar: 1.2
+
+/* <---------- gas0chem (elementary) ----------> */
+
+loveclab-gas0chem-hydrogen: 0.00090
+loveclab-gas0chem-nitrogen: 0.00125
+loveclab-gas0chem-oxygen: 0.00143
+loveclab-gas0chem-ozone: 0.00214

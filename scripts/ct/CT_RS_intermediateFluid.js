@@ -78,6 +78,15 @@
   );
 
 
+  const gas0int_superheatedSteam = extendBase(
+    TEMPLATE, "gas0int-superheated-steam",
+    TEMPLATE.build({
+      intmdParent: "loveclab-gas0misc-steam",
+      tempTags: ["rs-intmd", "rs-hot"],
+    }),
+  );
+
+
   const gas0int_steamHp = extendBase(
     TEMPLATE, "gas0int-steam-hp",
     TEMPLATE.build({

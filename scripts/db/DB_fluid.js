@@ -111,16 +111,20 @@ const db = {
       fluoric: [],
 
 
-      oxidative: [],
+      oxidative: [
+
+        /* <---------- gas0chem (elementary) ----------> */
+
+        "loveclab-gas0chem-oxygen",
+        "loveclab-gas0chem-ozone",
+
+      ],
 
 
       reductive: [],
 
 
       dehydrative: [],
-
-
-      unstable: [],
 
 
     },

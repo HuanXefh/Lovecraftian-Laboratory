@@ -4,3 +4,10 @@
 
 loveclab-item0chem-lime: CaO
 loveclab-item0chem-slaked-lime: Ca(OH)2
+
+/* <---------- gas0chem (elementary) ----------> */
+
+loveclab-gas0chem-hydrogen: H2
+loveclab-gas0chem-nitrogen: N2
+loveclab-gas0chem-oxygen: O2
+loveclab-gas0chem-ozone: O3

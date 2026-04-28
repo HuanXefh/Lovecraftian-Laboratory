@@ -6,7 +6,7 @@
 
 
   research: {
-    parent: gas0misc-steam
+    parent: gas0chem-oxygen
     objectives: []
   }
 
@@ -18,6 +18,5 @@
 */
 
 
-  heatCapacity: 0.4
-  coolant: true
+  explosiveness: 1.0
   gas: true

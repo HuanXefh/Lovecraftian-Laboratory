@@ -68,3 +68,26 @@
   const gas0misc_steam = extendBase(
     TEMPLATE, "gas0misc-steam",
   );
+
+
+  /* <---------- gas0chem (elementary) ----------> */
+
+
+  const gas0chem_hydrogen = extendBase(
+    TEMPLATE, "gas0chem-hydrogen",
+  );
+
+
+  const gas0chem_nitrogen = extendBase(
+    TEMPLATE, "gas0chem-nitrogen",
+  );
+
+
+  const gas0chem_oxygen = extendBase(
+    TEMPLATE, "gas0chem-oxygen",
+  );
+
+
+  const gas0chem_ozone = extendBase(
+    TEMPLATE, "gas0chem-ozone",
+  );
