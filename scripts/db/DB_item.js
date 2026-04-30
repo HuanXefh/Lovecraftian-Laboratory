@@ -449,6 +449,19 @@ const db = {
           liqO: "loveclab-liq0ore-brine",
         },
 
+        "loveclab-liq0int-purified-brine", {
+          ci: [
+            "loveclab-liq0ore-water", 1.0,
+          ],
+          bi: [
+            [
+              "loveclab-item0int0dust-salt", 1.0, 1.0,
+              "loveclab-item0ore-sea-salt", 1.0, 1.0,
+            ], -1.0, -1.0,
+          ],
+          liqO: "loveclab-liq0int-purified-brine",
+        },
+
       ],
 
 
@@ -1232,6 +1245,9 @@ const db = {
 
       "hot steam", ["loveclab-gas0int-superheated-steam", {}],
       "hot steam", ["loveclab-gas0misc-steam", {amtScl: 4.0}],
+      "hot steam", ["loveclab-gas0int-steam-lp", {amtScl: 4.0}],
+      "hot steam", ["loveclab-gas0int-steam-mp", {amtScl: 4.0}],
+      "hot steam", ["loveclab-gas0int-steam-hp", {amtScl: 4.0}],
 
       /* chemical */
 

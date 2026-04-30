@@ -5,7 +5,7 @@
 */
 
 
-  # type: OverlayFloor
+  # type: OreBlock
 
 
 /*
@@ -25,4 +25,4 @@
 */
 
 
-  itemDrop: item0ore-magnetite
+  itemDrop: item0ore-pyrrhotite

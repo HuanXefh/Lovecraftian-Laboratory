@@ -5,6 +5,10 @@
 loveclab-item0chem-lime: CaO
 loveclab-item0chem-slaked-lime: Ca(OH)2
 
+/* sodium */
+
+loveclab-item0chem-sodium-chloride: NaCl
+
 /* <---------- gas0chem (elementary) ----------> */
 
 loveclab-gas0chem-hydrogen: H2

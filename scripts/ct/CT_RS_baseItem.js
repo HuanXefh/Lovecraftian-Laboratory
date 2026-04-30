@@ -327,6 +327,14 @@
   );
 
 
+  /* sodium */
+
+
+  const item0chem_sodiumChloride = extendBase(
+    TEMPLATE, "item0chem-sodium-chloride",
+  );
+
+
   /* <---------- item0chem (organic) ----------> */
 
 

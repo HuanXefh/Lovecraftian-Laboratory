@@ -85,6 +85,11 @@
   );
 
 
+  const env0ore_pyrrhotite = extendBase(
+    TEMPLATE, "env0ore-pyrrhotite",
+  );
+
+
   /* lead */
 
 
@@ -111,6 +116,19 @@
 
   const env0ore_cassiterite = extendBase(
     TEMPLATE, "env0ore-cassiterite",
+  );
+
+
+  /* titanium */
+
+
+  const env0ore_ilmenite = extendBase(
+    TEMPLATE, "env0ore-ilmenite",
+  );
+
+
+  const env0ore_rutile = extendBase(
+    TEMPLATE, "env0ore-rutile",
   );
 
 

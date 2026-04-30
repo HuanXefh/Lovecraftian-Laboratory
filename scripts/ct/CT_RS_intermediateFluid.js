@@ -21,6 +21,15 @@
   /* <---------- liq0int ----------> */
 
 
+  const liq0int_purifiedBrine = extendBase(
+    TEMPLATE, "liq0int-purified-brine",
+    TEMPLATE.build({
+      intmdParent: "loveclab-liq0ore-brine",
+      tempTags: ["rs-intmd", "rs-pure"],
+    }),
+  );
+
+
   const liq0int_desaltedCrudeOil = extendBase(
     TEMPLATE, "liq0int-desalted-crude-oil",
     TEMPLATE.build({

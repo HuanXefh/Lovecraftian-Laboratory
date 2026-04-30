@@ -29,6 +29,14 @@
   );
 
 
+  /* lead */
+
+
+  const env0ore0wall_anglesite = extendBase(
+    TEMPLATE, "env0ore0wall-anglesite",
+  );
+
+
   /* zinc */
 
 

@@ -30,3 +30,14 @@
       intmdParent: "loveclab-item0chem-slaked-lime",
     }),
   );
+
+
+  /* sodium */
+
+
+  const liq0int0sol_sodiumChloride = extendBase(
+    TEMPLATE, "liq0int0sol-sodium-chloride",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0chem-sodium-chloride",
+    }),
+  );
