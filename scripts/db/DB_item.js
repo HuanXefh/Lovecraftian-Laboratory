@@ -145,6 +145,15 @@ const db = {
           itmO: "loveclab-item0chem-leaded-tin-bronze",
         },
 
+        "loveclab-item0chem-cupronickel", {
+          tempReq: 1200.0,
+          bi: [
+            "GROUP: copper", 1.0, 1.0,
+            "loveclab-item0chem-nickel", 0.33333333, 1.0,
+          ],
+          itmO: "loveclab-item0chem-cupronickel",
+        },
+
         "loveclab-item0chem-solder", {
           tempReq: 320.0,
           bi: [
@@ -257,18 +266,18 @@ const db = {
         "loveclab-item0chem-cast-iron", {
           tempReq: 1600.0,
           bi: [
-            "loveclab-item0chem-pig-iron", 1.0, 0.5,
+            "GROUP: pig iron", 1.0, 0.5,
           ],
           itmO: "loveclab-item0chem-cast-iron",
         },
 
-        "projreind-pay0mat-cast-iron-block", {
+        "loveclab-pay0mat-cast-iron-block", {
           timeScl: 0.5,
           tempReq: 1600.0,
           payBi: [
             "loveclab-item0chem-cast-iron", 10, 1.0,
           ],
-          payO: "projreind-pay0mat-cast-iron-block",
+          payO: "loveclab-pay0mat-cast-iron-block",
         },
 
         "projreind-pow0tor-brass-cogwheel", {
@@ -296,12 +305,20 @@ const db = {
           payO: "projreind-pow0tor-large-brass-cogwheel",
         },
 
-        "projreind-pay0mat-mangalloy-rod", {
+        "loveclab-pay0mat-cast-iron-rod", {
+          tempReq: 1600.0,
+          payBi: [
+            "loveclab-item0chem-cast-iron", 20.0, 1.0,
+          ],
+          payO: "loveclab-pay0mat-cast-iron-rod",
+        },
+
+        "loveclab-pay0mat-mangalloy-rod", {
           tempReq: 1600.0,
           payBi: [
             "loveclab-item0chem-mangalloy", 20.0, 1.0,
           ],
-          payO: "projreind-pay0mat-mangalloy-rod",
+          payO: "loveclab-pay0mat-mangalloy-rod",
         },
 
       ],
@@ -318,39 +335,69 @@ const db = {
 
       forging: [
 
-        "projreind-pay0mat-copper-block", {
+        "loveclab-pay0mat-copper-block", {
           timeScl: 0.5,
           tempReq: 900.0,
           payBi: [
             "loveclab-item0chem-copper", 10.0, 1.0,
           ],
-          payO: "projreind-pay0mat-copper-block",
+          payO: "loveclab-pay0mat-copper-block",
         },
 
-        "projreind-pay0mat-lead-block", {
+        "loveclab-pay0mat-lead-block", {
           timeScl: 0.5,
           tempReq: 200.0,
           payBi: [
             "loveclab-item0chem-lead", 10.0, 1.0,
           ],
-          payO: "projreind-pay0mat-lead-block",
+          payO: "loveclab-pay0mat-lead-block",
         },
 
-        "projreind-pay0mat-steel-block", {
+        "loveclab-pay0mat-steel-block", {
           timeScl: 0.5,
           tempReq: 1200.0,
           payBi: [
             "loveclab-item0chem-steel", 10.0, 1.0,
           ],
-          payO: "projreind-pay0mat-steel-block",
+          payO: "loveclab-pay0mat-steel-block",
+        },
+
+        "loveclab-item0cons-cast-iron-ball", {
+          tempReq: 1000.0,
+          payI: "loveclab-pay0mat-cast-iron-rod",
+          payBo: [
+            "loveclab-item0cons-cast-iron-ball", 1, 1.0,
+          ],
         },
 
         "loveclab-item0cons-mangalloy-ball", {
           tempReq: 1000.0,
-          payI: "projreind-pay0mat-mangalloy-rod",
+          payI: "loveclab-pay0mat-mangalloy-rod",
           payBo: [
             "loveclab-item0cons-mangalloy-ball", 1, 1.0,
           ],
+        },
+
+      ],
+
+
+      heatingExchange: [
+
+        "loveclab-gas0int-superheated-steam", {
+          liqI: "loveclab-gas0int-superheated-steam",
+          liqO: "loveclab-gas0misc-steam",
+          heatO: 300.0,
+        },
+
+      ],
+
+
+      heatingGas: [
+
+        "loveclab-gas0int-superheated-steam", {
+          tempReq: 500.0,
+          liqI: "loveclab-gas0misc-steam",
+          liqO: "loveclab-gas0int-superheated-steam",
         },
 
       ],
@@ -381,6 +428,7 @@ const db = {
             [
               "GROUP: sand", 1.0, 0.5,
               "loveclab-item0was-slag", 2.0, 0.5,
+              "loveclab-item0was-pyrite-cinder", 1.5, 0.5,
             ], -1.0, -1.0,
           ],
           itmO: "loveclab-item0int0blend-cement",
@@ -466,6 +514,18 @@ const db = {
 
 
       pulverization: [
+
+        "loveclab-item0int0dust-sand", {
+          hardness: 0,
+          bi: [
+            [
+              "loveclab-item0ore-sand", 1.0, 1.0,
+              "loveclab-item0ore-sand-river", 1.0, 1.0,
+              "loveclab-item0ore-sand-sea", 1.0, 1.0,
+            ], -1.0, -1.0,
+          ],
+          itmO: "loveclab-item0int0dust-sand",
+        },
 
         /* zirconium */
 
@@ -984,6 +1044,97 @@ const db = {
       ],
 
 
+      reactionGas: [],
+
+
+      reactionLiquid: [],
+
+
+      reactionMelt: [
+
+        /* steelmaking */
+
+        "loveclab-item0chem-cast-iron", {
+          categ: "steelmaking",
+          tempReq: 1600.0,
+          bi: [
+            "GROUP: pig iron", 1.0, 1.0,
+          ],
+          bo: [
+            "loveclab-item0chem-cast-iron", 0.66666667, 0.66666667,
+          ],
+        },
+
+        "loveclab-item0chem-steel", {
+          categ: "steelmaking",
+          tempReq: 1600.0,
+          bi: [
+            "GROUP: pig iron", 1.0, 1.0,
+            "GROUP: carbon", 0.75, 1.0,
+            [
+              "loveclab-item0ore-limestone", 1.5, 0.5,
+              "loveclab-item0chem-lime", 0.75, 0.5,
+            ], -1.0, -1.0,
+          ],
+          bo: [
+            "loveclab-item0chem-steel", 0.5, 0.5,
+            "loveclab-item0was-slag", 0.5, 0.5,
+          ],
+        },
+
+        "loveclab-item0chem-steel", {
+          categ: "steelmaking",
+          tag: "scrap steel",
+          tempReq: 1400.0,
+          bi: [
+            "loveclab-item0was-scrap-steel", 1.5, 1.0,
+            [
+              "loveclab-item0ore-limestone", 1.5, 0.5,
+              "loveclab-item0chem-lime", 0.75, 0.5,
+            ], -1.0, -1.0,
+          ],
+          bo: [
+            "loveclab-item0chem-steel", 0.5, 0.5,
+            "loveclab-item0was-slag", 0.75, 0.75,
+          ],
+        },
+
+        "loveclab-item0chem-ferromanganese", {
+          categ: "steelmaking",
+          tempReq: 1600.0,
+          bi: [
+            "GROUP: manganiferous", 1.0, 1.0,
+            "GROUP:ferrous", 1.0, 1.0,
+            [
+              "loveclab-item0chem-graphite", 0.25, 0.5,
+              "GROUP: carbon", 0.5, 1.0,
+            ], -1.0, -1.0,
+          ],
+          bo: [
+            "loveclab-item0chem-ferromanganese", 0.5, 0.5,
+            "loveclab-item0was-slag", 0.75, 0.5,
+          ],
+        },
+
+        "loveclab-item0chem-mangalloy", {
+          categ: "steelmaking",
+          tempReq: 1600.0,
+          bi: [
+            "loveclab-item0chem-ferromanganese", 0.5, 1.0,
+            [
+              "loveclab-item0ore-limestone", 1.5, 0.5,
+              "loveclab-item0chem-lime", 0.75, 0.5,
+            ], -1.0, -1.0,
+          ],
+          bo: [
+            "loveclab-item0chem-mangalloy", 0.5, 0.5,
+            "loveclab-item0was-slag", 0.5, 0.75,
+          ]
+        },
+
+      ],
+
+
       roasting: [
 
         "loveclab-item0int0blend-cement", {
@@ -1007,10 +1158,38 @@ const db = {
         "loveclab-item0int0chunks-limestone", {
           tempReq: 850.0,
           itmI: "loveclab-item0int0chunks-limestone",
+          liqO: "loveclab-gas0chem-carbon-dioxide",
           itmO: "loveclab-item0chem-lime",
         },
 
+        "loveclab-item0ore-pyrite", {
+          tag: "sulfur dioxide",
+          tempReq: 1000.0,
+          ci: [
+            "GROUP: oxygen", 1.5,
+          ],
+          bi: [
+            [
+              "loveclab-item0ore-pyrite", 2.0, 0.5,
+              "loveclab-item0int0conc-pyrite", 1.0, 1.0,
+              "loveclab-item0ore-pyrrhotite", 1.5, 0.5,
+              "loveclab-item0int0conc-pyrrhotite", 0.75, 1.0,
+            ], -1.0, -1.0,
+          ],
+          aux: [
+            "loveclab-aux0aux-dust-recycling", 1.0,
+          ],
+          liqO: "loveclab-gas0chem-sulfur-dioxide",
+          bo: [
+            "loveclab-item0was-pyrite-cinder", 1.5, 1.0,
+            "loveclab-item0was-dust", 0.5, 0.5,
+          ],
+        },
+
       ],
+
+
+      rockCrushing: [],
 
 
       smelting: [
@@ -1108,7 +1287,140 @@ const db = {
       ],
 
 
-      concentrateSmelting: [],
+      concentrateSmelting: [
+
+        /* specific */
+
+        "loveclab-item0was-pyrite-cinder", {
+          tempReq: 1600.0,
+          bi: [
+            "loveclab-item0was-pyrite-cinder", 2.0, 1.0,
+          ],
+          bo: [
+            "loveclab-item0chem-pig-iron", 2.0, 0.5,
+            "loveclab-item0was-slag", 0.75, 0.5,
+          ],
+        },
+
+        /* carbon */
+
+        "loveclab-item0int0conc-chalcopyrite", {
+          tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-chalcopyrite"),
+          itmI: "loveclab-item0int0conc-chalcopyrite",
+          bo: [
+            "loveclab-item0chem-copper", 1.0, 0.5,
+            "loveclab-item0was-slag", 0.25, 0.5,
+          ],
+        },
+
+        "loveclab-item0int0conc-native-copper", {
+          tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-native-copper"),
+          itmI: "loveclab-item0int0conc-native-copper",
+          bo: [
+            "loveclab-item0chem-copper", 2.0, 0.5,
+            "loveclab-item0was-slag", 0.125, 0.5,
+          ],
+        },
+
+        /* iron */
+
+        "loveclab-item0int0conc-hematite", {
+          tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-hematite"),
+          itmI: "loveclab-item0int0conc-hematite",
+          bo: [
+            "loveclab-item0chem-pig-iron", 2.0, 0.5,
+            "loveclab-item0was-slag", 0.5, 0.5,
+          ],
+        },
+
+        "loveclab-item0int0conc-limonite", {
+          tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-limonite"),
+          bi: [
+            "loveclab-item0int0conc-limonite", 2.0, 1.0,
+          ],
+          bo: [
+            "loveclab-item0chem-pig-iron", 2.0, 0.5,
+            "loveclab-item0was-slag", 0.75, 0.5,
+          ],
+        },
+
+        "loveclab-item0int0conc-magnetite", {
+          tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-magnetite"),
+          itmI: "loveclab-item0int0conc-magnetite",
+          bo: [
+            "loveclab-item0chem-pig-iron", 2.0, 0.5,
+            "loveclab-item0was-slag", 0.5, 0.5,
+          ],
+        },
+
+        "loveclab-item0int0conc-pyrite", {
+          tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-pyrite"),
+          bi: [
+            "loveclab-item0int0conc-pyrite", 1.5, 1.0,
+          ],
+          bo: [
+            "loveclab-item0chem-pig-iron", 2.0, 0.5,
+            "loveclab-item0was-slag", 0.75, 0.5,
+          ],
+        },
+
+        "loveclab-item0int0conc-pyrrhotite", {
+          tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-pyrrhotite"),
+          bi: [
+            "loveclab-item0int0conc-pyrrhotite", 1.5, 1.0,
+          ],
+          bo: [
+            "loveclab-item0chem-pig-iron", 2.0, 0.5,
+            "loveclab-item0was-slag", 0.75, 0.5,
+          ],
+        },
+
+        /* lead */
+
+        "loveclab-item0int0conc-galena", {
+          tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-galena"),
+          itmI: "loveclab-item0int0conc-galena",
+          bo: [
+            "loveclab-item0chem-lead", 1.5, 0.5,
+            "loveclab-item0was-slag", 0.25, 0.5,
+          ],
+        },
+
+        /* nickel */
+
+        "loveclab-item0int0conc-pentlandite", {
+          tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-pentlandite"),
+          itmI: "loveclab-item0int0conc-pentlandite",
+          bo: [
+            "loveclab-item0chem-nickel", 0.75, 0.5,
+            "loveclab-item0chem-pig-iron", 0.75, 0.5,
+            "loveclab-item0was-slag", 0.25, 0.5,
+          ],
+        },
+
+        /* tin */
+
+        "loveclab-item0int0conc-cassiterite", {
+          tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-cassiterite"),
+          itmI: "loveclab-item0int0conc-cassiterite",
+          bo: [
+            "loveclab-item0chem-tin", 1.5, 0.5,
+            "loveclab-item0was-slag", 0.25, 0.5,
+          ],
+        },
+
+        /* zinc */
+
+        "loveclab-item0int0conc-sphalerite", {
+          tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-sphalerite"),
+          itmI: "loveclab-item0int0conc-sphalerite",
+          bo: [
+            "loveclab-item0chem-zinc", 1.5, 0.5,
+            "loveclab-item0was-slag", 0.25, 0.5,
+          ],
+        },
+
+      ],
 
 
     },
@@ -1206,6 +1518,10 @@ const db = {
       "silica", ["loveclab-item0chem-silica-sand", {}],
       "silica", ["loveclab-item0chem-quartz-sand", {pScl: 0.5}],
 
+      "sodium carbonate", ["loveclab-item0chem-sodium-carbonate", {}],
+      "sodium carbonate", ["loveclab-item0chem-sodium-bicarbonate", {}],
+      "sodium carbonate", ["loveclab-item0ore-trona", {amtScl: 1.5}],
+
       /* ore material I */
 
       "apatite", ["loveclab-item0ore-fluorapatite", {}],
@@ -1251,8 +1567,11 @@ const db = {
 
       /* chemical */
 
-      "inert gas", ["loveclab-gas0chem-argon", {amtScl: 0.1}],
+      "inert gas", ["loveclab-gas0chem-argon", {amtScl: 0.25}],
       "inert gas", ["loveclab-gas0chem-nitrogen", {}],
+
+      "oxygen", ["loveclab-gas0chem-oxygen", {}],
+      "oxygen", ["loveclab-gas0misc-air", {amtScl: 6.0}],
 
     ],
 

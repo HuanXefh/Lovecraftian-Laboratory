@@ -21,11 +21,31 @@
   /* <---------- item0int ----------> */
 
 
+  const item0int_rawRubber = extendBase(
+    TEMPLATE, "item0int-raw-rubber",
+  );
+
+
+  /* inactivated */
+
+
   const item0int_activatedCarbonInactivated = extendBase(
     TEMPLATE, "item0int-activated-carbon-inactivated",
     TEMPLATE.build({
       intmdParent: "loveclab-item0chem-activated-carbon",
       tempTags: ["rs-intmd", "rs-inact"],
+    })
+  );
+
+
+  /* dried */
+
+
+  const item0int_biomassPowderDried = extendBase(
+    TEMPLATE, "item0int-biomass-powder-dried",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0bio-biomass-powder",
+      tempTags: ["rs-intmd", "rs-dry"],
     })
   );
 
@@ -36,9 +56,4 @@
       intmdParent: "loveclab-item0bio-sawdust",
       tempTags: ["rs-intmd", "rs-dry"],
     })
-  );
-
-
-  const item0int_rawRubber = extendBase(
-    TEMPLATE, "item0int-raw-rubber",
   );

@@ -131,6 +131,11 @@
   /* ball */
 
 
+  const item0cons_castIronBall = extendBase(
+    TEMPLATE, "item0cons-cast-iron-ball",
+  );
+
+
   const item0cons_mangalloyBall = extendBase(
     TEMPLATE, "item0cons-mangalloy-ball",
   );
@@ -172,6 +177,11 @@
 
   const item0chem_lead = extendBase(
     TEMPLATE, "item0chem-lead",
+  );
+
+
+  const item0chem_nickel = extendBase(
+    TEMPLATE, "item0chem-nickel",
   );
 
 

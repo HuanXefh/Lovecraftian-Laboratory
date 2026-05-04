@@ -6,7 +6,7 @@
 
 
   research: {
-    parent: item0chem-coal
+    parent: item0chem-coke
     objectives: []
   }
 

@@ -92,6 +92,11 @@
   );
 
 
+  const aux0aux_tubeFurnace = extendBase(
+    TEMPLATE, "aux0aux-tube-furnace",
+  );
+
+
   const aux0aux_vibrationScreen = extendBase(
     TEMPLATE, "aux0aux-vibration-screen",
   );

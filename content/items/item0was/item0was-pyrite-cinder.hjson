@@ -1,0 +1,11 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: gas0chem-sulfur-dioxide
+    objectives: []
+  }

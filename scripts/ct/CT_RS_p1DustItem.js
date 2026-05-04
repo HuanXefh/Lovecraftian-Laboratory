@@ -143,6 +143,17 @@
   );
 
 
+  /* lead */
+
+
+  const item0int0dust0p1_galena = extendBase(
+    TEMPLATE, "item0int0dust0p1-galena",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-galena",
+    }),
+  );
+
+
   /* manganese */
 
 

@@ -6,6 +6,6 @@
 
 
   research: {
-    parent: item0chem-copper
+    parent: item0cons-cast-iron-ball
     objectives: []
   }

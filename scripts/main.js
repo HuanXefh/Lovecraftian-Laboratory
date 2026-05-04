@@ -6,7 +6,7 @@
 
 
   if(!checkVersion("loveclab", [
-    "lovec", "101.1.26043001",
+    "lovec", "101.2",
   ])) return;
 
 
@@ -78,6 +78,11 @@
   require("loveclab/ct/CT_PLA_sun");
   require("loveclab/ct/CT_PLA_planet");
   require("loveclab/ct/CT_PLA_asteroid");
+
+
+  require("loveclab/ct/CT_BLK_materialBlock");
+  require("loveclab/ct/CT_BLK_partsBlock");
+  require("loveclab/ct/CT_BLK_rawOreBlock");
 
 
 /*

@@ -15,3 +15,13 @@ loveclab-gas0chem-hydrogen: H2
 loveclab-gas0chem-nitrogen: N2
 loveclab-gas0chem-oxygen: O2
 loveclab-gas0chem-ozone: O3
+
+/* <---------- gas0chem (inorganic) ----------> */
+
+/* carbon */
+
+loveclab-gas0chem-carbon-dioxide: CO2
+
+/* sulfur */
+
+loveclab-gas0chem-sulfur-dioxide: SO2

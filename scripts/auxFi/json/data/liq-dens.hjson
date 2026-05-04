@@ -16,3 +16,13 @@ loveclab-gas0chem-hydrogen: 0.00090
 loveclab-gas0chem-nitrogen: 0.00125
 loveclab-gas0chem-oxygen: 0.00143
 loveclab-gas0chem-ozone: 0.00214
+
+/* <---------- gas0chem (inorganic) ----------> */
+
+/* carbon */
+
+loveclab-gas0chem-carbon-dioxide: 0.00198
+
+/* sulfur */
+
+loveclab-gas0chem-sulfur-dioxide: 0.00262

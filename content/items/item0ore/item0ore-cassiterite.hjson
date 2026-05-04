@@ -6,6 +6,6 @@
 
 
   research: {
-    parent: item0ore-galena
+    parent: item0ore-sphalerite
     objectives: []
   }

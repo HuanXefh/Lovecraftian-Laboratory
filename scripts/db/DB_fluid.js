@@ -42,7 +42,15 @@ const db = {
       ],
 
 
-      acidGas: [],
+      acidGas: [
+
+        /* <---------- gas0chem (inorganic) ----------> */
+
+        /* sulfur */
+
+        "loveclab-gas0chem-sulfur-dioxide",
+
+      ],
 
 
       baseGas: [],

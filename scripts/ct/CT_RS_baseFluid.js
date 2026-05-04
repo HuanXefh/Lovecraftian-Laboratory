@@ -91,3 +91,22 @@
   const gas0chem_ozone = extendBase(
     TEMPLATE, "gas0chem-ozone",
   );
+
+
+  /* <---------- gas0chem (inorganic) ----------> */
+
+
+  /* carbon */
+
+
+  const gas0chem_carbonDioxide = extendBase(
+    TEMPLATE, "gas0chem-carbon-dioxide",
+  );
+
+
+  /* sulfur */
+
+
+  const gas0chem_sulfurDioxide = extendBase(
+    TEMPLATE, "gas0chem-sulfur-dioxide",
+  );

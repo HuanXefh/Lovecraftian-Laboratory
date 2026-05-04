@@ -6,6 +6,6 @@
 
 
   research: {
-    parent: item0ore-magnetite
+    parent: item0ore-limonite
     objectives: []
   }
