@@ -15,8 +15,7 @@
 */
 
 
-  damageTaken: 1.5
-  status: wet
+  status: melting
 
 
 /*
@@ -26,7 +25,7 @@
 */
 
 
-  variants: 4
+  variants: 2
 
 
 /*
@@ -36,6 +35,6 @@
 */
 
 
-  attributes: {
-    lovec-attr0env-heat: 0.6
-  }
+attributes: {
+  lovec-attr0env-heat: 10.0
+}

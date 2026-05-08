@@ -6,7 +6,7 @@
 
 
   if(!checkVersion("loveclab", [
-    "lovec", "101.2",
+    "lovec", "101.2.26050801",
   ])) return;
 
 
@@ -39,6 +39,7 @@
   require("loveclab/ct/CT_ENV_materialFloor");
   require("loveclab/ct/CT_ENV_liquidMaterialFloor");
   require("loveclab/ct/CT_ENV_vent");
+  require("loveclab/ct/CT_ENV_geyser");
   require("loveclab/ct/CT_ENV_wall");
   require("loveclab/ct/CT_ENV_heap");
   require("loveclab/ct/CT_ENV_grassHeap");

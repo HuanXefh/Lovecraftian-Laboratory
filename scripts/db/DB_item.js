@@ -353,6 +353,15 @@ const db = {
           payO: "loveclab-pay0mat-lead-block",
         },
 
+        "loveclab-pay0mat-scrap-steel-block", {
+          timeScl: 0.5,
+          tempReq: 1200.0,
+          payBi: [
+            "loveclab-item0was-scrap-steel", 10.0, 1.0,
+          ],
+          payO: "loveclab-pay0mat-scrap-steel-block",
+        },
+
         "loveclab-pay0mat-steel-block", {
           timeScl: 0.5,
           tempReq: 1200.0,

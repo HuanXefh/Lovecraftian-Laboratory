@@ -41,6 +41,11 @@
   );
 
 
+  const pay0mat_scrapSteelBlock = extendBlock(
+    TEMPLATE, "pay0mat-scrap-steel-block",
+  );
+
+
   const pay0mat_steelBlock = extendBlock(
     TEMPLATE, "pay0mat-steel-block",
   );
