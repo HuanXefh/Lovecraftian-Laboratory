@@ -9,6 +9,7 @@
 
 
   const TEMPLATE = require("lovec/temp/env/ENV_grass");
+  const TEMPLATE_A = require("lovec/temp/env/ENV_weed");
 
 
 /*
@@ -18,10 +19,7 @@
 */
 
 
-  /* <---------- env0grass ----------> */
-
-
-  /* river */
+  /* <---------- env0grass (dirt) ----------> */
 
 
   const env0grass_aerthCommonWeed = extendBase(
@@ -40,7 +38,7 @@
   );
 
 
-  /* river (cave) */
+  /* <---------- env0grass (rock) ----------> */
 
 
   const env0grass_violetStrand = extendBase(
@@ -59,12 +57,31 @@
   );
 
 
-  /* lava */
-
-
   const env0grass_flameThorn = extendBase(
     TEMPLATE, "env0grass-flame-thorn",
     TEMPLATE.build({
       layGrass: 57.68,
+    }),
+  );
+
+
+  /* <---------- env0weed (swamp) ----------> */
+
+
+  const env0weed_duckweed = extendBase(
+    TEMPLATE_A, "env0weed-duckweed",
+    TEMPLATE_A.build({
+      layGrass: 56.82,
+    }),
+  );
+
+
+  /* <---------- env0weed (sea) ----------> */
+
+
+  const env0weed_aerthWhiteAlgae = extendBase(
+    TEMPLATE_A, "env0weed-aerth-white-algae",
+    TEMPLATE_A.build({
+      layGrass: 57.54,
     }),
   );

@@ -88,3 +88,19 @@
       hidable: true,
     }),
   );
+
+
+  /* <---------- env0tree0fungi (sea) ----------> */
+
+
+  /* waterborne */
+
+
+  const env0tree0fungi_aquaticNightmare = extendBase(
+    TEMPLATE, "env0tree0fungi-aquatic-nightmare",
+    TEMPLATE.build({
+      layTree: 78.02,
+      radTree: 28.5,
+      hidable: true,
+    }),
+  );

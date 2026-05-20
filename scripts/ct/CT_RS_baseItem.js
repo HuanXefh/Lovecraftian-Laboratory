@@ -51,6 +51,11 @@
   );
 
 
+  const item0bio_algae = extendBase(
+    TEMPLATE, "item0bio-algae",
+  );
+
+
   /* <---------- item0buil ----------> */
 
 

@@ -24,6 +24,11 @@
   /* carbon */
 
 
+  const env0ore_peat = extendBase(
+    TEMPLATE, "env0ore-peat",
+  );
+
+
   const env0ore_lignite = extendBase(
     TEMPLATE, "env0ore-lignite",
   );

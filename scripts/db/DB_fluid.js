@@ -17,6 +17,10 @@ const db = {
         "loveclab-liq0ore-sea-water",
         "loveclab-liq0ore-brine",
 
+        /* <---------- liq0waste ----------> */
+
+        "loveclab-liq0was-bittern",
+
         /* <---------- liq0int ----------> */
 
         "loveclab-liq0int-purified-brine",

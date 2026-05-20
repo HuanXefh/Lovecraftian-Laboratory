@@ -327,6 +327,49 @@ const db = {
       condensation: [],
 
 
+      dryingItem: [
+
+        "loveclab-item0bio-sawdust", {
+          itmI: "loveclab-item0bio-sawdust",
+          itmO: "loveclab-item0int-sawdust-dried",
+        },
+
+        "loveclab-item0bio-biomass-powder", {
+          itmI: "loveclab-item0bio-biomass-powder",
+          itmO: "loveclab-item0int-biomass-powder-dried",
+        },
+
+      ],
+
+
+      dryingLiquid: [],
+
+
+      dryingLiquidAcidic: [],
+
+
+      dryingLiquidBasic: [],
+
+
+      dryingGas: [],
+
+
+      dryingGasAcidic: [],
+
+
+      dryingGasBasic: [],
+
+
+      dryingFreeze: [
+
+        "loveclab-gas0int-air-dry", {
+          liqI: "loveclab-gas0int-air-clean",
+          liqO: "loveclab-gas0int-air-dry",
+        },
+
+      ],
+
+
       filtration: [],
 
 
@@ -1144,6 +1187,25 @@ const db = {
       ],
 
 
+      reactionBurnGas: [],
+
+
+      reactionBurnLiquid: [],
+
+
+      reactionBurnSolid: [
+
+        "loveclab-item0chem-sulfur", {
+          itmI: "loveclab-item0chem-sulfur",
+          co: [
+            "loveclab-gas0chem-sulfur-dioxide", 0.5,
+          ],
+          heatO: 1400.0,
+        },
+
+      ],
+
+
       roasting: [
 
         "loveclab-item0int0blend-cement", {
@@ -1491,6 +1553,7 @@ const db = {
 
       "loveclab-item0bio-log", 1.0,
       "loveclab-item0bio-hypha-rod", 1.0,
+      "loveclab-item0bio-algae", 0.5,
 
     ],
 
