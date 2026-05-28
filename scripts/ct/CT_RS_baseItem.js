@@ -18,6 +18,17 @@
 */
 
 
+  processModCur();
+
+
+  const item_locked = extendBase(
+    TEMPLATE, "item-locked",
+  );
+
+
+  processModCur();
+
+
   /* <---------- item0bio ----------> */
 
 
