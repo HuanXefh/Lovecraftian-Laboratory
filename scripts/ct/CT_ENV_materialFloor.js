@@ -124,6 +124,7 @@
     TEMPLATE, "env0flr-placer-red",
     TEMPLATE.build({
       matGrp: "gravel",
+      dropHardness: 1,
     }),
   );
 

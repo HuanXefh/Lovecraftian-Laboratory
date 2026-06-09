@@ -47,6 +47,7 @@
     TEMPLATE.build({
       ventSize: 2,
       ventRs: "loveclab-gas0misc-steam",
+      dropHardness: 1,
     }),
   );
 

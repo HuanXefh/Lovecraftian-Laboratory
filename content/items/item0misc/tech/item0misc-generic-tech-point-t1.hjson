@@ -6,6 +6,6 @@
 
 
   research: {
-    parent: item0chem-wrought-iron
+    parent: item0ore-clay
     objectives: []
   }

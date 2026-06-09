@@ -21,6 +21,7 @@ loveclab-liq0was-waste-water: 5.0
 /* sulfur */
 
 loveclab-gas0chem-sulfur-dioxide: 3.5
+loveclab-gas0chem-sulfur-trioxide: 8.0
 
 /* <---------- gas0was ----------> */
 

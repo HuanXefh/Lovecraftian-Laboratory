@@ -157,6 +157,35 @@
   );
 
 
+  /* misc */
+
+
+  const item0cons_asbestosDiaphragm = extendBase(
+    TEMPLATE, "item0cons-asbestos-diaphragm",
+  );
+
+
+  /* <---------- item0misc ----------> */
+
+
+  /* tech point */
+
+
+  const item0misc_genericTechPointT1 = extendBase(
+    TEMPLATE, "item0misc-generic-tech-point-t1",
+  );
+
+
+  const item0misc_engineeringTechPointT1 = extendBase(
+    TEMPLATE, "item0misc-engineering-tech-point-t1",
+  );
+
+
+  const item0misc_chemistryTechPointT1 = extendBase(
+    TEMPLATE, "item0misc-chemistry-tech-point-t1",
+  );
+
+
   /* <---------- item0chem (elementary) ----------> */
 
 
@@ -272,6 +301,16 @@
 
   const item0chem_mangalloy = extendBase(
     TEMPLATE, "item0chem-mangalloy",
+  );
+
+
+  const item0chem_ferrochrome = extendBase(
+    TEMPLATE, "item0chem-ferrochrome",
+  );
+
+
+  const item0chem_stainlessSteel = extendBase(
+    TEMPLATE, "item0chem-stainless-steel",
   );
 
 

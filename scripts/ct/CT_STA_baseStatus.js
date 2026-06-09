@@ -21,6 +21,11 @@
   /* <---------- sta ----------> */
 
 
+  const sta_noConstruction = extendBase(
+    TEMPLATE, "sta-no-construction",
+  );
+
+
   const sta_damaged = extendBase(
     TEMPLATE, "sta-damaged",
     TEMPLATE.build({

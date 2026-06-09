@@ -17,3 +17,9 @@ loveclab-gas0int-superheated-steam: 450.0
 loveclab-gas0int-steam-hp: 160.0
 loveclab-gas0int-steam-mp: 140.0
 loveclab-gas0int-steam-lp: 120.0
+
+/* <---------- gas0chem (inorganic) ----------> */
+
+/* sulfur */
+
+loveclab-gas0chem-sulfur-trioxide: 225.0

@@ -24,6 +24,7 @@
   const unit0core_outpostI = extendUnit(
     TEMPLATE, "unit0core-outpost-i",
     TEMPLATE.build({
+      jetTrailVelThr: 1.5,
       baseShieldA: 0.3,
       shieldRadScl: 1.1,
     }),

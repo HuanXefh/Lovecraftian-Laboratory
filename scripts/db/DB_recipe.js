@@ -11,6 +11,14 @@ const db = {
 
       /* <---------- item ----------> */
 
+      /* consumable */
+
+      "graphite electrode", ["loveclab-item0cons-graphite-electrode", {}],
+      "graphite electrode", ["loveclab-item0cons-natural-graphite-electrode", {}],
+
+      "graphite electrode (electrolysis)", ["loveclab-item0cons-graphite-electrode", {}],
+      "graphite electrode (electrolysis)", ["loveclab-item0cons-natural-graphite-electrode", {pScl: 5.0}],
+
       /* chemical */
 
       "carbon", ["loveclab-item0chem-coke", {pScl: 0.5}],
@@ -37,8 +45,8 @@ const db = {
       "apatite (chunks)", ["loveclab-item0int0chunks-fluorapatite", {}],
       "apatite (chunks)", ["loveclab-item0int0chunks-hydroxyapatite", {}],
 
-      "salt", ["loveclan-item0ore-salt", {}],
-      "salt", ["loveclan-item0ore-sea-salt", {}],
+      "salt", ["loveclab-item0ore-salt", {}],
+      "salt", ["loveclab-item0ore-sea-salt", {}],
 
       "sand", ["loveclab-item0ore-sand-river", {}],
       "sand", ["loveclab-item0buil-fine-aggregate", {}],
@@ -721,7 +729,7 @@ const db = {
           "loveclab-item0int0dust0p1-pyrolusite", 1.0, 1.0,
           "loveclab-item0was-gangue", 0.25, 0.25,
           "loveclab-item0ore-hematite", 0.25, 0.25,
-          "loveclab-item0ore-chromite", 0.125, 0.25,
+          "loveclab-item0ore-chromite", 0.25, 0.25,
         ],
       },
 
@@ -1160,6 +1168,39 @@ const db = {
           "loveclab-item0chem-mangalloy", 0.5, 0.5,
           "loveclab-item0was-slag", 0.5, 0.75,
         ]
+      },
+
+      "loveclab-item0chem-ferrochrome", {
+        categ: "steelmaking",
+        tempReq: 1600.0,
+        bi: [
+          "loveclab-item0ore-chromite", 1.0, 1.0,
+          [
+            "loveclab-item0ore-limestone", 1.5, 0.5,
+            "loveclab-item0chem-lime", 0.75, 0.5,
+          ], -1.0, -1.0,
+          [
+            "loveclab-item0chem-graphite", 0.25, 0.5,
+            "GROUP: carbon", 0.5, 1.0,
+          ], -1.0, -1.0,
+        ],
+        bo: [
+          "loveclab-item0chem-ferrochrome", 0.5, 0.5,
+          "loveclab-item0was-slag", 0.75, 0.5,
+        ],
+      },
+
+      "loveclab-item0chem-stainless-steel", {
+        categ: "steelmaking",
+        tempReq: 1600.0,
+        bi: [
+          "loveclab-item0chem-ferrochrome", 0.5, 1.0,
+          "loveclab-item0chem-wrought-iron", 1.0, 1.0,
+        ],
+        bo: [
+          "loveclab-item0chem-stainless-steel", 0.25, 0.25,
+          "loveclab-item0was-scrap-steel", 1.25, 0.5,
+        ],
       },
 
     ],

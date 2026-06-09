@@ -110,3 +110,8 @@
   const gas0chem_sulfurDioxide = extendBase(
     TEMPLATE, "gas0chem-sulfur-dioxide",
   );
+
+
+  const gas0chem_sulfurTrioxide = extendBase(
+    TEMPLATE, "gas0chem-sulfur-trioxide",
+  );

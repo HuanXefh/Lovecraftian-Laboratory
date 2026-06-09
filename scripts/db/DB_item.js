@@ -40,6 +40,10 @@ const db = {
 
         "loveclab-item0chem-sulfur", [4.0, 14.0],
 
+        /* <---------- item0ore ----------> */
+
+        "loveclab-item0ore-raw-coal", [5.0, 8.0],
+
       ],
 
 

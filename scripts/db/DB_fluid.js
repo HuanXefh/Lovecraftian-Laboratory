@@ -53,6 +53,7 @@ const db = {
         /* sulfur */
 
         "loveclab-gas0chem-sulfur-dioxide",
+        "loveclab-gas0chem-sulfur-trioxide",
 
       ],
 
@@ -138,13 +139,27 @@ const db = {
         "loveclab-gas0chem-oxygen",
         "loveclab-gas0chem-ozone",
 
+        /* <---------- gas0chem (inorganic) ----------> */
+
+        /* sulfur */
+
+        "loveclab-gas0chem-sulfur-trioxide",
+
       ],
 
 
       reductive: [],
 
 
-      dehydrative: [],
+      dehydrative: [
+
+        /* <---------- gas0chem (inorganic) ----------> */
+
+        /* sulfur */
+
+        "loveclab-gas0chem-sulfur-trioxide",
+
+      ],
 
 
     },

@@ -25,3 +25,4 @@ loveclab-gas0chem-carbon-dioxide: CO2
 /* sulfur */
 
 loveclab-gas0chem-sulfur-dioxide: SO2
+loveclab-gas0chem-sulfur-trioxide: SO3
