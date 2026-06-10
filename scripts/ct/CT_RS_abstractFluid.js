@@ -87,6 +87,11 @@
   );
 
 
+  const aux0aux_meltCooling = extendBase(
+    TEMPLATE, "aux0aux-melt-cooling",
+  );
+
+
   const aux0aux_pollutionDetection = extendBase(
     TEMPLATE, "aux0aux-pollution-detection",
   );
