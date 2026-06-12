@@ -6,6 +6,6 @@
 
 
   research: {
-    parent: item0cons-copper-electrode
+    parent: item0cons-natural-graphite-electrode
     objectives: []
   }

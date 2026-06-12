@@ -157,6 +157,34 @@
   );
 
 
+  /* electrode */
+
+
+  const item0cons_copperElectrode = extendBase(
+    TEMPLATE, "item0cons-copper-electrode",
+  );
+
+
+  const item0cons_leadElectrode = extendBase(
+    TEMPLATE, "item0cons-lead-electrode",
+  );
+
+
+  const item0cons_ironElectrode = extendBase(
+    TEMPLATE, "item0cons-iron-electrode",
+  );
+
+
+  const item0cons_naturalGraphiteElectrode = extendBase(
+    TEMPLATE, "item0cons-natural-graphite-electrode",
+  );
+
+
+  const item0cons_graphiteElectrode = extendBase(
+    TEMPLATE, "item0cons-graphite-electrode",
+  );
+
+
   /* misc */
 
 
@@ -176,13 +204,33 @@
   );
 
 
+  const item0misc_genericTechPointT2 = extendBase(
+    TEMPLATE, "item0misc-generic-tech-point-t2",
+  );
+
+
   const item0misc_engineeringTechPointT1 = extendBase(
     TEMPLATE, "item0misc-engineering-tech-point-t1",
   );
 
 
+  const item0misc_engineeringTechPointT2 = extendBase(
+    TEMPLATE, "item0misc-engineering-tech-point-t2",
+  );
+
+
   const item0misc_chemistryTechPointT1 = extendBase(
     TEMPLATE, "item0misc-chemistry-tech-point-t1",
+  );
+
+
+  const item0misc_chemistryTechPointT2 = extendBase(
+    TEMPLATE, "item0misc-chemistry-tech-point-t2",
+  );
+
+
+  const item0misc_agricultureTechPointT2 = extendBase(
+    TEMPLATE, "item0misc-agriculture-tech-point-t2",
   );
 
 

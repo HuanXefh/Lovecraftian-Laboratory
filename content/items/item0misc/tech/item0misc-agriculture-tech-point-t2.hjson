@@ -6,6 +6,6 @@
 
 
   research: {
-    parent: item0cons-copper-electrode
+    parent: item0misc-generic-tech-point-t2
     objectives: []
   }

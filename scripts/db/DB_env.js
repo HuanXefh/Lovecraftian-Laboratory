@@ -1,4 +1,4 @@
-const noiseArgs = {
+const LOVEC_NOISE_ARGS = {
   anthimyst: {
     cloud: [
       "clouds", Color.white, 1750.0, 0.02, 0.5, 1.0, 7.0, -0.2, 0.0,
@@ -16,7 +16,7 @@ const noiseArgs = {
 };
 
 
-const weas = {
+const LOVEC_WEAS = {
   anthimyst: {
     base: [
       "loveclab-wea0amb-anthimyst-normal",
@@ -60,28 +60,28 @@ const db = {
 
       noise: [
 
-        "camp-atm001-sector-beta", noiseArgs["anthimyst"]["cloud"],
-        "projreind-camp-atm001-sector-beta", noiseArgs["anthimyst"]["cloud"],
+        "camp-atm001-sector-beta", LOVEC_NOISE_ARGS["anthimyst"]["cloud"],
+        "projreind-camp-atm001-sector-beta", LOVEC_NOISE_ARGS["anthimyst"]["cloud"],
 
-        "camp-atm001a-pahfer-lake", noiseArgs["anthimyst"]["cloud"],
-        "projreind-camp-atm001a-pahfer-lake", noiseArgs["anthimyst"]["cloud"],
+        "camp-atm001a-pahfer-lake", LOVEC_NOISE_ARGS["anthimyst"]["cloud"],
+        "projreind-camp-atm001a-pahfer-lake", LOVEC_NOISE_ARGS["anthimyst"]["cloud"],
 
-        "camp-atm002-lantern-cave", noiseArgs["anthimyst"]["fog"],
-        "projreind-camp-atm002-lantern-cave", noiseArgs["anthimyst"]["fog"],
+        "camp-atm002-lantern-cave", LOVEC_NOISE_ARGS["anthimyst"]["fog"],
+        "projreind-camp-atm002-lantern-cave", LOVEC_NOISE_ARGS["anthimyst"]["fog"],
 
       ],
 
 
       weaEn: [
 
-        "camp-atm001-sector-beta", weas["anthimyst"]["rain"],
-        "projreind-camp-atm001-sector-beta", weas["anthimyst"]["rain"],
+        "camp-atm001-sector-beta", LOVEC_WEAS["anthimyst"]["rain"],
+        "projreind-camp-atm001-sector-beta", LOVEC_WEAS["anthimyst"]["rain"],
 
-        "camp-atm001a-pahfer-lake", weas["anthimyst"]["rain"],
-        "camp-atm001a-pahfer-lake", weas["anthimyst"]["rain"],
+        "camp-atm001a-pahfer-lake", LOVEC_WEAS["anthimyst"]["rain"],
+        "camp-atm001a-pahfer-lake", LOVEC_WEAS["anthimyst"]["rain"],
 
-        "camp-atm002-lantern-cave", weas["anthimyst"]["base"],
-        "projreind-camp-atm002-lantern-cave", weas["anthimyst"]["base"],
+        "camp-atm002-lantern-cave", LOVEC_WEAS["anthimyst"]["base"],
+        "projreind-camp-atm002-lantern-cave", LOVEC_WEAS["anthimyst"]["base"],
 
       ],
 
@@ -107,7 +107,7 @@ const db = {
     rule: {
 
 
-      campaignRule: [
+      campaign: [
 
         "loveclab-pla0ter-anthimyst", rules => {
           rules.fog = true;
@@ -118,15 +118,17 @@ const db = {
       ],
 
 
-      planetRule: [
+      planet: [
 
         "loveclab-pla0ter-anthimyst", rules => {
           rules.fog = true;
           rules.randomWaveAI = true;
 
+          rules.pauseDisabled = true;
           rules.derelictRepair = false;
           rules.placeRangeCheck = true;
           rules.coreIncinerates = true;
+          rules.deconstructRefundMultiplier = 1.0;
         },
 
       ],

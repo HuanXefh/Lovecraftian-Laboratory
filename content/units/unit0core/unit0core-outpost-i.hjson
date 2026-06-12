@@ -36,7 +36,7 @@
   rotateSpeed: 6.4
   accel: 0.5
   drag: 0.5
-  itemCapacity: 300
+  itemCapacity: 500
 
 
 /*

@@ -101,6 +101,113 @@ const db = {
   genData: {
 
 
+    assembly: {
+
+
+      ammunition: [],
+
+
+      electrode: [
+
+        "loveclab-item0cons-copper-electrode", {
+          bi: [
+            "loveclab-item0chem-copper", 10.0, 1.0,
+          ],
+          itmO: "loveclab-item0cons-copper-electrode",
+        },
+
+        "loveclab-item0cons-lead-electrode", {
+          bi: [
+            "loveclab-item0chem-lead", 10.0, 1.0,
+          ],
+          itmO: "loveclab-item0cons-lead-electrode",
+        },
+
+        "loveclab-item0cons-iron-electrode", {
+          bi: [
+            "loveclab-item0chem-wrought-iron", 10.0, 1.0,
+          ],
+          itmO: "loveclab-item0cons-iron-electrode",
+        },
+
+      ],
+
+
+      membrane: [
+
+        "loveclab-item0cons-asbestos-diaphragm", {
+          bi: [
+            "loveclab-item0chem-asbestos-wool", 20.0, 1.0,
+            "loveclab-item0chem-steel", 5, 1.0,
+          ],
+          itmO: "loveclab-item0cons-asbestos-diaphragm",
+        },
+
+      ],
+
+
+      brickBlock: [
+
+        "loveclab-pay0mat-brick-clay", {
+          bi: [
+            "loveclab-item0buil-brick-clay", 10.0, 1.0,
+          ],
+          payo: [
+            "loveclab-pay0mat-brick-clay", 1.0,
+          ],
+        },
+
+        "loveclab-pay0mat-brick-magnesia", {
+          bi: [
+            "loveclab-item0buil-brick-magnesia", 10.0, 1.0,
+          ],
+          payo: [
+            "loveclab-pay0mat-brick-magnesia", 1.0,
+          ],
+        },
+
+        "loveclab-pay0mat-brick-high-alumina", {
+          bi: [
+            "loveclab-item0buil-brick-high-alumina", 10.0, 1.0,
+          ],
+          payo: [
+            "loveclab-pay0mat-brick-high-alumina", 1.0,
+          ],
+        },
+
+        "loveclab-pay0mat-brick-mullite", {
+          bi: [
+            "loveclab-item0buil-brick-mullite", 10.0, 1.0,
+          ],
+          payo: [
+            "loveclab-pay0mat-brick-mullite", 1.0,
+          ],
+        },
+
+        "loveclab-pay0mat-brick-silica", {
+          bi: [
+            "loveclab-item0buil-brick-silica", 10.0, 1.0,
+          ],
+          payo: [
+            "loveclab-pay0mat-brick-silica", 1.0,
+          ],
+        },
+
+        "loveclab-pay0mat-brick-carbon", {
+          bi: [
+            "loveclab-item0buil-brick-carbon", 10.0, 1.0,
+          ],
+          payo: [
+            "loveclab-pay0mat-brick-carbon", 1.0,
+          ],
+        },
+
+      ],
+
+
+    },
+
+
     alloying: [
 
       "loveclab-item0chem-brass", {
@@ -612,6 +719,7 @@ const db = {
           "loveclab-item0chem-lignite", 0.5, 0.75,
           "loveclab-item0ore-crude-graphite", 0.25, 0.25,
           "loveclab-item0ore-pyrite", 0.25, 0.25,
+          "loveclab-item0ore-crude-sulfur", 0.125, 0.25,
         ],
       },
 
