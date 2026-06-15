@@ -28,6 +28,11 @@ const db = {
       "copper", ["loveclab-item0chem-copper", {}],
       "copper", ["loveclab-item0ore-native-copper", {amtScl: 1.5}],
 
+      "mineral wool", ["loveclab-item0chem-asbestos-wool", {amtScl: 2.0}],
+      "mineral wool", ["loveclab-item0chem-stone-wool", {}],
+      "mineral wool", ["loveclab-item0chem-slag-wool", {}],
+      "mineral wool", ["loveclab-item0chem-glass-wool", {amtScl: 0.5}],
+
       "pig iron", ["loveclab-item0chem-pig-iron", {}],
       "pig iron", ["loveclab-item0ore-meteoric-iron", {amtScl: 1.5}],
 
@@ -662,6 +667,11 @@ const db = {
 
       "loveclab-item0int0dust-sand", {
         hardness: 0,
+        keyRs: [
+          "loveclab-item0ore-sand",
+          "loveclab-item0ore-sand-river",
+          "loveclab-item0ore-sand-sea",
+        ],
         bi: [
           [
             "loveclab-item0ore-sand", 1.0, 1.0,
@@ -676,6 +686,7 @@ const db = {
 
       "loveclab-item0int0dust-zircon", {
         hardness: DB_HANDLER.read("itm-hardness", "loveclab-item0ore-zircon"),
+        keyRs: "loveclab-item0int0chunks-zircon",
         bi: [
           "loveclab-item0int0chunks-zircon", 1.0, 1.0,
         ],
@@ -686,6 +697,7 @@ const db = {
 
       "loveclab-item0chem-talcum-powder", {
         hardness: DB_HANDLER.read("itm-hardness", "loveclab-item0ore-talc"),
+        keyRs: "loveclab-item0int0dust-talc",
         bi: [
           "loveclab-item0int0dust-talc", 1.0, 1.0,
         ],

@@ -121,7 +121,9 @@ const db = {
       planet: [
 
         "loveclab-pla0ter-anthimyst", rules => {
-          rules.fog = true;
+          Time.run(5.0, () => {
+            rules.fog = !db["group"]["map"]["cave"].includes(global.lovecUtil.fun._mapCur());
+          });
           rules.randomWaveAI = true;
 
           rules.pauseDisabled = true;

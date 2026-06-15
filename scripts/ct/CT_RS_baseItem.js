@@ -393,13 +393,31 @@
   );
 
 
+  const item0chem_talcumPowder = extendBase(
+    TEMPLATE, "item0chem-talcum-powder",
+  );
+
+
+  /* mineral wool */
+
+
   const item0chem_asbestosWool = extendBase(
     TEMPLATE, "item0chem-asbestos-wool",
   );
 
 
-  const item0chem_talcumPowder = extendBase(
-    TEMPLATE, "item0chem-talcum-powder",
+  const item0chem_stoneWool = extendBase(
+    TEMPLATE, "item0chem-stone-wool",
+  );
+
+
+  const item0chem_slagWool = extendBase(
+    TEMPLATE, "item0chem-slag-wool",
+  );
+
+
+  const item0chem_glassWool = extendBase(
+    TEMPLATE, "item0chem-glass-wool",
   );
 
 

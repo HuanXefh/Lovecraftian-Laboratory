@@ -6,7 +6,7 @@
 
 
   if(!checkVersion("loveclab", [
-    "lovec", "101.3.26061201",
+    "lovec", "101.3.26061501",
   ])) return;
 
 
