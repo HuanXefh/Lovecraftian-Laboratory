@@ -18,7 +18,7 @@
 */
 
 
-  /* <---------- env0tree (cliff) ----------> */
+  /* <---------- cliff ----------> */
 
 
   const env0tree_nester = extendBase(
@@ -40,7 +40,7 @@
   );
 
 
-  /* <---------- env0tree (dirt) ----------> */
+  /* <---------- dirt ----------> */
 
 
   const env0tree_brownSnake = extendBase(
@@ -82,7 +82,7 @@
   );
 
 
-  /* <---------- env0tree (swamp) ----------> */
+  /* <---------- swamp ----------> */
 
 
   const env0tree_saladTree = extendBase(
@@ -95,9 +95,7 @@
   );
 
 
-  /* waterborne */
-
-
+  // Waterborne
   const env0tree_greenScale = extendBase(
     TEMPLATE, "env0tree-green-scale",
     TEMPLATE.build({
@@ -108,7 +106,7 @@
   );
 
 
-  /* <---------- env0tree (sand) ----------> */
+  /* <---------- sand ----------> */
 
 
   const env0tree_duneShield = extendBase(
@@ -120,7 +118,7 @@
   );
 
 
-  /* <---------- env0tree (sea) ----------> */
+  /* <---------- sea ----------> */
 
 
   const env0tree_shellTree = extendBase(

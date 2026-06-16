@@ -18,7 +18,7 @@
 */
 
 
-  /* <---------- env0tree0fungi (dirt) ----------> */
+  /* <---------- dirt ----------> */
 
 
   const env0tree0fungi_giantAerthShiitake = extendBase(
@@ -49,7 +49,7 @@
   );
 
 
-  /* <---------- env0tree0fungi (rock) ----------> */
+  /* <---------- rock ----------> */
 
 
   const env0tree0fungi_clusteredNebula = extendBase(
@@ -90,12 +90,10 @@
   );
 
 
-  /* <---------- env0tree0fungi (sea) ----------> */
+  /* <---------- sea ----------> */
 
 
-  /* waterborne */
-
-
+  // Waterborne
   const env0tree0fungi_aquaticNightmare = extendBase(
     TEMPLATE, "env0tree0fungi-aquatic-nightmare",
     TEMPLATE.build({

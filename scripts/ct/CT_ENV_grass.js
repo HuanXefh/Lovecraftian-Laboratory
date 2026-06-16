@@ -19,7 +19,7 @@
 */
 
 
-  /* <---------- env0grass (dirt) ----------> */
+  /* <---------- dirt ----------> */
 
 
   const env0grass_aerthCommonWeed = extendBase(
@@ -38,7 +38,7 @@
   );
 
 
-  /* <---------- env0grass (rock) ----------> */
+  /* <---------- rock ----------> */
 
 
   const env0grass_violetStrand = extendBase(
@@ -65,18 +65,45 @@
   );
 
 
-  /* <---------- env0weed (swamp) ----------> */
+  /* <---------- river ----------> */
+
+
+  const env0weed_lilypad = extendBase(
+    TEMPLATE_A, "env0weed-lilypad",
+    TEMPLATE_A.build({
+      layGrass: 2.05,
+    }),
+  );
+
+
+  const env0grass_aerthLotusSmall = extendBase(
+    TEMPLATE, "env0grass-aerth-lotus-small",
+    TEMPLATE.build({
+      layGrass: 56.55,
+    }),
+  );
+
+
+  const env0grass_aerthLotus = extendBase(
+    TEMPLATE, "env0grass-aerth-lotus",
+    TEMPLATE.build({
+      layGrass: 57.89,
+    }),
+  );
+
+
+  /* <---------- swamp ----------> */
 
 
   const env0weed_duckweed = extendBase(
     TEMPLATE_A, "env0weed-duckweed",
     TEMPLATE_A.build({
-      layGrass: 56.82,
+      layGrass: 2.02,
     }),
   );
 
 
-  /* <---------- env0weed (sea) ----------> */
+  /* <---------- sea ----------> */
 
 
   const env0weed_aerthWhiteAlgae = extendBase(

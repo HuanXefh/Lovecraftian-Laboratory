@@ -18,10 +18,7 @@
 */
 
 
-  /* <---------- env0tree0bush ----------> */
-
-
-  /* rock */
+  /* <---------- rock ----------> */
 
 
   const env0tree0bush_rockyFurn = extendBase(
