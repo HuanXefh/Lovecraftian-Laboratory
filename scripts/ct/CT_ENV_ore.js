@@ -62,6 +62,14 @@
   );
 
 
+  /* chromium */
+
+
+  const env0ore_chromite = extendBase(
+    TEMPLATE, "env0ore-chromite",
+  );
+
+
   /* iron */
 
 
@@ -116,6 +124,22 @@
   );
 
 
+  /* mercury */
+
+
+  const env0ore_cinnabar = extendBase(
+    TEMPLATE, "env0ore-cinnabar",
+  );
+
+
+  /* sulfur */
+
+
+  const env0ore_crudeSulfur = extendBase(
+    TEMPLATE, "env0ore-crude-sulfur",
+  );
+
+
   /* tin */
 
 
@@ -134,6 +158,19 @@
 
   const env0ore_rutile = extendBase(
     TEMPLATE, "env0ore-rutile",
+  );
+
+
+  /* tungsten */
+
+
+  const env0ore_scheelite = extendBase(
+    TEMPLATE, "env0ore-scheelite",
+  );
+
+
+  const env0ore_wolframite = extendBase(
+    TEMPLATE, "env0ore-wolframite",
   );
 
 

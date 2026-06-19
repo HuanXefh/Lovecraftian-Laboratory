@@ -460,7 +460,7 @@ const db = {
 
     dryingFreeze: [
 
-      "loveclab-gas0int-air-dry", {
+      "loveclab-gas0int-air-clean", {
         liqI: "loveclab-gas0int-air-clean",
         liqO: "loveclab-gas0int-air-dry",
       },
@@ -660,6 +660,16 @@ const db = {
         liqO: "loveclab-liq0int-purified-brine",
       },
 
+      "loveclab-item0chem-lime", {
+        ci: [
+          "loveclab-liq0ore-water", 1.0,
+        ],
+        bi: [
+          "loveclab-item0chem-lime", 1.0, 1.0,
+        ],
+        liqO: "loveclab-liq0int0sol-slaked-lime",
+      },
+
     ],
 
 
@@ -667,7 +677,7 @@ const db = {
 
       "loveclab-item0int0dust-sand", {
         hardness: 0,
-        keyRs: [
+        keyCt: [
           "loveclab-item0ore-sand",
           "loveclab-item0ore-sand-river",
           "loveclab-item0ore-sand-sea",
@@ -686,7 +696,7 @@ const db = {
 
       "loveclab-item0int0dust-zircon", {
         hardness: DB_HANDLER.read("itm-hardness", "loveclab-item0ore-zircon"),
-        keyRs: "loveclab-item0int0chunks-zircon",
+        keyCt: "loveclab-item0int0chunks-zircon",
         bi: [
           "loveclab-item0int0chunks-zircon", 1.0, 1.0,
         ],
@@ -697,7 +707,7 @@ const db = {
 
       "loveclab-item0chem-talcum-powder", {
         hardness: DB_HANDLER.read("itm-hardness", "loveclab-item0ore-talc"),
-        keyRs: "loveclab-item0int0dust-talc",
+        keyCt: "loveclab-item0int0dust-talc",
         bi: [
           "loveclab-item0int0dust-talc", 1.0, 1.0,
         ],
@@ -1374,6 +1384,12 @@ const db = {
 
       "loveclab-item0ore-pyrite", {
         tag: "sulfur dioxide",
+        keyCt: [
+          "loveclab-item0ore-pyrite",
+          "loveclab-item0int0conc-pyrite",
+          "loveclab-item0ore-pyrrhotite",
+          "loveclab-item0int0conc-pyrrhotite",
+        ],
         tempReq: 1000.0,
         ci: [
           "GROUP: oxygen", 1.5,
