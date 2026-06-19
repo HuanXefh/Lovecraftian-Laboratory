@@ -385,7 +385,8 @@ const db = {
         ],
         tempReq: 900.0,
         payBi: [
-          "loveclab-item0chem-brass", 10.0, 1.0,
+          "loveclab-item0chem-brass", 15.0, 1.0,
+          "loveclab-item0chem-steel", 5.0, 1.0,
         ],
         payO: "projreind-pow0tor-brass-cogwheel",
       },
@@ -397,8 +398,8 @@ const db = {
         ],
         tempReq: 1600.0,
         payBi: [
-          "loveclab-item0chem-brass", 25.0, 1.0,
-          "loveclab-item0chem-steel", 5.0, 1.0,
+          "loveclab-item0chem-brass", 30.0, 1.0,
+          "loveclab-item0chem-steel", 10.0, 1.0,
         ],
         payO: "projreind-pow0tor-large-brass-cogwheel",
       },

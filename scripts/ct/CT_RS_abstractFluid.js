@@ -27,7 +27,7 @@
   const aux0aux_pressure = extendBase(
     TEMPLATE, "aux0aux-pressure",
     TEMPLATE.build({
-      tempTags: ["rs-aux", "rs-nocap0aux"],
+      tempTags: ["rs-aux", "rs-aux-nocap"],
     }),
   );
 
@@ -35,7 +35,7 @@
   const aux0aux_vacuum = extendBase(
     TEMPLATE, "aux0aux-vacuum",
     TEMPLATE.build({
-      tempTags: ["rs-aux", "rs-nocap0aux"],
+      tempTags: ["rs-aux", "rs-aux-nocap"],
     }),
   );
 
@@ -43,7 +43,7 @@
   const aux0aux_heat = extendBase(
     TEMPLATE, "aux0aux-heat",
     TEMPLATE.build({
-      tempTags: ["rs-aux", "rs-nocap0aux"],
+      tempTags: ["rs-aux", "rs-aux-nocap"],
     }),
   );
 
@@ -51,7 +51,7 @@
   const aux0aux_torque = extendBase(
     TEMPLATE, "aux0aux-torque",
     TEMPLATE.build({
-      tempTags: ["rs-aux", "rs-nocap0aux"],
+      tempTags: ["rs-aux", "rs-aux-nocap"],
     }),
   );
 
@@ -59,7 +59,7 @@
   const aux0aux_rpm = extendBase(
     TEMPLATE, "aux0aux-rpm",
     TEMPLATE.build({
-      tempTags: ["rs-aux", "rs-nocap0aux"],
+      tempTags: ["rs-aux", "rs-aux-nocap"],
     }),
   );
 
