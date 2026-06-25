@@ -2,11 +2,12 @@
 
 /* carbon */
 
+loveclab-item0ore-raw-coal: 2.0
 loveclab-item0chem-coal: 0.5
 
 /* misc */
 
-loveclab-item0chem-sulfur: 2.0
+loveclab-item0chem-sulfur: 6.5
 
 /* <---------- liq0ore ----------> */
 
@@ -20,9 +21,9 @@ loveclab-liq0was-waste-water: 5.0
 
 /* sulfur */
 
-loveclab-gas0chem-sulfur-dioxide: 3.5
-loveclab-gas0chem-sulfur-trioxide: 8.0
+loveclab-gas0chem-sulfur-dioxide: 7.5
+loveclab-gas0chem-sulfur-trioxide: 11.0
 
 /* <---------- gas0was ----------> */
 
-loveclab-gas0was-coke-oven-gas: 2.0
+loveclab-gas0was-coke-oven-gas: 4.0

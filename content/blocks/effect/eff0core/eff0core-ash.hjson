@@ -8,10 +8,10 @@
   # type: CoreBlock
   category: effect
   requirements: [
-    item0chem-copper/600
-    item0chem-lead/800
+    item0chem-copper/800
+    item0chem-lead/600
   ]
-  buildCostMultiplier: 1.0
+  buildCostMultiplier: 0.75
 
 
 /*
@@ -40,7 +40,7 @@
   armor: 12.0
   size: 2
   hasItems: true
-  itemCapacity: 1500
+  itemCapacity: 2000
   hasLiquids: false
   liquidCapacity: 5.0
   hasPower: true

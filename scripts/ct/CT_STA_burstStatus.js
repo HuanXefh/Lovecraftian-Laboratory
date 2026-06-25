@@ -27,6 +27,7 @@
       burstTime: 6000.0,
       burstDamage: 2000.0,
       burstDamagePerc: 0.05,
+      burstDamageIgnoreShield: false,
       burstEff: EFF.circlePulseDynamic,
       burstEffColor: Color.valueOf("ffc455"),
       burstScrTup: [unit => unit.apply(StatusEffects.melting, 480.0)],

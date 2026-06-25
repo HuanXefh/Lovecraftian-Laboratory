@@ -62,8 +62,24 @@
   /* copper */
 
 
+  const pay0mat0ore_azurite = extendBlock(
+    TEMPLATE, "pay0mat0ore-azurite",
+    TEMPLATE[0].build({
+      recolorRegStr: "lovec-gen-raw-ore-1"
+    }),
+  );
+
+
   const pay0mat0ore_chalcopyrite = extendBlock(
     TEMPLATE, "pay0mat0ore-chalcopyrite",
+    TEMPLATE[0].build({
+      recolorRegStr: "lovec-gen-raw-ore-1"
+    }),
+  );
+
+
+  const pay0mat0ore_malachite = extendBlock(
+    TEMPLATE, "pay0mat0ore-malachite",
     TEMPLATE[0].build({
       recolorRegStr: "lovec-gen-raw-ore-1"
     }),
@@ -136,6 +152,17 @@
     TEMPLATE, "pay0mat0ore-galena",
     TEMPLATE[0].build({
       recolorRegStr: "lovec-gen-raw-ore-1"
+    }),
+  );
+
+
+  /* phosphorus */
+
+
+  const pay0mat0ore_fluorapatite = extendBlock(
+    TEMPLATE, "pay0mat0ore-fluorapatite",
+    TEMPLATE[0].build({
+      recolorRegStr: "lovec-gen-raw-ore-2"
     }),
   );
 

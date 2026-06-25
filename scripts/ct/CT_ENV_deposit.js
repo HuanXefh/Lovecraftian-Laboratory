@@ -21,19 +21,6 @@
   /* <---------- env0depo ----------> */
 
 
-  /* carbon */
-
-
-  const env0depo_rawCoal = extendBase(
-    TEMPLATE, "env0depo-raw-coal",
-  );
-
-
-  const env0depo_anthracite = extendBase(
-    TEMPLATE, "env0depo-anthracite",
-  );
-
-
   /* aluminum */
 
 
@@ -50,6 +37,38 @@
   );
 
 
+  /* carbon */
+
+
+  const env0depo_rawCoal = extendBase(
+    TEMPLATE, "env0depo-raw-coal",
+  );
+
+
+  const env0depo_anthracite = extendBase(
+    TEMPLATE, "env0depo-anthracite",
+  );
+
+
+  /* copper */
+
+
+  const env0depo_malachite = extendBase(
+    TEMPLATE, "env0depo-malachite",
+    TEMPLATE.build({
+      dropHardness: 6,
+    }),
+  );
+
+
+  /* fluorine */
+
+
+  const env0depo_fluorite = extendBase(
+    TEMPLATE, "env0depo-fluorite",
+  );
+
+
   /* iron */
 
 
@@ -58,6 +77,14 @@
     TEMPLATE.build({
       dropHardness: 6,
     }),
+  );
+
+
+  /* phosphorus */
+
+
+  const env0depo_fluorapatite = extendBase(
+    TEMPLATE, "env0depo-fluorapatite",
   );
 
 

@@ -1346,6 +1346,7 @@ const db = {
     reactionBurnSolid: [
 
       "loveclab-item0chem-sulfur", {
+        pol: 8.0,
         itmI: "loveclab-item0chem-sulfur",
         co: [
           "loveclab-gas0chem-sulfur-dioxide", 0.5,
