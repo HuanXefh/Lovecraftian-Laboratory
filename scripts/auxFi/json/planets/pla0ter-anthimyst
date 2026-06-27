@@ -47,8 +47,8 @@
         type: NoiseMesh
         planet: loveclab-pla0ter-anthimyst
         divisions: 7
-        seed: 12775
-        radius: 1.356
+        seed: 55425
+        radius: 1.371
         color1: "7898ba"
         color2: "7898ba"
         octaves: 1.0
@@ -63,14 +63,14 @@
         type: NoiseMesh
         parent: loveclab-pla0ter-anthimyst
         divisions: 6
-        seed: 12775
-        radius: 0.984
+        seed: 14775
+        radius: 0.942
         color1: "797e86"
         color2: "797e86"
         octaves: 2.5
         persistence: 1.0
         scale: 1.2
-        mag: 2.3
+        mag: 2.9
       }
 
 
@@ -79,7 +79,7 @@
         type: NoiseMesh
         parent: loveclab-pla0ter-anthimyst
         divisions: 7
-        seed: 12775
+        seed: 25112
         radius: 1.185
         color1: "ded0ba"
         color2: "ded0ba"
@@ -95,14 +95,14 @@
         type: NoiseMesh
         parent: loveclab-pla0ter-anthimyst
         divisions: 6
-        seed: 12775
-        radius: 1.165
+        seed: 64552
+        radius: 1.167
         color1: "b35656"
         color2: "b35656"
         octaves: 3.0
         persistence: 0.8
         scale: 1.2
-        mag: 1.1
+        mag: 1.2
       }
 
 

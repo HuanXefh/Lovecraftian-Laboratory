@@ -48,7 +48,7 @@
         type: NoiseMesh
         parent: loveclab-pla0ter-kanbos
         divisions: 6
-        seed: 5522
+        seed: 2200
         radius: 0.391
         color1: "353531"
         color2: "242423"
@@ -80,7 +80,7 @@
         type: NoiseMesh
         parent: loveclab-pla0ter-kanbos
         divisions: 7
-        seed: 118
+        seed: 2200
         radius: 0.345
         color1: "b35656"
         color2: "764c4c"
