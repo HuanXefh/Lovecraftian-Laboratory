@@ -105,7 +105,13 @@ const db = {
       baseOil: [],
 
 
-      slurry: [],
+      slurry: [
+
+        /* <---------- liq-misc ----------> */
+
+        "loveclab-liq0misc-drilling-mud",
+
+      ],
 
 
       acidSlurry: [],

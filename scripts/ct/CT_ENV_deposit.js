@@ -80,6 +80,17 @@
   );
 
 
+  /* mercury */
+
+
+  const env0depo_cinnabar = extendBase(
+    TEMPLATE, "env0depo-cinnabar",
+    TEMPLATE.build({
+      dropHardness: 6,
+    }),
+  );
+
+
   /* phosphorus */
 
 

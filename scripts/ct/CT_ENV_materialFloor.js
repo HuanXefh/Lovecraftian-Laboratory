@@ -57,6 +57,8 @@
     TEMPLATE, "env0flr-grass",
     TEMPLATE.build({
       matGrp: "grass",
+      randRegs: ["stick"],
+      randRegDenom: 10,
     }),
   );
 

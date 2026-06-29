@@ -55,7 +55,7 @@ const db = {
 
       "sand", ["loveclab-item0ore-sand-river", {}],
       "sand", ["loveclab-item0buil-fine-aggregate", {}],
-      "sand", ["loveclab-item0ore-sand", {amtScl: 4.5}],
+      "sand", ["loveclab-item0ore-sand", {amtScl: 4.0}],
 
       /* ore material II */
 
@@ -638,35 +638,47 @@ const db = {
 
     mixingLiquid: [
 
-      "loveclab-liq0ore-brine", {
+      "loveclab-liq0misc-drilling-mud", {
+        bi: [
+          "GROUP: sand", 0.5, 1.0,
+          "loveclab-item0ore-clay", 1.5, 1.0,
+          "loveclab-item0int0chunks-barite", 1.0, 1.0,
+        ],
         ci: [
           "loveclab-liq0ore-water", 1.0,
         ],
+        liqO: "loveclab-liq0misc-drilling-mud",
+      },
+
+      "loveclab-liq0ore-brine", {
         bi: [
           "loveclab-item0ore-salt", 1.0, 1.0,
+        ],
+        ci: [
+          "loveclab-liq0ore-water", 1.0,
         ],
         liqO: "loveclab-liq0ore-brine",
       },
 
       "loveclab-liq0int-purified-brine", {
-        ci: [
-          "loveclab-liq0ore-water", 1.0,
-        ],
         bi: [
           [
             "loveclab-item0int0dust-salt", 1.0, 1.0,
             "loveclab-item0ore-sea-salt", 1.0, 1.0,
           ], -1.0, -1.0,
         ],
+        ci: [
+          "loveclab-liq0ore-water", 1.0,
+        ],
         liqO: "loveclab-liq0int-purified-brine",
       },
 
       "loveclab-item0chem-lime", {
-        ci: [
-          "loveclab-liq0ore-water", 1.0,
-        ],
         bi: [
           "loveclab-item0chem-lime", 1.0, 1.0,
+        ],
+        ci: [
+          "loveclab-liq0ore-water", 1.0,
         ],
         liqO: "loveclab-liq0int0sol-slaked-lime",
       },

@@ -49,6 +49,14 @@
   );
 
 
+  /* <---------- liq0misc ----------> */
+
+
+  const liq0misc_drillingMud = extendBase(
+    TEMPLATE, "liq0misc-drilling-mud",
+  );
+
+
   /* <---------- liq0chem (misc) ----------> */
 
 

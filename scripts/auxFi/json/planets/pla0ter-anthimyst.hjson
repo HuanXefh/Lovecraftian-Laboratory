@@ -75,6 +75,22 @@
 
 
       {
+        # PART: Snow (Gray)
+        type: NoiseMesh
+        parent: loveclab-pla0ter-anthimyst
+        divisions: 6
+        seed: 12775
+        radius: 1.03
+        color1: "ffffff"
+        color2: "ffffff"
+        octaves: 2.4
+        persistence: 0.8
+        scale: 1.4
+        mag: 2.1
+      }
+
+
+      {
         # PART: Sand
         type: NoiseMesh
         parent: loveclab-pla0ter-anthimyst
@@ -205,7 +221,7 @@
   startSector: 0
   defaultCore: loveclab-eff0core-ash
   launchCapacityMultiplier: 1.0
-  allowLaunchToNumbered: true
+  allowLaunchToNumbered: false
   allowLaunchSchematics: true
   allowLaunchLoadout: true
   prebuildBase: false

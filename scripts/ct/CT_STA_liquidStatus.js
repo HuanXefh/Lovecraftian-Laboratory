@@ -69,6 +69,17 @@
   );
 
 
+  const sta0liq_slurrySlowed = extendBase(
+    TEMPLATE, "sta0liq-slurry-slowed",
+    TEMPLATE.build({
+      eff: TP_effect._wetParticle({
+        color: "648079",
+      }),
+      effP: 0.08,
+    }),
+  );
+
+
   const sta0liq_acidicI = extendBase(
     TEMPLATE, "sta0liq-acidic-i",
     TEMPLATE.build({
