@@ -60,9 +60,9 @@
         size: 30.0,
         rad: 30.0,
         color: Color.white,
-        scl: 5.0,
+        scl: 2.0,
       }),
-      updateEffP: 0.0008,
+      updateEffP: 0.002,
     }),
   );
 
@@ -75,9 +75,9 @@
         size: 30.0,
         rad: 30.0,
         color: Color.white,
-        scl: 5.0,
+        scl: 2.0,
       }),
-      updateEffP: 0.0008,
+      updateEffP: 0.002,
       shallow: true,
     }),
   );

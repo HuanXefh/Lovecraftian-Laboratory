@@ -145,7 +145,10 @@ const db = {
       "rock-sand", MDL_texture._randRegsGetter("loveclab-ov0rand-rock-sand"),
       "rock-sand-dark", MDL_texture._randRegsGetter("loveclab-ov0rand-rock-sand-dark"),
       "rock-sand-red", MDL_texture._randRegsGetter("loveclab-ov0rand-rock-sand-red"),
+
       "stick", MDL_texture._randRegsGetter("loveclab-ov0rand-stick"),
+      
+      "clay-clump", MDL_texture._randRegsGetter("loveclab-ov0rand-clay-clump"),
 
     ],
 

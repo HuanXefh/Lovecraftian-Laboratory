@@ -28,6 +28,8 @@
     TEMPLATE, "env0flr-clay",
     TEMPLATE.build({
       matGrp: "dirt",
+      randRegs: ["clay-clump"],
+      randRegDenom: 4,
     }),
   );
 
@@ -148,6 +150,15 @@
     TEMPLATE.build({
       matGrp: "rock",
       randRegs: ["rock"],
+    }),
+  );
+
+
+  const env0flr_obsidian = extendBase(
+    TEMPLATE, "env0flr-obsidian",
+    TEMPLATE.build({
+      matGrp: "rock",
+      dropHardness: 8,
     }),
   );
 
