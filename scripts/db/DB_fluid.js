@@ -168,6 +168,13 @@ const db = {
       ],
 
 
+      acetylene: [
+
+        "loveclab-gas0chem-acetylene",
+
+      ],
+
+
     },
 
 

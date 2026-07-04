@@ -4,6 +4,7 @@
 
 loveclab-item0chem-lime: CaO
 loveclab-item0chem-slaked-lime: Ca(OH)2
+loveclab-item0chem-calcium-carbide: CaC2
 
 /* sodium */
 
@@ -26,3 +27,9 @@ loveclab-gas0chem-carbon-dioxide: CO2
 
 loveclab-gas0chem-sulfur-dioxide: SO2
 loveclab-gas0chem-sulfur-trioxide: SO3
+
+/* <---------- gas0chem (organic) ----------> */
+
+/* alkyne */
+
+loveclab-gas0chem-acetylene: C2H2

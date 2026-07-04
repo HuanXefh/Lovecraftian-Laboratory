@@ -144,6 +144,11 @@
   );
 
 
+  const item0cons_cokeBriquette = extendBase(
+    TEMPLATE, "item0cons-coke-briquette",
+  );
+
+
   /* ball */
 
 
@@ -434,6 +439,11 @@
 
   const item0chem_slakedLime = extendBase(
     TEMPLATE, "item0chem-slaked-lime",
+  );
+
+
+  const item0chem_calciumCarbide = extendBase(
+    TEMPLATE, "item0chem-calcium-carbide",
   );
 
 

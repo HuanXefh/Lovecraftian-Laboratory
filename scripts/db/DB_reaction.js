@@ -10,6 +10,9 @@ const db = {
   item: [],
 
 
+  material: [],
+
+
   denaturingTarget: [],
 
 
@@ -28,6 +31,12 @@ const db = {
       /* calcium */
 
       "loveclab-item0chem-lime", "loveclab-liq0int0sol-slaked-lime",
+
+      /* <---------- item0chem (inorganic) ----------> */
+
+      /* calcium */
+
+      "loveclab-item0chem-calcium-carbide", "loveclab-liq0int0sol-slaked-lime",
 
       /* <---------- item0int0dust ----------> */
 

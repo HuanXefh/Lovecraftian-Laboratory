@@ -123,3 +123,11 @@
   const gas0chem_sulfurTrioxide = extendBase(
     TEMPLATE, "gas0chem-sulfur-trioxide",
   );
+
+
+  /* <---------- gas0chem (organic) ----------> */
+
+
+  const gas0chem_acetylene = extendBase(
+    TEMPLATE, "gas0chem-acetylene",
+  );

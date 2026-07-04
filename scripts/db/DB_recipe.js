@@ -25,6 +25,9 @@ const db = {
       "carbon", ["loveclab-item0bio-charcoal", {amtScl: 3.0, pScl: 0.5}],
       "carbon", ["loveclab-item0chem-anthracite", {}],
 
+      "coke", ["loveclab-item0chem-coke", {}],
+      "coke", ["loveclab-item0chem-semicoke", {amtScl: 1.5}],
+
       "copper", ["loveclab-item0chem-copper", {}],
       "copper", ["loveclab-item0ore-native-copper", {amtScl: 1.5}],
 
@@ -1343,6 +1346,19 @@ const db = {
         bo: [
           "loveclab-item0chem-stainless-steel", 0.25, 0.25,
           "loveclab-item0was-scrap-steel", 1.25, 0.5,
+        ],
+      },
+
+      /* calcium */
+
+      "loveclab-item0chem-calcium-carbide", {
+        tempReq: 2000.0,
+        bi: [
+          "loveclab-item0chem-lime", 1.0, 1.0,
+          "GROUP: coke", 2.0, 1.0,
+        ],
+        bo: [
+          "loveclab-item0chem-calcium-carbide", 1.0, 1.0,
         ],
       },
 

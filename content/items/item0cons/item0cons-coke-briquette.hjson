@@ -6,7 +6,7 @@
 
 
   research: {
-    parent: item0bio-charcoal
+    parent: item0cons-briquette
     objectives: []
   }
 
@@ -18,4 +18,4 @@
 */
 
 
-  flammability: 0.75
+  flammability: 0.5

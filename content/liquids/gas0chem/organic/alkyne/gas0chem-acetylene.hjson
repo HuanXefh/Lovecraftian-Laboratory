@@ -6,7 +6,7 @@
 
 
   research: {
-    parent: item0bio-charcoal
+    parent: item0chem-calcium-carbide
     objectives: []
   }
 
@@ -18,4 +18,6 @@
 */
 
 
-  flammability: 0.75
+  flammability: 1.0
+  explosiveness: 3.0
+  gas: true

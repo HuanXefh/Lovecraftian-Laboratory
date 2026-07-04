@@ -24,6 +24,7 @@ const db = {
         /* <---------- item0cons ----------> */
 
         "loveclab-item0cons-briquette", [8.0, 13.25],
+        "loveclab-item0cons-coke-briquette", [8.0, 15.5],
 
         /* <---------- item0chem (elementary) ----------> */
 
