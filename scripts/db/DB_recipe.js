@@ -653,6 +653,36 @@ const db = {
         liqO: "loveclab-liq0misc-drilling-mud",
       },
 
+      /* calcium */
+
+      "loveclab-item0chem-lime", {
+        bi: [
+          "loveclab-item0chem-lime", 1.0, 1.0,
+        ],
+        ci: [
+          "loveclab-liq0ore-water", 1.0,
+        ],
+        liqO: "loveclab-liq0int0sol-slaked-lime",
+      },
+
+      "loveclab-item0chem-calcium-carbide", {
+        bi: [
+          "loveclab-item0chem-calcium-carbide", 0.25, 1.0,
+        ],
+        ci: [
+          "loveclab-liq0ore-water", 1.0,
+        ],
+        aux: [
+          "loveclab-aux0aux-pressure", 0.01666667,
+        ],
+        co: [
+          "loveclab-gas0int0crd-acetylene-calcium-carbide", 0.25,
+          "loveclab-liq0was-waste-slurry", 1.0,
+        ],
+      },
+
+      /* sodium */
+
       "loveclab-liq0ore-brine", {
         bi: [
           "loveclab-item0ore-salt", 1.0, 1.0,
@@ -674,16 +704,6 @@ const db = {
           "loveclab-liq0ore-water", 1.0,
         ],
         liqO: "loveclab-liq0int-purified-brine",
-      },
-
-      "loveclab-item0chem-lime", {
-        bi: [
-          "loveclab-item0chem-lime", 1.0, 1.0,
-        ],
-        ci: [
-          "loveclab-liq0ore-water", 1.0,
-        ],
-        liqO: "loveclab-liq0int0sol-slaked-lime",
       },
 
     ],

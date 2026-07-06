@@ -26,6 +26,11 @@
   );
 
 
+  const liq0was_wasteSlurry = extendBase(
+    TEMPLATE, "liq0was-waste-slurry",
+  );
+
+
   const liq0was_bittern = extendBase(
     TEMPLATE, "liq0was-bittern",
   );

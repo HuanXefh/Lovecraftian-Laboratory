@@ -107,9 +107,13 @@ const db = {
 
       slurry: [
 
-        /* <---------- liq-misc ----------> */
+        /* <---------- liq0misc ----------> */
 
         "loveclab-liq0misc-drilling-mud",
+
+        /* <---------- liq0was ----------> */
+
+        "loveclab-liq0was-waste-slurry",
 
       ],
 
