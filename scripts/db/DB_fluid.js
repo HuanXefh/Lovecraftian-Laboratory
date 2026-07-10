@@ -175,6 +175,7 @@ const db = {
       acetylene: [
 
         "loveclab-gas0chem-acetylene",
+        "loveclab-gas0int0crdg-acetylene-calcium-carbide",
 
       ],
 

@@ -51,6 +51,11 @@
   );
 
 
+  const pay0mat_mangalloyBlock = extendBlock(
+    TEMPLATE, "pay0mat-mangalloy-block",
+  );
+
+
   const pay0mat_rubberBlock = extendBlock(
     TEMPLATE, "pay0mat-rubber-block",
   );

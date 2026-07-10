@@ -27,3 +27,9 @@ loveclab-gas0chem-carbon-dioxide: 0.00198
 
 loveclab-gas0chem-sulfur-dioxide: 0.00262
 loveclab-gas0chem-sulfur-trioxide: 0.00357
+
+/* <---------- gas0chem (organic) ----------> */
+
+/* alkyne */
+
+loveclab-gas0chem-acetylene: 0.00177

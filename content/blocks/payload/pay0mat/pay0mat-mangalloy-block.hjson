@@ -8,7 +8,7 @@
   # type: Wall
   category: defense
   requirements: [
-    item0was-scrap-steel/10
+    item0chem-mangalloy/10
   ]
   buildCostMultiplier: 5.0
 

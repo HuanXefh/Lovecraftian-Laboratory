@@ -6,7 +6,7 @@
 
 
   if(!checkVersion("loveclab", [
-    "lovec", "101.3.26070601",
+    "lovec", "101.4",
   ])) return;
 
 
@@ -33,6 +33,9 @@
   require("loveclab/ct/CT_RS_wasteFluid");
   require("loveclab/ct/CT_RS_intermediateFluid");
   require("loveclab/ct/CT_RS_solutionLiquid");
+  require("loveclab/ct/CT_RS_crudeGas");
+
+
   require("loveclab/ct/CT_RS_abstractFluid");
 
 
