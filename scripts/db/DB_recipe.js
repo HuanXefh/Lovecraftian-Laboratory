@@ -46,6 +46,9 @@ const db = {
       "sodium carbonate", ["loveclab-item0chem-sodium-bicarbonate", {}],
       "sodium carbonate", ["loveclab-item0ore-trona", {amtScl: 1.5}],
 
+      "sodium nitrate", ["loveclab-item0chem-sodium-nitrate", {}],
+      "sodium nitrate", ["loveclab-item0ore-niter", {amtScl: 1.5}],
+
       /* ore material I */
 
       "apatite", ["loveclab-item0ore-fluorapatite", {}],
@@ -1317,7 +1320,7 @@ const db = {
         tempReq: 1600.0,
         bi: [
           "GROUP: manganiferous", 1.0, 1.0,
-          "GROUP:ferrous", 1.0, 1.0,
+          "GROUP: ferrous", 1.0, 1.0,
           [
             "loveclab-item0chem-graphite", 0.25, 0.5,
             "GROUP: carbon", 0.5, 1.0,
@@ -1462,7 +1465,7 @@ const db = {
           ], -1.0, -1.0,
         ],
         aux: [
-          "loveclab-aux0aux-dust-recycling", 1.0,
+          "loveclab-aux0aux-dust-recycling", 0.01666667,
         ],
         liqO: "loveclab-gas0chem-sulfur-dioxide",
         bo: [
