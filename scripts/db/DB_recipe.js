@@ -1317,6 +1317,9 @@ const db = {
 
       "loveclab-item0chem-ferromanganese", {
         categ: "steelmaking",
+        lockedBy: [
+          "projreind-dbct0tech-alloy-steel-making-i",
+        ],
         tempReq: 1600.0,
         bi: [
           "GROUP: manganiferous", 1.0, 1.0,
@@ -1334,6 +1337,9 @@ const db = {
 
       "loveclab-item0chem-mangalloy", {
         categ: "steelmaking",
+        lockedBy: [
+          "projreind-dbct0tech-alloy-steel-making-i",
+        ],
         tempReq: 1600.0,
         bi: [
           "loveclab-item0chem-ferromanganese", 0.5, 1.0,

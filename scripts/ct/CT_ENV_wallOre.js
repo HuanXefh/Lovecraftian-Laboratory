@@ -37,6 +37,11 @@
   );
 
 
+  const env0ore0wall_chalcopyrite = extendBase(
+    TEMPLATE, "env0ore0wall-chalcopyrite",
+  );
+
+
   const env0ore0wall_nativeCopper = extendBase(
     TEMPLATE, "env0ore0wall-native-copper",
   );

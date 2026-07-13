@@ -50,6 +50,22 @@
   );
 
 
+  /* zirconium */
+
+
+  const env0ore0dpore_zircon = extendBase(
+    TEMPLATE, "env0ore0dpore-zircon",
+  );
+
+
+  /* misc */
+
+
+  const env0ore0dpore_clay = extendBase(
+    TEMPLATE, "env0ore0dpore-clay",
+  );
+
+
   /* <---------- env0ore (level 1) ----------> */
 
 
