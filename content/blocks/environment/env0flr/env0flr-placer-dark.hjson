@@ -16,6 +16,7 @@
 
 
   variants: 6
+  walkSound: se-step-sand
 
 
 /*

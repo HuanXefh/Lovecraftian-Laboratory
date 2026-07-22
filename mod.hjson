@@ -14,7 +14,7 @@ softDependencies: []
 
 description:
 '''
-The base mod for Lovecraftian series that adds essential resource, chemicals, environmental blocks and planets.
+The base mod for Lovecraftian series that adds essential resource, recipe data, chemical reactions, environmental blocks and planets.
 '''
 
-version: 101.4.26071501
+version: 101.4.26072201
