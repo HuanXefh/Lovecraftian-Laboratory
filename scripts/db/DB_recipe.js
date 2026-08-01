@@ -451,6 +451,11 @@ const db = {
         itmO: "loveclab-item0int-biomass-powder-dried",
       },
 
+      "loveclab-item0bio-moss", {
+        itmI: "loveclab-item0bio-moss",
+        itmO: "loveclab-item0int-moss-dried",
+      },
+
     ],
 
 
@@ -1299,6 +1304,9 @@ const db = {
       "loveclab-item0chem-steel", {
         categ: "steelmaking",
         tag: "scrap steel",
+        lockedBy: [
+          "projreind-dbct0tech-alloy-steel-making-i",
+        ],
         tempReq: 1400.0,
         bi: [
           "loveclab-item0was-scrap-steel", 1.5, 1.0,
@@ -1414,6 +1422,24 @@ const db = {
 
 
     reactionBurnSolid: [
+
+      "loveclab-item0chem-coke", {
+        pol: 1.5,
+        itmI: "loveclab-item0chem-coke",
+        co: [
+          "loveclab-gas0chem-carbon-dioxide", 0.5,
+        ],
+        heatO: 1250.0,
+      },
+
+      "loveclab-item0chem-semicoke", {
+        pol: 3.0,
+        itmI: "loveclab-item0chem-semicoke",
+        co: [
+          "loveclab-gas0chem-carbon-dioxide", 0.25,
+        ],
+        heatO: 900.0,
+      },
 
       "loveclab-item0chem-sulfur", {
         pol: 8.0,

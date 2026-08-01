@@ -6,7 +6,7 @@
 
 
   research: {
-    parent: item0bio-hypha-rod
+    parent: item0bio-moss
     objectives: []
   }
 

@@ -1,0 +1,11 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: item0bio-hypha-rod
+    objectives: []
+  }

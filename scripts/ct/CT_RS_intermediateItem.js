@@ -39,6 +39,15 @@
 
 
   /* dried */
+  
+
+  const item0int_sawdustDried = extendBase(
+    TEMPLATE, "item0int-sawdust-dried",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0bio-sawdust",
+      tempTags: ["rs-intmd", "rs-dry"],
+    })
+  );
 
 
   const item0int_biomassPowderDried = extendBase(
@@ -50,10 +59,10 @@
   );
 
 
-  const item0int_sawdustDried = extendBase(
-    TEMPLATE, "item0int-sawdust-dried",
+  const item0int_mossDried = extendBase(
+    TEMPLATE, "item0int-moss-dried",
     TEMPLATE.build({
-      intmdParent: "loveclab-item0bio-sawdust",
+      intmdParent: "loveclab-item0bio-moss",
       tempTags: ["rs-intmd", "rs-dry"],
     })
   );

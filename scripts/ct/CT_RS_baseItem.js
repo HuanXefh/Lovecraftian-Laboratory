@@ -62,6 +62,11 @@
   );
 
 
+  const item0bio_moss = extendBase(
+    TEMPLATE, "item0bio-moss",
+  );
+
+
   const item0bio_algae = extendBase(
     TEMPLATE, "item0bio-algae",
   );

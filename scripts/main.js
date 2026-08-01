@@ -6,7 +6,7 @@
 
 
   if(!checkVersion("loveclab", [
-    "lovec", "101.4.26072201",
+    "lovec", "101.4.26080101",
   ])) return;
 
 
@@ -103,15 +103,15 @@
 
 
 
-  MDL_event._c_onLoad(() => {
+  MDL_event.onLoad(() => {
 
 
     // Set up shown contents on Lovec planets, no need for blocks and unit types I guess
-    Vars.content.items().each(itm => MDL_content._mod(itm) === "loveclab", itm => {
+    Vars.content.items().each(itm => MDL_content.getMod(itm) === "loveclab", itm => {
       itm.shownPlanets.addAll(VARGEN.lovecPlas);
       itm.databaseTabs.addAll(VARGEN.lovecPlas);
     });
-    Vars.content.liquids().each(liq => MDL_content._mod(liq) === "loveclab", liq => {
+    Vars.content.liquids().each(liq => MDL_content.getMod(liq) === "loveclab", liq => {
       liq.shownPlanets.addAll(VARGEN.lovecPlas);
       liq.databaseTabs.addAll(VARGEN.lovecPlas);
     });

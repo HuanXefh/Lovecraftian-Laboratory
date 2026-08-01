@@ -171,9 +171,11 @@ const db = {
 
       "spore-pod", 0.75,
 
-      "loveclab-item0bio-log", 1.0,
-      "loveclab-item0bio-hypha-rod", 1.0,
+      "loveclab-item0bio-sawdust", 0.5,
+      "loveclab-item0bio-hypha-rod", 0.5,
       "loveclab-item0bio-algae", 0.5,
+
+      "loveclab-item0int-moss-dried", 1.0,
 
     ],
 
