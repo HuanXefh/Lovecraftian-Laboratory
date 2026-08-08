@@ -1543,6 +1543,7 @@ const db = {
         itmI: "loveclab-item0ore-chalcopyrite",
         bo: [
           "loveclab-item0chem-copper", 0.5, 0.5,
+          "loveclab-item0was-slag", 0.25, 0.5,
         ],
       },
 

@@ -15,7 +15,7 @@ const db = {
         /* <---------- item0bio ----------> */
 
         "loveclab-item0bio-log", [6.0, 3.25],
-        "loveclab-item0bio-timber", [16.0, 5.0],
+        "loveclab-item0bio-timber", [18.0, 5.0],
         "loveclab-item0bio-sawdust", [4.0, 8.0],
         "loveclab-item0bio-biomass-powder", [4.0, 8.0],
         "loveclab-item0bio-charcoal", [10.0, 10.0],
@@ -23,19 +23,19 @@ const db = {
 
         /* <---------- item0cons ----------> */
 
-        "loveclab-item0cons-briquette", [8.0, 13.25],
-        "loveclab-item0cons-coke-briquette", [8.0, 15.5],
+        "loveclab-item0cons-briquette", [30.0, 13.25],
+        "loveclab-item0cons-coke-briquette", [30.0, 15.5],
 
         /* <---------- item0chem (elementary) ----------> */
 
         /* carbon */
 
-        "loveclab-item0chem-peat", [5.0, 6.5],
+        "loveclab-item0chem-peat", [4.0, 6.0],
         "loveclab-item0chem-lignite", [6.0, 6.5],
-        "loveclab-item0chem-coal", [8.0, 8.0],
+        "loveclab-item0chem-coal", [15.0, 8.0],
         "loveclab-item0chem-anthracite", [10.0, 11.5],
-        "loveclab-item0chem-semicoke", [12.0, 9.0],
-        "loveclab-item0chem-coke", [12.0, 12.5],
+        "loveclab-item0chem-semicoke", [15.0, 9.0],
+        "loveclab-item0chem-coke", [15.0, 12.5],
 
         /* misc */
 
