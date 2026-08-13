@@ -29,7 +29,7 @@
   const sta_damaged = extendBase(
     TEMPLATE, "sta-damaged",
     TEMPLATE.build({
-      eff: EFF.unitDamagedSmog,
+      eff: EFF.smogUnitDamaged,
       effP: 0.08,
     }),
   );
@@ -38,7 +38,7 @@
   const sta_severelyDamaged = extendBase(
     TEMPLATE, "sta-severely-damaged",
     TEMPLATE.build({
-      eff: EFF.unitDamagedSmog,
+      eff: EFF.smogUnitDamaged,
       effP: 0.3,
     }),
   );
@@ -62,7 +62,7 @@
   const sta_haste = extendBase(
     TEMPLATE, "sta-haste",
     TEMPLATE.build({
-      eff: TP_effect._shrinkParticle({
+      eff: TP_effect.particleShrink({
         spr: "lovec-efr-triangle",
         size: 2.0,
         spin: 1.0,

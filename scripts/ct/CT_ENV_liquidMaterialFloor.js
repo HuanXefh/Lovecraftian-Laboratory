@@ -56,7 +56,7 @@
     TEMPLATE, "env0liq-volcanic-spring",
     TEMPLATE.build({
       matGrp: "puddle",
-      updateEff: TP_effect._ventSmog({
+      updateEff: TP_effect.smogVent({
         size: 30.0,
         rad: 30.0,
         color: Color.white,
@@ -71,7 +71,7 @@
     TEMPLATE, "env0liq-volcanic-spring-shallow",
     TEMPLATE.build({
       matGrp: "puddle",
-      updateEff: TP_effect._ventSmog({
+      updateEff: TP_effect.smogVent({
         size: 30.0,
         rad: 30.0,
         color: Color.white,
