@@ -24,6 +24,8 @@
   const sta0death_explosionMark = extendBase(
     TEMPLATE, "sta0death-explosion-mark",
     TEMPLATE.build({
-      killedScrTup: [unit => FRAG_attack.explosion_global(unit.x, unit.y, unit.maxHealth * 0.5, unit.hitSize * 1.5, Mathf.lerp(1.0, 2.0, unit.hitSize / 10.0), false)],
+      killedScr: cons(function(unit) {
+        FRAG_attack.explosion_global(unit.x, unit.y, unit.maxHealth * 0.5, unit.hitSize * 1.5, Mathf.lerp(1.0, 2.0, unit.hitSize / 10.0), false);
+      }),
     }),
   );
