@@ -141,14 +141,14 @@ const db = {
 
     randRegTag: [
 
-      "rock", MDL_texture.getRandRegsGetter("loveclab-ov0rand-rock"),
-      "rock-sand", MDL_texture.getRandRegsGetter("loveclab-ov0rand-rock-sand"),
-      "rock-sand-dark", MDL_texture.getRandRegsGetter("loveclab-ov0rand-rock-sand-dark"),
-      "rock-sand-red", MDL_texture.getRandRegsGetter("loveclab-ov0rand-rock-sand-red"),
+      "rock", MDL_texture.getRandRegsF("loveclab-ov0rand-rock"),
+      "rock-sand", MDL_texture.getRandRegsF("loveclab-ov0rand-rock-sand"),
+      "rock-sand-dark", MDL_texture.getRandRegsF("loveclab-ov0rand-rock-sand-dark"),
+      "rock-sand-red", MDL_texture.getRandRegsF("loveclab-ov0rand-rock-sand-red"),
 
-      "stick", MDL_texture.getRandRegsGetter("loveclab-ov0rand-stick"),
+      "stick", MDL_texture.getRandRegsF("loveclab-ov0rand-stick"),
       
-      "clay-clump", MDL_texture.getRandRegsGetter("loveclab-ov0rand-clay-clump"),
+      "clay-clump", MDL_texture.getRandRegsF("loveclab-ov0rand-clay-clump"),
 
     ],
 
