@@ -206,6 +206,11 @@
   /* <---------- item0misc ----------> */
 
 
+  const item0misc_blackPowder = extendBase(
+    TEMPLATE, "item0misc-black-powder",
+  );
+
+
   /* tech point */
 
 
@@ -460,6 +465,24 @@
   );
 
 
+  /* potassium */
+
+
+  const item0chem_potassiumChloride = extendBase(
+    TEMPLATE, "item0chem-potassium-chloride",
+  );
+
+
+  const item0chem_potassiumNitrate = extendBase(
+    TEMPLATE, "item0chem-potassium-nitrate",
+  );
+
+
+  const item0chem_potassiumNitrite = extendBase(
+    TEMPLATE, "item0chem-potassium-nitrite",
+  );
+
+
   /* silicon */
 
 
@@ -478,6 +501,16 @@
 
   const item0chem_sodiumChloride = extendBase(
     TEMPLATE, "item0chem-sodium-chloride",
+  );
+
+
+  const item0chem_sodiumNitrate = extendBase(
+    TEMPLATE, "item0chem-sodium-nitrate",
+  );
+
+
+  const item0chem_sodiumNitrite = extendBase(
+    TEMPLATE, "item0chem-sodium-nitrite",
   );
 
 

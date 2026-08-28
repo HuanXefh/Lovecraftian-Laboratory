@@ -6,9 +6,17 @@ loveclab-item0chem-lime: CaO
 loveclab-item0chem-slaked-lime: Ca(OH)2
 loveclab-item0chem-calcium-carbide: CaC2
 
+/* potassium */
+
+loveclab-item0chem-potassium-chloride: KCl
+loveclab-item0chem-potassium-nitrate: KNO3
+loveclab-item0chem-potassium-nitrite: KNO2
+
 /* sodium */
 
 loveclab-item0chem-sodium-chloride: NaCl
+loveclab-item0chem-sodium-nitrate: NaNO3
+loveclab-item0chem-sodium-nitrite: NaNO2
 
 /* <---------- gas0chem (elementary) ----------> */
 

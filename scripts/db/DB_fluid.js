@@ -27,6 +27,7 @@ const db = {
 
         /* <---------- liq0int0sol ----------> */
 
+        "loveclab-liq0int0sol-potassium-chloride",
         "loveclab-liq0int0sol-sodium-chloride",
 
       ],

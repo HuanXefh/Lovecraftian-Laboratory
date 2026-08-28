@@ -32,6 +32,17 @@
   );
 
 
+  /* potassium */
+
+
+  const liq0int0sol_potassiumChloride = extendBase(
+    TEMPLATE, "liq0int0sol-potassium-chloride",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0chem-potassium-chloride",
+    }),
+  );
+
+
   /* sodium */
 
 

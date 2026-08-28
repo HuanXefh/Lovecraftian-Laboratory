@@ -44,10 +44,10 @@ const db = {
 
       "sodium carbonate", ["loveclab-item0chem-sodium-carbonate", {}],
       "sodium carbonate", ["loveclab-item0chem-sodium-bicarbonate", {}],
-      "sodium carbonate", ["loveclab-item0ore-trona", {amtScl: 1.5}],
+      "sodium carbonate", ["loveclab-item0ore-trona", {amtScl: 2.0}],
 
-      "sodium nitrate", ["loveclab-item0chem-sodium-nitrate", {}],
-      "sodium nitrate", ["loveclab-item0ore-niter", {amtScl: 1.5}],
+      "potassium nitrate", ["loveclab-item0chem-potassium-nitrate", {}],
+      "potassium nitrate", ["loveclab-item0ore-niter", {amtScl: 2.0}],
 
       /* ore material I */
 
@@ -611,6 +611,18 @@ const db = {
         itmO: "loveclab-item0buil-cement",
       },
 
+      "loveclab-item0misc-black-powder", {
+        bi: [
+          [
+            "loveclab-item0chem-sodium-nitrate", 0.75, 0.5,
+            "GROUP: potassium nitrate", 0.75, 0.5,
+          ], -1.0, -1.0,
+          "loveclab-item0chem-sulfur", 0.5, 0.2,
+          "loveclab-item0bio-charcoal", 0.5, 0.3,
+        ],
+        itmO: "loveclab-item0misc-black-powder",
+      },
+
     ],
 
 
@@ -805,6 +817,7 @@ const db = {
           "loveclab-item0was-gangue", 0.25, 0.25,
           "loveclab-item0ore-pyrite", 0.25, 0.25,
           "loveclab-item0ore-linnaeite", 0.125, 0.25,
+          "loveclab-item0ore-molybdenite", 0.125, 0.25,
           "loveclab-item0ore-stannite", 0.125, 0.25,
         ],
       },
@@ -1427,7 +1440,7 @@ const db = {
         pol: 1.5,
         itmI: "loveclab-item0chem-coke",
         co: [
-          "loveclab-gas0chem-carbon-dioxide", 0.5,
+          "loveclab-gas0chem-carbon-dioxide", 1.0,
         ],
         heatO: 1250.0,
       },
@@ -1436,7 +1449,7 @@ const db = {
         pol: 3.0,
         itmI: "loveclab-item0chem-semicoke",
         co: [
-          "loveclab-gas0chem-carbon-dioxide", 0.25,
+          "loveclab-gas0chem-carbon-dioxide", 0.5,
         ],
         heatO: 900.0,
       },
@@ -1445,6 +1458,7 @@ const db = {
         pol: 8.0,
         itmI: "loveclab-item0chem-sulfur",
         co: [
+          // Intentionally lower, there are better processes
           "loveclab-gas0chem-sulfur-dioxide", 0.5,
         ],
         heatO: 1400.0,
@@ -1454,6 +1468,8 @@ const db = {
 
 
     roasting: [
+
+      /* util */
 
       "loveclab-item0int0blend-cement", {
         tempReq: 1500.0,
@@ -1466,6 +1482,8 @@ const db = {
         itmI: "loveclab-item0int0blend-refractory-cement",
         itmO: "loveclab-item0int0clinker-refractory-cement",
       },
+
+      /* ore */
 
       "loveclab-item0int0chunks-dolomite", {
         tempReq: 1700.0,
@@ -1507,6 +1525,41 @@ const db = {
         bo: [
           "loveclab-item0was-pyrite-cinder", 1.5, 1.0,
           "loveclab-item0was-dust", 0.5, 0.5,
+        ],
+      },
+
+      /* chemical */
+
+      "loveclab-item0chem-sodium-nitrate", {
+        tempReq: 450.0,
+        itmI: "loveclab-item0chem-sodium-nitrate",
+        co: [
+          "loveclab-gas0chem-oxygen", 0.5,
+        ],
+        bo: [
+          "loveclab-item0chem-sodium-nitrite", 1.0, 1.0,
+        ],
+      },
+
+      "loveclab-item0ore-niter", {
+        tempReq: 625.0,
+        itmI: "loveclab-item0ore-niter",
+        co: [
+          "loveclab-gas0chem-oxygen", 0.5,
+        ],
+        bo: [
+          "loveclab-item0was-dregs", 1.0, 0.5,
+        ],
+      },
+
+      "loveclab-item0chem-potassium-nitrate", {
+        tempReq: 625.0,
+        itmI: "loveclab-item0chem-potassium-nitrate",
+        co: [
+          "loveclab-gas0chem-oxygen", 0.5,
+        ],
+        bo: [
+          "loveclab-item0chem-potassium-nitrite", 1.0, 1.0,
         ],
       },
 
