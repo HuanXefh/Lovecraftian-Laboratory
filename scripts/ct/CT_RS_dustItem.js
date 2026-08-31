@@ -203,6 +203,14 @@
   /* nickel */
 
 
+  const item0int0dust_nickelLaterite = extendBase(
+    TEMPLATE, "item0int0dust-nickel-laterite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-nickel-laterite",
+    }),
+  );
+
+
   const item0int0dust_pentlandite = extendBase(
     TEMPLATE, "item0int0dust-pentlandite",
     TEMPLATE.build({

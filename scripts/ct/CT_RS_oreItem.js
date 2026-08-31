@@ -203,6 +203,11 @@
   /* nickel */
 
 
+  const item0ore_nickelLaterite = extendBase(
+    TEMPLATE, "item0ore-nickel-laterite",
+  );
+
+
   const item0ore_pentlandite = extendBase(
     TEMPLATE, "item0ore-pentlandite",
   );
@@ -221,6 +226,11 @@
 
   const item0ore_fluorapatite = extendBase(
     TEMPLATE, "item0ore-fluorapatite",
+  );
+
+
+  const item0ore_hydroxyapatite = extendBase(
+    TEMPLATE, "item0ore-hydroxyapatite",
   );
 
 

@@ -377,6 +377,11 @@
   );
 
 
+  const item0chem_ferronickel = extendBase(
+    TEMPLATE, "item0chem-ferronickel",
+  );
+
+
   const item0chem_galvanizedSteel = extendBase(
     TEMPLATE, "item0chem-galvanized-steel",
   );

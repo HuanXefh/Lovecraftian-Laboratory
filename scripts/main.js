@@ -6,7 +6,7 @@
 
 
   if(!checkVersion("loveclab", [
-    "lovec", "101.4.26082801",
+    "lovec", "101.4.26083101",
   ])) throw new Error("Failed loading LovecLab due to version mismatch.");
 
 

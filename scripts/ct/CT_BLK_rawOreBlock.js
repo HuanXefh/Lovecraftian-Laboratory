@@ -159,6 +159,14 @@
   /* phosphorus */
 
 
+  const pay0mat0ore_hydroxyapatite = extendBlock(
+    TEMPLATE, "pay0mat0ore-hydroxyapatite",
+    TEMPLATE[0].build({
+      recolorRegStr: "lovec-gen-raw-ore-3"
+    }),
+  );
+
+
   const pay0mat0ore_fluorapatite = extendBlock(
     TEMPLATE, "pay0mat0ore-fluorapatite",
     TEMPLATE[0].build({

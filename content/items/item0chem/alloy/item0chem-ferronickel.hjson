@@ -6,6 +6,6 @@
 
 
   research: {
-    parent: item0chem-ferromanganese
+    parent: item0chem-ferrochrome
     objectives: []
   }

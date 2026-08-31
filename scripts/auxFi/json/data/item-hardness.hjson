@@ -67,6 +67,7 @@ loveclab-item0ore-cinnabar: 2
 
 /* nickel */
 
+loveclab-item0ore-nickel-laterite: 4
 loveclab-item0ore-pentlandite: 4
 
 /* nitrogen */
@@ -76,6 +77,7 @@ loveclab-item0ore-niter: 2
 /* phosphorus */
 
 loveclab-item0ore-fluorapatite: 5
+loveclab-item0ore-hydroxyapatite: 5
 
 /* platinum */
 

@@ -267,6 +267,18 @@ const db = {
         itmO: "loveclab-item0chem-solder",
       },
 
+      "loveclab-item0chem-ferronickel", {
+        lockedBy: [
+          "projreind-dbct0tech-alloy-steel-making-i",
+        ],
+        tempReq: 1600.0,
+        bi: [
+          "loveclab-item0chem-wrought-iron", 1.0, 1.0,
+          "loveclab-item0chem-nickel", 0.25, 0.25,
+        ],
+        itmO: "loveclab-item0chem-ferronickel",
+      },
+
     ],
 
 
@@ -758,7 +770,7 @@ const db = {
       /* zirconium */
 
       "loveclab-item0int0dust-zircon", {
-        hardness: DB_HANDLER.read("itm-hardness", "loveclab-item0ore-zircon"),
+        hardness: DB_HANDLER.read("item-hardness", "loveclab-item0ore-zircon"),
         keyCt: "loveclab-item0int0chunks-zircon",
         bi: [
           "loveclab-item0int0chunks-zircon", 1.0, 1.0,
@@ -769,7 +781,7 @@ const db = {
       /* rock */
 
       "loveclab-item0chem-talcum-powder", {
-        hardness: DB_HANDLER.read("itm-hardness", "loveclab-item0ore-talc"),
+        hardness: DB_HANDLER.read("item-hardness", "loveclab-item0ore-talc"),
         keyCt: "loveclab-item0int0dust-talc",
         bi: [
           "loveclab-item0int0dust-talc", 1.0, 1.0,
@@ -849,7 +861,7 @@ const db = {
         bo: [
           "loveclab-item0int0dust0p1-limonite", 1.0, 1.0,
           "loveclab-item0was-gangue", 0.25, 0.25,
-          "loveclab-item0ore-hematite", 0.25, 0.25,
+          "loveclab-item0ore-nickel-laterite", 0.25, 0.25,
           "loveclab-item0ore-pyrite", 0.25, 0.25,
           "loveclab-item0ore-cassiterite", 0.125, 0.25,
           "loveclab-item0ore-silica-stone", 0.125, 0.25,
@@ -928,6 +940,16 @@ const db = {
       },
 
       /* nickel */
+
+      "loveclab-item0int0dust-nickel-laterite", {
+        itmI: "loveclab-item0int0dust-nickel-laterite",
+        bo: [
+          "loveclab-item0int0dust0p1-nickel-laterite", 1.0, 1.0,
+          "loveclab-item0was-gangue", 0.25, 0.25,
+          "loveclab-item0ore-limonite", 0.25, 0.25,
+          "loveclab-item0ore-hematite", 0.125, 0.125,
+        ],
+      },
 
       "loveclab-item0int0dust-pentlandite", {
         itmI: "loveclab-item0int0dust-pentlandite",
@@ -1412,6 +1434,32 @@ const db = {
         ],
       },
 
+      "loveclab-item0chem-ferronickel", {
+        categ: "steelmaking",
+        tempReq: 1600.0,
+        lockedBy: [
+          "projreind-dbct0tech-alloy-steel-making-i",
+        ],
+        bi: [
+          [
+            "loveclab-item0ore-nickel-laterite", 1.0, 1.0,
+            "loveclab-item0ore-pentlandite", 1.0, 1.0,
+          ], -1.0, -1.0,
+          [
+            "loveclab-item0ore-limestone", 1.5, 0.5,
+            "loveclab-item0chem-lime", 0.75, 0.5,
+          ], -1.0, -1.0,
+          [
+            "loveclab-item0chem-graphite", 0.25, 0.5,
+            "GROUP: carbon", 0.5, 1.0,
+          ], -1.0, -1.0,
+        ],
+        bo: [
+          "loveclab-item0chem-ferronickel", 0.5, 0.5,
+          "loveclab-item0was-slag", 0.75, 0.5,
+        ],
+      },
+
       /* calcium */
 
       "loveclab-item0chem-calcium-carbide", {
@@ -1574,7 +1622,7 @@ const db = {
       /* carbon */
 
       "loveclab-item0ore-crude-graphite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0chem-graphite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0chem-graphite"),
         itmI: "loveclab-item0ore-crude-graphite",
         bo: [
           "loveclab-item0chem-graphite", 0.5, 0.5,
@@ -1584,7 +1632,7 @@ const db = {
       /* copper */
 
       "loveclab-item0ore-azurite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-azurite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-azurite"),
         itmI: "loveclab-item0ore-azurite",
         bo: [
           "loveclab-item0chem-copper", 0.75, 0.5,
@@ -1592,7 +1640,7 @@ const db = {
       },
 
       "loveclab-item0ore-chalcopyrite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-chalcopyrite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-chalcopyrite"),
         itmI: "loveclab-item0ore-chalcopyrite",
         bo: [
           "loveclab-item0chem-copper", 0.5, 0.5,
@@ -1601,7 +1649,7 @@ const db = {
       },
 
       "loveclab-item0ore-malachite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-malachite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-malachite"),
         itmI: "loveclab-item0ore-malachite",
         bo: [
           "loveclab-item0chem-copper", 0.75, 0.5,
@@ -1609,7 +1657,7 @@ const db = {
       },
 
       "loveclab-item0ore-native-copper", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-native-copper"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-native-copper"),
         itmI: "loveclab-item0ore-native-copper",
         bo: [
           "loveclab-item0chem-copper", 1.0, 0.5,
@@ -1619,7 +1667,7 @@ const db = {
       /* lead */
 
       "loveclab-item0ore-anglesite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-anglesite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-anglesite"),
         itmI: "loveclab-item0ore-anglesite",
         bo: [
           "loveclab-item0chem-lead", 0.75, 0.5,
@@ -1627,7 +1675,7 @@ const db = {
       },
 
       "loveclab-item0ore-galena", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-galena"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-galena"),
         itmI: "loveclab-item0ore-galena",
         bo: [
           "loveclab-item0chem-lead", 0.75, 0.5,
@@ -1637,7 +1685,7 @@ const db = {
       /* tin */
 
       "loveclab-item0ore-cassiterite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-cassiterite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-cassiterite"),
         itmI: "loveclab-item0ore-cassiterite",
         bo: [
           "loveclab-item0chem-tin", 0.75, 0.5,
@@ -1647,7 +1695,7 @@ const db = {
       /* zinc */
 
       "loveclab-item0ore-sphalerite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-sphalerite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-sphalerite"),
         itmI: "loveclab-item0ore-sphalerite",
         bo: [
           "loveclab-item0chem-zinc", 0.75, 0.5,
@@ -1655,7 +1703,7 @@ const db = {
       },
 
       "loveclab-item0ore-smithsonite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-smithsonite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-smithsonite"),
         itmI: "loveclab-item0ore-smithsonite",
         bo: [
           "loveclab-item0chem-zinc", 0.75, 0.5,
@@ -1683,7 +1731,7 @@ const db = {
       /* carbon */
 
       "loveclab-item0int0conc-chalcopyrite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-chalcopyrite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-chalcopyrite"),
         itmI: "loveclab-item0int0conc-chalcopyrite",
         bo: [
           "loveclab-item0chem-copper", 1.0, 0.5,
@@ -1692,7 +1740,7 @@ const db = {
       },
 
       "loveclab-item0int0conc-native-copper", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-native-copper"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-native-copper"),
         itmI: "loveclab-item0int0conc-native-copper",
         bo: [
           "loveclab-item0chem-copper", 2.0, 0.5,
@@ -1703,7 +1751,7 @@ const db = {
       /* iron */
 
       "loveclab-item0int0conc-hematite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-hematite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-hematite"),
         itmI: "loveclab-item0int0conc-hematite",
         bo: [
           "loveclab-item0chem-pig-iron", 2.0, 0.5,
@@ -1712,7 +1760,7 @@ const db = {
       },
 
       "loveclab-item0int0conc-limonite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-limonite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-limonite"),
         bi: [
           "loveclab-item0int0conc-limonite", 2.0, 1.0,
         ],
@@ -1723,7 +1771,7 @@ const db = {
       },
 
       "loveclab-item0int0conc-magnetite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-magnetite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-magnetite"),
         itmI: "loveclab-item0int0conc-magnetite",
         bo: [
           "loveclab-item0chem-pig-iron", 2.0, 0.5,
@@ -1732,7 +1780,7 @@ const db = {
       },
 
       "loveclab-item0int0conc-pyrite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-pyrite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-pyrite"),
         bi: [
           "loveclab-item0int0conc-pyrite", 1.5, 1.0,
         ],
@@ -1743,7 +1791,7 @@ const db = {
       },
 
       "loveclab-item0int0conc-pyrrhotite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-pyrrhotite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-pyrrhotite"),
         bi: [
           "loveclab-item0int0conc-pyrrhotite", 1.5, 1.0,
         ],
@@ -1756,7 +1804,7 @@ const db = {
       /* lead */
 
       "loveclab-item0int0conc-galena", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-galena"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-galena"),
         itmI: "loveclab-item0int0conc-galena",
         bo: [
           "loveclab-item0chem-lead", 1.5, 0.5,
@@ -1766,8 +1814,18 @@ const db = {
 
       /* nickel */
 
+      "loveclab-item0int0conc-nickel-laterite", {
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-nickel-laterite"),
+        itmI: "loveclab-item0int0conc-nickel-laterite",
+        bo: [
+          "loveclab-item0chem-nickel", 0.5, 0.5,
+          "loveclab-item0chem-pig-iron", 0.5, 0.5,
+          "loveclab-item0was-slag", 0.5, 0.5,
+        ],
+      },
+
       "loveclab-item0int0conc-pentlandite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-pentlandite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-pentlandite"),
         itmI: "loveclab-item0int0conc-pentlandite",
         bo: [
           "loveclab-item0chem-nickel", 0.75, 0.5,
@@ -1779,7 +1837,7 @@ const db = {
       /* tin */
 
       "loveclab-item0int0conc-cassiterite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-cassiterite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-cassiterite"),
         itmI: "loveclab-item0int0conc-cassiterite",
         bo: [
           "loveclab-item0chem-tin", 1.5, 0.5,
@@ -1790,7 +1848,7 @@ const db = {
       /* zinc */
 
       "loveclab-item0int0conc-sphalerite", {
-        tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-sphalerite"),
+        tempReq: DB_HANDLER.read("item-sintering-temperature", "loveclab-item0ore-sphalerite"),
         itmI: "loveclab-item0int0conc-sphalerite",
         bo: [
           "loveclab-item0chem-zinc", 1.5, 0.5,

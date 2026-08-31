@@ -46,6 +46,14 @@
   /* phosphorus */
 
 
+  const item0int0chunks_hydroxyapatite = extendBase(
+    TEMPLATE, "item0int0chunks-hydroxyapatite",
+    TEMPLATE.build({
+      intmdParent: "loveclab-item0ore-hydroxyapatite",
+    }),
+  );
+
+
   const item0int0chunks_fluorapatite = extendBase(
     TEMPLATE, "item0int0chunks-fluorapatite",
     TEMPLATE.build({
