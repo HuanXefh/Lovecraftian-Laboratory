@@ -67,6 +67,11 @@
   );
 
 
+  const item0bio_aerthSisal = extendBase(
+    TEMPLATE, "item0bio-aerth-sisal",
+  );
+
+
   const item0bio_algae = extendBase(
     TEMPLATE, "item0bio-algae",
   );

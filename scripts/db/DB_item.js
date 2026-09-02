@@ -173,6 +173,7 @@ const db = {
 
       "loveclab-item0bio-sawdust", 0.5,
       "loveclab-item0bio-hypha-rod", 0.5,
+      "loveclab-item0bio-aerth-sisal", 0.5,
       "loveclab-item0bio-algae", 0.5,
 
       "loveclab-item0int-moss-dried", 1.0,
