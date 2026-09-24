@@ -5,7 +5,7 @@
 */
 
 
-  # type: Floor
+    # type: Floor
 
 
 /*
@@ -15,7 +15,7 @@
 */
 
 
-  status: loveclab-sta0liq-brine-corrosion
+    status: loveclab-sta0liq-brine-corrosion
 
 
 /*
@@ -25,7 +25,7 @@
 */
 
 
-  variants: 3
+    variants: 3
 
 
 /*
@@ -35,4 +35,4 @@
 */
 
 
-  liquidDrop: liq0ore-brine
+    liquidDrop: liq0ore-brine

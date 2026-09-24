@@ -5,7 +5,7 @@
 */
 
 
-  # type: Floor
+    # type: Floor
 
 
 /*
@@ -15,7 +15,7 @@
 */
 
 
-  variants: 8
+    variants: 8
 
 
 /*
@@ -25,5 +25,5 @@
 */
 
 
-  itemDrop: item0ore-clay
-  playerUnmineable: true
+    itemDrop: item0ore-clay
+    playerUnmineable: true

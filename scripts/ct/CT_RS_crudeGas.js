@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/rs/RS_crudeGas");
+    const RS_crudeGas = require("lovec/temp/rs/RS_crudeGas");
 
 
 /*
@@ -18,18 +15,18 @@
 */
 
 
-  /* <---------- gas0int (inorganic) ----------> */
+    /* <------------------------------ gas0int (inorganic) ------------------------------> */
 
 
-  /* alkyne */
+    /* alkyne */
 
 
-  const gas0int0crdg_acetyleneCalciumCarbide = extendBase(
-    TEMPLATE, "gas0int0crdg-acetylene-calcium-carbide",
-    TEMPLATE.build({
-      intmdParent: "loveclab-gas0chem-acetylene",
-      extraIntmdParents: [
-        "loveclab-item0chem-calcium-carbide",
-      ],
-    }),
-  );
+    const gas0int0crdg_acetyleneCalciumCarbide = extendBase(
+        RS_crudeGas, "gas0int0crdg-acetylene-calcium-carbide",
+        RS_crudeGas.build({
+            intmdParent: "loveclab-gas0chem-acetylene",
+            extraIntmdParents: [
+                "loveclab-item0chem-calcium-carbide",
+            ],
+        }),
+    );

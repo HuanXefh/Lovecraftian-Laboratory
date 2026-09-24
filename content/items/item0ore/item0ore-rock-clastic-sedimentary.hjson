@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: item0ore-rock-biological-sedimentary
-    objectives: []
-  }
+    research: {
+        parent: item0ore-rock-biological-sedimentary
+        objectives: []
+    }
 
 
 /*
@@ -18,4 +18,4 @@
 */
 
 
-  lowPriority: true
+    lowPriority: true

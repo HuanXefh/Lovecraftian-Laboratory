@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: item0chem-sulfur
-    objectives: []
-  }
+    research: {
+        parent: item0chem-sulfur
+        objectives: []
+    }
 
 
 /*
@@ -18,4 +18,4 @@
 */
 
 
-  gas: true
+    gas: true

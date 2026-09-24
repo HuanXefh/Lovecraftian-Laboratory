@@ -5,7 +5,7 @@
 */
 
 
-  research: {
-    parent: item0bio-hypha-rod
-    objectives: []
-  }
+    research: {
+        parent: item0bio-hypha-rod
+        objectives: []
+    }

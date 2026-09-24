@@ -5,7 +5,7 @@
 */
 
 
-  # type: TallBlock
+    # type: TallBlock
 
 
 /*
@@ -15,4 +15,4 @@
 */
 
 
-  variants: 0
+    variants: 0

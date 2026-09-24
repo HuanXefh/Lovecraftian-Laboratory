@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: gas0misc-air
-    objectives: []
-  }
+    research: {
+        parent: gas0misc-air
+        objectives: []
+    }
 
 
 /*
@@ -18,4 +18,4 @@
 */
 
 
-  gas: true
+    gas: true

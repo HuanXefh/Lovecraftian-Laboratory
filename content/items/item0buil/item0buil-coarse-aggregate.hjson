@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: item0buil-brick-clay
-    objectives: []
-  }
+    research: {
+        parent: item0buil-brick-clay
+        objectives: []
+    }
 
 
 /*
@@ -18,5 +18,5 @@
 */
 
 
-  buildable: true
-  cost: 1.0
+    buildable: true
+    cost: 1.0

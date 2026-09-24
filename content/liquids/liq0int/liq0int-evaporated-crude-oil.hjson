@@ -5,5 +5,5 @@
 */
 
 
-  flammability: 1.0
-  effect: tarred
+    flammability: 1.0
+    effect: tarred

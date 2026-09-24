@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/env/ENV_depthLiquid");
+    const ENV_depthLiquid = require("lovec/temp/env/ENV_depthLiquid");
 
 
 /*
@@ -18,19 +15,19 @@
 */
 
 
-  /* <---------- env0ore ----------> */
+    /* <------------------------------ env0ore0dpliq ------------------------------> */
 
 
-  const env0ore0dpliq_water = extendBase(
-    TEMPLATE, "env0ore0dpliq-water",
-  );
+    const env0ore0dpliq_water = extendBase(
+        ENV_depthLiquid, "env0ore0dpliq-water",
+    );
 
 
-  const env0ore0dpliq_brine = extendBase(
-    TEMPLATE, "env0ore0dpliq-brine",
-  );
+    const env0ore0dpliq_brine = extendBase(
+        ENV_depthLiquid, "env0ore0dpliq-brine",
+    );
 
 
-  const env0ore0dpliq_crudeOil = extendBase(
-    TEMPLATE, "env0ore0dpliq-crude-oil",
-  );
+    const env0ore0dpliq_crudeOil = extendBase(
+        ENV_depthLiquid, "env0ore0dpliq-crude-oil",
+    );

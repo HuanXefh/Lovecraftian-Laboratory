@@ -5,13 +5,13 @@
 */
 
 
-  # type: CoreBlock
-  category: effect
-  requirements: [
-    item0chem-copper/800
-    item0chem-lead/600
-  ]
-  buildCostMultiplier: 0.75
+    # type: CoreBlock
+    category: effect
+    requirements: [
+        item0chem-copper/800
+        item0chem-lead/600
+    ]
+    buildCostMultiplier: 0.75
 
 
 /*
@@ -21,12 +21,12 @@
 */
 
 
-  alwaysUnlocked: true
-  research: {
-    planet: pla0ter-anthimyst
-    root: true
-    requiresUnlock: false
-  }
+    alwaysUnlocked: true
+    research: {
+        planet: pla0ter-anthimyst
+        root: true
+        requiresUnlock: false
+    }
 
 
 /*
@@ -36,14 +36,14 @@
 */
 
 
-  scaledHealth: 540.0
-  armor: 12.0
-  size: 2
-  hasItems: true
-  itemCapacity: 2000
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 540.0
+    armor: 12.0
+    size: 2
+    hasItems: true
+    itemCapacity: 2000
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -53,8 +53,8 @@
 */
 
 
-  envRequired: 0
-  envDisabled: 0
+    envRequired: 0
+    envDisabled: 0
 
 
 /*
@@ -64,7 +64,7 @@
 */
 
 
-  squareSprite: false
+    squareSprite: false
 
 
 /*
@@ -74,8 +74,8 @@
 */
 
 
-  unitCapModifier: 5
-  isFirstTier: true
-  requiresCoreZone: true
-  incinerateNonBuildable: false
-  unitType: unit0core-outpost-i
+    unitCapModifier: 5
+    isFirstTier: true
+    requiresCoreZone: true
+    incinerateNonBuildable: false
+    unitType: unit0core-outpost-i

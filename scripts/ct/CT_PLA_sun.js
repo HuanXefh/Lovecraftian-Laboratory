@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/pla/PLA_sun");
+    const PLA_sun = require("lovec/temp/pla/PLA_sun");
 
 
 /*
@@ -18,9 +15,9 @@
 */
 
 
-  /* <---------- pla0sun ----------> */
+    /* <------------------------------ pla0sun ------------------------------> */
 
 
-  const pla0sun_veibrus = extendPlanet(
-    TEMPLATE, "pla0sun-veibrus", 0,
-  );
+    const pla0sun_veibrus = extendPlanet(
+        PLA_sun, "pla0sun-veibrus", 0,
+    );

@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: item0ore-barite
-    objectives: []
-  }
+    research: {
+        parent: item0ore-barite
+        objectives: []
+    }
 
 
 /*
@@ -18,4 +18,4 @@
 */
 
 
-  effect: sta0liq-slurry-slowed
+    effect: sta0liq-slurry-slowed

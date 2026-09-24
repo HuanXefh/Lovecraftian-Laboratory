@@ -5,7 +5,7 @@
 */
 
 
-  research: {
-    parent: item0ore-scheelite
-    objectives: []
-  }
+    research: {
+        parent: item0ore-scheelite
+        objectives: []
+    }

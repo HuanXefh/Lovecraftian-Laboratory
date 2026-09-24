@@ -5,7 +5,7 @@
 */
 
 
-  # type: OverlayFloor
+    # type: OverlayFloor
 
 
 /*
@@ -15,7 +15,7 @@
 */
 
 
-  variants: 0
+    variants: 0
 
 
 /*
@@ -25,6 +25,6 @@
 */
 
 
-  attributes: {
-    lovec-attr0dpliq-oil: 1.0
-  }
+    attributes: {
+        lovec-attr0dpliq-oil: 1.0
+    }

@@ -5,7 +5,7 @@
 */
 
 
-  # type: SeaBush
+    # type: SeaBush
 
 
 /*
@@ -15,13 +15,13 @@
 */
 
 
-  lobesMin: 8
-  lobesMax: 12
-  botAngle: 90.0
-  origin: 0.2
-  sclMin: 25.0
-  sclMax: 55.0
-  magMin: 1.0
-  magMax: 6.0
-  timeRange: 40.0
-  spread: 5.0
+    lobesMin: 8
+    lobesMax: 12
+    botAngle: 90.0
+    origin: 0.2
+    sclMin: 25.0
+    sclMax: 55.0
+    magMin: 1.0
+    magMax: 6.0
+    timeRange: 40.0
+    spread: 5.0

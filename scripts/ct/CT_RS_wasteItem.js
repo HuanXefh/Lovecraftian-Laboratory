@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/rs/RS_wasteItem");
+    const RS_wasteItem = require("lovec/temp/rs/RS_wasteItem");
 
 
 /*
@@ -18,40 +15,40 @@
 */
 
 
-  /* <---------- item0was ----------> */
+    /* <------------------------------ item0was ------------------------------> */
 
 
-  const item0was_dust = extendBase(
-    TEMPLATE, "item0was-dust",
-  );
+    const item0was_dust = extendBase(
+        RS_wasteItem, "item0was-dust",
+    );
 
 
-  const item0was_dregs = extendBase(
-    TEMPLATE, "item0was-dregs",
-  );
+    const item0was_dregs = extendBase(
+        RS_wasteItem, "item0was-dregs",
+    );
 
 
-  const item0was_gangue = extendBase(
-    TEMPLATE, "item0was-gangue",
-  );
+    const item0was_gangue = extendBase(
+        RS_wasteItem, "item0was-gangue",
+    );
 
 
-  const item0was_slag = extendBase(
-    TEMPLATE, "item0was-slag",
-  );
+    const item0was_slag = extendBase(
+        RS_wasteItem, "item0was-slag",
+    );
 
 
-  /* not really waste */
+    /* not really waste */
 
 
-  const item0was_scrapSteel = extendBase(
-    TEMPLATE, "item0was-scrap-steel",
-  );
+    const item0was_scrapSteel = extendBase(
+        RS_wasteItem, "item0was-scrap-steel",
+    );
 
 
-  /* process */
+    /* process waste */
 
 
-  const item0was_pyriteCinder = extendBase(
-    TEMPLATE, "item0was-pyrite-cinder",
-  );
+    const item0was_pyriteCinder = extendBase(
+        RS_wasteItem, "item0was-pyrite-cinder",
+    );

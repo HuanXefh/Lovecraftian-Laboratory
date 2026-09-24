@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/env/ENV_grassHeap");
+    const ENV_grassHeap = require("lovec/temp/env/ENV_grassHeap");
 
 
 /*
@@ -18,14 +15,14 @@
 */
 
 
-  /* <---------- env0heap ----------> */
+    /* <------------------------------ env0heap ------------------------------> */
 
 
-  const env0heap_tallGrass = extendBase(
-    TEMPLATE, "env0heap-tall-grass",
-    TEMPLATE.build({
-      layGrass: 76.41,
-      hidable: true,
-      flrParent: "loveclab-env0flr-grass",
-    }),
-  );
+    const env0heap_tallGrass = extendBase(
+        ENV_grassHeap, "env0heap-tall-grass",
+        ENV_grassHeap.build({
+            hidable: true,
+            layGrass: 76.41,
+            flrParent: "loveclab-env0flr-grass",
+        }),
+    );

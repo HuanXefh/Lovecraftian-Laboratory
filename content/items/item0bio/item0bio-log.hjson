@@ -5,11 +5,11 @@
 */
 
 
-  alwaysUnlocked: true
-  research: {
-    parent: item0ore-clay
-    objectives: []
-  }
+    alwaysUnlocked: true
+    research: {
+        parent: item0ore-clay
+        objectives: []
+    }
 
 
 /*
@@ -19,4 +19,4 @@
 */
 
 
-  flammability: 0.5
+    flammability: 0.5

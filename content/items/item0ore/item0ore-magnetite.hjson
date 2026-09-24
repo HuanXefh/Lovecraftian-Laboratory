@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: item0ore-hematite
-    objectives: []
-  }
+    research: {
+        parent: item0ore-hematite
+        objectives: []
+    }
 
 
 /*
@@ -18,5 +18,5 @@
 */
 
 
-  buildable: true
-  cost: 2.0
+    buildable: true
+    cost: 2.0

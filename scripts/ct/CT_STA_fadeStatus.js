@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/sta/STA_fadeStatus");
+    const STA_fadeStatus = require("lovec/temp/sta/STA_fadeStatus");
 
 
 /*
@@ -18,9 +15,9 @@
 */
 
 
-  /* <---------- sta ----------> */
+    /* <------------------------------ sta ------------------------------> */
 
 
-  const sta_stunned = extendBase(
-    TEMPLATE, "sta-stunned",
-  );
+    const sta_stunned = extendBase(
+        STA_fadeStatus, "sta-stunned",
+    );

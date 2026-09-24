@@ -1,33 +1,33 @@
 const LOVEC_NOISE_ARGS = {
-  anthimyst: {
-    cloud: [
-      "clouds", Color.white, 1750.0, 0.02, 0.5, 1.0, 7.0, -0.2, 0.0,
-      "clouds", Color.white, 1250.0, 0.03, 0.5, 1.0, 12.0, -0.8, 0.0,
-      "clouds", Color.white, 750.0, 0.04, 0.5, 1.0, 15.5, -1.4, 0.0,
-      "distortAlpha", Color.scarlet, 1000.0, 0.03, 0.5, 1.0, 13.5, -0.04, 0.0,
-    ],
-    fog: [
-      "fog", Color.black, 1750.0, 0.1, 0.02, 1.0, 7.0, 0.01, 0.0,
-      "fog", Color.black, 1250.0, 0.18, -0.04, 1.0, 12.0, -0.02, 0.01,
-      "fog", Color.black, 750.0, 0.25, 0.06, 1.0, 15.5, 0.016, -0.02,
-      "distortAlpha", Color.scarlet, 1000.0, 0.03, 0.5, 1.0, 13.5, -0.04, 0.0,
-    ],
-  },
+    anthimyst: {
+        cloud: [
+            "clouds", Color.white, 1750.0, 0.02, 0.5, 1.0, 7.0, -0.2, 0.0,
+            "clouds", Color.white, 1250.0, 0.03, 0.5, 1.0, 12.0, -0.8, 0.0,
+            "clouds", Color.white, 750.0, 0.04, 0.5, 1.0, 15.5, -1.4, 0.0,
+            "distortAlpha", Color.scarlet, 1000.0, 0.03, 0.5, 1.0, 13.5, -0.04, 0.0,
+        ],
+        fog: [
+            "fog", Color.black, 1750.0, 0.1, 0.02, 1.0, 7.0, 0.01, 0.0,
+            "fog", Color.black, 1250.0, 0.18, -0.04, 1.0, 12.0, -0.02, 0.01,
+            "fog", Color.black, 750.0, 0.25, 0.06, 1.0, 15.5, 0.016, -0.02,
+            "distortAlpha", Color.scarlet, 1000.0, 0.03, 0.5, 1.0, 13.5, -0.04, 0.0,
+        ],
+    },
 };
 
 
 const LOVEC_WEAS = {
-  anthimyst: {
-    base: [
-      "loveclab-wea0amb-anthimyst-normal",
-      "loveclab-wea0deco-fog-black",
-    ],
-    rain: [
-      "loveclab-wea0amb-anthimyst-normal",
-      "loveclab-wea0deco-heavy-rain",
-      "loveclab-wea0deco-fog-black",
-    ],
-  },
+    anthimyst: {
+        base: [
+            "loveclab-wea0amb-anthimyst-normal",
+            "loveclab-wea0deco-fog-black",
+        ],
+        rain: [
+            "loveclab-wea0amb-anthimyst-normal",
+            "loveclab-wea0deco-heavy-rain",
+            "loveclab-wea0deco-fog-black",
+        ],
+    },
 };
 
 
@@ -36,161 +36,169 @@ const LOVEC_WEAS = {
 const db = {
 
 
-  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
+    /* <------------------------------ CHUNK SPLITTER ------------------------------> */
 
 
-  param: {
+    param: {
 
 
-    pla: {
+        pla: {
 
 
-      wind: [
+            wind: [
 
-        "loveclab-pla0ter-anthimyst", 1.0,
+                "loveclab-pla0ter-anthimyst", 1.0,
 
-      ],
+            ],
+
+
+        },
+
+
+        map: {
+
+
+            noise: [
+
+                "camp-atm001-sector-beta", LOVEC_NOISE_ARGS["anthimyst"]["cloud"],
+                "projreind-camp-atm001-sector-beta", LOVEC_NOISE_ARGS["anthimyst"]["cloud"],
+
+                "camp-atm002-lantern-cave", LOVEC_NOISE_ARGS["anthimyst"]["fog"],
+                "projreind-camp-atm002-lantern-cave", LOVEC_NOISE_ARGS["anthimyst"]["fog"],
+
+                "camp-atm003-biosphere-outskirts", LOVEC_NOISE_ARGS["anthimyst"]["cloud"],
+                "projreind-camp-atm003-biosphere-outskirts", LOVEC_NOISE_ARGS["anthimyst"]["cloud"],
+
+            ],
+
+
+            weaEn: [
+
+                "camp-atm001-sector-beta", LOVEC_WEAS["anthimyst"]["rain"],
+                "projreind-camp-atm001-sector-beta", LOVEC_WEAS["anthimyst"]["rain"],
+
+                "camp-atm002-lantern-cave", LOVEC_WEAS["anthimyst"]["base"],
+                "projreind-camp-atm002-lantern-cave", LOVEC_WEAS["anthimyst"]["base"],
+
+                "camp-atm003-biosphere-outskirts", LOVEC_WEAS["anthimyst"]["rain"],
+                "camp-atm003-biosphere-outskirts", LOVEC_WEAS["anthimyst"]["rain"],
+
+            ],
+
+
+            wind: [],
+
+
+            heat: [],
+
+
+        },
 
 
     },
+
+
+    /* <------------------------------ CHUNK SPLITTER ------------------------------> */
 
 
     map: {
 
 
-      noise: [
-
-        "camp-atm001-sector-beta", LOVEC_NOISE_ARGS["anthimyst"]["cloud"],
-        "projreind-camp-atm001-sector-beta", LOVEC_NOISE_ARGS["anthimyst"]["cloud"],
-
-        "camp-atm001a-pahfer-lake", LOVEC_NOISE_ARGS["anthimyst"]["cloud"],
-        "projreind-camp-atm001a-pahfer-lake", LOVEC_NOISE_ARGS["anthimyst"]["cloud"],
-
-        "camp-atm002-lantern-cave", LOVEC_NOISE_ARGS["anthimyst"]["fog"],
-        "projreind-camp-atm002-lantern-cave", LOVEC_NOISE_ARGS["anthimyst"]["fog"],
-
-      ],
+        rule: {
 
 
-      weaEn: [
+            campaign: [
 
-        "camp-atm001-sector-beta", LOVEC_WEAS["anthimyst"]["rain"],
-        "projreind-camp-atm001-sector-beta", LOVEC_WEAS["anthimyst"]["rain"],
+                "loveclab-pla0ter-anthimyst", rules => {
+                    rules.fog = true;
+                    rules.randomWaveAI = true;
+                    rules.rtsAI = true;
+                },
 
-        "camp-atm001a-pahfer-lake", LOVEC_WEAS["anthimyst"]["rain"],
-        "camp-atm001a-pahfer-lake", LOVEC_WEAS["anthimyst"]["rain"],
-
-        "camp-atm002-lantern-cave", LOVEC_WEAS["anthimyst"]["base"],
-        "projreind-camp-atm002-lantern-cave", LOVEC_WEAS["anthimyst"]["base"],
-
-      ],
+            ],
 
 
-      wind: [],
+            planet: [
+
+                "loveclab-pla0ter-anthimyst", rules => {
+                    Time.run(5.0, () => {
+                        // Fog in cave map is too annoying
+                        rules.fog = !db["group"]["map"]["cave"].includes(global.lovecUtil.fun.getMapCur());
+                    });
+                    rules.randomWaveAI = true;
+
+                    rules.pauseDisabled = true;
+                    // Derelict repair will lead to loss of items in derelict crates
+                    rules.derelictRepair = false;
+                    rules.placeRangeCheck = true;
+                    rules.coreIncinerates = true;
+                    rules.deconstructRefundMultiplier = 1.0;
+                },
+
+            ],
 
 
-      heat: [],
+        },
+
+
+        randRegTag: [
+
+            "rock", MDL_texture.getRandRegsF("loveclab-ov0rand-rock"),
+            "rock-sand", MDL_texture.getRandRegsF("loveclab-ov0rand-rock-sand"),
+            "rock-sand-dark", MDL_texture.getRandRegsF("loveclab-ov0rand-rock-sand-dark"),
+            "rock-sand-red", MDL_texture.getRandRegsF("loveclab-ov0rand-rock-sand-red"),
+
+            "grass", MDL_texture.getRandRegsF("loveclab-ov0rand-grass"),
+            "flower", MDL_texture.getRandRegsF("loveclab-ov0rand-flower"),
+            "stick", MDL_texture.getRandRegsF("loveclab-ov0rand-stick"),
+
+            "clay-clump", MDL_texture.getRandRegsF("loveclab-ov0rand-clay-clump"),
+            "dirt-clump", MDL_texture.getRandRegsF("loveclab-ov0rand-dirt-clump"),
+            "mud-clump", MDL_texture.getRandRegsF("loveclab-ov0rand-mud-clump"),
+
+        ],
 
 
     },
 
 
-  },
+    /* <------------------------------ CHUNK SPLITTER ------------------------------> */
 
 
-  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
+    group: {
 
 
-  map: {
+        map: {
 
 
-    rule: {
+            cave: [
+
+                "camp-atm002-lantern-cave",
+                "projreind-camp-atm002-lantern-cave",
+
+            ],
 
 
-      campaign: [
-
-        "loveclab-pla0ter-anthimyst", rules => {
-          rules.fog = true;
-          rules.randomWaveAI = true;
-          rules.rtsAI = true;
         },
-
-      ],
-
-
-      planet: [
-
-        "loveclab-pla0ter-anthimyst", rules => {
-          Time.run(5.0, () => {
-            rules.fog = !db["group"]["map"]["cave"].includes(global.lovecUtil.fun._mapCur());
-          });
-          rules.randomWaveAI = true;
-
-          rules.pauseDisabled = true;
-          rules.derelictRepair = false;
-          rules.placeRangeCheck = true;
-          rules.coreIncinerates = true;
-          rules.deconstructRefundMultiplier = 1.0;
-        },
-
-      ],
 
 
     },
 
 
-    randRegTag: [
+    /* <------------------------------ CHUNK SPLITTER ------------------------------> */
 
-      "rock", MDL_texture.getRandRegsF("loveclab-ov0rand-rock"),
-      "rock-sand", MDL_texture.getRandRegsF("loveclab-ov0rand-rock-sand"),
-      "rock-sand-dark", MDL_texture.getRandRegsF("loveclab-ov0rand-rock-sand-dark"),
-      "rock-sand-red", MDL_texture.getRandRegsF("loveclab-ov0rand-rock-sand-red"),
 
-      "stick", MDL_texture.getRandRegsF("loveclab-ov0rand-stick"),
-      
-      "clay-clump", MDL_texture.getRandRegsF("loveclab-ov0rand-clay-clump"),
+    nodeRootNameMap: [
+
+        "loveclab-eff0core-ash", "loveclab-pla0ter-anthimyst",
 
     ],
 
 
-  },
-
-
-  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
-
-
-  group: {
-
-
-    map: {
-
-
-      cave: [
-
-        "camp-atm002-lantern-cave",
-        "projreind-camp-atm002-lantern-cave",
-
-      ],
-
-
-    },
-
-
-  },
-
-
-  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
-
-
-  nodeRootNameMap: [
-
-    "loveclab-eff0core-ash", "loveclab-pla0ter-anthimyst",
-
-  ],
-
-
-  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
+    /* <------------------------------ CHUNK SPLITTER ------------------------------> */
 
 
 };
+
+
 exports.db = db;

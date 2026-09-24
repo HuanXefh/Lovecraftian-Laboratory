@@ -5,7 +5,7 @@
 */
 
 
-  # type: Floor
+    # type: Floor
 
 
 /*
@@ -15,8 +15,8 @@
 */
 
 
-  damageTaken: 4.5
-  status: wet
+    damageTaken: 4.5
+    status: wet
 
 
 /*
@@ -26,7 +26,7 @@
 */
 
 
-  variants: 5
+    variants: 5
 
 
 /*
@@ -36,6 +36,6 @@
 */
 
 
-  attributes: {
-    lovec-attr0env-heat: 0.9
-  }
+    attributes: {
+        lovec-attr0env-heat: 0.9
+    }

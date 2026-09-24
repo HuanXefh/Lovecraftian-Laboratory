@@ -5,7 +5,7 @@
 */
 
 
-  research: {
-    parent: item0cons-cast-iron-ball
-    objectives: []
-  }
+    research: {
+        parent: item0cons-cast-iron-ball
+        objectives: []
+    }

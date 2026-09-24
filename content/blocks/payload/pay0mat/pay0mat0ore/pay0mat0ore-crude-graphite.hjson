@@ -5,11 +5,11 @@
 */
 
 
-  # type: Wall
-  category: defense
-  requirements: [
-    item0ore-crude-graphite/20
-  ]
+    # type: Wall
+    category: defense
+    requirements: [
+        item0ore-crude-graphite/20
+    ]
 
 
 /*
@@ -19,7 +19,7 @@
 */
 
 
-  alwaysUnlocked: true
+    alwaysUnlocked: true
 
 
 /*
@@ -29,14 +29,14 @@
 */
 
 
-  scaledHealth: 40.0
-  armor: 0.0
-  size: 2
-  hasItems: false
-  itemCapacity: 20
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: false
+    scaledHealth: 40.0
+    armor: 0.0
+    size: 2
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
 
 
 /*
@@ -46,8 +46,8 @@
 */
 
 
-  envRequired: 0
-  envDisabled: 0
+    envRequired: 0
+    envDisabled: 0
 
 
 /*
@@ -57,4 +57,4 @@
 */
 
 
-  squareSprite: false
+    squareSprite: false

@@ -5,7 +5,7 @@
 */
 
 
-  research: {
-    parent: item0chem-ferrochrome
-    objectives: []
-  }
+    research: {
+        parent: item0chem-ferrochrome
+        objectives: []
+    }

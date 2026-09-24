@@ -5,12 +5,12 @@
 */
 
 
-  # type: Wall
-  category: defense
-  requirements: [
-    item0buil-brick-clay/10
-  ]
-  buildCostMultiplier: 5.0
+    # type: Wall
+    category: defense
+    requirements: [
+        item0buil-brick-clay/10
+    ]
+    buildCostMultiplier: 5.0
 
 
 /*
@@ -20,7 +20,7 @@
 */
 
 
-  alwaysUnlocked: true
+    alwaysUnlocked: true
 
 
 /*
@@ -30,14 +30,14 @@
 */
 
 
-  scaledHealth: 40.0
-  armor: 0.0
-  size: 1
-  hasItems: false
-  itemCapacity: 20
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: false
+    scaledHealth: 40.0
+    armor: 0.0
+    size: 1
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
 
 
 /*
@@ -47,8 +47,8 @@
 */
 
 
-  envRequired: 0
-  envDisabled: 0
+    envRequired: 0
+    envDisabled: 0
 
 
 /*
@@ -58,5 +58,5 @@
 */
 
 
-  squareSprite: true
-  placeSound: se-place-brick
+    squareSprite: true
+    placeSound: se-place-brick

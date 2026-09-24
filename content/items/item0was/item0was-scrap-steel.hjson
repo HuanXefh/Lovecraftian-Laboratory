@@ -5,7 +5,7 @@
 */
 
 
-  research: {
-    parent: item0was-slag
-    objectives: []
-  }
+    research: {
+        parent: item0was-slag
+        objectives: []
+    }

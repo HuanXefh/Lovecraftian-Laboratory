@@ -5,7 +5,7 @@
 */
 
 
-  # type: TreeBlock
+    # type: TreeBlock
 
 
 /*
@@ -15,6 +15,6 @@
 */
 
 
-  attributes: {
-    lovec-attr0blk-hard-tree: 1.25
-  }
+    attributes: {
+        lovec-attr0blk-hard-tree: 1.25
+    }

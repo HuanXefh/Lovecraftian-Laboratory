@@ -5,11 +5,11 @@
 */
 
 
-  alwaysUnlocked: true
-  research: {
-    parent: liq0ore-sea-water
-    objectives: []
-  }
+    alwaysUnlocked: true
+    research: {
+        parent: liq0ore-sea-water
+        objectives: []
+    }
 
 
 /*
@@ -19,4 +19,4 @@
 */
 
 
-  effect: loveclab-sta0liq-brine-corrosion
+    effect: loveclab-sta0liq-brine-corrosion

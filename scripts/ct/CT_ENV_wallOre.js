@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/env/ENV_wallOre");
+    const ENV_wallOre = require("lovec/temp/env/ENV_wallOre");
 
 
 /*
@@ -18,83 +15,83 @@
 */
 
 
-  /* <---------- env0ore ----------> */
+    /* <------------------------------ env0ore ------------------------------> */
 
 
-  /* carbon */
+    /* carbon */
 
 
-  const env0ore0wall_crudeGraphite = extendBase(
-    TEMPLATE, "env0ore0wall-crude-graphite",
-  );
+    const env0ore0wall_crudeGraphite = extendBase(
+        ENV_wallOre, "env0ore0wall-crude-graphite",
+    );
 
 
-  /* copper */
+    /* copper */
 
 
-  const env0ore0wall_azurite = extendBase(
-    TEMPLATE, "env0ore0wall-azurite",
-  );
+    const env0ore0wall_azurite = extendBase(
+        ENV_wallOre, "env0ore0wall-azurite",
+    );
 
 
-  const env0ore0wall_chalcopyrite = extendBase(
-    TEMPLATE, "env0ore0wall-chalcopyrite",
-  );
+    const env0ore0wall_chalcopyrite = extendBase(
+        ENV_wallOre, "env0ore0wall-chalcopyrite",
+    );
 
 
-  const env0ore0wall_nativeCopper = extendBase(
-    TEMPLATE, "env0ore0wall-native-copper",
-  );
+    const env0ore0wall_nativeCopper = extendBase(
+        ENV_wallOre, "env0ore0wall-native-copper",
+    );
 
 
-  /* iron */
+    /* iron */
 
 
-  const env0ore0wall_hematite = extendBase(
-    TEMPLATE, "env0ore0wall-hematite",
-  );
+    const env0ore0wall_hematite = extendBase(
+        ENV_wallOre, "env0ore0wall-hematite",
+    );
 
 
-  const env0ore0wall_magnetite = extendBase(
-    TEMPLATE, "env0ore0wall-magnetite",
-  );
+    const env0ore0wall_magnetite = extendBase(
+        ENV_wallOre, "env0ore0wall-magnetite",
+    );
 
 
-  /* lead */
+    /* lead */
 
 
-  const env0ore0wall_anglesite = extendBase(
-    TEMPLATE, "env0ore0wall-anglesite",
-  );
+    const env0ore0wall_anglesite = extendBase(
+        ENV_wallOre, "env0ore0wall-anglesite",
+    );
 
 
-  /* nitrogen */
+    /* nitrogen */
 
 
-  const env0ore0wall_niter = extendBase(
-    TEMPLATE, "env0ore0wall-niter",
-  );
+    const env0ore0wall_niter = extendBase(
+        ENV_wallOre, "env0ore0wall-niter",
+    );
 
 
-  /* tin */
+    /* tin */
 
 
-  const env0ore0wall_cassiterite = extendBase(
-    TEMPLATE, "env0ore0wall-cassiterite",
-  );
+    const env0ore0wall_cassiterite = extendBase(
+        ENV_wallOre, "env0ore0wall-cassiterite",
+    );
 
 
-  /* zinc */
+    /* zinc */
 
 
-  const env0ore0wall_smithsonite = extendBase(
-    TEMPLATE, "env0ore0wall-smithsonite",
-  );
+    const env0ore0wall_smithsonite = extendBase(
+        ENV_wallOre, "env0ore0wall-smithsonite",
+    );
 
 
-  /* rock */
+    /* rock */
 
 
-  const env0ore0wall_trona = extendBase(
-    TEMPLATE, "env0ore0wall-trona",
-  );
+    const env0ore0wall_trona = extendBase(
+        ENV_wallOre, "env0ore0wall-trona",
+    );

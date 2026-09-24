@@ -1,26 +1,26 @@
 const db = {
 
 
-  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
+    /* <------------------------------ CHUNK SPLITTER ------------------------------> */
 
 
-  map: {
+    map: {
 
 
-    faction: [
+        faction: [
+
+            "loveclab-eff0core-ash", "outpost-military",
+
+        ],
 
 
-      "loveclab-eff0core-ash", "outpost-military",
+    },
 
 
-    ],
-
-
-  },
-
-
-  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
+    /* <------------------------------ CHUNK SPLITTER ------------------------------> */
 
 
 };
+
+
 exports.db = db;

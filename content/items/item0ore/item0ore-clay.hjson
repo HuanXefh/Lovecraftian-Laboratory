@@ -5,11 +5,11 @@
 */
 
 
-  alwaysUnlocked: true
-  research: {
-    parent: eff0core-ash
-    objectives: []
-  }
+    alwaysUnlocked: true
+    research: {
+        parent: eff0core-ash
+        objectives: []
+    }
 
 
 /*
@@ -19,4 +19,4 @@
 */
 
 
-  lowPriority: true
+    lowPriority: true

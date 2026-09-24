@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/rs/RS_chunksItem");
+    const RS_chunksItem = require("lovec/temp/rs/RS_chunksItem");
 
 
 /*
@@ -18,121 +15,121 @@
 */
 
 
-  /* <---------- item0int ----------> */
+    /* <------------------------------ item0int ------------------------------> */
 
 
-  /* barium */
+    /* barium */
 
 
-  const item0int0chunks_barite = extendBase(
-    TEMPLATE, "item0int0chunks-barite",
-    TEMPLATE.build({
-      intmdParent: "loveclab-item0ore-barite",
-    }),
-  );
+    const item0int0chunks_barite = extendBase(
+        RS_chunksItem, "item0int0chunks-barite",
+        RS_chunksItem.build({
+            intmdParent: "loveclab-item0ore-barite",
+        }),
+    );
 
 
-  /* carbon */
+    /* carbon */
 
 
-  const item0int0chunks_crudeGraphite = extendBase(
-    TEMPLATE, "item0int0chunks-crude-graphite",
-    TEMPLATE.build({
-      intmdParent: "loveclab-item0ore-crude-graphite",
-    }),
-  );
+    const item0int0chunks_crudeGraphite = extendBase(
+        RS_chunksItem, "item0int0chunks-crude-graphite",
+        RS_chunksItem.build({
+            intmdParent: "loveclab-item0ore-crude-graphite",
+        }),
+    );
 
 
-  /* phosphorus */
+    /* phosphorus */
 
 
-  const item0int0chunks_hydroxyapatite = extendBase(
-    TEMPLATE, "item0int0chunks-hydroxyapatite",
-    TEMPLATE.build({
-      intmdParent: "loveclab-item0ore-hydroxyapatite",
-    }),
-  );
+    const item0int0chunks_hydroxyapatite = extendBase(
+        RS_chunksItem, "item0int0chunks-hydroxyapatite",
+        RS_chunksItem.build({
+            intmdParent: "loveclab-item0ore-hydroxyapatite",
+        }),
+    );
 
 
-  const item0int0chunks_fluorapatite = extendBase(
-    TEMPLATE, "item0int0chunks-fluorapatite",
-    TEMPLATE.build({
-      intmdParent: "loveclab-item0ore-fluorapatite",
-    }),
-  );
+    const item0int0chunks_fluorapatite = extendBase(
+        RS_chunksItem, "item0int0chunks-fluorapatite",
+        RS_chunksItem.build({
+            intmdParent: "loveclab-item0ore-fluorapatite",
+        }),
+    );
 
 
-  /* silicon */
+    /* silicon */
 
 
-  const item0int0chunks_silicaStone = extendBase(
-    TEMPLATE, "item0int0chunks-silica-stone",
-    TEMPLATE.build({
-      intmdParent: "loveclab-item0ore-silica-stone",
-    }),
-  );
+    const item0int0chunks_silicaStone = extendBase(
+        RS_chunksItem, "item0int0chunks-silica-stone",
+        RS_chunksItem.build({
+            intmdParent: "loveclab-item0ore-silica-stone",
+        }),
+    );
 
 
-  /* sulfur */
+    /* sulfur */
 
 
-  const item0int0chunks_crudeSulfur = extendBase(
-    TEMPLATE, "item0int0chunks-crude-sulfur",
-    TEMPLATE.build({
-      intmdParent: "loveclab-item0ore-crude-sulfur",
-    }),
-  );
+    const item0int0chunks_crudeSulfur = extendBase(
+        RS_chunksItem, "item0int0chunks-crude-sulfur",
+        RS_chunksItem.build({
+            intmdParent: "loveclab-item0ore-crude-sulfur",
+        }),
+    );
 
 
-  /* zirconium */
+    /* zirconium */
 
 
-  const item0int0chunks_zircon = extendBase(
-    TEMPLATE, "item0int0chunks-zircon",
-    TEMPLATE.build({
-      intmdParent: "loveclab-item0ore-zircon",
-    }),
-  );
+    const item0int0chunks_zircon = extendBase(
+        RS_chunksItem, "item0int0chunks-zircon",
+        RS_chunksItem.build({
+            intmdParent: "loveclab-item0ore-zircon",
+        }),
+    );
 
 
-  /* rock */
+    /* rock */
 
 
-  const item0int0chunks_dolomite = extendBase(
-    TEMPLATE, "item0int0chunks-dolomite",
-    TEMPLATE.build({
-      intmdParent: "loveclab-item0ore-dolomite",
-    }),
-  );
+    const item0int0chunks_dolomite = extendBase(
+        RS_chunksItem, "item0int0chunks-dolomite",
+        RS_chunksItem.build({
+            intmdParent: "loveclab-item0ore-dolomite",
+        }),
+    );
 
 
-  const item0int0chunks_gypsum = extendBase(
-    TEMPLATE, "item0int0chunks-gypsum",
-    TEMPLATE.build({
-      intmdParent: "loveclab-item0ore-gypsum",
-    }),
-  );
+    const item0int0chunks_gypsum = extendBase(
+        RS_chunksItem, "item0int0chunks-gypsum",
+        RS_chunksItem.build({
+            intmdParent: "loveclab-item0ore-gypsum",
+        }),
+    );
 
 
-  const item0int0chunks_limestone = extendBase(
-    TEMPLATE, "item0int0chunks-limestone",
-    TEMPLATE.build({
-      intmdParent: "loveclab-item0ore-limestone",
-    }),
-  );
+    const item0int0chunks_limestone = extendBase(
+        RS_chunksItem, "item0int0chunks-limestone",
+        RS_chunksItem.build({
+            intmdParent: "loveclab-item0ore-limestone",
+        }),
+    );
 
 
-  const item0int0chunks_salt = extendBase(
-    TEMPLATE, "item0int0chunks-salt",
-    TEMPLATE.build({
-      intmdParent: "loveclab-item0ore-salt",
-    }),
-  );
+    const item0int0chunks_salt = extendBase(
+        RS_chunksItem, "item0int0chunks-salt",
+        RS_chunksItem.build({
+            intmdParent: "loveclab-item0ore-salt",
+        }),
+    );
 
 
-  const item0int0chunks_talc = extendBase(
-    TEMPLATE, "item0int0chunks-talc",
-    TEMPLATE.build({
-      intmdParent: "loveclab-item0ore-talc",
-    }),
-  );
+    const item0int0chunks_talc = extendBase(
+        RS_chunksItem, "item0int0chunks-talc",
+        RS_chunksItem.build({
+            intmdParent: "loveclab-item0ore-talc",
+        }),
+    );

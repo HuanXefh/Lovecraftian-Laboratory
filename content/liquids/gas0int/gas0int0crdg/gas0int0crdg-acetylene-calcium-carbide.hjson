@@ -5,6 +5,6 @@
 */
 
 
-  flammability: 1.0
-  explosiveness: 3.0
-  gas: true
+    flammability: 1.0
+    explosiveness: 3.0
+    gas: true

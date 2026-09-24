@@ -5,7 +5,7 @@
 */
 
 
-  # type: TreeBlock
+    # type: TreeBlock
 
 
 /*
@@ -15,9 +15,9 @@
 */
 
 
-  emitLight: true
-  lightRadius: 32.0
-  lightColor: "b8cae048"
+    emitLight: true
+    lightRadius: 32.0
+    lightColor: "b8cae048"
 
 
 /*
@@ -27,7 +27,7 @@
 */
 
 
-  attributes: {
-    lovec-attr0blk-fungi: 0.2
-    lovec-attr0blk-hard-fungi: 1.0
-  }
+    attributes: {
+        lovec-attr0blk-fungi: 0.2
+        lovec-attr0blk-hard-fungi: 1.0
+    }

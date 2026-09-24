@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/env/ENV_liquidMaterialFloor");
+    const ENV_liquidMaterialFloor = require("lovec/temp/env/ENV_liquidMaterialFloor");
 
 
 /*
@@ -18,123 +15,123 @@
 */
 
 
-  /* <---------- env0flr ----------> */
+    /* <------------------------------ env0flr ------------------------------> */
 
 
-  /* lava */
+    /* lava */
 
 
-  const env0liq_lava = extendBase(
-    TEMPLATE, "env0liq-lava",
-    TEMPLATE.build({
-      matGrp: "lava",
-    }),
-  );
+    const env0liq_lava = extendBase(
+        ENV_liquidMaterialFloor, "env0liq-lava",
+        ENV_liquidMaterialFloor.build({
+            matGrp: "lava",
+        }),
+    );
 
 
-  /* puddle */
+    /* puddle */
 
 
-  const env0liq_brine = extendBase(
-    TEMPLATE, "env0liq-brine",
-    TEMPLATE.build({
-      matGrp: "puddle",
-    }),
-  );
+    const env0liq_brine = extendBase(
+        ENV_liquidMaterialFloor, "env0liq-brine",
+        ENV_liquidMaterialFloor.build({
+            matGrp: "puddle",
+        }),
+    );
 
 
-  const env0liq_brineShallow = extendBase(
-    TEMPLATE, "env0liq-brine-shallow",
-    TEMPLATE.build({
-      matGrp: "puddle",
-      shallow: true,
-    }),
-  );
+    const env0liq_brineShallow = extendBase(
+        ENV_liquidMaterialFloor, "env0liq-brine-shallow",
+        ENV_liquidMaterialFloor.build({
+            matGrp: "puddle",
+            shallow: true,
+        }),
+    );
 
 
-  const env0liq_volcanicSpring = extendBase(
-    TEMPLATE, "env0liq-volcanic-spring",
-    TEMPLATE.build({
-      matGrp: "puddle",
-      updateEff: TP_effect.smogVent({
-        size: 30.0,
-        rad: 30.0,
-        color: Color.white,
-        scl: 2.0,
-      }),
-      updateEffP: 0.002,
-    }),
-  );
+    const env0liq_volcanicSpring = extendBase(
+        ENV_liquidMaterialFloor, "env0liq-volcanic-spring",
+        ENV_liquidMaterialFloor.build({
+            matGrp: "puddle",
+            updateEff: TP_effect.smogVent({
+                size: 30.0,
+                rad: 30.0,
+                color: Color.white,
+                scl: 2.0,
+            }),
+            updateEffP: 0.002,
+        }),
+    );
 
 
-  const env0liq_volcanicSpringShallow = extendBase(
-    TEMPLATE, "env0liq-volcanic-spring-shallow",
-    TEMPLATE.build({
-      matGrp: "puddle",
-      updateEff: TP_effect.smogVent({
-        size: 30.0,
-        rad: 30.0,
-        color: Color.white,
-        scl: 2.0,
-      }),
-      updateEffP: 0.002,
-      shallow: true,
-    }),
-  );
+    const env0liq_volcanicSpringShallow = extendBase(
+        ENV_liquidMaterialFloor, "env0liq-volcanic-spring-shallow",
+        ENV_liquidMaterialFloor.build({
+            matGrp: "puddle",
+            updateEff: TP_effect.smogVent({
+                size: 30.0,
+                rad: 30.0,
+                color: Color.white,
+                scl: 2.0,
+            }),
+            updateEffP: 0.002,
+            shallow: true,
+        }),
+    );
 
 
-  /* river */
+    /* river */
 
 
-  const env0liq_water = extendBase(
-    TEMPLATE, "env0liq-water",
-    TEMPLATE.build({
-      matGrp: "river",
-    }),
-  );
+    const env0liq_water = extendBase(
+        ENV_liquidMaterialFloor, "env0liq-water",
+        ENV_liquidMaterialFloor.build({
+            matGrp: "river",
+        }),
+    );
 
 
-  const env0liq_waterShallow = extendBase(
-    TEMPLATE, "env0liq-water-shallow",
-    TEMPLATE.build({
-      matGrp: "river",
-      shallow: true,
-    }),
-  );
+    const env0liq_waterShallow = extendBase(
+        ENV_liquidMaterialFloor, "env0liq-water-shallow",
+        ENV_liquidMaterialFloor.build({
+            matGrp: "river",
+            shallow: true,
+        }),
+    );
 
 
-  const env0liq_swampWater = extendBase(
-    TEMPLATE, "env0liq-swamp-water",
-    TEMPLATE.build({
-      matGrp: "river",
-    }),
-  );
+    const env0liq_swampWater = extendBase(
+        ENV_liquidMaterialFloor, "env0liq-swamp-water",
+        ENV_liquidMaterialFloor.build({
+            matGrp: "river",
+        }),
+    );
 
 
-  const env0liq_swampWaterShallow = extendBase(
-    TEMPLATE, "env0liq-swamp-water-shallow",
-    TEMPLATE.build({
-      matGrp: "river",
-      shallow: true,
-    }),
-  );
+    const env0liq_swampWaterShallow = extendBase(
+        ENV_liquidMaterialFloor, "env0liq-swamp-water-shallow",
+        ENV_liquidMaterialFloor.build({
+            matGrp: "river",
+            shallow: true,
+        }),
+    );
 
 
-  /* sea */
+    /* sea */
 
 
-  const env0liq_seaWater = extendBase(
-    TEMPLATE, "env0liq-sea-water",
-    TEMPLATE.build({
-      matGrp: "sea",
-    }),
-  );
+    const env0liq_seaWater = extendBase(
+        ENV_liquidMaterialFloor, "env0liq-sea-water",
+        ENV_liquidMaterialFloor.build({
+            matGrp: "sea",
+        }),
+    );
 
 
-  const env0liq_seaWaterShallow = extendBase(
-    TEMPLATE, "env0liq-sea-water-shallow",
-    TEMPLATE.build({
-      matGrp: "sea",
-      shallow: true,
-    }),
-  );
+    const env0liq_seaWaterShallow = extendBase(
+        ENV_liquidMaterialFloor, "env0liq-sea-water-shallow",
+        ENV_liquidMaterialFloor.build({
+            matGrp: "sea",
+            shallow: true,
+        }),
+    );

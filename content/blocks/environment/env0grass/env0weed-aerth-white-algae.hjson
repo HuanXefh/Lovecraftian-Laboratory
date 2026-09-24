@@ -5,7 +5,7 @@
 */
 
 
-  # type: SeaWeed
+    # type: SeaWeed
 
 
 /*
@@ -15,7 +15,7 @@
 */
 
 
-  variants: 3
+    variants: 3
 
 
 /*
@@ -25,6 +25,6 @@
 */
 
 
-  attributes: {
-    lovec-attr0blk-algae: 1.0
-  }
+    attributes: {
+        lovec-attr0blk-algae: 1.0
+    }

@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: item0chem-graphite
-    objectives: []
-  }
+    research: {
+        parent: item0chem-graphite
+        objectives: []
+    }
 
 
 /*
@@ -18,4 +18,4 @@
 */
 
 
-  flammability: 0.75
+    flammability: 0.75

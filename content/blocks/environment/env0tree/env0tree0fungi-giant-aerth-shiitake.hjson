@@ -5,7 +5,7 @@
 */
 
 
-  # type: TreeBlock
+    # type: TreeBlock
 
 
 /*
@@ -15,6 +15,6 @@
 */
 
 
-  attributes: {
-    lovec-attr0blk-fungi: 0.5
-  }
+    attributes: {
+        lovec-attr0blk-fungi: 0.5
+    }

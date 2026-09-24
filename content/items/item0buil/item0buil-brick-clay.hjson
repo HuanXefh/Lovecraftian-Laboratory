@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: item0chem-copper
-    objectives: []
-  }
+    research: {
+        parent: item0chem-copper
+        objectives: []
+    }
 
 
 /*
@@ -18,5 +18,5 @@
 */
 
 
-  buildable: true
-  cost: 1.5
+    buildable: true
+    cost: 1.5

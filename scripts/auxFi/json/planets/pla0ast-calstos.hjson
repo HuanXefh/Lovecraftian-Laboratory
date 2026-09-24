@@ -5,8 +5,8 @@
 */
 
 
-  icon: commandRally
-  iconColor: "ffffff"
+    icon: commandRally
+    iconColor: "ffffff"
 
 
 /*
@@ -16,10 +16,10 @@
 */
 
 
-  solarSystem: loveclab-pla0sun-veibrus
-  parent: loveclab-pla0sun-veibrus
-  orbitRadius: 44.5
-  rotateTime: 6880.0
+    solarSystem: loveclab-pla0sun-veibrus
+    parent: loveclab-pla0sun-veibrus
+    orbitRadius: 44.5
+    rotateTime: 6880.0
 
 
 /*
@@ -29,8 +29,8 @@
 */
 
 
-  radius: 0.4
-  generator: {}
+    radius: 0.4
+    generator: {}
 
 
 /*
@@ -40,6 +40,6 @@
 */
 
 
-  accessible: false
-  defaultEnv: 1
-  defaultAttributes: {}
+    accessible: false
+    defaultEnv: 1
+    defaultAttributes: {}

@@ -5,7 +5,7 @@
 */
 
 
-  research: {
-    parent: liq0ore-brine
-    objectives: []
-  }
+    research: {
+        parent: liq0ore-brine
+        objectives: []
+    }

@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: gas0was-coke-oven-gas
-    objectives: []
-  }
+    research: {
+        parent: gas0was-coke-oven-gas
+        objectives: []
+    }
 
 
 /*
@@ -18,5 +18,5 @@
 */
 
 
-  flammability: 1.0
-  effect: tarred
+    flammability: 1.0
+    effect: tarred

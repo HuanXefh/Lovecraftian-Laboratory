@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: item0ore-crude-graphite
-    objectives: []
-  }
+    research: {
+        parent: item0ore-crude-graphite
+        objectives: []
+    }
 
 
 /*
@@ -18,7 +18,7 @@
 */
 
 
-  flammability: 0.5
+    flammability: 0.5
 
 
 /*
@@ -28,4 +28,4 @@
 */
 
 
-  lowPriority: true
+    lowPriority: true

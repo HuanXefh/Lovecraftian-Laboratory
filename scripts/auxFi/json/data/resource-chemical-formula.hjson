@@ -1,4 +1,4 @@
-/* <---------- item0chem (inorganic) ----------> */
+/* <------------------------------ item0chem (inorganic) ------------------------------> */
 
 /* calcium */
 
@@ -18,14 +18,14 @@ loveclab-item0chem-sodium-chloride: NaCl
 loveclab-item0chem-sodium-nitrate: NaNO3
 loveclab-item0chem-sodium-nitrite: NaNO2
 
-/* <---------- gas0chem (elementary) ----------> */
+/* <------------------------------ gas0chem (elementary) ------------------------------> */
 
 loveclab-gas0chem-hydrogen: H2
 loveclab-gas0chem-nitrogen: N2
 loveclab-gas0chem-oxygen: O2
 loveclab-gas0chem-ozone: O3
 
-/* <---------- gas0chem (inorganic) ----------> */
+/* <------------------------------ gas0chem (inorganic) ------------------------------> */
 
 /* carbon */
 
@@ -36,7 +36,7 @@ loveclab-gas0chem-carbon-dioxide: CO2
 loveclab-gas0chem-sulfur-dioxide: SO2
 loveclab-gas0chem-sulfur-trioxide: SO3
 
-/* <---------- gas0chem (organic) ----------> */
+/* <------------------------------ gas0chem (organic) ------------------------------> */
 
 /* alkyne */
 

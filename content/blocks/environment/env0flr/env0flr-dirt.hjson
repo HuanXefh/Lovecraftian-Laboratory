@@ -5,7 +5,7 @@
 */
 
 
-  # type: Floor
+    # type: Floor
 
 
 /*
@@ -15,7 +15,7 @@
 */
 
 
-  variants: 8
+    variants: 8
 
 
 /*
@@ -25,7 +25,7 @@
 */
 
 
-  attributes: {
-    lovec-attr0env-growth: 1.0
-    lovec-attr0rock-biological-sedimentary: 0.5
-  }
+    attributes: {
+        lovec-attr0env-growth: 1.0
+        lovec-attr0rock-biological-sedimentary: 0.5
+    }

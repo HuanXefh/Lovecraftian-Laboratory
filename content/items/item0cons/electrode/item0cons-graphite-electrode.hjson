@@ -5,7 +5,7 @@
 */
 
 
-  research: {
-    parent: item0cons-natural-graphite-electrode
-    objectives: []
-  }
+    research: {
+        parent: item0cons-natural-graphite-electrode
+        objectives: []
+    }

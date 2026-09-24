@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: liq0ore-sea-water
-    objectives: []
-  }
+    research: {
+        parent: liq0ore-sea-water
+        objectives: []
+    }
 
 
 /*
@@ -18,4 +18,4 @@
 */
 
 
-  effect: sta0liq-sea-water-corrosion
+    effect: sta0liq-sea-water-corrosion

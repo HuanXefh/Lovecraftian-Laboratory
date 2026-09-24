@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: item0bio-timber
-    objectives: []
-  }
+    research: {
+        parent: item0bio-timber
+        objectives: []
+    }
 
 
 /*
@@ -18,5 +18,5 @@
 */
 
 
-  explosiveness: 0.75
-  flammability: 1.0
+    explosiveness: 0.75
+    flammability: 1.0

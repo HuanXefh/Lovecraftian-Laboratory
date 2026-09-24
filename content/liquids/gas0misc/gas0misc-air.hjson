@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: gas0misc-steam
-    objectives: []
-  }
+    research: {
+        parent: gas0misc-steam
+        objectives: []
+    }
 
 
 /*
@@ -18,6 +18,6 @@
 */
 
 
-  heatCapacity: 0.4
-  coolant: true
-  gas: true
+    heatCapacity: 0.4
+    coolant: true
+    gas: true

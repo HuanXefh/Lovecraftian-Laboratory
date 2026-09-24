@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: item0buil-glass
-    objectives: []
-  }
+    research: {
+        parent: item0buil-glass
+        objectives: []
+    }
 
 
 /*
@@ -18,5 +18,5 @@
 */
 
 
-  buildable: true
-  cost: 2.5
+    buildable: true
+    cost: 2.5

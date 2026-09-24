@@ -5,10 +5,10 @@
 */
 
 
-  damage: 0.0
-  damageMultiplier: 1.0
-  healthMultiplier: 1.0
-  speedMultiplier: 1.15
-  reloadMultiplier: 1.15
-  buildSpeedMultiplier: 1.0
-  dragMultiplier: 1.0
+    damage: 0.0
+    damageMultiplier: 1.0
+    healthMultiplier: 1.0
+    speedMultiplier: 1.15
+    reloadMultiplier: 1.15
+    buildSpeedMultiplier: 1.0
+    dragMultiplier: 1.0

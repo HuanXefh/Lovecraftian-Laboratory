@@ -5,7 +5,7 @@
 */
 
 
-  # type: SteamVent
+    # type: SteamVent
 
 
 /*
@@ -15,7 +15,7 @@
 */
 
 
-  status: burning
+    status: burning
 
 
 /*
@@ -25,8 +25,8 @@
 */
 
 
-  variants: 0
-  parent: env0flr-rock-lava-red
+    variants: 0
+    parent: env0flr-rock-lava-red
 
 
 /*
@@ -36,7 +36,7 @@
 */
 
 
-  attributes: {
-    lovec-attr0env-heat: 6.5
-    lovec-attr0rock-lava: 1.0
-  }
+    attributes: {
+        lovec-attr0env-heat: 6.5
+        lovec-attr0rock-lava: 1.0
+    }

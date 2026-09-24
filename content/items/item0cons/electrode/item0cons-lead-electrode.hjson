@@ -5,7 +5,7 @@
 */
 
 
-  research: {
-    parent: item0cons-copper-electrode
-    objectives: []
-  }
+    research: {
+        parent: item0cons-copper-electrode
+        objectives: []
+    }

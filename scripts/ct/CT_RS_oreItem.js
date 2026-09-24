@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/rs/RS_oreItem");
+    const RS_oreItem = require("lovec/temp/rs/RS_oreItem");
 
 
 /*
@@ -18,407 +15,407 @@
 */
 
 
-  /* <---------- item0ore ----------> */
+  /* <------------------------------ item0ore ------------------------------> */
 
 
-  /* aluminum */
+    /* aluminum */
 
 
-  const item0ore_bauxite = extendBase(
-    TEMPLATE, "item0ore-bauxite",
-  );
+    const item0ore_bauxite = extendBase(
+        RS_oreItem, "item0ore-bauxite",
+    );
 
 
-  /* arsenic */
+    /* arsenic */
 
 
-  const item0ore_arsenopyrite = extendBase(
-    TEMPLATE, "item0ore-arsenopyrite",
-  );
+    const item0ore_arsenopyrite = extendBase(
+        RS_oreItem, "item0ore-arsenopyrite",
+    );
 
 
-  /* barium */
+    /* barium */
 
 
-  const item0ore_barite = extendBase(
-    TEMPLATE, "item0ore-barite",
-  );
+    const item0ore_barite = extendBase(
+        RS_oreItem, "item0ore-barite",
+    );
 
 
-  /* boron */
+    /* boron */
 
 
-  const item0ore_crudeBorax = extendBase(
-    TEMPLATE, "item0ore-crude-borax",
-  );
+    const item0ore_crudeBorax = extendBase(
+        RS_oreItem, "item0ore-crude-borax",
+    );
 
 
-  /* carbon */
+    /* carbon */
 
 
-  const item0chem_peat = extendBase(
-    TEMPLATE, "item0chem-peat",
-  );
+    const item0chem_peat = extendBase(
+        RS_oreItem, "item0chem-peat",
+    );
 
 
-  const item0chem_lignite = extendBase(
-    TEMPLATE, "item0chem-lignite",
-  );
+    const item0chem_lignite = extendBase(
+        RS_oreItem, "item0chem-lignite",
+    );
 
 
-  const item0ore_rawCoal = extendBase(
-    TEMPLATE, "item0ore-raw-coal",
-  );
+    const item0ore_rawCoal = extendBase(
+        RS_oreItem, "item0ore-raw-coal",
+    );
 
 
-  const item0chem_anthracite = extendBase(
-    TEMPLATE, "item0chem-anthracite",
-  );
+    const item0chem_anthracite = extendBase(
+        RS_oreItem, "item0chem-anthracite",
+    );
 
 
-  const item0ore_crudeGraphite = extendBase(
-    TEMPLATE, "item0ore-crude-graphite",
-  );
+    const item0ore_crudeGraphite = extendBase(
+        RS_oreItem, "item0ore-crude-graphite",
+    );
 
 
-  /* chromium */
+    /* chromium */
 
 
-  const item0ore_chromite = extendBase(
-    TEMPLATE, "item0ore-chromite",
-  );
+    const item0ore_chromite = extendBase(
+        RS_oreItem, "item0ore-chromite",
+    );
 
 
-  /* copper */
+    /* copper */
 
 
-  const item0ore_azurite = extendBase(
-    TEMPLATE, "item0ore-azurite",
-  );
+    const item0ore_azurite = extendBase(
+        RS_oreItem, "item0ore-azurite",
+    );
 
 
-  const item0ore_chalcopyrite = extendBase(
-    TEMPLATE, "item0ore-chalcopyrite",
-  );
+    const item0ore_chalcopyrite = extendBase(
+        RS_oreItem, "item0ore-chalcopyrite",
+    );
 
 
-  const item0ore_malachite = extendBase(
-    TEMPLATE, "item0ore-malachite",
-  );
+    const item0ore_malachite = extendBase(
+        RS_oreItem, "item0ore-malachite",
+    );
 
 
-  const item0ore_nativeCopper = extendBase(
-    TEMPLATE, "item0ore-native-copper",
-  );
+    const item0ore_nativeCopper = extendBase(
+        RS_oreItem, "item0ore-native-copper",
+    );
 
 
-  /* fluorine */
+    /* fluorine */
 
 
-  const item0ore_fluorite = extendBase(
-    TEMPLATE, "item0ore-fluorite",
-  );
+    const item0ore_fluorite = extendBase(
+        RS_oreItem, "item0ore-fluorite",
+    );
 
 
-  /* iron */
+    /* iron */
 
 
-  const item0ore_hematite = extendBase(
-    TEMPLATE, "item0ore-hematite",
-  );
+    const item0ore_hematite = extendBase(
+        RS_oreItem, "item0ore-hematite",
+    );
 
 
-  const item0ore_limonite = extendBase(
-    TEMPLATE, "item0ore-limonite",
-  );
+    const item0ore_limonite = extendBase(
+        RS_oreItem, "item0ore-limonite",
+    );
 
 
-  const item0ore_magnetite = extendBase(
-    TEMPLATE, "item0ore-magnetite",
-  );
+    const item0ore_magnetite = extendBase(
+        RS_oreItem, "item0ore-magnetite",
+    );
 
 
-  const item0ore_meteoricIron = extendBase(
-    TEMPLATE, "item0ore-meteoric-iron",
-  );
+    const item0ore_meteoricIron = extendBase(
+        RS_oreItem, "item0ore-meteoric-iron",
+    );
 
 
-  const item0ore_pyrite = extendBase(
-    TEMPLATE, "item0ore-pyrite",
-  );
+    const item0ore_pyrite = extendBase(
+        RS_oreItem, "item0ore-pyrite",
+    );
 
 
-  const item0ore_pyrrhotite = extendBase(
-    TEMPLATE, "item0ore-pyrrhotite",
-  );
+    const item0ore_pyrrhotite = extendBase(
+        RS_oreItem, "item0ore-pyrrhotite",
+    );
 
 
-  /* lead */
+    /* lead */
 
 
-  const item0ore_anglesite = extendBase(
-    TEMPLATE, "item0ore-anglesite",
-  );
+    const item0ore_anglesite = extendBase(
+        RS_oreItem, "item0ore-anglesite",
+    );
 
 
-  const item0ore_galena = extendBase(
-    TEMPLATE, "item0ore-galena",
-  );
+    const item0ore_galena = extendBase(
+        RS_oreItem, "item0ore-galena",
+    );
 
 
-  /* lithium */
+    /* lithium */
 
 
-  const item0ore_lepidolite = extendBase(
-    TEMPLATE, "item0ore-lepidolite",
-  );
+    const item0ore_lepidolite = extendBase(
+        RS_oreItem, "item0ore-lepidolite",
+    );
 
 
-  const item0ore_spodumene = extendBase(
-    TEMPLATE, "item0ore-spodumene",
-  );
+    const item0ore_spodumene = extendBase(
+        RS_oreItem, "item0ore-spodumene",
+    );
 
 
-  /* manganese */
+    /* manganese */
 
 
-  const item0ore_psilomelane = extendBase(
-    TEMPLATE, "item0ore-psilomelane",
-  );
+    const item0ore_psilomelane = extendBase(
+        RS_oreItem, "item0ore-psilomelane",
+    );
 
 
-  const item0ore_pyrolusite = extendBase(
-    TEMPLATE, "item0ore-pyrolusite",
-  );
+    const item0ore_pyrolusite = extendBase(
+        RS_oreItem, "item0ore-pyrolusite",
+    );
 
 
-  /* mercury */
+    /* mercury */
 
 
-  const item0ore_cinnabar = extendBase(
-    TEMPLATE, "item0ore-cinnabar",
-  );
+    const item0ore_cinnabar = extendBase(
+        RS_oreItem, "item0ore-cinnabar",
+    );
 
 
-  /* nickel */
+    /* nickel */
 
 
-  const item0ore_nickelLaterite = extendBase(
-    TEMPLATE, "item0ore-nickel-laterite",
-  );
+    const item0ore_nickelLaterite = extendBase(
+        RS_oreItem, "item0ore-nickel-laterite",
+    );
 
 
-  const item0ore_pentlandite = extendBase(
-    TEMPLATE, "item0ore-pentlandite",
-  );
+    const item0ore_pentlandite = extendBase(
+        RS_oreItem, "item0ore-pentlandite",
+    );
 
 
-  /* nitrogen */
+    /* nitrogen */
 
 
-  const item0ore_niter = extendBase(
-    TEMPLATE, "item0ore-niter",
-  );
+    const item0ore_niter = extendBase(
+        RS_oreItem, "item0ore-niter",
+    );
 
 
-  /* phosphorus */
+    /* phosphorus */
 
 
-  const item0ore_fluorapatite = extendBase(
-    TEMPLATE, "item0ore-fluorapatite",
-  );
+    const item0ore_fluorapatite = extendBase(
+        RS_oreItem, "item0ore-fluorapatite",
+    );
 
 
-  const item0ore_hydroxyapatite = extendBase(
-    TEMPLATE, "item0ore-hydroxyapatite",
-  );
+    const item0ore_hydroxyapatite = extendBase(
+        RS_oreItem, "item0ore-hydroxyapatite",
+    );
 
 
-  /* platinum */
+    /* platinum */
 
 
-  const item0ore_sperrylite = extendBase(
-    TEMPLATE, "item0ore-sperrylite",
-  );
+    const item0ore_sperrylite = extendBase(
+        RS_oreItem, "item0ore-sperrylite",
+    );
 
 
-  /* silicon */
+    /* silicon */
 
 
-  const item0ore_silicaStone = extendBase(
-    TEMPLATE, "item0ore-silica-stone",
-  );
+    const item0ore_silicaStone = extendBase(
+        RS_oreItem, "item0ore-silica-stone",
+    );
 
 
-  /* sulfur */
+    /* sulfur */
 
 
-  const item0ore_crudeSulfur = extendBase(
-    TEMPLATE, "item0ore-crude-sulfur",
-  );
+    const item0ore_crudeSulfur = extendBase(
+        RS_oreItem, "item0ore-crude-sulfur",
+    );
 
 
-  /* tin */
+    /* tin */
 
 
-  const item0ore_cassiterite = extendBase(
-    TEMPLATE, "item0ore-cassiterite",
-  );
+    const item0ore_cassiterite = extendBase(
+        RS_oreItem, "item0ore-cassiterite",
+    );
 
 
-  /* titanium */
+    /* titanium */
 
 
-  const item0ore_ilmenite = extendBase(
-    TEMPLATE, "item0ore-ilmenite",
-  );
+    const item0ore_ilmenite = extendBase(
+        RS_oreItem, "item0ore-ilmenite",
+    );
 
 
-  const item0ore_rutile = extendBase(
-    TEMPLATE, "item0ore-rutile",
-  );
+    const item0ore_rutile = extendBase(
+        RS_oreItem, "item0ore-rutile",
+    );
 
 
-  /* tungsten */
+    /* tungsten */
 
 
-  const item0ore_scheelite = extendBase(
-    TEMPLATE, "item0ore-scheelite",
-  );
+    const item0ore_scheelite = extendBase(
+        RS_oreItem, "item0ore-scheelite",
+    );
 
 
-  const item0ore_wolframite = extendBase(
-    TEMPLATE, "item0ore-wolframite",
-  );
+    const item0ore_wolframite = extendBase(
+        RS_oreItem, "item0ore-wolframite",
+    );
 
 
-  /* zinc */
+    /* zinc */
 
 
-  const item0ore_smithsonite = extendBase(
-    TEMPLATE, "item0ore-smithsonite",
-  );
+    const item0ore_smithsonite = extendBase(
+        RS_oreItem, "item0ore-smithsonite",
+    );
 
 
-  const item0ore_sphalerite = extendBase(
-    TEMPLATE, "item0ore-sphalerite",
-  );
+    const item0ore_sphalerite = extendBase(
+        RS_oreItem, "item0ore-sphalerite",
+    );
 
 
-  /* zirconium */
+    /* zirconium */
 
 
-  const item0ore_zircon = extendBase(
-    TEMPLATE, "item0ore-zircon",
-  );
+    const item0ore_zircon = extendBase(
+        RS_oreItem, "item0ore-zircon",
+    );
 
 
-  /* misc */
+    /* misc */
 
 
-  const item0ore_clay = extendBase(
-    TEMPLATE, "item0ore-clay",
-  );
+    const item0ore_clay = extendBase(
+        RS_oreItem, "item0ore-clay",
+    );
 
 
-  const item0ore_sand = extendBase(
-    TEMPLATE, "item0ore-sand",
-  );
+    const item0ore_sand = extendBase(
+        RS_oreItem, "item0ore-sand",
+    );
 
 
-  const item0ore_sandRiver = extendBase(
-    TEMPLATE, "item0ore-sand-river",
-  );
+    const item0ore_sandRiver = extendBase(
+        RS_oreItem, "item0ore-sand-river",
+    );
 
 
-  const item0ore_sandSea = extendBase(
-    TEMPLATE, "item0ore-sand-sea",
-  );
+    const item0ore_sandSea = extendBase(
+        RS_oreItem, "item0ore-sand-sea",
+    );
 
 
-  /* rock */
+    /* rock */
 
 
-  const item0ore_asbestos = extendBase(
-    TEMPLATE, "item0ore-asbestos",
-  );
+    const item0ore_asbestos = extendBase(
+        RS_oreItem, "item0ore-asbestos",
+    );
 
 
-  const item0ore_dolomite = extendBase(
-    TEMPLATE, "item0ore-dolomite",
-  );
+    const item0ore_dolomite = extendBase(
+        RS_oreItem, "item0ore-dolomite",
+    );
 
 
-  const item0ore_gypsum = extendBase(
-    TEMPLATE, "item0ore-gypsum",
-  );
+    const item0ore_gypsum = extendBase(
+        RS_oreItem, "item0ore-gypsum",
+    );
 
 
-  const item0ore_limestone = extendBase(
-    TEMPLATE, "item0ore-limestone",
-  );
+    const item0ore_limestone = extendBase(
+        RS_oreItem, "item0ore-limestone",
+    );
 
 
-  const item0ore_pumice = extendBase(
-    TEMPLATE, "item0ore-pumice",
-  );
+    const item0ore_pumice = extendBase(
+        RS_oreItem, "item0ore-pumice",
+    );
 
 
-  const item0ore_salt = extendBase(
-    TEMPLATE, "item0ore-salt",
-  );
+    const item0ore_salt = extendBase(
+        RS_oreItem, "item0ore-salt",
+    );
 
 
-  const item0ore_seaSalt = extendBase(
-    TEMPLATE, "item0ore-sea-salt",
-  );
+    const item0ore_seaSalt = extendBase(
+        RS_oreItem, "item0ore-sea-salt",
+    );
 
 
-  const item0ore_talc = extendBase(
-    TEMPLATE, "item0ore-talc",
-  );
+    const item0ore_talc = extendBase(
+        RS_oreItem, "item0ore-talc",
+    );
 
 
-  const item0ore_trona = extendBase(
-    TEMPLATE, "item0ore-trona",
-  );
+    const item0ore_trona = extendBase(
+        RS_oreItem, "item0ore-trona",
+    );
 
 
-  const item0ore_rockClastic = extendBase(
-    TEMPLATE, "item0ore-rock-clastic",
-  );
+    const item0ore_rockClastic = extendBase(
+        RS_oreItem, "item0ore-rock-clastic",
+    );
 
 
-  const item0ore_rockEvaporite = extendBase(
-    TEMPLATE, "item0ore-rock-evaporite",
-  );
+    const item0ore_rockEvaporite = extendBase(
+        RS_oreItem, "item0ore-rock-evaporite",
+    );
 
 
-  const item0ore_rockHypabyssal = extendBase(
-    TEMPLATE, "item0ore-rock-hypabyssal",
-  );
+    const item0ore_rockHypabyssal = extendBase(
+        RS_oreItem, "item0ore-rock-hypabyssal",
+    );
 
 
-  const item0ore_rockLava = extendBase(
-    TEMPLATE, "item0ore-rock-lava",
-  );
+    const item0ore_rockLava = extendBase(
+        RS_oreItem, "item0ore-rock-lava",
+    );
 
 
-  const item0ore_rockMetamorphic = extendBase(
-    TEMPLATE, "item0ore-rock-metamorphic",
-  );
+    const item0ore_rockMetamorphic = extendBase(
+        RS_oreItem, "item0ore-rock-metamorphic",
+    );
 
 
-  const item0ore_rockPlutonic = extendBase(
-    TEMPLATE, "item0ore-rock-plutonic",
-  );
+    const item0ore_rockPlutonic = extendBase(
+        RS_oreItem, "item0ore-rock-plutonic",
+    );
 
 
-  const item0ore_rockBiologicalSedimentary = extendBase(
-    TEMPLATE, "item0ore-rock-biological-sedimentary",
-  );
+    const item0ore_rockBiologicalSedimentary = extendBase(
+        RS_oreItem, "item0ore-rock-biological-sedimentary",
+    );
 
 
-  const item0ore_rockClasticSedimentary = extendBase(
-    TEMPLATE, "item0ore-rock-clastic-sedimentary",
-  );
+    const item0ore_rockClasticSedimentary = extendBase(
+        RS_oreItem, "item0ore-rock-clastic-sedimentary",
+    );

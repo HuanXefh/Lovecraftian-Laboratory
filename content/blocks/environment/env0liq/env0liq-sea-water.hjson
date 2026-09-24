@@ -5,7 +5,7 @@
 */
 
 
-  # type: Floor
+    # type: Floor
 
 
 /*
@@ -15,7 +15,7 @@
 */
 
 
-  status: loveclab-sta0liq-sea-water-corrosion
+    status: loveclab-sta0liq-sea-water-corrosion
 
 
 /*
@@ -25,7 +25,7 @@
 */
 
 
-  variants: 5
+    variants: 5
 
 
 /*
@@ -35,7 +35,7 @@
 */
 
 
-  liquidDrop: liq0ore-sea-water
-  attributes: {
-    lovec-attr0env-tide: 1.5
-  }
+    liquidDrop: liq0ore-sea-water
+    attributes: {
+        lovec-attr0env-tide: 1.5
+    }

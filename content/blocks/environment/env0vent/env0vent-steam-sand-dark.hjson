@@ -5,7 +5,7 @@
 */
 
 
-  # type: SteamVent
+    # type: SteamVent
 
 
 /*
@@ -15,7 +15,7 @@
 */
 
 
-  status: wet
+    status: wet
 
 
 /*
@@ -25,8 +25,8 @@
 */
 
 
-  variants: 0
-  parent: env0flr-sand-dark
+    variants: 0
+    parent: env0flr-sand-dark
 
 
 /*
@@ -36,9 +36,9 @@
 */
 
 
-  attributes: {
-    lovec-attr0env-heat: 0.8
-    lovec-attr0rock-clastic: 0.5
-    lovec-attr0rock-clastic-sedimentary: 0.5
-    lovec-attr0vent-steam: 1.0
-  }
+    attributes: {
+        lovec-attr0env-heat: 0.8
+        lovec-attr0rock-clastic: 0.5
+        lovec-attr0rock-clastic-sedimentary: 0.5
+        lovec-attr0vent-steam: 1.0
+    }

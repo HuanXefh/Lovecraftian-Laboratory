@@ -5,7 +5,7 @@
 */
 
 
-  # type: Floor
+    # type: Floor
 
 
 /*
@@ -15,7 +15,7 @@
 */
 
 
-  status: wet
+    status: wet
 
 
 /*
@@ -25,7 +25,7 @@
 */
 
 
-  variants: 3
+    variants: 3
 
 
 /*
@@ -35,4 +35,4 @@
 */
 
 
-  liquidDrop: liq0ore-water
+    liquidDrop: liq0ore-water

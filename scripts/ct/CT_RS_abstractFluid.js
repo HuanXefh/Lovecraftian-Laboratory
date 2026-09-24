@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/rs/RS_abstractFluid");
+    const RS_abstractFluid = require("lovec/temp/rs/RS_abstractFluid");
 
 
 /*
@@ -18,90 +15,90 @@
 */
 
 
-  /* <---------- aux0aux ----------> */
+    /* <------------------------------ aux0aux ------------------------------> */
 
 
-  /* primary */
+    /* primary */
 
 
-  const aux0aux_pressure = extendBase(
-    TEMPLATE, "aux0aux-pressure",
-    TEMPLATE.build({
-      tempTags: ["rs-aux", "rs-aux-nocap"],
-    }),
-  );
+    const aux0aux_pressure = extendBase(
+        RS_abstractFluid, "aux0aux-pressure",
+        RS_abstractFluid.build({
+            tempTags: ["rs-aux", "rs-aux-nocap"],
+        }),
+    );
 
 
-  const aux0aux_vacuum = extendBase(
-    TEMPLATE, "aux0aux-vacuum",
-    TEMPLATE.build({
-      tempTags: ["rs-aux", "rs-aux-nocap"],
-    }),
-  );
+    const aux0aux_vacuum = extendBase(
+        RS_abstractFluid, "aux0aux-vacuum",
+        RS_abstractFluid.build({
+            tempTags: ["rs-aux", "rs-aux-nocap"],
+        }),
+    );
 
 
-  const aux0aux_heat = extendBase(
-    TEMPLATE, "aux0aux-heat",
-    TEMPLATE.build({
-      tempTags: ["rs-aux", "rs-aux-nocap"],
-    }),
-  );
+    const aux0aux_heat = extendBase(
+        RS_abstractFluid, "aux0aux-heat",
+        RS_abstractFluid.build({
+            tempTags: ["rs-aux", "rs-aux-nocap"],
+        }),
+    );
 
 
-  const aux0aux_torque = extendBase(
-    TEMPLATE, "aux0aux-torque",
-    TEMPLATE.build({
-      tempTags: ["rs-aux", "rs-aux-nocap"],
-    }),
-  );
+    const aux0aux_torque = extendBase(
+        RS_abstractFluid, "aux0aux-torque",
+        RS_abstractFluid.build({
+            tempTags: ["rs-aux", "rs-aux-nocap"],
+        }),
+    );
 
 
-  const aux0aux_rpm = extendBase(
-    TEMPLATE, "aux0aux-rpm",
-    TEMPLATE.build({
-      tempTags: ["rs-aux", "rs-aux-nocap"],
-    }),
-  );
+    const aux0aux_rpm = extendBase(
+        RS_abstractFluid, "aux0aux-rpm",
+        RS_abstractFluid.build({
+            tempTags: ["rs-aux", "rs-aux-nocap"],
+        }),
+    );
 
 
-  /* misc */
+    /* misc */
 
 
-  const aux0aux_dustRecycling = extendBase(
-    TEMPLATE, "aux0aux-dust-recycling",
-  );
+    const aux0aux_dustRecycling = extendBase(
+        RS_abstractFluid, "aux0aux-dust-recycling",
+    );
 
 
-  const aux0aux_heatExchange = extendBase(
-    TEMPLATE, "aux0aux-heat-exchange",
-  );
+    const aux0aux_heatExchange = extendBase(
+        RS_abstractFluid, "aux0aux-heat-exchange",
+    );
 
 
-  const aux0aux_liquidMixing = extendBase(
-    TEMPLATE, "aux0aux-liquid-mixing",
-  );
+    const aux0aux_liquidMixing = extendBase(
+        RS_abstractFluid, "aux0aux-liquid-mixing",
+    );
 
 
-  const aux0aux_materialLifting = extendBase(
-    TEMPLATE, "aux0aux-material-lifting",
-  );
+    const aux0aux_materialLifting = extendBase(
+        RS_abstractFluid, "aux0aux-material-lifting",
+    );
 
 
-  const aux0aux_meltCooling = extendBase(
-    TEMPLATE, "aux0aux-melt-cooling",
-  );
+    const aux0aux_meltCooling = extendBase(
+        RS_abstractFluid, "aux0aux-melt-cooling",
+    );
 
 
-  const aux0aux_pollutionDetection = extendBase(
-    TEMPLATE, "aux0aux-pollution-detection",
-  );
+    const aux0aux_pollutionDetection = extendBase(
+        RS_abstractFluid, "aux0aux-pollution-detection",
+    );
 
 
-  const aux0aux_tubeFurnace = extendBase(
-    TEMPLATE, "aux0aux-tube-furnace",
-  );
+    const aux0aux_tubeFurnace = extendBase(
+        RS_abstractFluid, "aux0aux-tube-furnace",
+    );
 
 
-  const aux0aux_vibrationScreen = extendBase(
-    TEMPLATE, "aux0aux-vibration-screen",
-  );
+    const aux0aux_vibrationScreen = extendBase(
+        RS_abstractFluid, "aux0aux-vibration-screen",
+    );

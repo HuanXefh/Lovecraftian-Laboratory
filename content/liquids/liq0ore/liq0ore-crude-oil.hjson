@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: liq0ore-water
-    objectives: []
-  }
+    research: {
+        parent: liq0ore-water
+        objectives: []
+    }
 
 
 /*
@@ -18,5 +18,5 @@
 */
 
 
-  flammability: 1.0
-  effect: tarred
+    flammability: 1.0
+    effect: tarred

@@ -5,7 +5,7 @@
 */
 
 
-  # type: Floor
+    # type: Floor
 
 
 /*
@@ -15,7 +15,7 @@
 */
 
 
-  status: melting
+    status: melting
 
 
 /*
@@ -25,7 +25,7 @@
 */
 
 
-  variants: 0
+    variants: 0
 
 
 /*
@@ -35,6 +35,6 @@
 */
 
 
-attributes: {
-  lovec-attr0env-heat: 10.0
-}
+    attributes: {
+        lovec-attr0env-heat: 10.0
+    }

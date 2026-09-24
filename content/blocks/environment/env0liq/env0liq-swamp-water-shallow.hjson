@@ -5,7 +5,7 @@
 */
 
 
-  # type: Floor
+    # type: Floor
 
 
 /*
@@ -15,7 +15,7 @@
 */
 
 
-  status: wet
+    status: wet
 
 
 /*
@@ -25,7 +25,7 @@
 */
 
 
-  variants: 5
+    variants: 5
 
 
 /*
@@ -35,7 +35,7 @@
 */
 
 
-  liquidDrop: liq0ore-water
-  attributes: {
-    lovec-attr0env-growth: 1.25
-  }
+    liquidDrop: liq0ore-water
+    attributes: {
+        lovec-attr0env-growth: 1.25
+    }

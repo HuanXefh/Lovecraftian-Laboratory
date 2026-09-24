@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: gas0chem-sulfur-dioxide
-    objectives: []
-  }
+    research: {
+        parent: gas0chem-sulfur-dioxide
+        objectives: []
+    }
 
 
 /*
@@ -18,4 +18,4 @@
 */
 
 
-  gas: true
+    gas: true

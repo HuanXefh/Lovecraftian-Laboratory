@@ -5,11 +5,11 @@
 */
 
 
-  alwaysUnlocked: true
-  research: {
-    parent: liq0ore-water
-    objectives: []
-  }
+    alwaysUnlocked: true
+    research: {
+        parent: liq0ore-water
+        objectives: []
+    }
 
 
 /*
@@ -19,4 +19,4 @@
 */
 
 
-  gas: true
+    gas: true

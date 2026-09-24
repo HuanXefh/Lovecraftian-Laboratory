@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: liq0bio-latex
-    objectives: []
-  }
+    research: {
+        parent: liq0bio-latex
+        objectives: []
+    }
 
 
 /*
@@ -18,7 +18,7 @@
 */
 
 
-  flammability: 0.35
+    flammability: 0.35
 
 
 /*
@@ -28,4 +28,4 @@
 */
 
 
-  buildable: true
+    buildable: true

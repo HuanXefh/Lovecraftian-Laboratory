@@ -5,12 +5,12 @@
 */
 
 
-  # type: Wall
-  category: defense
-  requirements: [
-    item0bio-timber/10
-  ]
-  buildCostMultiplier: 5.0
+    # type: Wall
+    category: defense
+    requirements: [
+        item0bio-timber/10
+    ]
+    buildCostMultiplier: 5.0
 
 
 /*
@@ -20,7 +20,7 @@
 */
 
 
-  alwaysUnlocked: true
+    alwaysUnlocked: true
 
 
 /*
@@ -30,14 +30,14 @@
 */
 
 
-  scaledHealth: 20.0
-  armor: 0.0
-  size: 1
-  hasItems: false
-  itemCapacity: 20
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: false
+    scaledHealth: 20.0
+    armor: 0.0
+    size: 1
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
 
 
 /*
@@ -47,8 +47,8 @@
 */
 
 
-  envRequired: 0
-  envDisabled: 22
+    envRequired: 0
+    envDisabled: 22
 
 
 /*
@@ -58,5 +58,5 @@
 */
 
 
-  squareSprite: true
-  placeSound: se-place-wood
+    squareSprite: true
+    placeSound: se-place-wood

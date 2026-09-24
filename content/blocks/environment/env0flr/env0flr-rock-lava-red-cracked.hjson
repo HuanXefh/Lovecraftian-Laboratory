@@ -5,7 +5,7 @@
 */
 
 
-  # type: Floor
+    # type: Floor
 
 
 /*
@@ -15,7 +15,7 @@
 */
 
 
-  variants: 6
+    variants: 6
 
 
 /*
@@ -25,8 +25,8 @@
 */
 
 
-  itemDrop: item0ore-rock-lava
-  playerUnmineable: true
-  attributes: {
-    lovec-attr0rock-lava: 1.0
-  }
+    itemDrop: item0ore-rock-lava
+    playerUnmineable: true
+    attributes: {
+        lovec-attr0rock-lava: 1.0
+    }

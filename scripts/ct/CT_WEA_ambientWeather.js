@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/wea/WEA_ambientWeather");
+    const WEA_ambientWeather = require("lovec/temp/wea/WEA_ambientWeather");
 
 
 /*
@@ -18,9 +15,9 @@
 */
 
 
-  /* <---------- wea0amb ----------> */
+    /* <------------------------------ wea0amb ------------------------------> */
 
 
-  const wea0amb_anthimystNormal = extendBase(
-    TEMPLATE, "wea0amb-anthimyst-normal",
-  );
+    const wea0amb_anthimystNormal = extendBase(
+        WEA_ambientWeather, "wea0amb-anthimyst-normal",
+    );

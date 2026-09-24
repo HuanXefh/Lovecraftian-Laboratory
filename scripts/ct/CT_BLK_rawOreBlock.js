@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/blk/BLK_rawOreBlock");
+    const BLK_B_rawOreBlock = require("lovec/temp/blk/BLK_rawOreBlock");
 
 
 /*
@@ -18,336 +15,336 @@
 */
 
 
-  /* <---------- pay0mat0ore ----------> */
+    /* <------------------------------ pay0mat0ore ------------------------------> */
 
 
-  /* barium */
+    /* barium */
 
 
-  const pay0mat0ore_barite = extendBlock(
-    TEMPLATE, "pay0mat0ore-barite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_barite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-barite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );
 
 
-  /* carbon */
+    /* carbon */
 
 
-  const pay0mat0ore_rawCoal = extendBlock(
-    TEMPLATE, "pay0mat0ore-raw-coal",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-3"
-    }),
-  );
+    const pay0mat0ore_rawCoal = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-raw-coal",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-3"
+        }),
+    );
 
 
-  const pay0mat0ore_anthracite = extendBlock(
-    TEMPLATE, "pay0mat0ore-anthracite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_anthracite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-anthracite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  const pay0mat0ore_crudeGraphite = extendBlock(
-    TEMPLATE, "pay0mat0ore-crude-graphite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_crudeGraphite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-crude-graphite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );
 
 
-  /* copper */
+    /* copper */
 
 
-  const pay0mat0ore_azurite = extendBlock(
-    TEMPLATE, "pay0mat0ore-azurite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_azurite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-azurite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  const pay0mat0ore_chalcopyrite = extendBlock(
-    TEMPLATE, "pay0mat0ore-chalcopyrite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_chalcopyrite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-chalcopyrite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  const pay0mat0ore_malachite = extendBlock(
-    TEMPLATE, "pay0mat0ore-malachite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_malachite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-malachite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  const pay0mat0ore_nativeCopper = extendBlock(
-    TEMPLATE, "pay0mat0ore-native-copper",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_nativeCopper = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-native-copper",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  /* iron */
+    /* iron */
 
 
-  const pay0mat0ore_hematite = extendBlock(
-    TEMPLATE, "pay0mat0ore-hematite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_hematite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-hematite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  const pay0mat0ore_limonite = extendBlock(
-    TEMPLATE, "pay0mat0ore-limonite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_limonite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-limonite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  const pay0mat0ore_magnetite = extendBlock(
-    TEMPLATE, "pay0mat0ore-magnetite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-3"
-    }),
-  );
+    const pay0mat0ore_magnetite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-magnetite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-3"
+        }),
+    );
 
 
-  const pay0mat0ore_meteoricIron = extendBlock(
-    TEMPLATE, "pay0mat0ore-meteoric-iron",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_meteoricIron = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-meteoric-iron",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  const pay0mat0ore_pyrite = extendBlock(
-    TEMPLATE, "pay0mat0ore-pyrite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_pyrite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-pyrite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  const pay0mat0ore_pyrrhotite = extendBlock(
-    TEMPLATE, "pay0mat0ore-pyrrhotite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_pyrrhotite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-pyrrhotite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  /* lead */
+    /* lead */
 
 
-  const pay0mat0ore_galena = extendBlock(
-    TEMPLATE, "pay0mat0ore-galena",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_galena = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-galena",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  /* phosphorus */
+    /* phosphorus */
 
 
-  const pay0mat0ore_hydroxyapatite = extendBlock(
-    TEMPLATE, "pay0mat0ore-hydroxyapatite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-3"
-    }),
-  );
+    const pay0mat0ore_hydroxyapatite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-hydroxyapatite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-3"
+        }),
+    );
 
 
-  const pay0mat0ore_fluorapatite = extendBlock(
-    TEMPLATE, "pay0mat0ore-fluorapatite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_fluorapatite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-fluorapatite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );
 
 
-  /* silicon */
+    /* silicon */
 
 
-  const pay0mat0ore_silicaStone = extendBlock(
-    TEMPLATE, "pay0mat0ore-silica-stone",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_silicaStone = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-silica-stone",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );
 
 
-  /* tin */
+    /* tin */
 
 
-  const pay0mat0ore_cassiterite = extendBlock(
-    TEMPLATE, "pay0mat0ore-cassiterite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_cassiterite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-cassiterite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  /* titanium */
+    /* titanium */
 
 
-  const pay0mat0ore_ilmenite = extendBlock(
-    TEMPLATE, "pay0mat0ore-ilmenite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_ilmenite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-ilmenite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  const pay0mat0ore_rutile = extendBlock(
-    TEMPLATE, "pay0mat0ore-rutile",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_rutile = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-rutile",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  /* tungsten */
+    /* tungsten */
 
 
-  const pay0mat0ore_scheelite = extendBlock(
-    TEMPLATE, "pay0mat0ore-scheelite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_scheelite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-scheelite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  const pay0mat0ore_wolframite = extendBlock(
-    TEMPLATE, "pay0mat0ore-wolframite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_wolframite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-wolframite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  /* zinc */
+    /* zinc */
 
 
-  const pay0mat0ore_sphalerite = extendBlock(
-    TEMPLATE, "pay0mat0ore-sphalerite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-1"
-    }),
-  );
+    const pay0mat0ore_sphalerite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-sphalerite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
 
 
-  /* rock */
+    /* rock */
 
 
-  const pay0mat0ore_dolomite = extendBlock(
-    TEMPLATE, "pay0mat0ore-dolomite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_dolomite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-dolomite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );
 
 
-  const pay0mat0ore_gypsum = extendBlock(
-    TEMPLATE, "pay0mat0ore-gypsum",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_gypsum = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-gypsum",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );
 
 
-  const pay0mat0ore_limestone = extendBlock(
-    TEMPLATE, "pay0mat0ore-limestone",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_limestone = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-limestone",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );
 
 
-  const pay0mat0ore_pumice = extendBlock(
-    TEMPLATE, "pay0mat0ore-pumice",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_pumice = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-pumice",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );
 
 
-  const pay0mat0ore_talc = extendBlock(
-    TEMPLATE, "pay0mat0ore-talc",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_talc = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-talc",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );
 
 
-  const pay0mat0ore_rockClastic = extendBlock(
-    TEMPLATE, "pay0mat0ore-rock-clastic",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_rockClastic = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-rock-clastic",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );
 
 
-  const pay0mat0ore_rockEvaporite = extendBlock(
-    TEMPLATE, "pay0mat0ore-rock-evaporite",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_rockEvaporite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-rock-evaporite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );
 
 
-  const pay0mat0ore_rockHypabyssal = extendBlock(
-    TEMPLATE, "pay0mat0ore-rock-hypabyssal",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_rockHypabyssal = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-rock-hypabyssal",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );
 
 
-  const pay0mat0ore_rockLava = extendBlock(
-    TEMPLATE, "pay0mat0ore-rock-lava",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_rockLava = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-rock-lava",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );
 
 
-  const pay0mat0ore_rockMetamorphic = extendBlock(
-    TEMPLATE, "pay0mat0ore-rock-metamorphic",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_rockMetamorphic = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-rock-metamorphic",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );
 
 
-  const pay0mat0ore_rockPlutonic = extendBlock(
-    TEMPLATE, "pay0mat0ore-rock-plutonic",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_rockPlutonic = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-rock-plutonic",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );
 
 
-  const pay0mat0ore_rockBiologicalSedimentary = extendBlock(
-    TEMPLATE, "pay0mat0ore-rock-biological-sedimentary",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_rockBiologicalSedimentary = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-rock-biological-sedimentary",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );
 
 
-  const pay0mat0ore_rockClasticSedimentary = extendBlock(
-    TEMPLATE, "pay0mat0ore-rock-clastic-sedimentary",
-    TEMPLATE[0].build({
-      recolorRegStr: "lovec-gen-raw-ore-2"
-    }),
-  );
+    const pay0mat0ore_rockClasticSedimentary = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-rock-clastic-sedimentary",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-2"
+        }),
+    );

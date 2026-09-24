@@ -5,7 +5,7 @@
 */
 
 
-  research: {
-    parent: item0misc-generic-tech-point-t1
-    objectives: []
-  }
+    research: {
+        parent: item0misc-generic-tech-point-t1
+        objectives: []
+    }

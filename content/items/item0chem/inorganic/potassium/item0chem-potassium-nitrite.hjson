@@ -5,7 +5,7 @@
 */
 
 
-  research: {
-    parent: item0chem-potassium-nitrate
-    objectives: []
-  }
+    research: {
+        parent: item0chem-potassium-nitrate
+        objectives: []
+    }

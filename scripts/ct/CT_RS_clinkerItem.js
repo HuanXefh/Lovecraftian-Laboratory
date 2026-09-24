@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/rs/RS_clinkerItem");
+    const RS_clinkerItem = require("lovec/temp/rs/RS_clinkerItem");
 
 
 /*
@@ -18,20 +15,20 @@
 */
 
 
-  /* <---------- item0int ----------> */
+    /* <------------------------------ item0int ------------------------------> */
 
 
-  const item0int0clinker_cement = extendBase(
-    TEMPLATE, "item0int0clinker-cement",
-    TEMPLATE.build({
-      intmdParent: "loveclab-item0buil-cement",
-    }),
-  );
+    const item0int0clinker_cement = extendBase(
+        RS_clinkerItem, "item0int0clinker-cement",
+        RS_clinkerItem.build({
+            intmdParent: "loveclab-item0buil-cement",
+        }),
+    );
 
 
-  const item0int0clinker_refractoryCement = extendBase(
-    TEMPLATE, "item0int0clinker-refractory-cement",
-    TEMPLATE.build({
-      intmdParent: "loveclab-item0buil-refractory-cement",
-    }),
-  );
+    const item0int0clinker_refractoryCement = extendBase(
+        RS_clinkerItem, "item0int0clinker-refractory-cement",
+        RS_clinkerItem.build({
+            intmdParent: "loveclab-item0buil-refractory-cement",
+        }),
+    );

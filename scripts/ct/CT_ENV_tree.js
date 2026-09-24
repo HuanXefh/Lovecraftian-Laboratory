@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/env/ENV_tree");
+    const ENV_tree = require("lovec/temp/env/ENV_tree");
 
 
 /*
@@ -18,113 +15,113 @@
 */
 
 
-  /* <---------- cliff ----------> */
+    /* <------------------------------ env0tree (cliff) ------------------------------> */
 
 
-  const env0tree_nester = extendBase(
-    TEMPLATE, "env0tree-nester",
-    TEMPLATE.build({
-      layTree: 77.42,
-      radTree: 19.5,
-    }),
-  );
+    const env0tree_nester = extendBase(
+        ENV_tree, "env0tree-nester",
+        ENV_tree.build({
+            layTree: 77.42,
+            treeRad: 19.5,
+        }),
+    );
 
 
-  const env0tree_elderGemTree = extendBase(
-    TEMPLATE, "env0tree-elder-gem-tree",
-    TEMPLATE.build({
-      layTree: 78.41,
-      radTree: 34.0,
-      hidable: true,
-    }),
-  );
+    const env0tree_elderGemTree = extendBase(
+        ENV_tree, "env0tree-elder-gem-tree",
+        ENV_tree.build({
+            hidable: true,
+            layTree: 78.41,
+            treeRad: 34.0,
+        }),
+    );
 
 
-  /* <---------- dirt ----------> */
+    /* <------------------------------ env0tree (dirt) ------------------------------> */
 
 
-  const env0tree_brownSnake = extendBase(
-    TEMPLATE, "env0tree-brown-snake",
-    TEMPLATE.build({
-      layTree: 76.51,
-      radTree: 8.5,
-    }),
-  );
+    const env0tree_brownSnake = extendBase(
+        ENV_tree, "env0tree-brown-snake",
+        ENV_tree.build({
+            layTree: 76.51,
+            treeRad: 8.5,
+        }),
+    );
 
 
-  const env0tree_greenCloud = extendBase(
-    TEMPLATE, "env0tree-green-cloud",
-    TEMPLATE.build({
-      layTree: 78.24,
-      radTree: 19.5,
-      hidable: true,
-    }),
-  );
+    const env0tree_greenCloud = extendBase(
+        ENV_tree, "env0tree-green-cloud",
+        ENV_tree.build({
+            hidable: true,
+            layTree: 78.24,
+            treeRad: 19.5,
+        }),
+    );
 
 
-  const env0tree_bleederTree = extendBase(
-    TEMPLATE, "env0tree-bleeder-tree",
-    TEMPLATE.build({
-      layTree: 78.52,
-      radTree: 28.0,
-      hidable: true,
-    }),
-  );
+    const env0tree_bleederTree = extendBase(
+        ENV_tree, "env0tree-bleeder-tree",
+        ENV_tree.build({
+            hidable: true,
+            layTree: 78.52,
+            treeRad: 28.0,
+        }),
+    );
 
 
-  const env0tree_umbrellaTree = extendBase(
-    TEMPLATE, "env0tree-umbrella-tree",
-    TEMPLATE.build({
-      layTree: 78.64,
-      radTree: 30.0,
-      hidable: true,
-    }),
-  );
+    const env0tree_umbrellaTree = extendBase(
+        ENV_tree, "env0tree-umbrella-tree",
+        ENV_tree.build({
+            hidable: true,
+            layTree: 78.64,
+            treeRad: 30.0,
+        }),
+    );
 
 
-  /* <---------- swamp ----------> */
+    /* <------------------------------ env0tree (swamp) ------------------------------> */
 
 
-  const env0tree_saladTree = extendBase(
-    TEMPLATE, "env0tree-salad-tree",
-    TEMPLATE.build({
-      layTree: 78.68,
-      radTree: 41.5,
-      hidable: true,
-    }),
-  );
+    const env0tree_saladTree = extendBase(
+        ENV_tree, "env0tree-salad-tree",
+        ENV_tree.build({
+            hidable: true,
+            layTree: 78.68,
+            treeRad: 41.5,
+        }),
+    );
 
 
-  // Waterborne
-  const env0tree_greenScale = extendBase(
-    TEMPLATE, "env0tree-green-scale",
-    TEMPLATE.build({
-      layTree: 76.78,
-      radTree: 18.0,
-      hidable: true,
-    }),
-  );
+    // Waterborne
+    const env0tree_greenScale = extendBase(
+        ENV_tree, "env0tree-green-scale",
+        ENV_tree.build({
+            hidable: true,
+            layTree: 76.78,
+            treeRad: 18.0,
+        }),
+    );
 
 
-  /* <---------- sand ----------> */
+    /* <------------------------------ env0tree (sand) ------------------------------> */
 
 
-  const env0tree_duneShield = extendBase(
-    TEMPLATE, "env0tree-dune-shield",
-    TEMPLATE.build({
-      layTree: 76.44,
-      radTree: 12.5,
-    }),
-  );
+    const env0tree_duneShield = extendBase(
+        ENV_tree, "env0tree-dune-shield",
+        ENV_tree.build({
+            layTree: 76.44,
+            treeRad: 12.5,
+        }),
+    );
 
 
-  /* <---------- sea ----------> */
+    /* <------------------------------ env0tree (sea) ------------------------------> */
 
 
-  const env0tree_shellTree = extendBase(
-    TEMPLATE, "env0tree-shell-tree",
-    TEMPLATE.build({
-      layTree: 76.48,
-      radTree: 8.5,
-    }),
-  );
+    const env0tree_shellTree = extendBase(
+        ENV_tree, "env0tree-shell-tree",
+        ENV_tree.build({
+            layTree: 76.48,
+            treeRad: 8.5,
+        }),
+    );

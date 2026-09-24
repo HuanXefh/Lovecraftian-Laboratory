@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: item0chem-sulfur
-    objectives: []
-  }
+    research: {
+        parent: item0chem-sulfur
+        objectives: []
+    }
 
 
 /*
@@ -18,5 +18,5 @@
 */
 
 
-  explosiveness: 1.25
-  flammability: 0.75
+    explosiveness: 1.25
+    flammability: 0.75

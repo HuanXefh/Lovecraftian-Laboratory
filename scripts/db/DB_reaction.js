@@ -1,62 +1,62 @@
 const db = {
 
 
-  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
+    /* <------------------------------ CHUNK SPLITTER ------------------------------> */
 
 
-  fluid: [],
+    fluid: [],
 
 
-  item: [],
+    item: [],
 
 
-  material: [],
+    material: [],
 
 
-  denaturingTarget: [],
+    denaturingTarget: [],
 
 
-  solvationTarget: {
+    solvationTarget: {
 
 
-    water: [
+        water: [
 
-      /* <---------- item0ore ----------> */
+            /* <------------------------------ item0ore ------------------------------> */
 
-      "loveclab-item0ore-salt", "loveclab-liq0ore-brine",
-      "loveclab-item0ore-sea-salt", "loveclab-liq0int-purified-brine",
+            "loveclab-item0ore-salt", "loveclab-liq0ore-brine",
+            "loveclab-item0ore-sea-salt", "loveclab-liq0int-purified-brine",
 
-      /* <---------- item0chem (elementary) ----------> */
+            /* <------------------------------ item0chem (elementary) ------------------------------> */
 
-      /* calcium */
+            /* calcium */
 
-      "loveclab-item0chem-lime", "loveclab-liq0int0sol-slaked-lime",
+            "loveclab-item0chem-lime", "loveclab-liq0int0sol-slaked-lime",
 
-      /* <---------- item0chem (inorganic) ----------> */
+            /* <------------------------------ item0chem (inorganic) ------------------------------> */
 
-      /* calcium */
+            /* calcium */
 
-      "loveclab-item0chem-calcium-carbide", "loveclab-liq0int0sol-slaked-lime",
+            "loveclab-item0chem-calcium-carbide", "loveclab-liq0int0sol-slaked-lime",
 
-      /* <---------- item0int0dust ----------> */
+            /* <------------------------------ item0int0dust ------------------------------> */
 
-      /* sodium */
+            /* sodium */
 
-      "loveclab-item0int0dust-salt", "loveclab-liq0int-purified-brine",
+            "loveclab-item0int0dust-salt", "loveclab-liq0int-purified-brine",
 
-      /* <---------- item0int0chunks ----------> */
+            /* <------------------------------ item0int0chunks ------------------------------> */
 
-      /* sodium */
+            /* sodium */
 
-      "loveclab-item0int0chunks-salt", "loveclab-liq0ore-brine",
+            "loveclab-item0int0chunks-salt", "loveclab-liq0ore-brine",
 
-    ],
-
-
-  },
+        ],
 
 
-  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
+    },
+
+
+    /* <------------------------------ CHUNK SPLITTER ------------------------------> */
 
 
 };

@@ -5,7 +5,7 @@
 */
 
 
-  # type: StaticWall
+    # type: StaticWall
 
 
 /*
@@ -15,4 +15,4 @@
 */
 
 
-  variants: 3
+    variants: 3

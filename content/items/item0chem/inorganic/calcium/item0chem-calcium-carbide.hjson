@@ -5,7 +5,7 @@
 */
 
 
-  research: {
-    parent: item0chem-slaked-lime
-    objectives: []
-  }
+    research: {
+        parent: item0chem-slaked-lime
+        objectives: []
+    }

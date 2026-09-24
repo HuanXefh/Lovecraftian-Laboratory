@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/blk/MAP_dialFlowTrigger");
+    const MAP_B_dialFlowTrigger = require("lovec/temp/blk/MAP_dialFlowTrigger");
 
 
 /*
@@ -18,9 +15,9 @@
 */
 
 
-  /* <---------- map0flow ----------> */
+    /* <------------------------------ map0flow ------------------------------> */
 
 
-  const map0flow_dialogFlowTrigger = extendBlock(
-    TEMPLATE, "map0flow-dialog-flow-trigger",
-  );
+    const map0flow_dialogFlowTrigger = extendBlock(
+        MAP_B_dialFlowTrigger, "map0flow-dialog-flow-trigger",
+    );

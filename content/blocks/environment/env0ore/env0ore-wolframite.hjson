@@ -5,7 +5,7 @@
 */
 
 
-  # type: OreBlock
+    # type: OreBlock
 
 
 /*
@@ -15,7 +15,7 @@
 */
 
 
-  variants: 3
+    variants: 3
 
 
 /*
@@ -25,4 +25,4 @@
 */
 
 
-  itemDrop: item0ore-wolframite
+    itemDrop: item0ore-wolframite

@@ -5,7 +5,7 @@
 */
 
 
-  research: {
-    parent: item0ore-spodumene
-    objectives: []
-  }
+    research: {
+        parent: item0ore-spodumene
+        objectives: []
+    }

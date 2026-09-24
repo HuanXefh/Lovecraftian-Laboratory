@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: item0bio-moss
-    objectives: []
-  }
+    research: {
+        parent: item0bio-moss
+        objectives: []
+    }
 
 
 /*
@@ -18,4 +18,4 @@
 */
 
 
-  buildable: true
+    buildable: true

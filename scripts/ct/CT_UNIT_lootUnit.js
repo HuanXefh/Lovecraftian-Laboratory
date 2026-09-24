@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/unit/UNIT_lootUnit");
+    const UNIT_lootUnit = require("lovec/temp/unit/UNIT_lootUnit");
 
 
 /*
@@ -18,9 +15,9 @@
 */
 
 
-  /* <---------- unit0core ----------> */
+    /* <------------------------------ unit0misc ------------------------------> */
 
 
-  const unit0misc_loot = extendUnit(
-    TEMPLATE, "unit0misc-loot",
-  );
+    const unit0misc_loot = extendUnit(
+        UNIT_lootUnit, "unit0misc-loot",
+    );

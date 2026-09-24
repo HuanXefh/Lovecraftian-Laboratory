@@ -5,8 +5,8 @@
 */
 
 
-  # type: Wall
-  category: logic
+    # type: Wall
+    category: logic
 
 
 /*
@@ -16,14 +16,14 @@
 */
 
 
-  scaledHealth: 40.0
-  armor: 0.0
-  size: 1
-  hasItems: false
-  itemCapacity: 20
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: false
+    scaledHealth: 40.0
+    armor: 0.0
+    size: 1
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
 
 
 /*
@@ -33,8 +33,8 @@
 */
 
 
-  envRequired: 0
-  envDisabled: 0
+    envRequired: 0
+    envDisabled: 0
 
 
 /*
@@ -44,4 +44,4 @@
 */
 
 
-  squareSprite: false
+    squareSprite: true

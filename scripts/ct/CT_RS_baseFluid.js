@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/rs/RS_baseFluid");
+    const RS_baseFluid = require("lovec/temp/rs/RS_baseFluid");
 
 
 /*
@@ -18,116 +15,116 @@
 */
 
 
-  /* <---------- liq0bio ----------> */
+    /* <<------------------------------ liq0bio <------------------------------> */
 
 
-  const liq0bio_latex = extendBase(
-    TEMPLATE, "liq0bio-latex",
-  );
+    const liq0bio_latex = extendBase(
+        RS_baseFluid, "liq0bio-latex",
+    );
 
 
-  /* <---------- liq0ore ----------> */
+    /* <<------------------------------ liq0ore <------------------------------> */
 
 
-  const liq0ore_water = extendBase(
-    TEMPLATE, "liq0ore-water",
-  );
+    const liq0ore_water = extendBase(
+        RS_baseFluid, "liq0ore-water",
+    );
 
 
-  const liq0ore_seaWater = extendBase(
-    TEMPLATE, "liq0ore-sea-water",
-  );
+    const liq0ore_seaWater = extendBase(
+        RS_baseFluid, "liq0ore-sea-water",
+    );
 
 
-  const liq0ore_brine = extendBase(
-    TEMPLATE, "liq0ore-brine",
-  );
+    const liq0ore_brine = extendBase(
+        RS_baseFluid, "liq0ore-brine",
+    );
 
 
-  const liq0ore_crudeOil = extendBase(
-    TEMPLATE, "liq0ore-crude-oil",
-  );
+    const liq0ore_crudeOil = extendBase(
+        RS_baseFluid, "liq0ore-crude-oil",
+    );
 
 
-  /* <---------- liq0misc ----------> */
+    /* <<------------------------------ liq0misc <------------------------------> */
 
 
-  const liq0misc_drillingMud = extendBase(
-    TEMPLATE, "liq0misc-drilling-mud",
-  );
+    const liq0misc_drillingMud = extendBase(
+        RS_baseFluid, "liq0misc-drilling-mud",
+    );
 
 
-  /* <---------- liq0chem (misc) ----------> */
+    /* <<------------------------------ liq0chem (misc) <------------------------------> */
 
 
-  const liq0chem_coalTar = extendBase(
-    TEMPLATE, "liq0chem-coal-tar",
-  );
+    const liq0chem_coalTar = extendBase(
+        RS_baseFluid, "liq0chem-coal-tar",
+    );
 
 
-  /* <---------- gas0misc ----------> */
+    /* <<------------------------------ gas0misc <------------------------------> */
 
 
-  const gas0misc_air = extendBase(
-    TEMPLATE, "gas0misc-air",
-  );
+    const gas0misc_air = extendBase(
+        RS_baseFluid, "gas0misc-air",
+    );
 
 
-  const gas0misc_steam = extendBase(
-    TEMPLATE, "gas0misc-steam",
-  );
+    const gas0misc_steam = extendBase(
+        RS_baseFluid, "gas0misc-steam",
+    );
 
 
-  /* <---------- gas0chem (elementary) ----------> */
+    /* <<------------------------------ gas0chem (elementary) <------------------------------> */
 
 
-  const gas0chem_hydrogen = extendBase(
-    TEMPLATE, "gas0chem-hydrogen",
-  );
+    const gas0chem_hydrogen = extendBase(
+        RS_baseFluid, "gas0chem-hydrogen",
+    );
 
 
-  const gas0chem_nitrogen = extendBase(
-    TEMPLATE, "gas0chem-nitrogen",
-  );
+    const gas0chem_nitrogen = extendBase(
+        RS_baseFluid, "gas0chem-nitrogen",
+    );
 
 
-  const gas0chem_oxygen = extendBase(
-    TEMPLATE, "gas0chem-oxygen",
-  );
+    const gas0chem_oxygen = extendBase(
+        RS_baseFluid, "gas0chem-oxygen",
+    );
 
 
-  const gas0chem_ozone = extendBase(
-    TEMPLATE, "gas0chem-ozone",
-  );
+    const gas0chem_ozone = extendBase(
+        RS_baseFluid, "gas0chem-ozone",
+    );
 
 
-  /* <---------- gas0chem (inorganic) ----------> */
+    /* <<------------------------------ gas0chem (inorganic) <------------------------------> */
 
 
-  /* carbon */
+    /* carbon */
 
 
-  const gas0chem_carbonDioxide = extendBase(
-    TEMPLATE, "gas0chem-carbon-dioxide",
-  );
+    const gas0chem_carbonDioxide = extendBase(
+        RS_baseFluid, "gas0chem-carbon-dioxide",
+    );
 
 
-  /* sulfur */
+    /* sulfur */
 
 
-  const gas0chem_sulfurDioxide = extendBase(
-    TEMPLATE, "gas0chem-sulfur-dioxide",
-  );
+    const gas0chem_sulfurDioxide = extendBase(
+        RS_baseFluid, "gas0chem-sulfur-dioxide",
+    );
 
 
-  const gas0chem_sulfurTrioxide = extendBase(
-    TEMPLATE, "gas0chem-sulfur-trioxide",
-  );
+    const gas0chem_sulfurTrioxide = extendBase(
+        RS_baseFluid, "gas0chem-sulfur-trioxide",
+    );
 
 
-  /* <---------- gas0chem (organic) ----------> */
+    /* <<------------------------------ gas0chem (organic) <------------------------------> */
 
 
-  const gas0chem_acetylene = extendBase(
-    TEMPLATE, "gas0chem-acetylene",
-  );
+    const gas0chem_acetylene = extendBase(
+        RS_baseFluid, "gas0chem-acetylene",
+    );

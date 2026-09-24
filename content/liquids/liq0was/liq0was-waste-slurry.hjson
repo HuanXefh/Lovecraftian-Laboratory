@@ -5,11 +5,11 @@
 */
 
 
-  alwaysUnlocked: true
-  research: {
-    parent: liq0was-waste-water
-    objectives: []
-  }
+    alwaysUnlocked: true
+    research: {
+        parent: liq0was-waste-water
+        objectives: []
+    }
 
 
 /*
@@ -19,4 +19,4 @@
 */
 
 
-  effect: sta0liq-slurry-slowed
+    effect: sta0liq-slurry-slowed

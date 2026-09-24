@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/env/ENV_bush");
+    const ENV_bush = require("lovec/temp/env/ENV_bush");
 
 
 /*
@@ -18,22 +15,22 @@
 */
 
 
-  /* <---------- rock ----------> */
+    /* <------------------------------ env0tree0bush (rock) ------------------------------> */
 
 
-  const env0tree0bush_ashFern = extendBase(
-    TEMPLATE, "env0tree0bush-ash-fern",
-    TEMPLATE.build({
-      treeLay: 76.68,
-      radTree: 13.0,
-    }),
-  );
+    const env0tree0bush_ashFern = extendBase(
+        ENV_bush, "env0tree0bush-ash-fern",
+        ENV_bush.build({
+            treeLay: 76.68,
+            treeRad: 13.0,
+        }),
+    );
 
 
-  const env0tree0bush_rockyFern = extendBase(
-    TEMPLATE, "env0tree0bush-rocky-fern",
-    TEMPLATE.build({
-      treeLay: 76.71,
-      radTree: 14.0,
-    }),
-  );
+    const env0tree0bush_rockyFern = extendBase(
+        ENV_bush, "env0tree0bush-rocky-fern",
+        ENV_bush.build({
+            treeLay: 76.71,
+            treeRad: 14.0,
+        }),
+    );

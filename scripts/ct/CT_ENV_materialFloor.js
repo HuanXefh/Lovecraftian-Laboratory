@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/env/ENV_materialFloor");
+    const ENV_materialFloor = require("lovec/temp/env/ENV_materialFloor");
 
 
 /*
@@ -18,207 +15,209 @@
 */
 
 
-  /* <---------- env0flr ----------> */
+    /* <------------------------------ env0flr ------------------------------> */
 
 
-  /* dirt */
+    /* dirt */
 
 
-  const env0flr_clay = extendBase(
-    TEMPLATE, "env0flr-clay",
-    TEMPLATE.build({
-      matGrp: "dirt",
-      randRegs: ["clay-clump"],
-      randRegDenom: 4,
-    }),
-  );
+    const env0flr_clay = extendBase(
+        ENV_materialFloor, "env0flr-clay",
+        ENV_materialFloor.build({
+            matGrp: "dirt",
+            randRegs: ["clay-clump"],
+            randRegDenoms: [4],
+        }),
+    );
 
 
-  const env0flr_dirt = extendBase(
-    TEMPLATE, "env0flr-dirt",
-    TEMPLATE.build({
-      matGrp: "dirt",
-      randRegs: ["rock"],
-    }),
-  );
+    const env0flr_dirt = extendBase(
+        ENV_materialFloor, "env0flr-dirt",
+        ENV_materialFloor.build({
+            matGrp: "dirt",
+            randRegs: ["rock", "dirt-clump", "grass"],
+            randRegDenoms: [80, 20, 30],
+        }),
+    );
 
 
-  const env0flr_mud = extendBase(
-    TEMPLATE, "env0flr-mud",
-    TEMPLATE.build({
-      matGrp: "dirt",
-      randRegs: ["rock"],
-    }),
-  );
+    const env0flr_mud = extendBase(
+        ENV_materialFloor, "env0flr-mud",
+        ENV_materialFloor.build({
+            matGrp: "dirt",
+            randRegs: ["rock", "mud-clump"],
+            randRegDenoms: [80, 20],
+        }),
+    );
 
 
-  /* grass */
+    /* grass */
 
 
-  const env0flr_grass = extendBase(
-    TEMPLATE, "env0flr-grass",
-    TEMPLATE.build({
-      matGrp: "grass",
-      randRegs: ["stick"],
-      randRegDenom: 10,
-    }),
-  );
+    const env0flr_grass = extendBase(
+        ENV_materialFloor, "env0flr-grass",
+        ENV_materialFloor.build({
+            matGrp: "grass",
+            randRegs: ["rock", "flower", "stick"],
+            randRegDenoms: [90, 70, 20],
+        }),
+    );
 
 
-  /* gravel */
+    /* gravel */
 
 
-  const env0flr_rockLavaGrayCracked = extendBase(
-    TEMPLATE, "env0flr-rock-lava-gray-cracked",
-    TEMPLATE.build({
-      matGrp: "gravel",
-    }),
-  );
+    const env0flr_rockLavaGrayCracked = extendBase(
+        ENV_materialFloor, "env0flr-rock-lava-gray-cracked",
+        ENV_materialFloor.build({
+            matGrp: "gravel",
+        }),
+    );
 
 
-  const env0flr_rockLavaRedCracked = extendBase(
-    TEMPLATE, "env0flr-rock-lava-red-cracked",
-    TEMPLATE.build({
-      matGrp: "gravel",
-    }),
-  );
+    const env0flr_rockLavaRedCracked = extendBase(
+        ENV_materialFloor, "env0flr-rock-lava-red-cracked",
+        ENV_materialFloor.build({
+            matGrp: "gravel",
+        }),
+    );
 
 
-  const env0flr_rockMetamorphicGrayCracked = extendBase(
-    TEMPLATE, "env0flr-rock-metamorphic-gray-cracked",
-    TEMPLATE.build({
-      matGrp: "gravel",
-    }),
-  );
+    const env0flr_rockMetamorphicGrayCracked = extendBase(
+        ENV_materialFloor, "env0flr-rock-metamorphic-gray-cracked",
+        ENV_materialFloor.build({
+            matGrp: "gravel",
+        }),
+    );
 
 
-  const env0flr_rockPlutonicGrayCracked = extendBase(
-    TEMPLATE, "env0flr-rock-plutonic-gray-cracked",
-    TEMPLATE.build({
-      matGrp: "gravel",
-    }),
-  );
+    const env0flr_rockPlutonicGrayCracked = extendBase(
+        ENV_materialFloor, "env0flr-rock-plutonic-gray-cracked",
+        ENV_materialFloor.build({
+            matGrp: "gravel",
+        }),
+    );
 
 
-  const env0flr_rockBiologicalSedimentaryGrayCracked = extendBase(
-    TEMPLATE, "env0flr-rock-biological-sedimentary-gray-cracked",
-    TEMPLATE.build({
-      matGrp: "gravel",
-    }),
-  );
+    const env0flr_rockBiologicalSedimentaryGrayCracked = extendBase(
+        ENV_materialFloor, "env0flr-rock-biological-sedimentary-gray-cracked",
+        ENV_materialFloor.build({
+            matGrp: "gravel",
+        }),
+    );
 
 
-  const env0flr_placer = extendBase(
-    TEMPLATE, "env0flr-placer",
-    TEMPLATE.build({
-      matGrp: "gravel",
-    }),
-  );
+    const env0flr_placer = extendBase(
+        ENV_materialFloor, "env0flr-placer",
+        ENV_materialFloor.build({
+            matGrp: "gravel",
+        }),
+    );
 
 
-  const env0flr_placerDark = extendBase(
-    TEMPLATE, "env0flr-placer-dark",
-    TEMPLATE.build({
-      matGrp: "gravel",
-    }),
-  );
+    const env0flr_placerDark = extendBase(
+        ENV_materialFloor, "env0flr-placer-dark",
+        ENV_materialFloor.build({
+            matGrp: "gravel",
+        }),
+    );
 
 
-  const env0flr_placerRed = extendBase(
-    TEMPLATE, "env0flr-placer-red",
-    TEMPLATE.build({
-      matGrp: "gravel",
-      dropHardness: 1,
-    }),
-  );
+    const env0flr_placerRed = extendBase(
+        ENV_materialFloor, "env0flr-placer-red",
+        ENV_materialFloor.build({
+            matGrp: "gravel",
+            dropHardness: 1,
+        }),
+    );
 
 
-  /* rock */
+    /* rock */
 
 
-  const env0flr_rockLavaGray = extendBase(
-    TEMPLATE, "env0flr-rock-lava-gray",
-    TEMPLATE.build({
-      matGrp: "rock",
-      randRegs: ["rock"],
-    }),
-  );
+    const env0flr_rockLavaGray = extendBase(
+        ENV_materialFloor, "env0flr-rock-lava-gray",
+        ENV_materialFloor.build({
+            matGrp: "rock",
+            randRegs: ["rock"],
+        }),
+    );
 
 
-  const env0flr_rockLavaRed = extendBase(
-    TEMPLATE, "env0flr-rock-lava-red",
-    TEMPLATE.build({
-      matGrp: "rock",
-      randRegs: ["rock"],
-    }),
-  );
+    const env0flr_rockLavaRed = extendBase(
+        ENV_materialFloor, "env0flr-rock-lava-red",
+        ENV_materialFloor.build({
+            matGrp: "rock",
+            randRegs: ["rock"],
+        }),
+    );
 
 
-  const env0flr_obsidian = extendBase(
-    TEMPLATE, "env0flr-obsidian",
-    TEMPLATE.build({
-      matGrp: "rock",
-      dropHardness: 8,
-    }),
-  );
+    const env0flr_obsidian = extendBase(
+        ENV_materialFloor, "env0flr-obsidian",
+        ENV_materialFloor.build({
+            matGrp: "rock",
+            dropHardness: 8,
+        }),
+    );
 
 
-  const env0flr_rockMetamorphicGray = extendBase(
-    TEMPLATE, "env0flr-rock-metamorphic-gray",
-    TEMPLATE.build({
-      matGrp: "rock",
-      randRegs: ["rock"],
-    }),
-  );
+    const env0flr_rockMetamorphicGray = extendBase(
+        ENV_materialFloor, "env0flr-rock-metamorphic-gray",
+        ENV_materialFloor.build({
+            matGrp: "rock",
+            randRegs: ["rock"],
+        }),
+    );
 
 
-  const env0flr_rockPlutonicGray = extendBase(
-    TEMPLATE, "env0flr-rock-plutonic-gray",
-    TEMPLATE.build({
-      matGrp: "rock",
-      randRegs: ["rock"],
-    }),
-  );
+    const env0flr_rockPlutonicGray = extendBase(
+        ENV_materialFloor, "env0flr-rock-plutonic-gray",
+        ENV_materialFloor.build({
+            matGrp: "rock",
+            randRegs: ["rock"],
+        }),
+    );
 
 
-  const env0flr_rockBiologicalSedimentaryGray = extendBase(
-    TEMPLATE, "env0flr-rock-biological-sedimentary-gray",
-    TEMPLATE.build({
-      matGrp: "rock",
-      randRegs: ["rock"],
-    }),
-  );
+    const env0flr_rockBiologicalSedimentaryGray = extendBase(
+        ENV_materialFloor, "env0flr-rock-biological-sedimentary-gray",
+        ENV_materialFloor.build({
+            matGrp: "rock",
+            randRegs: ["rock"],
+        }),
+    );
 
 
-  /* sand */
+    /* sand */
 
 
-  const env0flr_sand = extendBase(
-    TEMPLATE, "env0flr-sand",
-    TEMPLATE.build({
-      matGrp: "sand",
-      randRegs: ["rock-sand"],
-      randRegOffs: [20, 0],
-    }),
-  );
+    const env0flr_sand = extendBase(
+        ENV_materialFloor, "env0flr-sand",
+        ENV_materialFloor.build({
+            matGrp: "sand",
+            randRegs: ["rock-sand"],
+            randRegOffs: [20, 0],
+        }),
+    );
 
 
-  const env0flr_sandDark = extendBase(
-    TEMPLATE, "env0flr-sand-dark",
-    TEMPLATE.build({
-      matGrp: "sand",
-      randRegs: ["rock-sand-dark"],
-      randRegOffs: [20, 0],
-    }),
-  );
+    const env0flr_sandDark = extendBase(
+        ENV_materialFloor, "env0flr-sand-dark",
+        ENV_materialFloor.build({
+            matGrp: "sand",
+            randRegs: ["rock-sand-dark"],
+            randRegOffs: [20, 0],
+        }),
+    );
 
 
-  const env0flr_sandRed = extendBase(
-    TEMPLATE, "env0flr-sand-red",
-    TEMPLATE.build({
-      matGrp: "sand",
-      randRegs: ["rock-sand-red"],
-      randRegOffs: [20, 0],
-      dropHardness: 1,
-    }),
-  );
+    const env0flr_sandRed = extendBase(
+        ENV_materialFloor, "env0flr-sand-red",
+        ENV_materialFloor.build({
+            matGrp: "sand",
+            randRegs: ["rock-sand-red"],
+            randRegOffs: [20, 0],
+            dropHardness: 1,
+        }),
+    );

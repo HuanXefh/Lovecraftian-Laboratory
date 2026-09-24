@@ -5,7 +5,7 @@
 */
 
 
-  research: {
-    parent: item0buil-brick-magnesia
-    objectives: []
-  }
+    research: {
+        parent: item0buil-brick-magnesia
+        objectives: []
+    }

@@ -5,11 +5,11 @@
 */
 
 
-  alwaysUnlocked: true
-  research: {
-    parent: liq0ore-brine
-    objectives: []
-  }
+    alwaysUnlocked: true
+    research: {
+        parent: liq0ore-brine
+        objectives: []
+    }
 
 
 /*
@@ -19,4 +19,4 @@
 */
 
 
-  effect: sta0liq-waste-corrosion
+    effect: sta0liq-waste-corrosion

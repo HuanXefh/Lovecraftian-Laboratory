@@ -5,7 +5,7 @@
 */
 
 
-  research: {
-    parent: item0chem-stone-wool
-    objectives: []
-  }
+    research: {
+        parent: item0chem-stone-wool
+        objectives: []
+    }

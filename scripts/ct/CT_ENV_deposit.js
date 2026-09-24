@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/env/ENV_deposit");
+    const ENV_deposit = require("lovec/temp/env/ENV_deposit");
 
 
 /*
@@ -18,134 +15,134 @@
 */
 
 
-  /* <---------- env0depo ----------> */
+    /* <------------------------------ env0depo ------------------------------> */
 
 
-  /* aluminum */
+    /* aluminum */
 
 
-  const env0depo_bauxite = extendBase(
-    TEMPLATE, "env0depo-bauxite",
-  );
+    const env0depo_bauxite = extendBase(
+        ENV_deposit, "env0depo-bauxite",
+    );
 
 
-  /* barium */
+    /* barium */
 
 
-  const env0depo_barite = extendBase(
-    TEMPLATE, "env0depo-barite",
-  );
+    const env0depo_barite = extendBase(
+        ENV_deposit, "env0depo-barite",
+    );
 
 
-  /* carbon */
+    /* carbon */
 
 
-  const env0depo_rawCoal = extendBase(
-    TEMPLATE, "env0depo-raw-coal",
-  );
+    const env0depo_rawCoal = extendBase(
+        ENV_deposit, "env0depo-raw-coal",
+    );
 
 
-  const env0depo_anthracite = extendBase(
-    TEMPLATE, "env0depo-anthracite",
-  );
+    const env0depo_anthracite = extendBase(
+        ENV_deposit, "env0depo-anthracite",
+    );
 
 
-  /* copper */
+    /* copper */
 
 
-  const env0depo_malachite = extendBase(
-    TEMPLATE, "env0depo-malachite",
-    TEMPLATE.build({
-      dropHardness: 6,
-    }),
-  );
+    const env0depo_malachite = extendBase(
+        ENV_deposit, "env0depo-malachite",
+        ENV_deposit.build({
+            dropHardness: 6,
+        }),
+    );
 
 
-  /* fluorine */
+    /* fluorine */
 
 
-  const env0depo_fluorite = extendBase(
-    TEMPLATE, "env0depo-fluorite",
-  );
+    const env0depo_fluorite = extendBase(
+        ENV_deposit, "env0depo-fluorite",
+    );
 
 
-  /* iron */
+    /* iron */
 
 
-  const env0depo_limonite = extendBase(
-    TEMPLATE, "env0depo-limonite",
-    TEMPLATE.build({
-      dropHardness: 6,
-    }),
-  );
+    const env0depo_limonite = extendBase(
+        ENV_deposit, "env0depo-limonite",
+        ENV_deposit.build({
+            dropHardness: 6,
+        }),
+    );
 
 
-  /* mercury */
+    /* mercury */
 
 
-  const env0depo_cinnabar = extendBase(
-    TEMPLATE, "env0depo-cinnabar",
-    TEMPLATE.build({
-      dropHardness: 6,
-    }),
-  );
+    const env0depo_cinnabar = extendBase(
+        ENV_deposit, "env0depo-cinnabar",
+        ENV_deposit.build({
+            dropHardness: 6,
+        }),
+    );
 
 
-  /* phosphorus */
+    /* phosphorus */
 
 
-  const env0depo_fluorapatite = extendBase(
-    TEMPLATE, "env0depo-fluorapatite",
-  );
+    const env0depo_fluorapatite = extendBase(
+        ENV_deposit, "env0depo-fluorapatite",
+    );
 
 
-  /* silicon */
+    /* silicon */
 
 
-  const env0depo_silicaStone = extendBase(
-    TEMPLATE, "env0depo-silica-stone",
-  );
+    const env0depo_silicaStone = extendBase(
+        ENV_deposit, "env0depo-silica-stone",
+    );
 
 
-  /* sulfur */
+    /* sulfur */
 
 
-  const env0depo_crudeSulfur = extendBase(
-    TEMPLATE, "env0depo-crude-sulfur",
-  );
+    const env0depo_crudeSulfur = extendBase(
+        ENV_deposit, "env0depo-crude-sulfur",
+    );
 
 
-  /* rock */
+    /* rock */
 
 
-  const env0depo_dolomite = extendBase(
-    TEMPLATE, "env0depo-dolomite",
-  );
+    const env0depo_dolomite = extendBase(
+        ENV_deposit, "env0depo-dolomite",
+    );
 
 
-  const env0depo_gypsum = extendBase(
-    TEMPLATE, "env0depo-gypsum",
-  );
+    const env0depo_gypsum = extendBase(
+        ENV_deposit, "env0depo-gypsum",
+    );
 
 
-  const env0depo_limestone = extendBase(
-    TEMPLATE, "env0depo-limestone",
-  );
+    const env0depo_limestone = extendBase(
+        ENV_deposit, "env0depo-limestone",
+    );
 
 
-  const env0depo_pumice = extendBase(
-    TEMPLATE, "env0depo-pumice",
-  );
+    const env0depo_pumice = extendBase(
+        ENV_deposit, "env0depo-pumice",
+    );
 
 
-  const env0depo_talc = extendBase(
-    TEMPLATE, "env0depo-talc",
-  );
+    const env0depo_talc = extendBase(
+        ENV_deposit, "env0depo-talc",
+    );
 
 
-  /* misc */
+    /* misc */
 
 
-  const env0depo_scrapSteel = extendBase(
-    TEMPLATE, "env0depo-scrap-steel",
-  );
+    const env0depo_scrapSteel = extendBase(
+        ENV_deposit, "env0depo-scrap-steel",
+    );

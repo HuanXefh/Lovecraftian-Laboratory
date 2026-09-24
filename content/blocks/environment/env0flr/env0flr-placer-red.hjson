@@ -5,7 +5,7 @@
 */
 
 
-  # type: Floor
+    # type: Floor
 
 
 /*
@@ -15,8 +15,8 @@
 */
 
 
-  variants: 6
-  walkSound: se-step-sand
+    variants: 6
+    walkSound: se-step-sand
 
 
 /*
@@ -26,9 +26,9 @@
 */
 
 
-  itemDrop: item0ore-sand
-  playerUnmineable: true
-  attributes: {
-    lovec-attr0flr-placer: 1.0
-    lovec-attr0rock-clastic: 0.5
-  }
+    itemDrop: item0ore-sand
+    playerUnmineable: true
+    attributes: {
+        lovec-attr0flr-placer: 1.0
+        lovec-attr0rock-clastic: 0.5
+    }

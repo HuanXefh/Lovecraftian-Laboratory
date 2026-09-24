@@ -5,11 +5,11 @@
 */
 
 
-  alwaysUnlocked: true
-  research: {
-    parent: eff0core-ash
-    objectives: []
-  }
+    alwaysUnlocked: true
+    research: {
+        parent: eff0core-ash
+        objectives: []
+    }
 
 
 /*
@@ -19,6 +19,6 @@
 */
 
 
-  heatCapacity: 0.4
-  coolant: true
-  effect: wet
+    heatCapacity: 0.4
+    coolant: true
+    effect: wet

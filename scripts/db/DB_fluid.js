@@ -1,226 +1,230 @@
 const db = {
 
 
-  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
+    /* <------------------------------ CHUNK SPLITTER ------------------------------> */
 
 
-  group: {
+    group: {
 
 
-    elementary: {
+        elementary: {
 
 
-      brine: [
+            brine: [
 
-        /* <---------- liq0ore ----------> */
+                /* <------------------------------ liq0ore ------------------------------> */
 
-        "loveclab-liq0ore-sea-water",
-        "loveclab-liq0ore-brine",
+                "loveclab-liq0ore-sea-water",
+                "loveclab-liq0ore-brine",
 
-        /* <---------- liq0waste ----------> */
+                /* <------------------------------ liq0waste ------------------------------> */
 
-        "loveclab-liq0was-bittern",
+                "loveclab-liq0was-bittern",
 
-        /* <---------- liq0int ----------> */
+                /* <------------------------------ liq0int ------------------------------> */
 
-        "loveclab-liq0int-purified-brine",
+                "loveclab-liq0int-purified-brine",
 
-        /* <---------- liq0int0sol ----------> */
+                /* <------------------------------ liq0int0sol ------------------------------> */
 
-        "loveclab-liq0int0sol-potassium-chloride",
-        "loveclab-liq0int0sol-sodium-chloride",
+                "loveclab-liq0int0sol-potassium-chloride",
+                "loveclab-liq0int0sol-sodium-chloride",
+                
+                /* <------------------------------ name ------------------------------> */
 
-      ],
+            ],
 
 
-      acidAq: [],
+            acidAq: [],
 
 
-      baseAq: [
+            baseAq: [
 
-        /* <---------- liq0int0sol ----------> */
+                /* <------------------------------ liq0int0sol ------------------------------> */
 
-        /* calcium */
+                /* calcium */
 
-        "loveclab-liq0int0sol-slaked-lime",
+                "loveclab-liq0int0sol-slaked-lime",
 
-      ],
+            ],
 
 
-      acidGas: [
+            acidGas: [
 
-        /* <---------- gas0chem (inorganic) ----------> */
+                /* <------------------------------ gas0chem (inorganic) ------------------------------> */
 
-        /* sulfur */
+                /* sulfur */
 
-        "loveclab-gas0chem-sulfur-dioxide",
-        "loveclab-gas0chem-sulfur-trioxide",
+                "loveclab-gas0chem-sulfur-dioxide",
+                "loveclab-gas0chem-sulfur-trioxide",
 
-      ],
+            ],
 
 
-      baseGas: [],
+            baseGas: [],
 
 
-      acidSub: [],
+            acidSub: [],
 
 
-      baseSub: [],
+            baseSub: [],
 
 
-      alc: [],
+            alc: [],
 
 
-      acidAlc: [],
+            acidAlc: [],
 
 
-      baseAlc: [],
+            baseAlc: [],
 
 
-      oil: [
+            oil: [
 
-        /* <---------- liq0bio ----------> */
+                /* <------------------------------ liq0bio ------------------------------> */
 
-        "loveclab-liq0bio-latex",
+                "loveclab-liq0bio-latex",
 
-        /* <---------- liq0ore ----------> */
+                /* <------------------------------ liq0ore ------------------------------> */
 
-        "loveclab-liq0ore-crude-oil",
+                "loveclab-liq0ore-crude-oil",
 
-        /* <---------- liq0chem (misc) ----------> */
+                /* <------------------------------ liq0chem (misc) ------------------------------> */
 
-        "loveclab-liq0chem-coal-tar",
+                "loveclab-liq0chem-coal-tar",
 
-        /* <---------- liq0int ----------> */
+                /* <------------------------------ liq0int ------------------------------> */
 
-        "loveclab-liq0int-desalted-crude-oil",
-        "loveclab-liq0int-evaporated-crude-oil",
-        "loveclab-liq0int-desalted-evaporated-crude-oil",
+                "loveclab-liq0int-desalted-crude-oil",
+                "loveclab-liq0int-evaporated-crude-oil",
+                "loveclab-liq0int-desalted-evaporated-crude-oil",
 
-      ],
+            ],
 
 
-      acidOil: [],
+            acidOil: [],
 
 
-      baseOil: [],
+            baseOil: [],
 
 
-      slurry: [
+            slurry: [
 
-        /* <---------- liq0misc ----------> */
+                /* <------------------------------ liq0misc ------------------------------> */
 
-        "loveclab-liq0misc-drilling-mud",
+                "loveclab-liq0misc-drilling-mud",
 
-        /* <---------- liq0was ----------> */
+                /* <------------------------------ liq0was ------------------------------> */
 
-        "loveclab-liq0was-waste-slurry",
+                "loveclab-liq0was-waste-slurry",
 
-      ],
+            ],
 
 
-      acidSlurry: [],
+            acidSlurry: [],
 
 
-      baseSlurry: [],
+            baseSlurry: [],
 
 
-      melt: [],
+            melt: [],
 
 
-      sMelt: [],
+            sMelt: [],
+
+
+        },
+
+
+        fTag: {
+
+
+            chloric: [],
+
+
+            fluoric: [],
+
+
+            oxidative: [
+
+                /* <------------------------------ gas0chem (elementary) ------------------------------> */
+
+                "loveclab-gas0chem-oxygen",
+                "loveclab-gas0chem-ozone",
+
+                /* <------------------------------ gas0chem (inorganic) ------------------------------> */
+
+                /* sulfur */
+
+                "loveclab-gas0chem-sulfur-trioxide",
+
+            ],
+
+
+            reductive: [],
+
+
+            dehydrative: [
+
+                /* <------------------------------ gas0chem (inorganic) ------------------------------> */
+
+                /* sulfur */
+
+                "loveclab-gas0chem-sulfur-trioxide",
+
+            ],
+
+
+            acetylene: [
+
+                "loveclab-gas0chem-acetylene",
+                "loveclab-gas0int0crdg-acetylene-calcium-carbide",
+
+            ],
+
+
+        },
+
+
+        aqueous: [
+
+            /* <------------------------------ liq0bio ------------------------------> */
+
+            "loveclab-liq0bio-latex",
+
+            /* <------------------------------ liq0ore ------------------------------> */
+
+            "loveclab-liq0ore-water",
+
+            /* <------------------------------ liq0was ------------------------------> */
+
+            "loveclab-liq0was-waste-water",
+
+        ],
+
+
+        air: [
+
+            /* <------------------------------ gas0misc ------------------------------> */
+
+            "loveclab-gas0misc-air",
+
+            /* <------------------------------ gas0int ------------------------------> */
+
+            "loveclab-gas0int-air-clean",
+            "loveclab-gas0int-air-dry",
+            "loveclab-gas0int-air-super-clean",
+
+        ],
 
 
     },
 
 
-    fTag: {
-
-
-      chloric: [],
-
-
-      fluoric: [],
-
-
-      oxidative: [
-
-        /* <---------- gas0chem (elementary) ----------> */
-
-        "loveclab-gas0chem-oxygen",
-        "loveclab-gas0chem-ozone",
-
-        /* <---------- gas0chem (inorganic) ----------> */
-
-        /* sulfur */
-
-        "loveclab-gas0chem-sulfur-trioxide",
-
-      ],
-
-
-      reductive: [],
-
-
-      dehydrative: [
-
-        /* <---------- gas0chem (inorganic) ----------> */
-
-        /* sulfur */
-
-        "loveclab-gas0chem-sulfur-trioxide",
-
-      ],
-
-
-      acetylene: [
-
-        "loveclab-gas0chem-acetylene",
-        "loveclab-gas0int0crdg-acetylene-calcium-carbide",
-
-      ],
-
-
-    },
-
-
-    aqueous: [
-
-      /* <---------- liq0bio ----------> */
-
-      "loveclab-liq0bio-latex",
-
-      /* <---------- liq0ore ----------> */
-
-      "loveclab-liq0ore-water",
-
-      /* <---------- liq0was ----------> */
-
-      "loveclab-liq0was-waste-water",
-
-    ],
-
-
-    air: [
-
-      /* <---------- gas0misc ----------> */
-
-      "loveclab-gas0misc-air",
-
-      /* <---------- gas0int ----------> */
-
-      "loveclab-gas0int-air-clean",
-      "loveclab-gas0int-air-dry",
-      "loveclab-gas0int-air-super-clean",
-
-    ],
-
-
-  },
-
-
-  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
+    /* <------------------------------ CHUNK SPLITTER ------------------------------> */
 
 
 };
+
+
 exports.db = db;

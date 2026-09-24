@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: item0ore-silica-stone
-    objectives: []
-  }
+    research: {
+        parent: item0ore-silica-stone
+        objectives: []
+    }
 
 
 /*
@@ -18,4 +18,4 @@
 */
 
 
-  lowPriority: true
+    lowPriority: true

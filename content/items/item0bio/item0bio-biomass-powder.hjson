@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: item0bio-sawdust
-    objectives: []
-  }
+    research: {
+        parent: item0bio-sawdust
+        objectives: []
+    }
 
 
 /*
@@ -18,5 +18,5 @@
 */
 
 
-  explosiveness: 0.5
-  flammability: 0.75
+    explosiveness: 0.5
+    flammability: 0.75

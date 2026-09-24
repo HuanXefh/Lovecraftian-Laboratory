@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/sta/STA_baseStatus");
+    const STA_baseStatus = require("lovec/temp/sta/STA_baseStatus");
 
 
 /*
@@ -18,63 +15,63 @@
 */
 
 
-  /* <---------- sta ----------> */
+    /* <------------------------------ sta ------------------------------> */
 
 
-  const sta_noConstruction = extendBase(
-    TEMPLATE, "sta-no-construction",
-  );
+    const sta_noConstruction = extendBase(
+        STA_baseStatus, "sta-no-construction",
+    );
 
 
-  const sta_damaged = extendBase(
-    TEMPLATE, "sta-damaged",
-    TEMPLATE.build({
-      eff: EFF.smogUnitDamaged,
-      effP: 0.08,
-    }),
-  );
+    const sta_damaged = extendBase(
+        STA_baseStatus, "sta-damaged",
+        STA_baseStatus.build({
+            eff: EFF.smogUnitDamaged,
+            effP: 0.08,
+        }),
+    );
 
 
-  const sta_severelyDamaged = extendBase(
-    TEMPLATE, "sta-severely-damaged",
-    TEMPLATE.build({
-      eff: EFF.smogUnitDamaged,
-      effP: 0.3,
-    }),
-  );
+    const sta_severelyDamaged = extendBase(
+        STA_baseStatus, "sta-severely-damaged",
+        STA_baseStatus.build({
+            eff: EFF.smogUnitDamaged,
+            effP: 0.3,
+        }),
+    );
 
 
-  const sta_slightlyInjured = extendBase(
-    TEMPLATE, "sta-slightly-injured",
-  );
+    const sta_slightlyInjured = extendBase(
+        STA_baseStatus, "sta-slightly-injured",
+    );
 
 
-  const sta_injured = extendBase(
-    TEMPLATE, "sta-injured",
-  );
+    const sta_injured = extendBase(
+        STA_baseStatus, "sta-injured",
+    );
 
 
-  const sta_heavilyInjured = extendBase(
-    TEMPLATE, "sta-heavily-injured",
-  );
+    const sta_heavilyInjured = extendBase(
+        STA_baseStatus, "sta-heavily-injured",
+    );
 
 
-  const sta_haste = extendBase(
-    TEMPLATE, "sta-haste",
-    TEMPLATE.build({
-      eff: TP_effect.particleShrink({
-        spr: "lovec-efr-triangle",
-        size: 2.0,
-        spin: 1.0,
-        color: Pal.accent,
-        shouldFade: true,
-        hasBloom: true,
-      }),
-      effP: 0.1,
-    }),
-  );
+    const sta_haste = extendBase(
+        STA_baseStatus, "sta-haste",
+        STA_baseStatus.build({
+            eff: TP_effect.particleShrink({
+                spr: "lovec-efr-triangle",
+                size: 2.0,
+                spin: 1.0,
+                color: Pal.accent,
+                shouldFade: true,
+                hasBloom: true,
+            }),
+            effP: 0.1,
+        }),
+    );
 
 
-  const sta_hiddenWell = extendBase(
-    TEMPLATE, "sta-hidden-well",
-  );
+    const sta_hiddenWell = extendBase(
+        STA_baseStatus, "sta-hidden-well",
+    );

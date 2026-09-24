@@ -1,4 +1,4 @@
-/* <---------- item0chem (elementary) ----------> */
+/* <------------------------------ item0chem (elementary) ------------------------------> */
 
 /* carbon */
 
@@ -9,21 +9,21 @@ loveclab-item0chem-coal: 0.5
 
 loveclab-item0chem-sulfur: 6.5
 
-/* <---------- liq0ore ----------> */
+/* <------------------------------ liq0ore ------------------------------> */
 
 loveclab-liq0ore-crude-oil: 2.0
 
-/* <---------- liq0was ----------> */
+/* <------------------------------ liq0was ------------------------------> */
 
 loveclab-liq0was-waste-water: 5.0
 
-/* <---------- gas0chem (inorganic) ----------> */
+/* <------------------------------ gas0chem (inorganic) ------------------------------> */
 
 /* sulfur */
 
 loveclab-gas0chem-sulfur-dioxide: 7.5
 loveclab-gas0chem-sulfur-trioxide: 11.0
 
-/* <---------- gas0was ----------> */
+/* <------------------------------ gas0was ------------------------------> */
 
 loveclab-gas0was-coke-oven-gas: 4.0

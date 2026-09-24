@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: gas0chem-nitrogen
-    objectives: []
-  }
+    research: {
+        parent: gas0chem-nitrogen
+        objectives: []
+    }
 
 
 /*
@@ -18,5 +18,5 @@
 */
 
 
-  explosiveness: 0.85
-  gas: true
+    explosiveness: 0.85
+    gas: true

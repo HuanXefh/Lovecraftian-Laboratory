@@ -5,7 +5,7 @@
 */
 
 
-  # type: mech
+    # type: mech
 
 
 /*
@@ -15,11 +15,11 @@
 */
 
 
-  alwaysUnlocked: true
-  research: {
-    parent: eff0core-ash
-    objectives: []
-  }
+    alwaysUnlocked: true
+    research: {
+        parent: eff0core-ash
+        objectives: []
+    }
 
 
 /*
@@ -29,14 +29,14 @@
 */
 
 
-  health: 220.0
-  armor: 6.0
-  hitSize: 8.0
-  speed: 1.1
-  rotateSpeed: 6.4
-  accel: 0.5
-  drag: 0.3
-  itemCapacity: 500
+    health: 220.0
+    armor: 6.0
+    hitSize: 8.0
+    speed: 1.1
+    rotateSpeed: 6.4
+    accel: 0.5
+    drag: 0.3
+    itemCapacity: 500
 
 
 /*
@@ -46,7 +46,7 @@
 */
 
 
-  fogRadius: 7
+    fogRadius: 7
 
 
 /*
@@ -56,48 +56,48 @@
 */
 
 
-  itemOffsetY: 3.0
-  lightRadius: 120.0
-  parts: [
+    itemOffsetY: 3.0
+    lightRadius: 120.0
+    parts: [
 
 
-    {
-      type: HoverPart
-      layerOffset: -0.001
-      under: true
-      mirror: false
-      radius: 6.0
-      x: 0.0
-      y: -3.0
-      rotation: 0.0
-      phase: 60.0
-      circles: 2
-      sides: 6
-      color: "8ca9e8"
-      stroke: 1.5
-      minStroke: 0.12
-    }
+        {
+            type: HoverPart
+            layerOffset: -0.001
+            under: true
+            mirror: false
+            radius: 6.0
+            x: 0.0
+            y: -3.0
+            rotation: 0.0
+            phase: 60.0
+            circles: 2
+            sides: 6
+            color: "8ca9e8"
+            stroke: 1.5
+            minStroke: 0.12
+        }
 
 
-    {
-      type: HoverPart
-      layerOffset: -0.001
-      under: true
-      mirror: false
-      radius: 5.0
-      x: 0.0
-      y: -3.0
-      rotation: 0.0
-      phase: 90.0
-      circles: 2
-      sides: 6
-      color: "d1efff"
-      stroke: 1.5
-      minStroke: 0.12
-    }
+        {
+            type: HoverPart
+            layerOffset: -0.001
+            under: true
+            mirror: false
+            radius: 5.0
+            x: 0.0
+            y: -3.0
+            rotation: 0.0
+            phase: 90.0
+            circles: 2
+            sides: 6
+            color: "d1efff"
+            stroke: 1.5
+            minStroke: 0.12
+        }
 
 
-  ]
+    ]
 
 
 /*
@@ -107,17 +107,17 @@
 */
 
 
-  groundLayer: 61.0
-  flyingLayer: 96.0
-  shadowElevation: 0.02
-  shadowElevationScl: 1.0
-  stepShake: 0.0
-  rippleScale: 0.6
-  mechLandShake: 1.0
-  mechSideSway: 0.3
-  mechFrontSway: 0.4
-  mechStride: -1.0
-  mechStepParticles: false
+    groundLayer: 61.0
+    flyingLayer: 96.0
+    shadowElevation: 0.02
+    shadowElevationScl: 1.0
+    stepShake: 0.0
+    rippleScale: 0.6
+    mechLandShake: 1.0
+    mechSideSway: 0.3
+    mechFrontSway: 0.4
+    mechStride: -1.0
+    mechStepParticles: false
 
 
 /*
@@ -127,30 +127,30 @@
 */
 
 
-  engineColor: "8ca9e8"
-  engineColorInner: ffffff
-  engineOffset: 0.0
-  engineSize: 2.5
-  engines: [
+    engineColor: "8ca9e8"
+    engineColorInner: ffffff
+    engineOffset: 0.0
+    engineSize: 2.5
+    engines: [
 
 
-    {
-      x: 4.5
-      y: -3.5
-      radius: 2.5
-      rotation: 315.0
-    }
+        {
+            x: 4.5
+            y: -3.5
+            radius: 2.5
+            rotation: 315.0
+        }
 
 
-    {
-      x: -4.5
-      y: -3.5
-      radius: 2.5
-      rotation: 225.0
-    }
+        {
+            x: -4.5
+            y: -3.5
+            radius: 2.5
+            rotation: 225.0
+        }
 
 
-  ]
+    ]
 
 
 /*
@@ -160,11 +160,11 @@
 */
 
 
-  trailLength: 15
-  trailColor: "8ca9e8"
-  trailScl: 1.0
-  waveTrailX: 4.0
-  waveTrailY: -3.0
+    trailLength: 15
+    trailColor: "8ca9e8"
+    trailScl: 1.0
+    waveTrailX: 4.0
+    waveTrailY: -3.0
 
 
 /*
@@ -174,14 +174,14 @@
 */
 
 
-  isEnemy: false
-  canAttack: false
-  flying: false
-  lowAltitude: true
-  canDrown: true
-  drownTimeMultiplier: 1.0
-  omniMovement: true
-  strafePenalty: 0.5
+    isEnemy: false
+    canAttack: false
+    flying: false
+    lowAltitude: true
+    canDrown: true
+    drownTimeMultiplier: 1.0
+    omniMovement: true
+    strafePenalty: 0.5
 
 
 /*
@@ -191,10 +191,10 @@
 */
 
 
-  canBoost: true
-  riseSpeed: 0.012
-  descentSpeed: 0.036
-  boostMultiplier: 3.1
+    canBoost: true
+    riseSpeed: 0.012
+    descentSpeed: 0.036
+    boostMultiplier: 3.1
 
 
 /*
@@ -204,10 +204,10 @@
 */
 
 
-  buildRange: 160.0
-  buildSpeed: 1.0
-  buildBeamOffset: 4.0
-  rotateToBuilding: true
+    buildRange: 160.0
+    buildSpeed: 1.0
+    buildBeamOffset: 4.0
+    rotateToBuilding: true
 
 
 /*
@@ -217,11 +217,11 @@
 */
 
 
-  useUnitCap: true
-  coreUnitDock: true
-  playerControllable: true
-  logicControllable: false
-  defaultController: BuilderAI
+    useUnitCap: true
+    coreUnitDock: true
+    playerControllable: true
+    logicControllable: false
+    defaultController: BuilderAI
 
 
 /*
@@ -231,19 +231,19 @@
 */
 
 
-  mineRange: 160.0
-  mineTier: 7
-  mineSpeed: 27.0
-  mineHardnessScaling: true
-  mineFloor: true
-  mineWalls: true
-  mineItems: [
-    item0ore-native-copper
-    item0ore-malachite
-    item0ore-galena
-    item0ore-sphalerite
-    item0ore-cassiterite
-  ]
+    mineRange: 160.0
+    mineTier: 7
+    mineSpeed: 27.0
+    mineHardnessScaling: true
+    mineFloor: true
+    mineWalls: true
+    mineItems: [
+        item0ore-native-copper
+        item0ore-malachite
+        item0ore-galena
+        item0ore-sphalerite
+        item0ore-cassiterite
+    ]
 
 
 /*
@@ -253,10 +253,10 @@
 */
 
 
-  range: 160.0
-  aimDst: 160.0
-  singleTarget: false
-  targetAir: false
-  targetGround: true
-  faceTarget: true
-  circleTarget: false
+    range: 160.0
+    aimDst: 160.0
+    singleTarget: false
+    targetAir: false
+    targetGround: true
+    faceTarget: true
+    circleTarget: false

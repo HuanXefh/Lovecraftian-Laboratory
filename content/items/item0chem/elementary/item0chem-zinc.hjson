@@ -5,7 +5,7 @@
 */
 
 
-  research: {
-    parent: item0chem-lead
-    objectives: []
-  }
+    research: {
+        parent: item0chem-lead
+        objectives: []
+    }

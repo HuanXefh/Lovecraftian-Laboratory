@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/rs/RS_crudeItem");
+    const RS_crudeItem = require("lovec/temp/rs/RS_crudeItem");
 
 
 /*
@@ -18,12 +15,12 @@
 */
 
 
-  /* <---------- item0int ----------> */
+    /* <------------------------------ item0int ------------------------------> */
 
 
-  const item0int0crd_activatedCarbon = extendBase(
-    TEMPLATE, "item0int0crd-activated-carbon",
-    TEMPLATE.build({
-      intmdParent: "loveclab-item0chem-activated-carbon",
-    }),
-  );
+    const item0int0crd_activatedCarbon = extendBase(
+        RS_crudeItem, "item0int0crd-activated-carbon",
+        RS_crudeItem.build({
+            intmdParent: "loveclab-item0chem-activated-carbon",
+        }),
+    );
