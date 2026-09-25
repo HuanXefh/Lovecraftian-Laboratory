@@ -61,7 +61,6 @@ const db = {
 
             "sand", ["loveclab-item0ore-sand-river", {}],
             "sand", ["loveclab-item0buil-fine-aggregate", {}],
-            "sand", ["loveclab-item0ore-sand", {amtScl: 4.0}],
 
             /* ore material II */
 
