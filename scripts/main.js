@@ -6,7 +6,7 @@
 
 
     if(!checkVersion("loveclab", [
-        "lovec", "101.4.26092501",
+        "lovec", "101.4.26092601",
     ])) throw new Error("Failed loading LovecLab due to version mismatch");
 
 
@@ -74,9 +74,7 @@
     require("loveclab/ct/CT_WEA_decoWeather");
 
 
-    require("loveclab/ct/CT_PLA_sun");
-    require("loveclab/ct/CT_PLA_planet");
-    require("loveclab/ct/CT_PLA_asteroid");
+    require("loveclab/ct/CT_PLA_basePlanet");
 
 
     require("loveclab/ct/CT_BLK_materialBlock");

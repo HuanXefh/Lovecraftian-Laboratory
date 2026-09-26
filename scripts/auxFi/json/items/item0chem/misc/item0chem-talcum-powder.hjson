@@ -1,0 +1,11 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: loveclab-item0buil-coarse-aggregate
+        objectives: []
+    }

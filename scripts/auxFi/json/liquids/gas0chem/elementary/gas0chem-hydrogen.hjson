@@ -1,0 +1,23 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: loveclab-gas0misc-air
+        objectives: []
+    }
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    flammability: 0.75
+    explosiveness: 0.75
+    gas: true

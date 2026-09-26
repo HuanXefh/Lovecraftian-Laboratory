@@ -1,0 +1,22 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    alwaysUnlocked: true
+    research: {
+        parent: loveclab-eff0core-ash
+        objectives: []
+    }
+
+
+/*
+  ========================================
+  Section: Material
+  ========================================
+*/
+
+
+    lowPriority: true

@@ -1,0 +1,21 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: loveclab-item0ore-fluorapatite
+        objectives: []
+    }
+
+
+/*
+  ========================================
+  Section: Material
+  ========================================
+*/
+
+
+    lowPriority: true

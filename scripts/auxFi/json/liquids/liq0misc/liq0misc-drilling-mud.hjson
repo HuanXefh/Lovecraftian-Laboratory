@@ -1,0 +1,21 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: loveclab-item0ore-barite
+        objectives: []
+    }
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    effect: loveclab-sta0liq-slurry-slowed

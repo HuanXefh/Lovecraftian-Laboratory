@@ -1,0 +1,21 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: loveclab-item0ore-limestone
+        objectives: []
+    }
+
+
+/*
+  ========================================
+  Section: Material
+  ========================================
+*/
+
+
+    lowPriority: true

@@ -1,0 +1,21 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: loveclab-item0ore-rock-biological-sedimentary
+        objectives: []
+    }
+
+
+/*
+  ========================================
+  Section: Material
+  ========================================
+*/
+
+
+    lowPriority: true

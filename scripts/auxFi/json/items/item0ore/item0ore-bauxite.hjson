@@ -1,0 +1,21 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: loveclab-item0ore-crude-graphite
+        objectives: []
+    }
+
+
+/*
+  ========================================
+  Section: Material
+  ========================================
+*/
+
+
+    lowPriority: true

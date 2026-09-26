@@ -21,7 +21,6 @@
     drawOrbit: true
     orbitRadius: 4.8
     rotateTime: 1100.0
-    tidalLock: true
 
 
 /*

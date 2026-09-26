@@ -21,7 +21,7 @@
     const env0tree0bush_ashFern = extendBase(
         ENV_bush, "env0tree0bush-ash-fern",
         ENV_bush.build({
-            treeLay: 76.68,
+            layTree: 76.68,
             treeRad: 13.0,
         }),
     );
@@ -30,7 +30,7 @@
     const env0tree0bush_rockyFern = extendBase(
         ENV_bush, "env0tree0bush-rocky-fern",
         ENV_bush.build({
-            treeLay: 76.71,
+            layTree: 76.71,
             treeRad: 14.0,
         }),
     );

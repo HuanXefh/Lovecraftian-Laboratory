@@ -1,0 +1,23 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: loveclab-item0chem-calcium-carbide
+        objectives: []
+    }
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    flammability: 1.0
+    explosiveness: 3.0
+    gas: true

@@ -1,0 +1,24 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    alwaysUnlocked: true
+    research: {
+        parent: loveclab-eff0core-ash
+        objectives: []
+    }
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    heatCapacity: 0.4
+    coolant: true
+    effect: wet

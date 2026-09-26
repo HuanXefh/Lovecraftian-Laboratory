@@ -1,0 +1,23 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: loveclab-gas0misc-steam
+        objectives: []
+    }
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    heatCapacity: 0.4
+    coolant: true
+    gas: true

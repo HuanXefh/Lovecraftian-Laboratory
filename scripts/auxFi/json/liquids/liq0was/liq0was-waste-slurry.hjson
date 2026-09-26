@@ -1,0 +1,22 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    alwaysUnlocked: true
+    research: {
+        parent: loveclab-liq0was-waste-water
+        objectives: []
+    }
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    effect: loveclab-sta0liq-slurry-slowed

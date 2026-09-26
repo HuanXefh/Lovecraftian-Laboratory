@@ -1,0 +1,22 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    alwaysUnlocked: true
+    research: {
+        parent: loveclab-liq0ore-brine
+        objectives: []
+    }
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    effect: loveclab-sta0liq-waste-corrosion

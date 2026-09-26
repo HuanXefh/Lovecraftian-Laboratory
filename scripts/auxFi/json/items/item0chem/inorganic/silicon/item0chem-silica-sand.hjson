@@ -1,0 +1,11 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: loveclab-item0chem-magnesia-sand
+        objectives: []
+    }
