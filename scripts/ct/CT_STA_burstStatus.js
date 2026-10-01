@@ -25,7 +25,7 @@
             burstDamage: 2000.0,
             burstDamagePerc: 0.05,
             burstDamageIgnoreShield: false,
-            burstEff: EFF.pulseCircleDynamic,
+            burstEff: GLB_eff.pulseCircleDynamic,
             burstEffColor: Color.valueOf("ffc455"),
             burstScr: cons(function(unit) {unit.apply(StatusEffects.melting, 480.0)}),
             timeF: floatf2(function(unit, time) {return 300.0}),

@@ -32,5 +32,6 @@
 
 
     attrs: {
+        light: -0.25
         lovec-attr0env-rain: 1.0
     }

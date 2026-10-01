@@ -26,7 +26,7 @@
     const sta_damaged = extendBase(
         STA_baseStatus, "sta-damaged",
         STA_baseStatus.build({
-            eff: EFF.smogUnitDamaged,
+            eff: GLB_eff.smogUnitDamaged,
             effP: 0.08,
         }),
     );
@@ -35,7 +35,7 @@
     const sta_severelyDamaged = extendBase(
         STA_baseStatus, "sta-severely-damaged",
         STA_baseStatus.build({
-            eff: EFF.smogUnitDamaged,
+            eff: GLB_eff.smogUnitDamaged,
             effP: 0.3,
         }),
     );

@@ -24,7 +24,7 @@
             burstTime: 1800.0,
             burstDamage: 70.0,
             burstDamagePerc: 0.007,
-            burstEff: EFF.pulseCircleDynamic,
+            burstEff: GLB_eff.pulseCircleDynamic,
             burstEffColor: Color.valueOf("6fb6bf"),
             eff: TP_effect.particleWet({
                 color: "6fb6bf",
@@ -40,7 +40,7 @@
             burstTime: 1800.0,
             burstDamage: 150.0,
             burstDamagePerc: 0.015,
-            burstEff: EFF.pulseCircleDynamic,
+            burstEff: GLB_eff.pulseCircleDynamic,
             burstEffColor: Color.valueOf("d8c0d4"),
             eff: TP_effect.particleWet({
                 color: "d8c0d4",
@@ -56,7 +56,7 @@
             burstTime: 1800.0,
             burstDamage: 95.0,
             burstDamagePerc: 0.015,
-            burstEff: EFF.pulseCircleDynamic,
+            burstEff: GLB_eff.pulseCircleDynamic,
             burstEffColor: Color.valueOf("859c77"),
             eff: TP_effect.particleWet({
                 color: "859c77",
@@ -83,7 +83,7 @@
             burstTime: 1800.0,
             burstDamage: 150.0,
             burstDamagePerc: 0.009,
-            burstEff: EFF.pulseCircleDynamic,
+            burstEff: GLB_eff.pulseCircleDynamic,
             burstEffColor: Color.valueOf("80ba78"),
             eff: TP_effect.particleWet({
                 color: "80ba78",
@@ -99,7 +99,7 @@
             burstTime: 1800.0,
             burstDamage: 300.0,
             burstDamagePerc: 0.012,
-            burstEff: EFF.pulseCircleDynamic,
+            burstEff: GLB_eff.pulseCircleDynamic,
             burstEffColor: Color.valueOf("80ba78"),
             eff: TP_effect.particleWet({
                 color: "80ba78",
@@ -115,7 +115,7 @@
             burstTime: 1800.0,
             burstDamage: 800.0,
             burstDamagePerc: 0.018,
-            burstEff: EFF.pulseCircleDynamic,
+            burstEff: GLB_eff.pulseCircleDynamic,
             burstEffColor: Color.valueOf("80ba78"),
             eff: TP_effect.particleWet({
                 color: "80ba78",
@@ -131,7 +131,7 @@
             burstTime: 1800.0,
             burstDamage: 1500.0,
             burstDamagePerc: 0.03,
-            burstEff: EFF.pulseCircleDynamic,
+            burstEff: GLB_eff.pulseCircleDynamic,
             burstEffColor: Color.valueOf("80ba78"),
             eff: TP_effect.particleWet({
                 color: "80ba78",
@@ -147,7 +147,7 @@
             burstTime: 1800.0,
             burstDamage: 80.0,
             burstDamagePerc: 0.012,
-            burstEff: EFF.pulseCircleDynamic,
+            burstEff: GLB_eff.pulseCircleDynamic,
             burstEffColor: Color.valueOf("d0d0c8"),
             eff: TP_effect.particleWet({
                 color: "d0d0c8",
@@ -163,7 +163,7 @@
             burstTime: 1800.0,
             burstDamage: 200.0,
             burstDamagePerc: 0.02,
-            burstEff: EFF.pulseCircleDynamic,
+            burstEff: GLB_eff.pulseCircleDynamic,
             burstEffColor: Color.valueOf("d0d0c8"),
             eff: TP_effect.particleWet({
                 color: "d0d0c8",
@@ -179,7 +179,7 @@
             burstTime: 1800.0,
             burstDamage: 500.0,
             burstDamagePerc: 0.035,
-            burstEff: EFF.pulseCircleDynamic,
+            burstEff: GLB_eff.pulseCircleDynamic,
             burstEffColor: Color.valueOf("d0d0c8"),
             eff: TP_effect.particleWet({
                 color: "d0d0c8",
@@ -195,7 +195,7 @@
             burstTime: 1800.0,
             burstDamage: 1100.0,
             burstDamagePerc: 0.055,
-            burstEff: EFF.pulseCircleDynamic,
+            burstEff: GLB_eff.pulseCircleDynamic,
             burstEffColor: Color.valueOf("d0d0c8"),
             eff: TP_effect.particleWet({
                 color: "d0d0c8",

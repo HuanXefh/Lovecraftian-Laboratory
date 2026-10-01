@@ -6,7 +6,7 @@
 
 
     if(!checkVersion("loveclab", [
-        "lovec", "101.4.26092601",
+        "lovec", "101.4.26100101",
     ])) throw new Error("Failed loading LovecLab due to version mismatch");
 
 
@@ -101,12 +101,12 @@
 
         // Set up shown contents on Lovec planets, no need for blocks and unit types I guess
         Vars.content.items().each(item => MDL_content.getMod(item) === "loveclab", item => {
-            item.shownPlanets.addAll(VARGEN.lovecPlas);
-            item.databaseTabs.addAll(VARGEN.lovecPlas);
+            item.shownPlanets.addAll(GLB_varGen.lovecPlas);
+            item.databaseTabs.addAll(GLB_varGen.lovecPlas);
         });
         Vars.content.liquids().each(liq => MDL_content.getMod(liq) === "loveclab", liq => {
-            liq.shownPlanets.addAll(VARGEN.lovecPlas);
-            liq.databaseTabs.addAll(VARGEN.lovecPlas);
+            liq.shownPlanets.addAll(GLB_varGen.lovecPlas);
+            liq.databaseTabs.addAll(GLB_varGen.lovecPlas);
         });
 
 
