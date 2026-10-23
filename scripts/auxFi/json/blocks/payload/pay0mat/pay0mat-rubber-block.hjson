@@ -47,8 +47,10 @@
 */
 
 
-    envRequired: 0
-    envDisabled: 18
+    envDisabled: [
+        space
+        scorching
+    ]
 
 
 /*

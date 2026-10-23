@@ -41,5 +41,5 @@
 
 
     accessible: false
-    defaultEnv: 1
+    defaultEnv: terrestrial
     defaultAttributes: {}

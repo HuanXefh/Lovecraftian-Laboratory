@@ -213,7 +213,12 @@
 
 
     accessible: true
-    defaultEnv: 225
+    defaultEnv: [
+        terrestrial
+        groundOil
+        groundWater
+        oxygen
+    ]
     defaultAttributes: {}
     updateLighting: true
     sectorSeed: 22513

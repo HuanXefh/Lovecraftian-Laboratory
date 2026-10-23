@@ -6,7 +6,7 @@
 
 
     if(!checkVersion("loveclab", [
-        "lovec", "101.4.26100101",
+        "lovec", "101.4.26102301",
     ])) throw new Error("Failed loading LovecLab due to version mismatch");
 
 
@@ -56,7 +56,7 @@
     require("loveclab/ct/CT_BLK_core");
 
 
-    require("loveclab/ct/CT_MAP_dialFlowTrigger");
+    require("loveclab/ct/CT_MAP_dialogFlowTrigger");
 
 
     require("loveclab/ct/CT_UNIT_lootUnit");

@@ -65,6 +65,10 @@ loveclab-item0ore-pyrolusite: 1
 
 loveclab-item0ore-cinnabar: 2
 
+/* molybdenum */
+
+loveclab-item0ore-molybdenite: 1
+
 /* nickel */
 
 loveclab-item0ore-nickel-laterite: 4
@@ -87,6 +91,10 @@ loveclab-item0ore-sperrylite: 7
 
 loveclab-item0ore-silica-stone: 4
 
+/* silver */
+
+loveclab-item0ore-native-silver: 3
+
 /* sulfur */
 
 loveclab-item0ore-crude-sulfur: 2
@@ -94,6 +102,7 @@ loveclab-item0ore-crude-sulfur: 2
 /* tin */
 
 loveclab-item0ore-cassiterite: 6
+loveclab-item0ore-stannite: 4
 
 /* titanium */
 
@@ -117,6 +126,10 @@ loveclab-item0ore-zircon: 8
 /* misc */
 
 loveclab-item0ore-clay: 1
+loveclab-item0ore-sand: 0
+loveclab-item0ore-sand-river: 0
+loveclab-item0ore-sand-sea: 0
+loveclab-item0ore-oil-sand: 0
 
 /* rock */
 

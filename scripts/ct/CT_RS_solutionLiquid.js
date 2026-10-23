@@ -40,6 +40,14 @@
     );
 
 
+    const liq0int0sol_potassiumHydroxide = extendBase(
+        RS_solutionLiquid, "liq0int0sol-potassium-hydroxide",
+        RS_solutionLiquid.build({
+            intmdParent: "loveclab-item0chem-potassium-hydroxide",
+        }),
+    );
+
+
     /* sodium */
 
 
@@ -47,5 +55,13 @@
         RS_solutionLiquid, "liq0int0sol-sodium-chloride",
         RS_solutionLiquid.build({
             intmdParent: "loveclab-item0chem-sodium-chloride",
+        }),
+    );
+
+
+    const liq0int0sol_lye = extendBase(
+        RS_solutionLiquid, "liq0int0sol-lye",
+        RS_solutionLiquid.build({
+            intmdParent: "loveclab-item0chem-sodium-hydroxide",
         }),
     );

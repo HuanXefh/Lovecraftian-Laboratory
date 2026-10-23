@@ -61,7 +61,7 @@
 
 
     accessible: false
-    defaultEnv: 16
+    defaultEnv: scorching
     defaultAttributes: {
         lovec-attr0env-heat: 200.0
     }

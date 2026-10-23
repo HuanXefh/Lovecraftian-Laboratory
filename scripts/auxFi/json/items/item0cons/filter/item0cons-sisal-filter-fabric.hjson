@@ -1,0 +1,21 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: loveclab-item0cons-cast-iron-ball
+        objectives: []
+    }
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    flammability: 0.85

@@ -103,6 +103,9 @@
 
 
     accessible: false
-    defaultEnv: 67
+    defaultEnv: [
+        terrestrial
+        groundWater
+    ]
     defaultAttributes: {}
     updateLighting: true

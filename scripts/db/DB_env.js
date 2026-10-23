@@ -121,7 +121,7 @@ const db = {
             planet: [
 
                 "loveclab-pla0ter-anthimyst", rules => {
-                    Time.run(5.0, () => {
+                    MDL_event.onDelayRun(5.0, () => {
                         // Fog in cave map is too annoying
                         rules.fog = !db["group"]["map"]["cave"].includes(global.lovecUtil.fun.getMapCur());
                     });

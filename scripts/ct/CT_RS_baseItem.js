@@ -15,15 +15,9 @@
 */
 
 
-    processModCur();
-
-
     const item_locked = extendBase(
         RS_baseItem, "item-locked",
     );
-
-
-    processModCur();
 
 
     /* <------------------------------ item0bio ------------------------------> */
@@ -187,6 +181,16 @@
     );
 
 
+    const item0cons_brineProofSteelElectrode = extendBase(
+        RS_baseItem, "item0cons-brine-proof-steel-electrode",
+    );
+
+
+    const item0cons_acidProofSteelElectrode = extendBase(
+        RS_baseItem, "item0cons-acid-proof-steel-electrode",
+    );
+
+
     const item0cons_naturalGraphiteElectrode = extendBase(
         RS_baseItem, "item0cons-natural-graphite-electrode",
     );
@@ -194,6 +198,14 @@
 
     const item0cons_graphiteElectrode = extendBase(
         RS_baseItem, "item0cons-graphite-electrode",
+    );
+
+
+    /* filter */
+
+
+    const item0cons_sisalFilterFabric = extendBase(
+        RS_baseItem, "item0cons-sisal-filter-fabric",
     );
 
 
@@ -384,6 +396,21 @@
     );
 
 
+    const item0chem_brineProofSteel = extendBase(
+        RS_baseItem, "item0chem-brine-proof-steel",
+    );
+
+
+    const item0chem_ferromolybdenum = extendBase(
+        RS_baseItem, "item0chem-ferromolybdenum",
+    );
+
+
+    const item0chem_acidProofSteel = extendBase(
+        RS_baseItem, "item0chem-acid-proof-steel",
+    );
+
+
     const item0chem_galvanizedSteel = extendBase(
         RS_baseItem, "item0chem-galvanized-steel",
     );
@@ -480,11 +507,24 @@
     );
 
 
+    /* molybdenum */
+
+
+    const item0chem_molybdenumTrioxide = extendBase(
+        RS_baseItem, "item0chem-molybdenum-trioxide",
+    );
+
+
     /* potassium */
 
 
     const item0chem_potassiumChloride = extendBase(
         RS_baseItem, "item0chem-potassium-chloride",
+    );
+
+
+    const item0chem_potassiumHydroxide = extendBase(
+        RS_baseItem, "item0chem-potassium-hydroxide",
     );
 
 
@@ -516,6 +556,11 @@
 
     const item0chem_sodiumChloride = extendBase(
         RS_baseItem, "item0chem-sodium-chloride",
+    );
+
+
+    const item0chem_sodiumHydroxide = extendBase(
+        RS_baseItem, "item0chem-sodium-hydroxide",
     );
 
 

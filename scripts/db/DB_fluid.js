@@ -29,8 +29,6 @@ const db = {
 
                 "loveclab-liq0int0sol-potassium-chloride",
                 "loveclab-liq0int0sol-sodium-chloride",
-                
-                /* <------------------------------ name ------------------------------> */
 
             ],
 
@@ -45,6 +43,14 @@ const db = {
                 /* calcium */
 
                 "loveclab-liq0int0sol-slaked-lime",
+
+                /* potassium */
+
+                "loveclab-liq0int0sol-potassium-hydroxide",
+
+                /* sodium */
+
+                "loveclab-liq0int0sol-lye",
 
             ],
 
@@ -139,10 +145,16 @@ const db = {
         fTag: {
 
 
+            ammoniacal: [],
+
+
             chloric: [],
 
 
             fluoric: [],
+
+
+            nitrate: [],
 
 
             oxidative: [

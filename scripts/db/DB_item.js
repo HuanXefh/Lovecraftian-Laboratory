@@ -148,6 +148,7 @@ const db = {
             "loveclab-item0ore-sand",
             "loveclab-item0ore-sand-river",
             "loveclab-item0ore-sand-sea",
+            "loveclab-item0ore-oil-sand",
 
         ],
 

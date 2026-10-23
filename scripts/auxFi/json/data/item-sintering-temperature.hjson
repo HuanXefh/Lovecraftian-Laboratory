@@ -47,6 +47,10 @@ loveclab-item0ore-pyrolusite: 500.0
 
 loveclab-item0ore-cinnabar: -1.0
 
+/* molybdenum */
+
+loveclab-item0ore-molybdenite: 2400.0
+
 /* nickel */
 
 loveclab-item0ore-nickel-laterite: 1400.0
@@ -60,9 +64,14 @@ loveclab-item0ore-fluorapatite: 1350.0
 
 loveclab-item0ore-sperrylite: 900.0
 
+/* silver */
+
+loveclab-item0ore-native-silver: 850.0
+
 /* tin */
 
 loveclab-item0ore-cassiterite: 1550.0
+loveclab-item0ore-stannite: 750.0
 
 /* titanium */
 
@@ -91,6 +100,7 @@ loveclab-item0chem-copper: 1050.0
 loveclab-item0chem-graphite: 2500.0
 loveclab-item0chem-lead: 320.0
 loveclab-item0chem-nickel: 1450.0
+loveclab-item0chem-silver: 960.0
 loveclab-item0chem-tin: 230.0
 loveclab-item0chem-tungsten: 3400.0
 loveclab-item0chem-zinc: 420.0

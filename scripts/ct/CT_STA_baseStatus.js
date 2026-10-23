@@ -63,7 +63,7 @@
                 spr: "lovec-efr-triangle",
                 size: 2.0,
                 spin: 1.0,
-                color: Pal.accent,
+                color: GLB_color.accent,
                 shouldFade: true,
                 hasBloom: true,
             }),

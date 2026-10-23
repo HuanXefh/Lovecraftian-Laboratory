@@ -170,6 +170,17 @@
     );
 
 
+    /* molybdenum */
+
+
+    const item0int0dust0p1_molybdenite = extendBase(
+        RS_p1DustItem, "item0int0dust0p1-molybdenite",
+        RS_p1DustItem.build({
+            intmdParent: "loveclab-item0ore-molybdenite",
+        }),
+    );
+
+
     /* nickel */
 
 

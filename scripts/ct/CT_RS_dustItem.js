@@ -197,6 +197,17 @@
     );
 
 
+    /* molybdenum */
+
+
+    const item0int0dust_molybdenite = extendBase(
+        RS_dustItem, "item0int0dust-molybdenite",
+        RS_dustItem.build({
+            intmdParent: "loveclab-item0ore-molybdenite",
+        }),
+    );
+
+
     /* nickel */
 
 
@@ -216,6 +227,17 @@
     );
 
 
+    /* silver */
+
+
+    const item0int0dust_nativeSilver = extendBase(
+        RS_dustItem, "item0int0dust-native-silver",
+        RS_dustItem.build({
+            intmdParent: "loveclab-item0ore-native-silver",
+        }),
+    );
+
+
     /* tin */
 
 
@@ -223,6 +245,14 @@
         RS_dustItem, "item0int0dust-cassiterite",
         RS_dustItem.build({
             intmdParent: "loveclab-item0ore-cassiterite",
+        }),
+    );
+
+
+    const item0int0dust_stannite = extendBase(
+        RS_dustItem, "item0int0dust-stannite",
+        RS_dustItem.build({
+            intmdParent: "loveclab-item0ore-stannite",
         }),
     );
 

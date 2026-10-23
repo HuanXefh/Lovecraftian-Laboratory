@@ -197,6 +197,14 @@
     );
 
 
+    /* molybdenum */
+
+
+    const item0ore_molybdenite = extendBase(
+        RS_oreItem, "item0ore-molybdenite",
+    );
+
+
     /* nickel */
 
 
@@ -247,6 +255,14 @@
     );
 
 
+    /* silver */
+
+
+    const item0ore_nativeSilver = extendBase(
+        RS_oreItem, "item0ore-native-silver",
+    );
+
+
     /* sulfur */
 
 
@@ -260,6 +276,11 @@
 
     const item0ore_cassiterite = extendBase(
         RS_oreItem, "item0ore-cassiterite",
+    );
+
+
+    const item0ore_stannite = extendBase(
+        RS_oreItem, "item0ore-stannite",
     );
 
 
@@ -330,6 +351,11 @@
 
     const item0ore_sandSea = extendBase(
         RS_oreItem, "item0ore-sand-sea",
+    );
+
+
+    const item0ore_oilSand = extendBase(
+        RS_oreItem, "item0ore-oil-sand",
     );
 
 
