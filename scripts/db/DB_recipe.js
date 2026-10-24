@@ -1068,7 +1068,7 @@ const db = {
                         "loveclab-item0int0dust-talc", 1.0, 1.0,
                         "loveclab-item0was-gangue", 0.25, 0.25,
                         "loveclab-item0ore-dolomite", 0.25, 0.25,
-                        "loveclab-item0ore-asbestos", 0.125, 0.25,
+                        "loveclab-item0ore-asbestos", 0.25, 0.25,
                         "loveclab-item0ore-pyrite", 0.0675, 0.125,
                     ],
                 },

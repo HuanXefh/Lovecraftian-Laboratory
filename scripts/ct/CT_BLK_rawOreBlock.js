@@ -153,6 +153,17 @@
     );
 
 
+    /* nickel */
+
+
+    const pay0mat0ore_nickelLaterite = extendBlock(
+        BLK_B_rawOreBlock, "pay0mat0ore-nickel-laterite",
+        BLK_B_rawOreBlock[0].build({
+            recolorRegStr: "lovec-gen-raw-ore-1"
+        }),
+    );
+
+
     /* phosphorus */
 
 

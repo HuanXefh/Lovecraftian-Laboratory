@@ -6,6 +6,6 @@
 
 
     research: {
-        parent: loveclab-item0ore-native-silver
+        parent: loveclab-item0ore-galena
         objectives: []
     }

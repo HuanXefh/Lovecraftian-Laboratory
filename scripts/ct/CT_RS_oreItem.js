@@ -86,6 +86,14 @@
     );
 
 
+    /* cobalt */
+
+
+    const item0ore_linnaeite = extendBase(
+        RS_oreItem, "item0ore-linnaeite",
+    );
+
+
     /* copper */
 
 
@@ -114,6 +122,14 @@
 
     const item0ore_fluorite = extendBase(
         RS_oreItem, "item0ore-fluorite",
+    );
+
+
+    /* gold */
+
+
+    const item0ore_nativeGold = extendBase(
+        RS_oreItem, "item0ore-native-gold",
     );
 
 
@@ -379,6 +395,11 @@
 
     const item0ore_limestone = extendBase(
         RS_oreItem, "item0ore-limestone",
+    );
+
+
+    const item0ore_mirabilite = extendBase(
+        RS_oreItem, "item0ore-mirabilite",
     );
 
 

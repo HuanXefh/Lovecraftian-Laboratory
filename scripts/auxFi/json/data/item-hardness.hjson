@@ -1,20 +1,20 @@
-/* aluminum */
+/* <------------------------------ aluminum ------------------------------> */
 
 loveclab-item0ore-bauxite: 2
 
-/* arsenic */
+/* <------------------------------ arsenic ------------------------------> */
 
 loveclab-item0ore-arsenopyrite: 6
 
-/* barium */
+/* <------------------------------ barium ------------------------------> */
 
 loveclab-item0ore-barite: 3
 
-/* boron */
+/* <------------------------------ boron ------------------------------> */
 
 loveclab-item0ore-crude-borax: 2
 
-/* carbon */
+/* <------------------------------ carbon ------------------------------> */
 
 loveclab-item0chem-peat: 1
 loveclab-item0chem-lignite: 1
@@ -22,22 +22,30 @@ loveclab-item0ore-raw-coal: 2
 loveclab-item0chem-anthracite: 2
 loveclab-item0ore-crude-graphite: 2
 
-/* chromium */
+/* <------------------------------ chromium ------------------------------> */
 
 loveclab-item0ore-chromite: 6
 
-/* copper */
+/* <------------------------------ cobalt ------------------------------> */
+
+loveclab-item0ore-linnaeite: 5
+
+/* <------------------------------ copper ------------------------------> */
 
 loveclab-item0ore-azurite: 4
 loveclab-item0ore-chalcopyrite: 4
 loveclab-item0ore-native-copper: 3
 loveclab-item0ore-malachite: 4
 
-/* fluorine */
+/* <------------------------------ fluorine ------------------------------> */
 
 loveclab-item0ore-fluorite: 4
 
-/* iron */
+/* <------------------------------ gold ------------------------------> */
+
+loveclab-item0ore-native-gold: 3
+
+/* <------------------------------ iron ------------------------------> */
 
 loveclab-item0ore-hematite: 6
 loveclab-item0ore-limonite: 4
@@ -46,84 +54,84 @@ loveclab-item0ore-meteoric-iron: 6
 loveclab-item0ore-pyrite: 6
 loveclab-item0ore-pyrrhotite: 6
 
-/* lead */
+/* <------------------------------ lead ------------------------------> */
 
 loveclab-item0ore-anglesite: 3
 loveclab-item0ore-galena: 3
 
-/* lithium */
+/* <------------------------------ lithium ------------------------------> */
 
 loveclab-item0ore-lepidolite: 3
 loveclab-item0ore-spodumene: 7
 
-/* manganese */
+/* <------------------------------ manganese ------------------------------> */
 
 loveclab-item0ore-psilomelane: 5
 loveclab-item0ore-pyrolusite: 1
 
-/* mercury */
+/* <------------------------------ mercury ------------------------------> */
 
 loveclab-item0ore-cinnabar: 2
 
-/* molybdenum */
+/* <------------------------------ molybdenum ------------------------------> */
 
 loveclab-item0ore-molybdenite: 1
 
-/* nickel */
+/* <------------------------------ nickel ------------------------------> */
 
 loveclab-item0ore-nickel-laterite: 4
 loveclab-item0ore-pentlandite: 4
 
-/* nitrogen */
+/* <------------------------------ nitrogen ------------------------------> */
 
 loveclab-item0ore-niter: 2
 
-/* phosphorus */
+/* <------------------------------ phosphorus ------------------------------> */
 
 loveclab-item0ore-fluorapatite: 5
 loveclab-item0ore-hydroxyapatite: 5
 
-/* platinum */
+/* <------------------------------ platinum ------------------------------> */
 
 loveclab-item0ore-sperrylite: 7
 
-/* silicon */
+/* <------------------------------ silicon ------------------------------> */
 
 loveclab-item0ore-silica-stone: 4
 
-/* silver */
+/* <------------------------------ silver ------------------------------> */
 
 loveclab-item0ore-native-silver: 3
 
-/* sulfur */
+/* <------------------------------ sulfur ------------------------------> */
 
 loveclab-item0ore-crude-sulfur: 2
 
-/* tin */
+/* <------------------------------ tin ------------------------------> */
 
 loveclab-item0ore-cassiterite: 6
 loveclab-item0ore-stannite: 4
 
-/* titanium */
+/* <------------------------------ titanium ------------------------------> */
 
 loveclab-item0ore-ilmenite: 6
 loveclab-item0ore-rutile: 6
 
-/* tungsten */
+/* <------------------------------ tungsten ------------------------------> */
 
 loveclab-item0ore-scheelite: 5
 loveclab-item0ore-wolframite: 6
 
-/* zinc */
+/* <------------------------------ zinc ------------------------------> */
 
 loveclab-item0ore-smithsonite: 5
 loveclab-item0ore-sphalerite: 4
 
-/* zirconium */
+/* <------------------------------ zirconium ------------------------------> */
 
 loveclab-item0ore-zircon: 8
 
-/* misc */
+/* <------------------------------ misc ------------------------------> */
 
 loveclab-item0ore-clay: 1
 loveclab-item0ore-sand: 0
@@ -131,12 +139,13 @@ loveclab-item0ore-sand-river: 0
 loveclab-item0ore-sand-sea: 0
 loveclab-item0ore-oil-sand: 0
 
-/* rock */
+/* <------------------------------ rock ------------------------------> */
 
 loveclab-item0ore-asbestos: 1
 loveclab-item0ore-dolomite: 4
 loveclab-item0ore-gypsum: 2
 loveclab-item0ore-limestone: 2
+loveclab-item0ore-mirabilite: 2
 loveclab-item0ore-pumice: 2
 loveclab-item0ore-salt: 3
 loveclab-item0ore-talc: 1

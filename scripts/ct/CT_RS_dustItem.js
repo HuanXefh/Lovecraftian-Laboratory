@@ -59,6 +59,17 @@
     );
 
 
+    /* cobalt */
+
+
+    const item0int0dust_linnaeite = extendBase(
+        RS_dustItem, "item0int0dust-linnaeite",
+        RS_dustItem.build({
+            intmdParent: "loveclab-item0ore-linnaeite",
+        }),
+    );
+
+
     /* copper */
 
 
@@ -101,6 +112,17 @@
         RS_dustItem, "item0int0dust-fluorite",
         RS_dustItem.build({
             intmdParent: "loveclab-item0ore-fluorite",
+        }),
+    );
+
+
+    /* gold */
+
+
+    const item0int0dust_nativeGold = extendBase(
+        RS_dustItem, "item0int0dust-native-gold",
+        RS_dustItem.build({
+            intmdParent: "loveclab-item0ore-native-gold",
         }),
     );
 

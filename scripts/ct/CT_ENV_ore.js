@@ -108,6 +108,14 @@
     );
 
 
+    /* nickel */
+
+
+    const env0ore_nickelLaterite = extendBase(
+        ENV_ore, "env0ore-nickel-laterite",
+    );
+
+
     /* manganese */
 
 

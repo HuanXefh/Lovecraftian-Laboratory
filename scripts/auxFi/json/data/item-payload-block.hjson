@@ -28,6 +28,10 @@ loveclab-item0ore-pyrrhotite: loveclab-pay0mat0ore-pyrrhotite
 
 loveclab-item0ore-galena: loveclab-pay0mat0ore-galena
 
+/* <------------------------------ nickel ------------------------------> */
+
+loveclab-item0ore-nickel-laterite: loveclab-pay0mat0ore-nickel-laterite
+
 /* <------------------------------ phosphorus ------------------------------> */
 
 loveclab-item0ore-hydroxyapatite: loveclab-pay0mat0ore-hydroxyapatite

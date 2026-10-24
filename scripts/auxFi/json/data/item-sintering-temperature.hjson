@@ -8,6 +8,14 @@ loveclab-item0ore-bauxite: 1800.0
 
 loveclab-item0ore-arsenopyrite: -1.0
 
+/* chromium */
+
+loveclab-item0ore-chromite: 2000.0
+
+/* cobalt */
+
+loveclab-item0ore-linnaeite: -1.0
+
 /* copper */
 
 loveclab-item0ore-azurite: 160.0
@@ -18,6 +26,10 @@ loveclab-item0ore-malachite: 160.0
 /* fluorine */
 
 loveclab-item0ore-fluorite: 1400.0
+
+/* gold */
+
+loveclab-item0ore-native-gold: 1000.0
 
 /* iron */
 
@@ -97,6 +109,7 @@ loveclab-item0ore-ziron: 2500.0
 /* elementary */
 
 loveclab-item0chem-copper: 1050.0
+loveclab-item0chem-gold: 1050.0
 loveclab-item0chem-graphite: 2500.0
 loveclab-item0chem-lead: 320.0
 loveclab-item0chem-nickel: 1450.0
