@@ -95,6 +95,10 @@ loveclab-item0ore-hydroxyapatite: 5
 
 loveclab-item0ore-sperrylite: 7
 
+/* <------------------------------ potassium ------------------------------> */
+
+loveclab-item0ore-sylvinite: 2
+
 /* <------------------------------ silicon ------------------------------> */
 
 loveclab-item0ore-silica-stone: 4
@@ -122,6 +126,10 @@ loveclab-item0ore-rutile: 6
 loveclab-item0ore-scheelite: 5
 loveclab-item0ore-wolframite: 6
 
+/* <------------------------------ vanadium ------------------------------> */
+
+loveclab-item0ore-vanadium-titanomagnetite: 6
+
 /* <------------------------------ zinc ------------------------------> */
 
 loveclab-item0ore-smithsonite: 5
@@ -146,6 +154,7 @@ loveclab-item0ore-dolomite: 4
 loveclab-item0ore-gypsum: 2
 loveclab-item0ore-limestone: 2
 loveclab-item0ore-mirabilite: 2
+loveclab-item0ore-oil-shale: 4
 loveclab-item0ore-pumice: 2
 loveclab-item0ore-salt: 3
 loveclab-item0ore-talc: 1

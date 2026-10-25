@@ -95,6 +95,10 @@ loveclab-item0ore-rutile: 1800.0
 loveclab-item0ore-scheelite: -1.0
 loveclab-item0ore-wolframite: -1.0
 
+/* vanadium */
+
+loveclab-item0ore-vanadium-titanomagnetite: 1520.0
+
 /* zinc */
 
 loveclab-item0ore-smithsonite: 650.0

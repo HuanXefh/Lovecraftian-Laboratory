@@ -442,6 +442,11 @@
     );
 
 
+    const item0chem_kerogen = extendBase(
+        RS_baseItem, "item0chem-kerogen",
+    );
+
+
     const item0chem_talcumPowder = extendBase(
         RS_baseItem, "item0chem-talcum-powder",
     );

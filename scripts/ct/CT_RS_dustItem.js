@@ -317,6 +317,17 @@
     );
 
 
+    /* vanadium */
+
+
+    const item0int0dust_vanadiumTitanomagnetite = extendBase(
+        RS_dustItem, "item0int0dust-vanadium-titanomagnetite",
+        RS_dustItem.build({
+            intmdParent: "loveclab-item0ore-vanadium-titanomagnetite",
+        }),
+    );
+
+
     /* zinc */
 
 

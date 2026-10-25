@@ -263,6 +263,14 @@
     );
 
 
+    /* potassium */
+
+
+    const item0ore_sylvinite = extendBase(
+        RS_oreItem, "item0ore-sylvinite",
+    );
+
+
     /* silicon */
 
 
@@ -323,6 +331,14 @@
 
     const item0ore_wolframite = extendBase(
         RS_oreItem, "item0ore-wolframite",
+    );
+
+
+    /* vanadium */
+
+
+    const item0ore_vanadiumTitanomagnetite = extendBase(
+        RS_oreItem, "item0ore-vanadium-titanomagnetite",
     );
 
 
@@ -400,6 +416,11 @@
 
     const item0ore_mirabilite = extendBase(
         RS_oreItem, "item0ore-mirabilite",
+    );
+
+
+    const item0ore_oilShale = extendBase(
+        RS_oreItem, "item0ore-oil-shale",
     );
 
 
