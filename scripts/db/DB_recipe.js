@@ -805,6 +805,17 @@ const db = {
                     ],
                 },
 
+                "loveclab-item0int0dust-native-copper",
+                {
+                    itemI: "loveclab-item0int0dust-native-copper",
+                    bo: [
+                        "loveclab-item0int0dust0p1-native-copper", 1.0, 1.0,
+                        "loveclab-item0was-gangue", 0.25, 0.25,
+                        "loveclab-item0ore-gypsum", 0.25, 0.25,
+                        "loveclab-item0ore-limonite", 0.25, 0.25,
+                    ],
+                },
+
                 /* iron */
 
                 "loveclab-item0int0dust-hematite",
