@@ -723,7 +723,7 @@ const db = {
 
             "loveclab-item0int0dust-zircon",
             {
-                hardness: LCDBFileHandler.read("item-hardness", "loveclab-item0ore-zircon"),
+                hardness: SLCDBFileHandler.read("item-hardness", "loveclab-item0ore-zircon"),
                 keyCt: "loveclab-item0int0chunks-zircon",
                 bi: [
                     "loveclab-item0int0chunks-zircon", 1.0, 1.0,
@@ -735,7 +735,7 @@ const db = {
 
             "loveclab-item0chem-talcum-powder",
             {
-                hardness: LCDBFileHandler.read("item-hardness", "loveclab-item0ore-talc"),
+                hardness: SLCDBFileHandler.read("item-hardness", "loveclab-item0ore-talc"),
                 keyCt: "loveclab-item0int0dust-talc",
                 bi: [
                     "loveclab-item0int0dust-talc", 1.0, 1.0,
@@ -2014,7 +2014,7 @@ const db = {
 
                 "loveclab-item0ore-crude-graphite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0chem-graphite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0chem-graphite"),
                     itemI: "loveclab-item0ore-crude-graphite",
                     bo: [
                         "loveclab-item0chem-graphite", 0.5, 0.5,
@@ -2025,7 +2025,7 @@ const db = {
 
                 "loveclab-item0ore-azurite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-azurite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-azurite"),
                     itemI: "loveclab-item0ore-azurite",
                     bo: [
                         "loveclab-item0chem-copper", 0.75, 0.5,
@@ -2034,7 +2034,7 @@ const db = {
 
                 "loveclab-item0ore-chalcopyrite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-chalcopyrite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-chalcopyrite"),
                     itemI: "loveclab-item0ore-chalcopyrite",
                     bo: [
                         "loveclab-item0chem-copper", 0.5, 0.5,
@@ -2044,7 +2044,7 @@ const db = {
 
                 "loveclab-item0ore-malachite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-malachite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-malachite"),
                     itemI: "loveclab-item0ore-malachite",
                     bo: [
                         "loveclab-item0chem-copper", 0.75, 0.5,
@@ -2053,7 +2053,7 @@ const db = {
 
                 "loveclab-item0ore-native-copper",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-native-copper"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-native-copper"),
                     itemI: "loveclab-item0ore-native-copper",
                     bo: [
                         "loveclab-item0chem-copper", 1.0, 0.5,
@@ -2064,7 +2064,7 @@ const db = {
 
                 "loveclab-item0ore-anglesite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-anglesite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-anglesite"),
                     itemI: "loveclab-item0ore-anglesite",
                     bo: [
                         "loveclab-item0chem-lead", 0.75, 0.5,
@@ -2073,7 +2073,7 @@ const db = {
 
                 "loveclab-item0ore-galena",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-galena"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-galena"),
                     itemI: "loveclab-item0ore-galena",
                     bo: [
                         "loveclab-item0chem-lead", 0.75, 0.5,
@@ -2084,7 +2084,7 @@ const db = {
 
                 "loveclab-item0ore-cassiterite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-cassiterite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-cassiterite"),
                     itemI: "loveclab-item0ore-cassiterite",
                     bo: [
                         "loveclab-item0chem-tin", 0.75, 0.5,
@@ -2095,7 +2095,7 @@ const db = {
 
                 "loveclab-item0ore-sphalerite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-sphalerite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-sphalerite"),
                     itemI: "loveclab-item0ore-sphalerite",
                     bo: [
                         "loveclab-item0chem-zinc", 0.75, 0.5,
@@ -2104,7 +2104,7 @@ const db = {
 
                 "loveclab-item0ore-smithsonite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-smithsonite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-smithsonite"),
                     itemI: "loveclab-item0ore-smithsonite",
                     bo: [
                         "loveclab-item0chem-zinc", 0.75, 0.5,
@@ -2134,7 +2134,7 @@ const db = {
 
                 "loveclab-item0int0conc-chalcopyrite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-chalcopyrite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-chalcopyrite"),
                     itemI: "loveclab-item0int0conc-chalcopyrite",
                     bo: [
                         "loveclab-item0chem-copper", 1.0, 0.5,
@@ -2144,7 +2144,7 @@ const db = {
 
                 "loveclab-item0int0conc-native-copper",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-native-copper"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-native-copper"),
                     itemI: "loveclab-item0int0conc-native-copper",
                     bo: [
                         "loveclab-item0chem-copper", 2.0, 0.5,
@@ -2156,7 +2156,7 @@ const db = {
 
                 "loveclab-item0int0conc-hematite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-hematite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-hematite"),
                     itemI: "loveclab-item0int0conc-hematite",
                     bo: [
                         "loveclab-item0chem-pig-iron", 2.0, 0.5,
@@ -2166,7 +2166,7 @@ const db = {
 
                 "loveclab-item0int0conc-limonite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-limonite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-limonite"),
                     bi: [
                         "loveclab-item0int0conc-limonite", 2.0, 1.0,
                     ],
@@ -2178,7 +2178,7 @@ const db = {
 
                 "loveclab-item0int0conc-magnetite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-magnetite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-magnetite"),
                     itemI: "loveclab-item0int0conc-magnetite",
                     bo: [
                         "loveclab-item0chem-pig-iron", 2.0, 0.5,
@@ -2188,7 +2188,7 @@ const db = {
 
                 "loveclab-item0int0conc-pyrite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-pyrite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-pyrite"),
                     bi: [
                         "loveclab-item0int0conc-pyrite", 1.5, 1.0,
                     ],
@@ -2200,7 +2200,7 @@ const db = {
 
                 "loveclab-item0int0conc-pyrrhotite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-pyrrhotite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-pyrrhotite"),
                     bi: [
                         "loveclab-item0int0conc-pyrrhotite", 1.5, 1.0,
                     ],
@@ -2214,7 +2214,7 @@ const db = {
 
                 "loveclab-item0int0conc-galena",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-galena"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-galena"),
                     itemI: "loveclab-item0int0conc-galena",
                     bo: [
                         "loveclab-item0chem-lead", 1.5, 0.5,
@@ -2226,7 +2226,7 @@ const db = {
 
                 "loveclab-item0int0conc-nickel-laterite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-nickel-laterite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-nickel-laterite"),
                     itemI: "loveclab-item0int0conc-nickel-laterite",
                     bo: [
                         "loveclab-item0chem-nickel", 0.5, 0.5,
@@ -2237,7 +2237,7 @@ const db = {
 
                 "loveclab-item0int0conc-pentlandite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-pentlandite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-pentlandite"),
                     itemI: "loveclab-item0int0conc-pentlandite",
                     bo: [
                         "loveclab-item0chem-nickel", 0.75, 0.5,
@@ -2250,7 +2250,7 @@ const db = {
 
                 "loveclab-item0int0conc-cassiterite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-cassiterite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-cassiterite"),
                     itemI: "loveclab-item0int0conc-cassiterite",
                     bo: [
                         "loveclab-item0chem-tin", 1.5, 0.5,
@@ -2262,7 +2262,7 @@ const db = {
 
                 "loveclab-item0int0conc-sphalerite",
                 {
-                    tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-sphalerite"),
+                    tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-sphalerite"),
                     itemI: "loveclab-item0int0conc-sphalerite",
                     bo: [
                         "loveclab-item0chem-zinc", 1.5, 0.5,
