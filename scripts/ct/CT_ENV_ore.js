@@ -38,7 +38,7 @@
 
     const env0ore_crudeGraphite = extendBase(
         ENV_ore, "env0ore-crude-graphite",
-    );;
+    );
 
 
     /* copper */
