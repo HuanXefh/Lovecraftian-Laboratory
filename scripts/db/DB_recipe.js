@@ -80,6 +80,7 @@ const db = {
             /* ore material II */
 
             "ferrous", ["loveclab-item0chem-pig-iron", {pScl: 0.75}],
+            "ferrous", ["loveclab-item0chem-wrought-iron", {pScl: 0.5}],
             "ferrous", ["loveclab-item0ore-hematite", {}],
             "ferrous", ["loveclab-item0ore-magnetite", {}],
 
@@ -1467,7 +1468,7 @@ const db = {
                     ],
                     bi: [
                         "loveclab-item0chem-ferrochrome", 0.5, 1.0,
-                        "loveclab-item0chem-wrought-iron", 1.0, 1.0,
+                        "GROUP: ferrous", 1.0, 1.0,
                     ],
                     bo: [
                         "loveclab-item0chem-stainless-steel", 0.25, 0.25,
@@ -1512,7 +1513,7 @@ const db = {
                     bi: [
                         "loveclab-item0chem-ferrochrome", 0.5, 1.0,
                         "loveclab-item0chem-ferronickel", 0.1875, 1.0,
-                        "loveclab-item0chem-wrought-iron", 1.0, 1.0,
+                        "GROUP: ferrous", 1.0, 1.0,
                     ],
                     bo: [
                         "loveclab-item0chem-brine-proof-steel", 0.25, 0.25,
@@ -1531,7 +1532,7 @@ const db = {
                         "loveclab-item0chem-ferrochrome", 0.5, 1.0,
                         "loveclab-item0chem-ferronickel", 0.1875, 1.0,
                         "loveclab-item0chem-ferromolybdenum", 0.125, 1.0,
-                        "loveclab-item0chem-wrought-iron", 1.0, 1.0,
+                        "GROUP: ferrous", 1.0, 1.0,
                     ],
                     bo: [
                         "loveclab-item0chem-acid-proof-steel", 0.125, 0.25,

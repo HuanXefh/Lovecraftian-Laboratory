@@ -26,23 +26,42 @@
             shieldRadScl: 1.1,
         }),
     );
+    setWeapon(unit0core_outpostI, weaps => [
+        weaps,
+        fetchWeapon("RepairBeam", {
+            repairRad: 45.0,
+            repairColor: GLB_color.techBlue,
+            forPlayer: true,
+            reload: 20.0,
+            shootCone: 15.0,
+            metaObj: {
+                repairSpeed: 2.25,
+                beamWidth: 0.5,
+                widthSinMag: 0.11,
+                rotate: false,
+                targetUnits: false,
+                targetBuildings: true,
+            },
+        }),
+    ]);
     setAbility(unit0core_outpostI, abis => [
         abis,
-        fetchAbility("shield-core", {
+        fetchAbility("shieldCore", {
             maxShield: 200.0,
             regenAmt: 20.0,
             regenIntv: 120.0,
         }),
-        fetchAbility("laser-defense", {
+        fetchAbility("laserDefense", {
             dmg: 90.0,
             chargeCap: 1200.0,
             chargeMtp: 2.0,
             rad: 160.0,
         }),
-        fetchAbility("building-repairer-module", {
+        fetchAbility("buildingRepairerModule", {
             healAmt: 20.0,
             healPerc: 0.03,
             intv: 30.0,
             rad: 80.0,
+            color: GLB_color.techBlue,
         }),
     ]);
