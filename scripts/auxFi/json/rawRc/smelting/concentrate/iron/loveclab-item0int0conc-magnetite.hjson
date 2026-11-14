@@ -1,0 +1,12 @@
+type: smelting.concentrate
+
+tempReq: loveclab-item0ore-magnetite
+
+itemI: loveclab-item0int0conc-magnetite
+
+bo: [
+    loveclab-item0chem-pig-iron
+    2.0, 0.5
+    loveclab-item0was-slag
+    0.5, 0.5
+]

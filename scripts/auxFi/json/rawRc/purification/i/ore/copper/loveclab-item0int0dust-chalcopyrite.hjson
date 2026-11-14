@@ -1,0 +1,18 @@
+type: purification.i
+
+itemI: loveclab-item0int0dust-chalcopyrite
+
+bo: [
+    loveclab-item0int0dust0p1-chalcopyrite
+    1.0, 1.0
+    loveclab-item0was-gangue
+    0.25, 0.25
+    loveclab-item0ore-pyrite
+    0.25, 0.25
+    loveclab-item0ore-linnaeite
+    0.125, 0.25
+    loveclab-item0ore-molybdenite
+    0.125, 0.25
+    loveclab-item0ore-stannite
+    0.125, 0.25
+]

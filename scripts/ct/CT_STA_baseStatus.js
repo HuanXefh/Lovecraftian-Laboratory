@@ -56,6 +56,11 @@
     );
 
 
+    const sta_embrittled = extendBase(
+        STA_baseStatus, "sta-embrittled",
+    );
+
+
     const sta_haste = extendBase(
         STA_baseStatus, "sta-haste",
         STA_baseStatus.build({

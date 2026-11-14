@@ -1,0 +1,7 @@
+type: roasting.main
+
+tempReq: 2000.0
+
+itemI: loveclab-item0int0blend-refractory-cement
+
+itemO: loveclab-item0int0clinker-refractory-cement

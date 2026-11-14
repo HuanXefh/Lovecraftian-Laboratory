@@ -1,0 +1,18 @@
+type: purification.i
+
+itemI: loveclab-item0int0dust-cassiterite
+
+bo: [
+    loveclab-item0int0dust0p1-cassiterite
+    1.0, 1.0
+    loveclab-item0was-gangue
+    0.25, 0.25
+    loveclab-item0ore-fluorite
+    0.25, 0.25
+    loveclab-item0ore-lepidolite
+    0.125, 0.25
+    loveclab-item0ore-spodumene
+    0.125, 0.25
+    loveclab-item0ore-wolframite
+    0.125, 0.25
+]

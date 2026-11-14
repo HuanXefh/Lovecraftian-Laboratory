@@ -1,0 +1,14 @@
+type: roasting.main
+
+tempReq: 450.0
+
+itemI: loveclab-item0chem-sodium-nitrate
+
+bo: [
+    loveclab-item0chem-sodium-nitrite
+    1.0, 1.0
+]
+co: [
+    loveclab-gas0chem-oxygen
+    0.5
+]

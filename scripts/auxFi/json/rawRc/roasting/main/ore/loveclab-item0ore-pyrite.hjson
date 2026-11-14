@@ -1,0 +1,40 @@
+type: roasting.main
+
+tag: sulfur dioxide
+keyCt: [
+    loveclab-item0ore-pyrite
+    loveclab-item0int0conc-pyrite
+    loveclab-item0ore-pyrrhotite
+    loveclab-item0int0conc-pyrrhotite
+]
+tempReq: 1000.0
+
+bi: [
+    [
+        loveclab-item0ore-pyrite
+        2.0, 0.5
+        loveclab-item0int0conc-pyrite
+        1.0, 1.0
+        loveclab-item0ore-pyrrhotite
+        1.5, 0.5
+        loveclab-item0int0conc-pyrrhotite
+        0.75, 1.0
+    ]
+    -1.0, -1.0
+]
+ci: [
+    GROUP: oxygen
+    1.0
+]
+aux: [
+    loveclab-aux0aux-dust-recycling
+    0.01666667
+]
+
+bo: [
+    loveclab-item0was-pyrite-cinder
+    1.5, 1.0
+    loveclab-item0was-dust
+    0.5, 0.5
+]
+liqO: loveclab-gas0chem-sulfur-dioxide

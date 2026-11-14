@@ -151,6 +151,17 @@
     );
 
 
+    /* mercury */
+
+
+    const item0int0conc_cinnabar = extendBase(
+        RS_clinkerItem, "item0int0conc-cinnabar",
+        RS_clinkerItem.build({
+            intmdParent: "loveclab-item0ore-cinnabar",
+        }),
+    );
+
+
     /* molybdenum */
 
 
@@ -188,6 +199,14 @@
         RS_clinkerItem, "item0int0conc-cassiterite",
         RS_clinkerItem.build({
             intmdParent: "loveclab-item0ore-cassiterite",
+        }),
+    );
+
+
+    const item0int0conc_stannite = extendBase(
+        RS_clinkerItem, "item0int0conc-stannite",
+        RS_clinkerItem.build({
+            intmdParent: "loveclab-item0ore-stannite",
         }),
     );
 

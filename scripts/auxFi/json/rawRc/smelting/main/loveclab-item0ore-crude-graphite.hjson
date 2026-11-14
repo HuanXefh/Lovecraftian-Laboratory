@@ -1,0 +1,10 @@
+type: smelting.main
+
+tempReq: loveclab-item0chem-graphite
+
+itemI: loveclab-item0ore-crude-graphite
+
+bo: [
+    loveclab-item0chem-graphite
+    0.5, 0.5
+]

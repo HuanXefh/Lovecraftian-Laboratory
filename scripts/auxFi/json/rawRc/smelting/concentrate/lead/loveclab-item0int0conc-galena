@@ -1,0 +1,12 @@
+type: smelting.concentrate
+
+tempReq: loveclab-item0ore-galena
+
+itemI: loveclab-item0int0conc-galena
+
+bo: [
+    loveclab-item0chem-lead
+    1.5, 0.5
+    loveclab-item0was-slag
+    0.25, 0.5
+]

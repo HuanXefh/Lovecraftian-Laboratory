@@ -28,6 +28,11 @@
     );
 
 
+    const item0was_mercuricDregs = extendBase(
+        RS_wasteItem, "item0was-mercuric-dregs",
+    );
+
+
     const item0was_gangue = extendBase(
         RS_wasteItem, "item0was-gangue",
     );

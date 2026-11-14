@@ -1,0 +1,10 @@
+type: smelting.main
+
+tempReq: loveclab-item0ore-native-copper
+
+itemI: loveclab-item0ore-native-copper
+
+bo: [
+    loveclab-item0chem-copper
+    1.0, 0.5
+]

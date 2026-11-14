@@ -1,0 +1,7 @@
+type: roasting.brick
+
+tempReq: 1100.0
+
+itemI: loveclab-item0int0blend-brick-mullite
+
+itemO: loveclab-item0buil-brick-mullite

@@ -1,0 +1,14 @@
+type: mixing.alloying
+
+tempReq: 1050.0
+
+bi: [
+    GROUP: copper
+    1.0, 1.0
+    loveclab-item0chem-tin
+    0.33333333, 1.0
+    loveclab-item0chem-lead
+    0.5, 1.0
+]
+
+itemO: loveclab-item0chem-leaded-tin-bronze

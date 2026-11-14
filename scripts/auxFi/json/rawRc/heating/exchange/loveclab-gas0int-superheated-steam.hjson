@@ -1,0 +1,6 @@
+type: heating.exchange
+
+liqI: loveclab-gas0int-superheated-steam
+
+liqO: loveclab-gas0misc-steam
+heatO: 300.0

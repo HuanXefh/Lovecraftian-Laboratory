@@ -1,0 +1,14 @@
+type: purification.i
+
+itemI: loveclab-item0int0chunks-crude-sulfur
+
+bo: [
+    loveclab-item0chem-sulfur
+    1.0, 1.0
+    loveclab-item0was-gangue
+    0.25, 0.25
+    loveclab-item0ore-pyrite
+    0.25, 0.25
+    loveclab-item0ore-cinnabar
+    0.125, 0.25
+]

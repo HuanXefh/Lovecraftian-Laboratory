@@ -1,0 +1,32 @@
+type: roasting.main
+
+pollution: 15.0
+tempReq: 500.0
+
+bi: [
+    loveclab-item0int0conc-cinnabar
+    1.0, 1.0
+    loveclab-item0chem-lime
+    0.25, 0.25
+]
+ci: [
+    GROUP: oxygen
+    1.0
+]
+aux: [
+    loveclab-aux0aux-dust-recycling
+    0.01666667
+    loveclab-aux0aux-heat-exchange
+    0.01666667
+]
+
+bo: [
+    loveclab-item0was-mercuric-dregs
+    0.25, 0.25
+]
+co: [
+    loveclab-liq0chem-mercury
+    0.5
+    loveclab-gas0chem-sulfur-dioxide
+    0.5
+]

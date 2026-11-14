@@ -1,0 +1,25 @@
+type: reaction.melt
+
+categ: steelmaking
+lockedBy: [
+    projreind-dbct0tech-alloy-steel-making-i
+]
+tempReq: 1600.0
+
+bi: [
+    loveclab-item0chem-ferrochrome
+    0.5, 1.0
+    loveclab-item0chem-ferronickel
+    0.1875, 1.0
+    loveclab-item0chem-ferromolybdenum
+    0.125, 1.0
+    GROUP: ferrous
+    1.0, 1.0
+]
+
+bo: [
+    loveclab-item0chem-acid-proof-steel
+    0.125, 0.25
+    loveclab-item0was-scrap-steel
+    1.375, 0.5
+]

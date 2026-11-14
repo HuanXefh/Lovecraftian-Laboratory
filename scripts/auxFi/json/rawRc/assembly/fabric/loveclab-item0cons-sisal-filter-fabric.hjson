@@ -1,0 +1,8 @@
+type: assembly.fabric
+
+bi: [
+    loveclab-item0bio-sisal-fiber
+    10.0, 1.0
+]
+
+itemO: loveclab-item0cons-sisal-filter-fabric

@@ -1,0 +1,10 @@
+type: assembly.membrane
+
+bi: [
+    loveclab-item0chem-asbestos-wool
+    20.0, 1.0
+    loveclab-item0chem-steel
+    5, 1.0
+]
+
+itemO: loveclab-item0cons-asbestos-diaphragm

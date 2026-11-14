@@ -1,0 +1,15 @@
+type: roasting.carbonization
+
+lockedBy: [
+    projreind-dbct0tech-activated-carbon
+]
+tempReq: 600.0
+tempAllowed: 1000.0
+
+itemI: loveclab-item0int0crd-activated-carbon
+ci: [
+    GROUP: inert gas
+    0.5
+]
+
+itemO: loveclab-item0int-activated-carbon-inactivated

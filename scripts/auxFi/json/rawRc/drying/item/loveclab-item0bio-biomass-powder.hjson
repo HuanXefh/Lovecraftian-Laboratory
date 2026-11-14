@@ -1,0 +1,5 @@
+type: drying.item
+
+itemI: loveclab-item0bio-biomass-powder
+
+itemO: loveclab-item0int-biomass-powder-dried

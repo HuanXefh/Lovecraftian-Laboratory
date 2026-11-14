@@ -1,0 +1,12 @@
+type: smelting.concentrate
+
+tempReq: loveclab-item0ore-native-copper
+
+itemI: loveclab-item0int0conc-native-copper
+
+bo: [
+    loveclab-item0chem-copper
+    2.0, 0.5
+    loveclab-item0was-slag
+    0.125, 0.5
+]

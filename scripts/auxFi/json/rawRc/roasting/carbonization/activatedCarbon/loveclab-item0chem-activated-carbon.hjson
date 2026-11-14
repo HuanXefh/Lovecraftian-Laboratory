@@ -1,0 +1,15 @@
+type: roasting.carbonization
+
+lockedBy: [
+    projreind-dbct0tech-activated-carbon
+]
+tempReq: 800.0
+tempAllowed: 1200.0
+
+itemI: loveclab-item0int-activated-carbon-inactivated
+ci: [
+    GROUP: hot steam
+    2.0
+]
+
+itemO: loveclab-item0chem-activated-carbon

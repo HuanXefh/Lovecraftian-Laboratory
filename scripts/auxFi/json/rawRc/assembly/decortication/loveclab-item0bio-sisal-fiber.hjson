@@ -1,0 +1,8 @@
+type: assembly.decortication
+
+itemI: loveclab-item0bio-aerth-sisal
+
+bo: [
+    loveclab-item0bio-sisal-fiber
+    0.5, 1.0
+]

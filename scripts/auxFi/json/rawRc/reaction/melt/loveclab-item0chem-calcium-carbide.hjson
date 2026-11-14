@@ -1,0 +1,15 @@
+type: reaction.melt
+
+tempReq: 2000.0
+
+bi: [
+    loveclab-item0chem-lime
+    1.0, 1.0
+    GROUP: coke
+    2.0, 1.0
+]
+
+bo: [
+    loveclab-item0chem-calcium-carbide
+    1.0, 1.0
+]

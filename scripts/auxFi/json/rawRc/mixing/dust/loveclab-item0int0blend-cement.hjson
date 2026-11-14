@@ -1,0 +1,19 @@
+type: mixing.dust
+
+bi: [
+    loveclab-item0int0chunks-limestone
+    1.0, 0.5
+    loveclab-item0ore-clay
+    1.0, 0.5
+    [
+        GROUP: sand
+        1.0, 0.5
+        loveclab-item0was-slag
+        2.0, 0.5
+        loveclab-item0was-pyrite-cinder
+        1.5, 0.5
+    ]
+    -1.0, -1.0
+]
+
+itemO: loveclab-item0int0blend-cement

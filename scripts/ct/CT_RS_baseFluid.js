@@ -54,6 +54,14 @@
     );
 
 
+    /* <<------------------------------ liq0chem (elementary) <------------------------------> */
+
+
+    const liq0chem_mercury = extendBase(
+        RS_baseFluid, "liq0chem-mercury",
+    );
+
+
     /* <<------------------------------ liq0chem (misc) <------------------------------> */
 
 

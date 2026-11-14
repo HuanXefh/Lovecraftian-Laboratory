@@ -1,0 +1,17 @@
+type: mixing.ballMill
+
+bi: [
+    loveclab-item0int0dust0p1-bauxite
+    1.0, 0.5
+    loveclab-item0ore-clay
+    2.0, 0.5
+    [
+        loveclab-item0bio-sawdust
+        1.0, 0.5
+        loveclab-item0bio-biomass-powder
+        1.0, 0.5
+    ]
+    -1.0, -1.0
+]
+
+itemO: loveclab-item0int0blend-brick-mullite

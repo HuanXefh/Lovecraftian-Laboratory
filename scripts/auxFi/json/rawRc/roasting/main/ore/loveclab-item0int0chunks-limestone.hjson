@@ -1,0 +1,8 @@
+type: roasting.main
+
+tempReq: 850.0
+
+itemI: loveclab-item0int0chunks-limestone
+
+itemO: loveclab-item0chem-lime
+liqO: loveclab-gas0chem-carbon-dioxide

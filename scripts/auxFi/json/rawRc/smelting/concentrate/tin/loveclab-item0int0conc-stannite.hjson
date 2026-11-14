@@ -1,0 +1,16 @@
+type: smelting.concentrate
+
+tempReq: loveclab-item0ore-stannite
+
+itemI: loveclab-item0int0conc-stannite
+
+bo: [
+    loveclab-item0chem-tin
+    1.0, 0.5
+    loveclab-item0chem-copper
+    1.0, 0.5
+    loveclab-item0chem-pig-iron
+    0.25, 0.5
+    loveclab-item0was-slag
+    0.25, 0.5
+]

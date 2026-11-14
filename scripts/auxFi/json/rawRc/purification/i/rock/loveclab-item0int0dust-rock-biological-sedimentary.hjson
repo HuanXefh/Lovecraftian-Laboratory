@@ -1,0 +1,16 @@
+type: purification.i
+
+itemI: loveclab-item0int0dust-rock-biological-sedimentary
+
+bo: [
+    loveclab-item0was-gangue
+    1.0, 0.5
+    loveclab-item0ore-dolomite
+    0.25, 0.25
+    loveclab-item0ore-limestone
+    0.25, 0.25
+    loveclab-item0ore-clay
+    0.125, 0.25
+    loveclab-item0ore-talc
+    0.0675, 0.125
+]

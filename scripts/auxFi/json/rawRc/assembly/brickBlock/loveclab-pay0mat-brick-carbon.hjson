@@ -1,0 +1,11 @@
+type: assembly.brickBlock
+
+bi: [
+    loveclab-item0buil-brick-carbon
+    10.0, 1.0
+]
+
+payo: [
+    loveclab-pay0mat-brick-carbon
+    1.0
+]

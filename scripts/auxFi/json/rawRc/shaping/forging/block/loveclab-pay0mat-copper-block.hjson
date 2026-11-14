@@ -1,0 +1,11 @@
+type: shaping.forging
+
+timeScl: 0.5
+tempReq: 900.0
+
+payBi: [
+    loveclab-item0chem-copper
+    10.0, 1.0
+]
+
+payO: loveclab-pay0mat-copper-block

@@ -1,0 +1,11 @@
+type: roasting.carbonization
+
+tempReq: 300.0
+tempAllowed: 750.0
+
+itemI: loveclab-item0bio-log
+
+bo: [
+    loveclab-item0bio-charcoal
+    0.5, 0.5
+]

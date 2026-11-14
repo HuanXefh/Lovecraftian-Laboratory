@@ -1,0 +1,11 @@
+type: reaction.burnSolid
+
+pollution: 3.0
+
+itemI: loveclab-item0chem-semicoke
+
+co: [
+    loveclab-gas0chem-carbon-dioxide
+    0.5
+]
+heatO: 900.0

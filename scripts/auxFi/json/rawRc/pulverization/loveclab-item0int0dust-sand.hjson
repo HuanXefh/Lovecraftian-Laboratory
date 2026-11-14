@@ -1,0 +1,22 @@
+type: pulverization
+
+hardness: 0
+keyCt: [
+    loveclab-item0ore-sand
+    loveclab-item0ore-sand-river
+    loveclab-item0ore-sand-sea
+]
+
+bi: [
+    [
+        loveclab-item0ore-sand
+        1.0, 1.0
+        loveclab-item0ore-sand-river
+        1.0, 1.0
+        loveclab-item0ore-sand-sea
+        1.0, 1.0
+    ]
+    -1.0, -1.0
+]
+
+itemO: loveclab-item0int0dust-sand

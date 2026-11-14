@@ -1,0 +1,10 @@
+type: shaping.casting
+
+tempReq: 1600.0
+
+bi: [
+    GROUP: pig iron
+    1.0, 0.5
+]
+
+itemO: loveclab-item0chem-cast-iron

@@ -1,0 +1,12 @@
+type: purification.i
+
+itemI: loveclab-item0int0dust-rock-hypabyssal
+
+bo: [
+    loveclab-item0was-gangue
+    1.0, 0.5
+    loveclab-item0ore-silica-stone
+    0.25, 0.25
+    loveclab-item0ore-diamond
+    0.03375, 0.0675
+]

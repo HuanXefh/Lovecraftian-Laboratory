@@ -1,0 +1,28 @@
+type: reaction.melt
+
+categ: steelmaking
+lockedBy: [
+    projreind-dbct0tech-alloy-steel-making-i
+]
+tempReq: 1600.0
+
+bi: [
+    GROUP: manganiferous
+    1.0, 1.0
+    GROUP: ferrous
+    1.0, 1.0
+    [
+        loveclab-item0chem-graphite
+        0.25, 0.5
+        GROUP: carbon
+        0.5, 1.0
+    ]
+    -1.0, -1.0
+]
+
+bo: [
+    loveclab-item0chem-ferromanganese
+    0.5, 0.5
+    loveclab-item0was-slag
+    0.75, 0.5
+]

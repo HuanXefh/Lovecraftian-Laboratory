@@ -1,0 +1,11 @@
+type: roasting.carbonization
+
+tempReq: 500.0
+tempAllowed: 900.0
+
+itemI: loveclab-item0bio-hypha-rod
+
+bo: [
+    loveclab-item0bio-charcoal
+    0.5, 0.5
+]

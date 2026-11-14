@@ -1,0 +1,14 @@
+type: mixing.ballMill
+
+bi: [
+    loveclab-item0int0dust0p1-bauxite
+    2.0, 0.5
+    loveclab-item0int0chunks-dolomite
+    2.0, 0.5
+    loveclab-item0chem-asbestos-wool
+    1.0, 0.5
+    GROUP: apatite (chunks)
+    0.5, 0.5
+]
+
+itemO: loveclab-item0int0blend-refractory-cement

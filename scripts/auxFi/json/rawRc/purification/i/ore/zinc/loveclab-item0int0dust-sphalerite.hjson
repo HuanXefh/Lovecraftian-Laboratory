@@ -1,0 +1,16 @@
+type: purification.i
+
+itemI: loveclab-item0int0dust-sphalerite
+
+bo: [
+    loveclab-item0int0dust0p1-sphalerite
+    1.0, 1.0
+    loveclab-item0was-gangue
+    0.25, 0.25
+    loveclab-item0ore-galena
+    0.25, 0.25
+    loveclab-item0ore-fluorite
+    0.125, 0.25
+    loveclab-item0ore-limonite
+    0.125, 0.25
+]

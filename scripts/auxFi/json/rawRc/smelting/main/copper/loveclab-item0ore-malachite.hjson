@@ -1,0 +1,10 @@
+type: smelting.main
+
+tempReq: loveclab-item0ore-malachite
+
+itemI: loveclab-item0ore-malachite
+
+bo: [
+    loveclab-item0chem-copper
+    0.75, 0.5
+]

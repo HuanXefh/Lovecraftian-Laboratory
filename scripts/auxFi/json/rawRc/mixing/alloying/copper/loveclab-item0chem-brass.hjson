@@ -1,0 +1,12 @@
+type: mixing.alloying
+
+tempReq: 1050.0
+
+bi: [
+    GROUP: copper
+    1.0, 1.0
+    loveclab-item0chem-zinc
+    0.5, 1.0
+]
+
+itemO: loveclab-item0chem-brass

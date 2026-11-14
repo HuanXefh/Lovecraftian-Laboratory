@@ -1,0 +1,11 @@
+type: assembly.brickBlock
+
+bi: [
+    loveclab-item0buil-brick-magnesia
+    10.0, 1.0
+]
+
+payo: [
+    loveclab-pay0mat-brick-magnesia
+    1.0
+]

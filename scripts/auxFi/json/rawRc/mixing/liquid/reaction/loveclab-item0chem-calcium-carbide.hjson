@@ -1,0 +1,21 @@
+type: mixing.liquid
+
+bi: [
+    loveclab-item0chem-calcium-carbide
+    0.25, 0.5
+]
+ci: [
+    loveclab-liq0ore-water
+    1.0
+]
+aux: [
+    loveclab-aux0aux-pressure
+    0.01666667
+]
+
+co: [
+    loveclab-gas0int0crdg-acetylene-calcium-carbide
+    0.25
+    loveclab-liq0was-waste-slurry
+    1.0
+]

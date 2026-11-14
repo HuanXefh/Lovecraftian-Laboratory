@@ -1,0 +1,8 @@
+type: assembly.electrode
+
+bi: [
+    loveclab-item0chem-copper
+    10.0, 1.0
+]
+
+itemO: loveclab-item0cons-copper-electrode

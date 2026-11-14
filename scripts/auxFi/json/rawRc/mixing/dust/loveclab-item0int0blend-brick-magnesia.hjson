@@ -1,0 +1,10 @@
+type: mixing.dust
+
+bi: [
+    loveclab-item0chem-magnesia-sand
+    1.0, 0.5
+    loveclab-item0ore-clay
+    1.5, 0.5
+]
+
+itemO: loveclab-item0int0blend-brick-magnesia

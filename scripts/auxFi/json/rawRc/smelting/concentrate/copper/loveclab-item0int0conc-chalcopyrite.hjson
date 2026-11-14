@@ -1,0 +1,12 @@
+type: smelting.concentrate
+
+tempReq: loveclab-item0ore-chalcopyrite
+
+itemI: loveclab-item0int0conc-chalcopyrite
+
+bo: [
+    loveclab-item0chem-copper
+    1.0, 0.5
+    loveclab-item0was-slag
+    0.25, 0.5
+]

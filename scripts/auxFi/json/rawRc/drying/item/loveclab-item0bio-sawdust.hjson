@@ -1,0 +1,5 @@
+type: drying.item
+
+itemI: loveclab-item0bio-sawdust
+
+itemO: loveclab-item0int-sawdust-dried

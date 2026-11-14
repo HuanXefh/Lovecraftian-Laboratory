@@ -1,0 +1,7 @@
+type: roasting.brick
+
+tempReq: 400.0
+
+itemI: loveclab-item0ore-clay
+
+itemO: loveclab-item0buil-brick-clay

@@ -1,0 +1,10 @@
+type: purification.magnetic
+
+itemI: loveclab-item0int0dust-asbestos
+
+bo: [
+    loveclab-item0int0dust0p1-asbestos
+    1.0, 1.0
+    loveclab-item0was-dust
+    0.25, 0.5
+]

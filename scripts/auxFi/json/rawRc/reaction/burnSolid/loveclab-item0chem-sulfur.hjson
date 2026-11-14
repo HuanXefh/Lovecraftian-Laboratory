@@ -1,0 +1,12 @@
+type: reaction.burnSolid
+
+pollution: 8.0
+
+itemI: loveclab-item0chem-sulfur
+
+co: [
+    // Intentionally lower, there are better processes
+    loveclab-gas0chem-sulfur-dioxide
+    0.5
+]
+heatO: 1400.0

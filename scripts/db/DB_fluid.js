@@ -157,6 +157,15 @@ const db = {
             nitrate: [],
 
 
+            mercuric: [
+
+                /* <------------------------------ liq0chem (elementary) ------------------------------> */
+
+                "loveclab-liq0chem-mercury",
+
+            ],
+
+
             oxidative: [
 
                 /* <------------------------------ gas0chem (elementary) ------------------------------> */

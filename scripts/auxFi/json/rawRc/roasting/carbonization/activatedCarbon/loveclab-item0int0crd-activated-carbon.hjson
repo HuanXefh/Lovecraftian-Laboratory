@@ -1,0 +1,26 @@
+type: roasting.carbonization
+
+lockedBy: [
+    projreind-dbct0tech-activated-carbon
+]
+tempReq: 600.0
+tempAllowed: 1000.0
+
+bi: [
+    [
+        loveclab-item0bio-sawdust
+        1.0, 1.0
+        loveclab-item0bio-biomass-powder
+        1.0, 1.0
+    ]
+    -1.0, -1.0
+]
+ci: [
+    GROUP: inert gas
+    0.5
+]
+
+bo: [
+    loveclab-item0int0crd-activated-carbon
+    0.5, 0.5
+]

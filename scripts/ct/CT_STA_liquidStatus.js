@@ -26,6 +26,11 @@
             burstDamagePerc: 0.007,
             burstEff: GLB_eff.pulseCircleDynamic,
             burstEffColor: Color.valueOf("6fb6bf"),
+            burstScr: cons(function(unit) {
+                if(syncChance("unitStatus", 0.1)) {
+                    unit.apply(fetchContent("loveclab-sta-embrittled"), 18000.0);
+                };
+            }),
             eff: TP_effect.particleWet({
                 color: "6fb6bf",
             }),
@@ -42,6 +47,11 @@
             burstDamagePerc: 0.015,
             burstEff: GLB_eff.pulseCircleDynamic,
             burstEffColor: Color.valueOf("d8c0d4"),
+            burstScr: cons(function(unit) {
+                if(syncChance("unitStatus", 0.15)) {
+                    unit.apply(fetchContent("loveclab-sta-embrittled"), 18000.0);
+                };
+            }),
             eff: TP_effect.particleWet({
                 color: "d8c0d4",
             }),
@@ -60,6 +70,27 @@
             burstEffColor: Color.valueOf("859c77"),
             eff: TP_effect.particleWet({
                 color: "859c77",
+            }),
+            effP: 0.08,
+        }),
+    );
+
+
+    const sta0liq_mercuryCorrosion = extendBase(
+        STA_liquidStatus, "sta0liq-mercury-corrosion",
+        STA_liquidStatus.build({
+            burstTime: 900.0,
+            burstDamage: 35.0,
+            burstDamagePerc: 0.005,
+            burstEff: GLB_eff.pulseCircleDynamic,
+            burstEffColor: Color.valueOf("dce8ef"),
+            burstScr: cons(function(unit) {
+                if(syncChance("unitStatus", 0.8)) {
+                    unit.apply(fetchContent("loveclab-sta-embrittled"), 18000.0);
+                };
+            }),
+            eff: TP_effect.particleWet({
+                color: "dce8ef",
             }),
             effP: 0.08,
         }),

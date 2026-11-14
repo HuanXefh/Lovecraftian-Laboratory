@@ -1,0 +1,11 @@
+type: pulverization
+
+hardness: loveclab-item0ore-talc"
+keyCt: loveclab-item0int0dust-talc
+
+bi: [
+    loveclab-item0int0dust-talc
+    1.0, 1.0
+]
+
+itemO: loveclab-item0chem-talcum-powder

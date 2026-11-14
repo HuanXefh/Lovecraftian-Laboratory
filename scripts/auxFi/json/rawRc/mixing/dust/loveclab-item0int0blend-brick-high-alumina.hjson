@@ -1,0 +1,10 @@
+type: mixing.dust
+
+bi: [
+    loveclab-item0int0dust0p1-bauxite
+    2.0, 0.5
+    loveclab-item0ore-clay
+    2.0, 0.5
+]
+
+itemO: loveclab-item0int0blend-brick-high-alumina

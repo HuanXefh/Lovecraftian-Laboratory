@@ -1,0 +1,18 @@
+type: purification.i
+
+itemI: loveclab-item0int0dust-raw-coal
+
+bo: [
+    loveclab-item0chem-coal
+    1.0, 1.0
+    loveclab-item0was-gangue
+    0.25, 0.25
+    loveclab-item0chem-lignite
+    0.5, 0.75
+    loveclab-item0ore-crude-graphite
+    0.25, 0.25
+    loveclab-item0ore-pyrite
+    0.25, 0.25
+    loveclab-item0ore-crude-sulfur
+    0.125, 0.25
+]

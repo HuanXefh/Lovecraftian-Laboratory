@@ -9,13 +9,21 @@ loveclab-item0chem-coal: 0.5
 
 loveclab-item0chem-sulfur: 6.5
 
+/* <------------------------------ liq0chem (misc) ------------------------------> */
+
+loveclab-liq0chem-coal-tar: 2.5
+
+/* <------------------------------ liq0chem (elementary) ------------------------------> */
+
+loveclab-liq0chem-mercury: 20.0
+
 /* <------------------------------ liq0ore ------------------------------> */
 
-loveclab-liq0ore-crude-oil: 2.0
+loveclab-liq0ore-crude-oil: 2.5
 
 /* <------------------------------ liq0was ------------------------------> */
 
-loveclab-liq0was-waste-water: 5.0
+loveclab-liq0was-waste-water: 3.5
 
 /* <------------------------------ gas0chem (inorganic) ------------------------------> */
 

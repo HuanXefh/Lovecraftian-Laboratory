@@ -1,0 +1,8 @@
+type: assembly.electrode
+
+bi: [
+    loveclab-item0chem-brine-proof-steel
+    10.0, 1.0
+]
+
+itemO: loveclab-item0cons-brine-proof-steel-electrode

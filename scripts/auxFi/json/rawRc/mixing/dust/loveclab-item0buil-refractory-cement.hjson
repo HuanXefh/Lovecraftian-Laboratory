@@ -1,0 +1,10 @@
+type: mixing.dust
+
+bi: [
+    loveclab-item0int0clinker-refractory-cement
+    1.0, 0.5
+    loveclab-item0int0chunks-gypsum
+    1.0, 0.5
+]
+
+itemO: loveclab-item0buil-refractory-cement

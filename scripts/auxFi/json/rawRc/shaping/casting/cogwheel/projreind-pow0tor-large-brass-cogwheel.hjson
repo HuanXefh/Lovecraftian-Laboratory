@@ -1,0 +1,14 @@
+type: shaping.casting
+
+timeScl: 2.0
+lockedBy: [
+    projreind-pow0tor-large-brass-cogwheel
+]
+tempReq: 1600.0
+
+payBi: [
+    COST: projreind-pow0tor-large-brass-cogwheel
+    -1.0, -1.0
+]
+
+payO: projreind-pow0tor-large-brass-cogwheel

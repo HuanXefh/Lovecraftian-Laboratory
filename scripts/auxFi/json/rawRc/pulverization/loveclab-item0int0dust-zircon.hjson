@@ -1,0 +1,11 @@
+type: pulverization
+
+hardness: loveclab-item0ore-zircon
+keyCt: loveclab-item0int0chunks-zircon
+
+bi: [
+    loveclab-item0int0chunks-zircon
+    1.0, 1.0
+]
+
+itemO: loveclab-item0int0dust-zircon

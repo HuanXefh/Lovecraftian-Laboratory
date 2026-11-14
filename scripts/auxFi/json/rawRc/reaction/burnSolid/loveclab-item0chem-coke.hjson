@@ -1,0 +1,11 @@
+type: reaction.burnSolid
+
+pollution: 1.5
+
+itemI: loveclab-item0chem-coke
+
+co: [
+    loveclab-gas0chem-carbon-dioxide
+    1.0
+]
+heatO: 1250.0

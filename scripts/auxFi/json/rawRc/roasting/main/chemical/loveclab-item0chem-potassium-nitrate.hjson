@@ -1,0 +1,14 @@
+type: roasting.main
+
+tempReq: 625.0
+
+itemI: loveclab-item0chem-potassium-nitrate
+
+bo: [
+    loveclab-item0chem-potassium-nitrite
+    1.0, 1.0
+]
+co: [
+    loveclab-gas0chem-oxygen
+    0.5
+]

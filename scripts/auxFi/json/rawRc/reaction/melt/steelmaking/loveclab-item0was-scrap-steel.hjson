@@ -1,0 +1,26 @@
+type: reaction.melt
+
+categ: steelmaking
+lockedBy: [
+    projreind-dbct0tech-alloy-steel-making-i
+]
+tempReq: 1400.0
+
+bi: [
+    loveclab-item0was-scrap-steel
+    1.5, 1.0
+    [
+        loveclab-item0ore-limestone
+        1.5, 0.5
+        loveclab-item0chem-lime
+        0.75, 0.5
+    ]
+    -1.0, -1.0
+]
+
+bo: [
+    loveclab-item0chem-steel
+    0.5, 0.5
+    loveclab-item0was-slag
+    0.75, 0.75
+]

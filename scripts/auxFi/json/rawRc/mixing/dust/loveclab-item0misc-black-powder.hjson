@@ -1,0 +1,17 @@
+type: mixing.dust
+
+bi: [
+    [
+        loveclab-item0chem-sodium-nitrate
+        0.75, 0.5
+        GROUP: potassium nitrate
+        0.75, 0.5
+    ]
+    -1.0, -1.0
+    loveclab-item0chem-sulfur
+    0.5, 0.2
+    loveclab-item0bio-charcoal
+    0.5, 0.3
+]
+
+itemO: loveclab-item0misc-black-powder

@@ -1,0 +1,10 @@
+type: shaping.casting
+
+tempReq: 1600.0
+
+payBi: [
+    loveclab-item0chem-mangalloy
+    20.0, 1.0
+]
+
+payO: loveclab-pay0mat-mangalloy-rod

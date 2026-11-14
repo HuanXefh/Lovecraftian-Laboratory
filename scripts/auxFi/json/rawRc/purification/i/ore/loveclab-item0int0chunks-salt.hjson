@@ -1,0 +1,19 @@
+type: purification.i
+
+itemI: loveclab-item0int0chunks-salt
+bo: [
+    loveclab-item0int0dust-salt
+    1.0, 1.0
+    loveclab-item0was-dust
+    0.25, 0.25
+    loveclab-item0ore-gypsum
+    0.125, 0.25
+    loveclab-item0ore-mirabilite
+    0.125, 0.25
+    loveclab-item0ore-sylvinite
+    0.125, 0.25
+    loveclab-item0ore-trona
+    0.125, 0.25
+    loveclab-item0ore-crude-borax
+    0.0675, 0.125
+]

@@ -1,0 +1,12 @@
+type: mixing.alloying
+
+tempReq: 320.0
+
+bi: [
+    loveclab-item0chem-lead
+    1.0, 1.0
+    loveclab-item0chem-tin
+    0.5, 1.0
+]
+
+itemO: loveclab-item0chem-solder

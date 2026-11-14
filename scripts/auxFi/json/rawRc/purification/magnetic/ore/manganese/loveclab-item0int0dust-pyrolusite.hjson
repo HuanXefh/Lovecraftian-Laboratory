@@ -1,0 +1,12 @@
+type: purification.magnetic
+
+itemI: loveclab-item0int0dust-pyrolusite
+
+bo: [
+    loveclab-item0int0dust0p1-pyrolusite
+    1.0, 1.0
+    loveclab-item0was-gangue
+    0.25, 0.5
+    loveclab-item0ore-hematite
+    0.125, 0.25
+]

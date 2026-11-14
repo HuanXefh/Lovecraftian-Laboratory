@@ -1,0 +1,12 @@
+type: mixing.liquid
+
+bi: [
+    loveclab-item0ore-salt
+    1.0, 1.0
+]
+ci: [
+    loveclab-liq0ore-water
+    1.0
+]
+
+liqO: loveclab-liq0ore-brine

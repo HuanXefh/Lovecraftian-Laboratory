@@ -1,0 +1,10 @@
+type: purification.i
+
+itemI: loveclab-item0int0dust-rock-clastic
+
+bo: [
+    loveclab-item0was-gangue
+    1.0, 0.5
+    loveclab-item0ore-silica-stone
+    0.25, 0.25
+]

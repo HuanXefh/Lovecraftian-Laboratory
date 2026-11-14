@@ -1,0 +1,7 @@
+type: heating.gas
+
+tempReq: 500.0
+
+liqI: loveclab-gas0misc-steam
+
+liqO: loveclab-gas0int-superheated-steam

@@ -1,0 +1,16 @@
+type: mixing.liquid
+
+bi: [
+    GROUP: sand
+    0.5, 1.0
+    loveclab-item0ore-clay
+    1.5, 1.0
+    loveclab-item0int0chunks-barite
+    1.0, 1.0
+]
+ci: [
+    loveclab-liq0ore-water
+    1.0
+]
+
+liqO: loveclab-liq0misc-drilling-mud

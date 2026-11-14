@@ -1,0 +1,12 @@
+type: purification.magnetic
+
+itemI: loveclab-item0int0dust-magnetite
+
+bo: [
+    loveclab-item0int0dust0p1-magnetite
+    1.0, 1.0
+    loveclab-item0was-gangue
+    0.25, 0.5
+    loveclab-item0ore-raw-coal
+    0.125, 0.25
+]

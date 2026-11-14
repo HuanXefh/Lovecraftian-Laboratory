@@ -1,0 +1,11 @@
+type: shaping.casting
+
+timeScl: 0.5
+tempReq: 1600.0
+
+payBi: [
+    loveclab-item0chem-cast-iron
+    10, 1.0
+]
+
+payO: loveclab-pay0mat-cast-iron-block

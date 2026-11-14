@@ -1,0 +1,14 @@
+type: smelting.concentrate
+
+tempReq: loveclab-item0ore-pentlandite
+
+itemI: loveclab-item0int0conc-pentlandite
+
+bo: [
+    loveclab-item0chem-nickel
+    0.75, 0.5
+    loveclab-item0chem-pig-iron
+    0.75, 0.5
+    loveclab-item0was-slag
+    0.25, 0.5
+]

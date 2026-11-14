@@ -1,0 +1,14 @@
+type: roasting.main
+
+tempReq: 625.0
+
+itemI: loveclab-item0ore-niter
+
+bo: [
+    loveclab-item0was-dregs
+    1.0, 0.5
+]
+co: [
+    loveclab-gas0chem-oxygen
+    0.5
+]

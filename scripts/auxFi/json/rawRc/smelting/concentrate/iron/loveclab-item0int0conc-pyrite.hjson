@@ -1,0 +1,15 @@
+type: smelting.concentrate
+
+tempReq: loveclab-item0ore-pyrite
+
+bi: [
+    loveclab-item0int0conc-pyrite
+    1.5, 1.0
+]
+
+bo: [
+    loveclab-item0chem-pig-iron
+    2.0, 0.5
+    loveclab-item0was-slag
+    0.75, 0.5
+]

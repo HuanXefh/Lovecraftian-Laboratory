@@ -1,0 +1,16 @@
+type: electrolysis.main
+
+bi: [
+    GROUP: generic cathode
+    0.025, 0.025
+    GROUP: generic anode
+    0.025, 0.025
+]
+liqI: loveclab-liq0ore-water
+
+co: [
+    loveclab-gas0chem-hydrogen
+    1.0
+    loveclab-gas0chem-oxygen
+    0.5
+]

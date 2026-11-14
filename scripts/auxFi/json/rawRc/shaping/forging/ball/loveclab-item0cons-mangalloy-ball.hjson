@@ -1,0 +1,10 @@
+type: shaping.forging
+
+tempReq: 1000.0
+
+payI: loveclab-pay0mat-mangalloy-rod
+
+payBo: [
+    loveclab-item0cons-mangalloy-ball
+    1, 1.0
+]

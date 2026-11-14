@@ -1,0 +1,7 @@
+type: roasting.brick
+
+tempReq: 1300.0
+
+itemI: loveclab-item0int0blend-brick-silica
+
+itemO: loveclab-item0buil-brick-silica

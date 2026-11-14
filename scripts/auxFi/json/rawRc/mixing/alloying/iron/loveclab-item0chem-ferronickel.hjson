@@ -1,0 +1,15 @@
+type: mixing.alloying
+
+lockedBy: [
+    projreind-dbct0tech-alloy-steel-making-i
+]
+tempReq: 1600.0
+
+bi: [
+    loveclab-item0chem-wrought-iron
+    1.0, 1.0
+    loveclab-item0chem-nickel
+    0.25, 0.25
+]
+
+itemO: loveclab-item0chem-ferronickel
