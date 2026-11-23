@@ -25,6 +25,9 @@
 
     const liq0was_wasteSlurry = extendBase(
         RS_wasteFluid, "liq0was-waste-slurry",
+        RS_wasteFluid.build({
+            floatOnWater: true,
+        }),
     );
 
 
